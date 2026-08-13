@@ -1,0 +1,13 @@
+{
+  "name": "summer-2027",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Index des offres de stage Summer 2027 en tech, finance et conseil",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "fetch": "node scripts/fetch.mjs",
+    "check-links": "node scripts/check-links.mjs"
+  }
+}

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summer 2027 : stages tech, finance et conseil</title>
+  <meta name="description" content="Agregateur d'offres de stage Summer 2027 en tech, finance et conseil.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ------------------------------------------------------------- connexion -->
+<div class="gate" id="gate" hidden>
+  <form class="gate-card" id="gate-form">
+    <span class="brand-mark">S27</span>
+    <h1>Summer 2027</h1>
+    <p class="gate-sub">Stages et graduate programs en tech, finance et conseil.</p>
+
+    <label for="gate-user">Identifiant</label>
+    <input type="text" id="gate-user" autocomplete="username" autocapitalize="none" spellcheck="false" required>
+
+    <label for="gate-pass">Mot de passe</label>
+    <input type="password" id="gate-pass" autocomplete="current-password" required>
+
+    <p class="gate-error" id="gate-error" role="alert"></p>
+    <button type="submit" class="btn btn-primary">Entrer</button>
+
+    <p class="gate-note">
+      Comptes : <span id="gate-users"></span>. Chacun a ses propres favoris et son propre suivi.
+      Cet ecran separe les profils, il ne protege rien : le site est statique, tout se verifie
+      dans le navigateur.
+    </p>
+  </form>
+</div>
+
+<!-- ----------------------------------------------------------------- app -->
+<div id="app" hidden>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">S27</span>
+      <div>
+        <h1>Summer 2027</h1>
+        <p class="brand-sub">Stages et graduate programs : tech, finance, conseil</p>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <span class="freshness" id="live-status"></span>
+      <button class="btn btn-ghost btn-sm" id="refresh" title="Reinterroger tous les job boards maintenant">Actualiser</button>
+      <button class="btn btn-ghost btn-sm" id="export-csv" title="Exporter la selection courante en CSV">Export CSV</button>
+      <button class="btn btn-ghost btn-icon" id="theme-toggle" title="Theme clair ou sombre" aria-label="Changer de theme">◐</button>
+      <span class="user-chip" id="user-chip"></span>
+      <button class="btn btn-ghost btn-sm" id="logout" title="Se deconnecter">Quitter</button>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" data-view="offers" role="tab">Offres <span class="tab-count" id="count-offers">0</span></button>
+    <button class="tab" data-view="portals" role="tab">Portails entreprises <span class="tab-count" id="count-portals">0</span></button>
+    <button class="tab" data-view="tracker" role="tab">Mon suivi <span class="tab-count" id="count-tracker">0</span></button>
+    <button class="tab" data-view="about" role="tab">Sources et methode</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ---------------------------------------------------------------- Offres -->
+  <section class="view is-active" id="view-offers">
+    <div class="layout">
+
+      <aside class="filters" id="filters">
+        <div class="filter-head">
+          <h2>Filtres</h2>
+          <button class="btn btn-link" id="reset-filters">Tout reinitialiser</button>
+        </div>
+
+        <div class="field">
+          <label for="q">Recherche</label>
+          <input type="search" id="q" placeholder="quant, software, London, Optiver..." autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label for="cycle">Campagne</label>
+          <select id="cycle">
+            <option value="2027">Summer 2027</option>
+            <option value="all">Toutes les campagnes</option>
+            <option value="2026">2026</option>
+            <option value="unknown">Annee non precisee</option>
+          </select>
+        </div>
+
+        <fieldset class="field">
+          <legend>Secteur</legend>
+          <div class="chips" id="f-industry"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Type de poste</legend>
+          <div class="chips" id="f-kind"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Metier</legend>
+          <div class="chips" id="f-track"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Region</legend>
+          <div class="chips" id="f-region"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Entreprise</legend>
+          <input type="search" id="company-search" placeholder="Filtrer la liste..." autocomplete="off">
+          <div class="scroll-box" id="f-company"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend>Affichage</legend>
+          <label class="check"><input type="checkbox" id="only-new"> Nouveautes uniquement</label>
+          <label class="check"><input type="checkbox" id="only-fav"> Favoris uniquement</label>
+          <label class="check"><input type="checkbox" id="only-recent"> Publiees il y a moins de 30 jours</label>
+          <label class="check"><input type="checkbox" id="hide-applied"> Masquer les candidatures envoyees</label>
+        </fieldset>
+      </aside>
+
+      <div class="results">
+        <div class="new-banner" id="new-banner" hidden></div>
+
+        <div class="results-bar">
+          <p class="results-count" id="results-count"></p>
+          <div class="results-tools">
+            <label for="sort" class="sr-only">Trier</label>
+            <select id="sort">
+              <option value="recent">Plus recentes</option>
+              <option value="company">Entreprise (A vers Z)</option>
+              <option value="title">Intitule (A vers Z)</option>
+              <option value="location">Localisation</option>
+            </select>
+            <button class="btn btn-ghost btn-sm" id="toggle-filters">Filtres</button>
+          </div>
+        </div>
+
+        <div id="active-filters" class="active-filters"></div>
+        <ul class="offer-list" id="offer-list"></ul>
+        <div class="empty" id="empty" hidden>
+          <p><strong>Aucune offre ne correspond.</strong></p>
+          <p>Elargis la campagne a « Toutes » ou retire quelques filtres : beaucoup d'annonces ne mentionnent pas l'annee du programme.</p>
+        </div>
+        <button class="btn btn-more" id="load-more" hidden>Afficher plus</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------------------------- Portails -->
+  <section class="view" id="view-portals">
+    <div class="section-intro">
+      <h2>Employeurs sans board public</h2>
+      <p>
+        Ces entreprises ne publient pas leurs offres via une API ouverte : impossible de lister les
+        annonces une par une. Le lien renvoie vers leur page carriere etudiants officielle, ou la
+        campagne Summer 2027 est publiee.
+      </p>
+      <div class="chips" id="f-portal-industry"></div>
+    </div>
+    <div class="portal-grid" id="portal-grid"></div>
+  </section>
+
+  <!-- ---------------------------------------------------------------- Suivi -->
+  <section class="view" id="view-tracker">
+    <div class="section-intro">
+      <h2>Mon suivi de candidatures</h2>
+      <p>Stocke dans ton navigateur (localStorage), separement pour chaque compte. Rien n'est envoye nulle part. Utilise l'export si tu changes de machine.</p>
+      <div class="tracker-actions">
+        <button class="btn btn-ghost btn-sm" id="export-tracker">Exporter (JSON)</button>
+        <label class="btn btn-ghost btn-sm" for="import-tracker">Importer</label>
+        <input type="file" id="import-tracker" accept="application/json" hidden>
+      </div>
+    </div>
+    <div class="board" id="tracker-board"></div>
+  </section>
+
+  <!-- --------------------------------------------------------------- A propos -->
+  <section class="view" id="view-about">
+    <div class="prose">
+      <h2>D'ou viennent ces offres ?</h2>
+      <p>
+        Les annonces sont collectees depuis les <strong>API publiques des ATS</strong> (Greenhouse,
+        Lever, Ashby) des <strong id="board-total">0</strong> entreprises listees dans
+        <code>data/sources.json</code>. Chaque offre pointe vers l'annonce officielle : il n'y a pas
+        de copie de contenu, juste un index.
+      </p>
+      <p>
+        A l'ouverture du site, la page reinterroge elle-meme tous ces boards en direct (les trois API
+        autorisent les appels depuis un navigateur). Les offres apparues depuis ta derniere visite
+        sont signalees, et celles qui ont ete fermees disparaissent.
+      </p>
+
+      <h3>Ce que l'app ne peut pas faire</h3>
+      <ul>
+        <li>
+          <strong>Elle n'est pas exhaustive.</strong> Aucune source ne contient « toutes » les offres.
+          Les entreprises sous Workday, SmartRecruiters ferme ou portail maison (Goldman Sachs,
+          McKinsey, Google, Jane Street...) n'exposent rien de public : elles sont regroupees dans
+          l'onglet <em>Portails entreprises</em>.
+        </li>
+        <li>
+          <strong>Les dates limites ne sont pas fiables a extraire.</strong> Elles sont rarement
+          structurees dans les annonces. Un badge signale les offres dont la description mentionne
+          une deadline.
+        </li>
+        <li>
+          <strong>L'annee du programme est parfois deduite.</strong> Beaucoup d'annonces ne disent
+          jamais « 2027 ». Si l'annonce a ete publiee pendant la fenetre de recrutement Summer 2027,
+          elle est rattachee a cette campagne et marquee
+          <span class="badge badge-soft">annee deduite</span>.
+        </li>
+        <li>
+          <strong>La connexion n'est pas une securite.</strong> Le site est statique : la
+          verification se fait dans le navigateur et se contourne en ouvrant les outils de
+          developpement. Elle sert a separer les profils, pas a proteger quoi que ce soit.
+        </li>
+      </ul>
+
+      <h3>Rafraichir en profondeur</h3>
+      <p>
+        Le rafraichissement du navigateur ne lit que les titres. Pour recharger aussi les
+        descriptions (meilleure detection de l'annee), depuis le dossier du projet :
+      </p>
+      <pre><code>npm run fetch        # recollecte complete
+npm run discover     # cherche de nouveaux job boards
+npm run check-links  # verifie les liens des portails</code></pre>
+
+      <h3>Couverture par entreprise</h3>
+      <div class="table-wrap">
+        <table class="src-table">
+          <thead><tr><th>Entreprise</th><th>Secteur</th><th>ATS</th><th class="num">Offres</th></tr></thead>
+          <tbody id="src-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/app.js" type="module"></script>
+</body>
+</html>
