@@ -207,8 +207,12 @@ export function parseJobs(ats, payload, board) {
   }
 
   if (ats === 'ashby') {
+    // On se fie au titre seulement. Le champ `employmentType` d'Ashby est rempli par
+    // l'employeur et se revele peu fiable : Shield AI, par exemple, etiquette « Intern »
+    // 63 postes seniors. Sur l'ensemble des boards Ashby suivis, ce champ n'apportait
+    // aucune offre early-career que le titre ne detectait pas deja.
     return (payload?.jobs || [])
-      .filter(j => isCandidate(j.title || '') || /\bintern\b/i.test(j.employmentType || ''))
+      .filter(j => isCandidate(j.title || ''))
       .map(j => ({
         id: `ab-${board.token}-${j.id}`,
         externalId: j.id,

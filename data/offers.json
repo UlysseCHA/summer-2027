@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-13T18:41:28.384Z",
+ "generatedAt": "2026-08-13T18:54:00.832Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,28 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 647,
+  "total": 584,
   "byYear": {
    "2025": 1,
    "2026": 51,
    "2027": 151,
-   "non precisee": 444
+   "non precisee": 381
   },
   "byCycle": {
    "2025": 1,
    "2026": 51,
-   "2027": 425,
+   "2027": 362,
    "non precisee": 170
   },
   "byIndustry": {
-   "tech": 354,
    "finance": 242,
+   "tech": 291,
    "consulting": 51
   },
   "byKind": {
-   "early-career": 117,
    "internship": 403,
-   "graduate": 127
+   "graduate": 127,
+   "early-career": 54
   }
  },
  "sources": [
@@ -37,13 +37,6 @@
    "token": "palantir",
    "ats": "lever",
    "found": 72,
-   "ok": true
-  },
-  {
-   "company": "Shield AI",
-   "token": "shield-ai",
-   "ats": "ashby",
-   "found": 64,
    "ok": true
   },
   {
@@ -96,13 +89,6 @@
    "ok": true
   },
   {
-   "company": "Point72",
-   "token": "point72",
-   "ats": "greenhouse",
-   "found": 15,
-   "ok": true
-  },
-  {
    "company": "Veepee",
    "token": "veepee",
    "ats": "lever",
@@ -110,15 +96,22 @@
    "ok": true
   },
   {
-   "company": "AlphaSights",
-   "token": "alphasights",
+   "company": "Point72",
+   "token": "point72",
    "ats": "greenhouse",
-   "found": 14,
+   "found": 15,
    "ok": true
   },
   {
    "company": "Virtu Financial",
    "token": "virtu",
+   "ats": "greenhouse",
+   "found": 14,
+   "ok": true
+  },
+  {
+   "company": "AlphaSights",
+   "token": "alphasights",
    "ats": "greenhouse",
    "found": 14,
    "ok": true
@@ -159,6 +152,13 @@
    "ok": true
   },
   {
+   "company": "Cloudflare",
+   "token": "cloudflare",
+   "ats": "greenhouse",
+   "found": 9,
+   "ok": true
+  },
+  {
    "company": "Snowflake",
    "token": "snowflake",
    "ats": "ashby",
@@ -166,10 +166,10 @@
    "ok": true
   },
   {
-   "company": "Cloudflare",
-   "token": "cloudflare",
+   "company": "Old Mission Capital",
+   "token": "oldmissioncapital",
    "ats": "greenhouse",
-   "found": 9,
+   "found": 8,
    "ok": true
   },
   {
@@ -182,13 +182,6 @@
   {
    "company": "Squarepoint Capital",
    "token": "squarepointcapital",
-   "ats": "greenhouse",
-   "found": 8,
-   "ok": true
-  },
-  {
-   "company": "Old Mission Capital",
-   "token": "oldmissioncapital",
    "ats": "greenhouse",
    "found": 8,
    "ok": true
@@ -229,13 +222,6 @@
    "ok": true
   },
   {
-   "company": "Samsara",
-   "token": "samsara",
-   "ats": "greenhouse",
-   "found": 5,
-   "ok": true
-  },
-  {
    "company": "Roblox",
    "token": "roblox",
    "ats": "greenhouse",
@@ -243,10 +229,10 @@
    "ok": true
   },
   {
-   "company": "Mollie",
-   "token": "mollie",
-   "ats": "ashby",
-   "found": 4,
+   "company": "Samsara",
+   "token": "samsara",
+   "ats": "greenhouse",
+   "found": 5,
    "ok": true
   },
   {
@@ -257,15 +243,22 @@
    "ok": true
   },
   {
-   "company": "Schonfeld",
-   "token": "schonfeld",
-   "ats": "greenhouse",
+   "company": "Mollie",
+   "token": "mollie",
+   "ats": "ashby",
    "found": 4,
    "ok": true
   },
   {
    "company": "Raisin",
    "token": "raisin",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
+   "company": "Schonfeld",
+   "token": "schonfeld",
    "ats": "greenhouse",
    "found": 4,
    "ok": true
@@ -285,16 +278,16 @@
    "ok": true
   },
   {
-   "company": "GSA Capital",
-   "token": "gsacapital",
-   "ats": "greenhouse",
+   "company": "Belvedere Trading",
+   "token": "belvederetrading",
+   "ats": "lever",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Belvedere Trading",
-   "token": "belvederetrading",
-   "ats": "lever",
+   "company": "GSA Capital",
+   "token": "gsacapital",
+   "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
@@ -327,15 +320,15 @@
    "ok": true
   },
   {
-   "company": "Databricks",
-   "token": "databricks",
+   "company": "Flexport",
+   "token": "flexport",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Flexport",
-   "token": "flexport",
+   "company": "Databricks",
+   "token": "databricks",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -376,6 +369,13 @@
    "ok": true
   },
   {
+   "company": "Man Group",
+   "token": "manGroup",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "PDT Partners",
    "token": "pdtpartners",
    "ats": "greenhouse",
@@ -383,9 +383,16 @@
    "ok": true
   },
   {
-   "company": "Man Group",
-   "token": "manGroup",
+   "company": "William Blair",
+   "token": "williamblair",
    "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "Back Market",
+   "token": "backmarket",
+   "ats": "ashby",
    "found": 2,
    "ok": true
   },
@@ -404,13 +411,6 @@
    "ok": true
   },
   {
-   "company": "Back Market",
-   "token": "backmarket",
-   "ats": "ashby",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "LangChain",
    "token": "langchain",
    "ats": "ashby",
@@ -420,13 +420,6 @@
   {
    "company": "Nuro",
    "token": "nuro",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "William Blair",
-   "token": "williamblair",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -460,16 +453,16 @@
    "ok": true
   },
   {
-   "company": "Robinhood",
-   "token": "robinhood",
-   "ats": "greenhouse",
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "Robinhood",
+   "token": "robinhood",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -530,16 +523,16 @@
    "ok": true
   },
   {
-   "company": "Box",
-   "token": "boxinc",
-   "ats": "greenhouse",
+   "company": "Browserbase",
+   "token": "browserbase",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Browserbase",
-   "token": "browserbase",
-   "ats": "ashby",
+   "company": "Box",
+   "token": "boxinc",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -565,16 +558,16 @@
    "ok": true
   },
   {
-   "company": "Gusto",
-   "token": "gusto",
-   "ats": "greenhouse",
+   "company": "Harvey",
+   "token": "harvey",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Harvey",
-   "token": "harvey",
-   "ats": "ashby",
+   "company": "Gusto",
+   "token": "gusto",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -593,15 +586,15 @@
    "ok": true
   },
   {
-   "company": "OpenAI",
-   "token": "openai",
+   "company": "Pika",
+   "token": "pika",
    "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Pika",
-   "token": "pika",
+   "company": "OpenAI",
+   "token": "openai",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -628,6 +621,13 @@
    "ok": true
   },
   {
+   "company": "Shield AI",
+   "token": "shield-ai",
+   "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Younited",
    "token": "younited",
    "ats": "lever",
@@ -635,15 +635,15 @@
    "ok": true
   },
   {
-   "company": "Capstone Investment",
-   "token": "capstoneinvestmentadvisors",
-   "ats": "greenhouse",
+   "company": "Dimensional Fund Advisors",
+   "token": "dimensional",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Chicago Trading Company",
-   "token": "chicagotrading",
+   "company": "Capstone Investment",
+   "token": "capstoneinvestmentadvisors",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -656,9 +656,9 @@
    "ok": true
   },
   {
-   "company": "Dimensional Fund Advisors",
-   "token": "dimensional",
-   "ats": "ashby",
+   "company": "Chicago Trading Company",
+   "token": "chicagotrading",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -672,6 +672,13 @@
   {
    "company": "Fireblocks",
    "token": "fireblocks",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Gemini",
+   "token": "gemini",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -691,8 +698,15 @@
    "ok": true
   },
   {
-   "company": "Gemini",
-   "token": "gemini",
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Jane Street",
+   "token": "janestreet",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -701,13 +715,6 @@
    "company": "Lithic",
    "token": "lithic",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -729,13 +736,6 @@
    "company": "Nubank",
    "token": "nubank",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Jane Street",
-   "token": "janestreet",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -768,13 +768,6 @@
    "ok": true
   },
   {
-   "company": "Trade Republic",
-   "token": "traderepublic",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Unit",
    "token": "unit",
    "ats": "ashby",
@@ -782,16 +775,16 @@
    "ok": true
   },
   {
-   "company": "Voleon",
-   "token": "voleon",
-   "ats": "ashby",
+   "company": "Trade Republic",
+   "token": "traderepublic",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
+   "company": "Voleon",
+   "token": "voleon",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -831,15 +824,15 @@
    "ok": true
   },
   {
-   "company": "Putnam Associates",
-   "token": "putnamassociatesllc",
-   "ats": "greenhouse",
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Thoughtworks",
-   "token": "thoughtworks",
+   "company": "Putnam Associates",
+   "token": "putnamassociatesllc",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -852,9 +845,30 @@
    "ok": true
   },
   {
+   "company": "Thoughtworks",
+   "token": "thoughtworks",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Adyen",
    "token": "adyen",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Affirm",
+   "token": "affirm",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -873,13 +887,6 @@
    "ok": true
   },
   {
-   "company": "Affirm",
-   "token": "affirm",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Algolia",
    "token": "algolia",
    "ats": "greenhouse",
@@ -887,22 +894,15 @@
    "ok": true
   },
   {
-   "company": "Anthropic",
-   "token": "anthropic",
+   "company": "Asana",
+   "token": "asana",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Asana",
-   "token": "asana",
+   "company": "Anthropic",
+   "token": "anthropic",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -922,13 +922,6 @@
    "ok": true
   },
   {
-   "company": "Chime",
-   "token": "chime",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "ClickUp",
    "token": "clickup",
    "ats": "ashby",
@@ -943,8 +936,50 @@
    "ok": true
   },
   {
+   "company": "Confluent",
+   "token": "confluent",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Coursera",
    "token": "coursera",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Cursor (Anysphere)",
+   "token": "cursor",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Chime",
+   "token": "chime",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Datadog",
+   "token": "datadog",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Decagon",
+   "token": "decagon",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Discord",
+   "token": "discord",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -957,36 +992,8 @@
    "ok": true
   },
   {
-   "company": "Confluent",
-   "token": "confluent",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Cursor (Anysphere)",
-   "token": "cursor",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Datadog",
-   "token": "datadog",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Discord",
-   "token": "discord",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Decagon",
-   "token": "decagon",
+   "company": "Drata",
+   "token": "drata",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1006,23 +1013,9 @@
    "ok": true
   },
   {
-   "company": "Drata",
-   "token": "drata",
+   "company": "ElevenLabs",
+   "token": "elevenlabs",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Duolingo",
-   "token": "duolingo",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Fastly",
-   "token": "fastly",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1034,16 +1027,16 @@
    "ok": true
   },
   {
-   "company": "GitLab",
-   "token": "gitlab",
+   "company": "Fastly",
+   "token": "fastly",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "ElevenLabs",
-   "token": "elevenlabs",
-   "ats": "ashby",
+   "company": "GitLab",
+   "token": "gitlab",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1118,6 +1111,20 @@
    "ok": true
   },
   {
+   "company": "Luma AI",
+   "token": "lumaai",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Lovable",
+   "token": "lovable",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Lyft",
    "token": "lyft",
    "ats": "greenhouse",
@@ -1132,36 +1139,8 @@
    "ok": true
   },
   {
-   "company": "Lovable",
-   "token": "lovable",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Marshmallow",
    "token": "marshmallow",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Mirakl",
-   "token": "mirakl",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Miro",
-   "token": "miro",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Luma AI",
-   "token": "lumaai",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1174,6 +1153,20 @@
    "ok": true
   },
   {
+   "company": "Miro",
+   "token": "miro",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Mirakl",
+   "token": "mirakl",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Monzo",
    "token": "monzo",
    "ats": "greenhouse",
@@ -1181,15 +1174,22 @@
    "ok": true
   },
   {
-   "company": "N26",
-   "token": "n26",
+   "company": "MongoDB",
+   "token": "mongodb",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "MongoDB",
-   "token": "mongodb",
+   "company": "Motive",
+   "token": "motive",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "N26",
+   "token": "n26",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1209,16 +1209,16 @@
    "ok": true
   },
   {
-   "company": "Okta",
-   "token": "okta",
-   "ats": "greenhouse",
+   "company": "Oyster",
+   "token": "oyster",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Oyster",
-   "token": "oyster",
-   "ats": "ashby",
+   "company": "Okta",
+   "token": "okta",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1251,15 +1251,15 @@
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
+   "company": "Quizlet",
+   "token": "quizlet-inc",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Quizlet",
-   "token": "quizlet-inc",
+   "company": "Qonto",
+   "token": "qonto",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1272,8 +1272,8 @@
    "ok": true
   },
   {
-   "company": "Remote",
-   "token": "remote",
+   "company": "Reddit",
+   "token": "reddit",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1286,16 +1286,16 @@
    "ok": true
   },
   {
-   "company": "Replit",
-   "token": "replit",
-   "ats": "ashby",
+   "company": "Remote",
+   "token": "remote",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Reddit",
-   "token": "reddit",
-   "ats": "greenhouse",
+   "company": "Replit",
+   "token": "replit",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1324,6 +1324,13 @@
    "company": "Sierra",
    "token": "sierra",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "SoFi",
+   "token": "sofi",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1384,16 +1391,16 @@
    "ok": true
   },
   {
-   "company": "Udemy",
-   "token": "udemy",
-   "ats": "greenhouse",
+   "company": "Vanta",
+   "token": "vanta",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Vanta",
-   "token": "vanta",
-   "ats": "ashby",
+   "company": "Udemy",
+   "token": "udemy",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1433,99 +1440,14 @@
    "ok": true
   },
   {
-   "company": "Motive",
-   "token": "motive",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "SoFi",
-   "token": "sofi",
+   "company": "Duolingo",
+   "token": "duolingo",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   }
  ],
  "offers": [
-  {
-   "id": "ab-shield-ai-622c6ee1-d865-46b3-83ea-87656568d932",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Engineer, Software Autonomy Applications (R4829)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/622c6ee1-d865-46b3-83ea-87656568d932",
-   "postedAt": "2026-08-13T16:35:54.120+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-8c93cf3d-25ba-4d41-b8ee-3a4b6a77769c",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Software Autonomy Applications (R4830)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/8c93cf3d-25ba-4d41-b8ee-3a4b6a77769c",
-   "postedAt": "2026-08-13T16:35:38.042+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-f9314580-3ec6-4bb1-86b1-39b2d98f2047",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Solutions Engineer (R5320)",
-   "location": "New Delhi",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/f9314580-3ec6-4bb1-86b1-39b2d98f2047",
-   "postedAt": "2026-08-13T12:19:03.592+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
   {
    "id": "ab-mollie-39d74606-d1ef-4cf9-9bbf-95434b5402ce",
    "company": "Mollie",
@@ -1550,32 +1472,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Build with us Since 2004, we've had one clear goal: to make payments and money management effortless for every business in Europe. Today, more than 250,000 companies use Mollie to get paid, manage money and grow – with products designed to be simple, scalable, and dependable. With 950+ Mollies across 14+ locations, we ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-6e9a3ca0-d9f9-4df4-b5f6-60fbb26f670a",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Engineer, Systems",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/6e9a3ca0-d9f9-4df4-b5f6-60fbb26f670a",
-   "postedAt": "2026-08-13T10:31:36.224+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -1813,32 +1709,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-0735698f-ea25-4b12-af9c-f7169b730c2b",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Chief of Staff, AI Hive (R5599)",
-   "location": "Bangalore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/0735698f-ea25-4b12-af9c-f7169b730c2b",
-   "postedAt": "2026-08-12T07:43:06.610+00:00",
-   "department": "Executive Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-optiverus-8623923002",
    "company": "Optiver",
    "ats": "greenhouse",
@@ -2052,32 +1922,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-cb23b400-b7d3-4923-a078-36e774235b1f",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Talent Sourcer",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/cb23b400-b7d3-4923-a078-36e774235b1f",
-   "postedAt": "2026-08-11T20:41:22.880+00:00",
-   "department": "People Experience Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-aqr-8123095",
    "company": "AQR Capital",
    "ats": "greenhouse",
@@ -2102,32 +1946,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div data-block= true data-editor= coe4n data-offset-key= eo6uh-0-0 > <div class= public-DraftStyleDefault-block public-DraftStyleDefault-ltr data-offset-key= eo6uh-0-0 > <p><strong>About AQR Capital Management</strong></p> <p>AQR is a global investment firm built at the intersection of financial theory and practical a",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-64ad2aa9-0fc0-4125-87e1-5272d8270cb2",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Chief Engineer",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/64ad2aa9-0fc0-4125-87e1-5272d8270cb2",
-   "postedAt": "2026-08-11T17:59:47.280+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -2181,162 +1999,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div data-block= true data-editor= coe4n data-offset-key= eo6uh-0-0 > <div class= public-DraftStyleDefault-block public-DraftStyleDefault-ltr data-offset-key= eo6uh-0-0 > <p><strong>AQR Capital Management</strong></p> <p>AQR is a global investment firm built at the intersection of financial theory and practical applica",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-87e9b3d9-801b-4391-af0a-7385f13b3d10",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Engineer, Computer Vision (C++) (R5195)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/87e9b3d9-801b-4391-af0a-7385f13b3d10",
-   "postedAt": "2026-08-11T06:18:24.579+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-17aa2bc8-5d71-4730-a0bd-159267411550",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Engineer, Computer Vision (C++) (R5197)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/17aa2bc8-5d71-4730-a0bd-159267411550",
-   "postedAt": "2026-08-11T06:09:19.006+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-e7230816-3cd6-434f-952f-cff46c761eb6",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Engineer, Autonomy (R5182)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/e7230816-3cd6-434f-952f-cff46c761eb6",
-   "postedAt": "2026-08-11T06:08:51.159+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-baeb9d2c-cd2e-4ec1-9145-ba7ce0bc3329",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Computer Vision (C++) (R5196)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/baeb9d2c-cd2e-4ec1-9145-ba7ce0bc3329",
-   "postedAt": "2026-08-11T06:08:12.415+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-a85098d4-def3-4ae9-b3e0-4b5890bffc24",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Production Technician (R5229)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/a85098d4-def3-4ae9-b3e0-4b5890bffc24",
-   "postedAt": "2026-08-11T06:07:38.664+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-c1247b90-ed5a-4a49-befb-55c64ae30322",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Manager, Facilities Operations, International (R5600)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/c1247b90-ed5a-4a49-befb-55c64ae30322",
-   "postedAt": "2026-08-10T18:51:29.008+00:00",
-   "department": "Facilities Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -2470,32 +2132,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-d55dd2fd-aec4-4092-aea0-d5a63a9741ab",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Associate Facilities Coordinator (R5453)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/d55dd2fd-aec4-4092-aea0-d5a63a9741ab",
-   "postedAt": "2026-08-10T13:54:41.364+00:00",
-   "department": "Facilities Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-palantir-2ad0ab10-34c3-410d-883b-8052864a95cd",
    "company": "Palantir",
    "ats": "lever",
@@ -2522,32 +2158,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-bdd8e9b3-29a7-4f97-b7b1-cf499a752215",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Associate Facilities Coordinator (R5455)",
-   "location": "Madrid",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/bdd8e9b3-29a7-4f97-b7b1-cf499a752215",
-   "postedAt": "2026-08-10T07:51:53.404+00:00",
-   "department": "Facilities Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-mollie-6233038f-1677-475c-bbd2-dc8ff8298ce7",
    "company": "Mollie",
    "ats": "ashby",
@@ -2571,32 +2181,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Build with us Since 2004, we've had one clear goal: to make payments and money management effortless for every business in Europe. Today, more than 250,000 companies use Mollie to get paid, manage money and grow – with products designed to be simple, scalable, and dependable. With 950+ Mollies across 14+ locations, we ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-8cb6f1a3-1569-464c-b950-231bcd79adf9",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Technical Program Manager (R5595)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/8cb6f1a3-1569-464c-b950-231bcd79adf9",
-   "postedAt": "2026-08-08T20:01:48.198+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "product",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -2724,32 +2308,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Abridge Abridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our AI-powered platform was purpose-built for medical conversations, improving clinical documentation efficiencies while enabling clinicians to focus on what matters most—their patients. Our enterprise-grade techn",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-6e6716ae-fcbb-4093-ae9a-542272523bbe",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Associate Facilities Coordinator (R5456)",
-   "location": "Bangalore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/6e6716ae-fcbb-4093-ae9a-542272523bbe",
-   "postedAt": "2026-08-07T15:47:12.414+00:00",
-   "department": "Facilities Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -2897,162 +2455,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-a4b47e2c-cebd-426c-95d8-37c59baa5495",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Supplier Development Engineer (R4621)",
-   "location": "Taipei",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/a4b47e2c-cebd-426c-95d8-37c59baa5495",
-   "postedAt": "2026-08-06T20:02:04.950+00:00",
-   "department": "Aircraft Operations Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-2019081b-b7fc-4188-8c8b-d6663b9724e3",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Engineer, Autonomy and Motion Planning (R5538)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/2019081b-b7fc-4188-8c8b-d6663b9724e3",
-   "postedAt": "2026-08-06T19:18:50.350+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-a605bddb-2ab5-4ebf-af52-04f27a619fd8",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Engineer, Autonomy Software Integration & Test (R5539)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/a605bddb-2ab5-4ebf-af52-04f27a619fd8",
-   "postedAt": "2026-08-06T19:15:50.102+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-4f18f8a6-f87f-444d-b0f0-975c61a99d95",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Bid Manager",
-   "location": "Athens",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/4f18f8a6-f87f-444d-b0f0-975c61a99d95",
-   "postedAt": "2026-08-06T19:12:36.158+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-26dbd502-945e-4d67-b493-4361d339382d",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Applications Engineer, Autonomy (R5519)",
-   "location": "Kyiv",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/26dbd502-945e-4d67-b493-4361d339382d",
-   "postedAt": "2026-08-06T19:11:05.437+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-466af9c4-1ef1-4fef-92c5-bc7d68be273d",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Workplace Experience Coordinator (R5314)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/466af9c4-1ef1-4fef-92c5-bc7d68be273d",
-   "postedAt": "2026-08-05T18:36:09.379+00:00",
-   "department": "Facilities Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -3390,84 +2792,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-3dce4461-2686-4804-83a0-8a34e19c26d9",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Recruiter (R5549)",
-   "location": "Munich",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/3dce4461-2686-4804-83a0-8a34e19c26d9",
-   "postedAt": "2026-08-04T20:37:14.235+00:00",
-   "department": "People Experience Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-ebc34730-6961-4fba-a632-b4023dd13ba4",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Engineer, Autonomy Software Integration & Test (R5225)",
-   "location": "Lviv",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/ebc34730-6961-4fba-a632-b4023dd13ba4",
-   "postedAt": "2026-08-04T19:53:10.316+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-6bfe947f-5e46-4dc0-94dc-589d98169430",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Manager, Revenue (R5466)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/6bfe947f-5e46-4dc0-94dc-589d98169430",
-   "postedAt": "2026-08-04T19:45:33.848+00:00",
-   "department": "Finance Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-zoox-737259b5-4258-4557-b7e0-0627b3d870a5",
    "company": "Zoox",
    "ats": "lever",
@@ -3491,32 +2815,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Zoox Zoox is an autonomous ridehailing company building the world's first purpose-built robotaxi — fully electric, bidirectional, with no steering wheel or driver's seat. Backed by Amazon and founded to make transportation safer, cleaner, and more accessible, Zoox designs its vehicles entirely around the rider. W",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-7821d565-5361-4fe3-944d-80949f134f97",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "UAS Operator & Flight Operations Technician (R5438)",
-   "location": "Lviv",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/7821d565-5361-4fe3-944d-80949f134f97",
-   "postedAt": "2026-08-04T19:24:56.145+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -4509,58 +3807,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-f974347d-0ae0-4772-a7f3-98338c21b4d3",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Trade Compliance Manager (R5351)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/f974347d-0ae0-4772-a7f3-98338c21b4d3",
-   "postedAt": "2026-07-31T16:12:11.418+00:00",
-   "department": "Legal Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-2ec82400-1e2b-4e89-b475-55ccf398c86e",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior/Staff Engineer, C++ Software - Edge Systems (R5190)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/2ec82400-1e2b-4e89-b475-55ccf398c86e",
-   "postedAt": "2026-07-31T14:59:21.519+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-imc-4939821101",
    "company": "IMC Trading",
    "ats": "greenhouse",
@@ -4907,84 +4153,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-92d580ed-09b6-48cc-b53f-c70670c5fa71",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Software Engineer, Autonomy Applications Engineering",
-   "location": "New Delhi",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/92d580ed-09b6-48cc-b53f-c70670c5fa71",
-   "postedAt": "2026-07-29T16:25:39.719+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-2d6c7884-8830-43c1-9c1a-9bc0563f50de",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff Engineer, Software Autonomy (R5125)",
-   "location": "New Delhi",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/2d6c7884-8830-43c1-9c1a-9bc0563f50de",
-   "postedAt": "2026-07-29T16:25:31.507+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-2b38fd1a-9994-4d4b-9fba-d9c175479bc7",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Software Engineer, Autonomy Applications Engineering",
-   "location": "New Delhi",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/2b38fd1a-9994-4d4b-9fba-d9c175479bc7",
-   "postedAt": "2026-07-29T16:25:22.129+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-virtu-8657286002",
    "company": "Virtu Financial",
    "ats": "greenhouse",
@@ -5009,32 +4177,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p> </p> <p>Virtu is an industry-leading financial technology firm that operates both proprietary trading and client-facing businesses in the global financial marketplace. Our cutting edge, proprietary technology is core to everything we do. We trade in over 35 countries, across 235 financial exchanges and over 25% of ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-4ec85fd4-502c-46d8-8635-48934339598a",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Director of Business Development, Collaborative Combat Aircraft (Northeast Asia) (R5041)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/4ec85fd4-502c-46d8-8635-48934339598a",
-   "postedAt": "2026-07-29T16:19:00.158+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -5220,32 +4362,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-fcfb76dc-60ac-4416-9ec4-5a21789808c9",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Sr. Staff BD Account Executive - Autonomy Specialist, Taiwan (R5097)",
-   "location": "Taipei",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/fcfb76dc-60ac-4416-9ec4-5a21789808c9",
-   "postedAt": "2026-07-28T17:00:53.060+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-younited-f495ea24-b326-460f-9c16-1e4befba10b7",
    "company": "Younited",
    "ats": "lever",
@@ -5401,58 +4517,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-d2a4752b-9af4-4a03-91c0-ed17a3889f9b",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Simulation Specialist (R5374)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/d2a4752b-9af4-4a03-91c0-ed17a3889f9b",
-   "postedAt": "2026-07-24T13:57:22.591+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-9ce9f5cf-d48f-42cf-97d0-03690dc37135",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Simulation Specialist (R5373)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/9ce9f5cf-d48f-42cf-97d0-03690dc37135",
-   "postedAt": "2026-07-24T13:57:12.916+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-alixpartners-7815475003",
    "company": "AlixPartners",
    "ats": "greenhouse",
@@ -5554,84 +4618,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Zoox Zoox is an autonomous ridehailing company building the world's first purpose-built robotaxi — fully electric, bidirectional, with no steering wheel or driver's seat. Backed by Amazon and founded to make transportation safer, cleaner, and more accessible, Zoox designs its vehicles entirely around the rider. W",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-de3b7162-2ec0-4e0c-b48e-5367c2b9979f",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff BD Account Executive, Autonomy Specialist - Australia (R5135)",
-   "location": "Canberra",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/de3b7162-2ec0-4e0c-b48e-5367c2b9979f",
-   "postedAt": "2026-07-23T15:08:59.699+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-bea0341d-cc7f-4817-bad5-c537e1ce2ac1",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff BD Account Executive, Autonomy Specialist (R5123)",
-   "location": "Seoul",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/bea0341d-cc7f-4817-bad5-c537e1ce2ac1",
-   "postedAt": "2026-07-23T15:03:28.341+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-f289a066-07be-4bb5-92f3-32e638e5b6a5",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Staff BD Account Executive - Autonomy Specialist (R5001)",
-   "location": "Abu Dhabi",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/f289a066-07be-4bb5-92f3-32e638e5b6a5",
-   "postedAt": "2026-07-23T15:03:08.781+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -6034,32 +5020,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-20fd6e66-c049-4a0d-b3a9-3458a7178429",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Program Manager (R5370)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/20fd6e66-c049-4a0d-b3a9-3458a7178429",
-   "postedAt": "2026-07-20T13:42:26.395+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-celonis-7794527003",
    "company": "Celonis",
    "ats": "greenhouse",
@@ -6347,58 +5307,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-7e64bf53-1dd7-49a5-93e4-d357fd00d70c",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Head of Business Development, Middle East (R5057)",
-   "location": "Abu Dhabi",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/7e64bf53-1dd7-49a5-93e4-d357fd00d70c",
-   "postedAt": "2026-07-15T16:16:13.961+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-4b629690-438c-444f-b1ef-8a3adf37995c",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Business Development Lead, Netherlands (R5380)",
-   "location": "Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/4b629690-438c-444f-b1ef-8a3adf37995c",
-   "postedAt": "2026-07-15T15:59:33.501+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-alan-daddaa1f-64b9-4984-95ed-136e7845b771",
    "company": "Alan",
    "ats": "ashby",
@@ -6524,32 +5432,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Column For companies building financial technology and transforming the financial services space, the biggest bottleneck to their growth and innovation is often the underlying banks and infrastructure stack they rely on. We have spent our careers founding and scaling companies like Plaid, Square, Meta, Blend, and",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-1b9cdf0a-be42-4874-a971-87594f3236bf",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Software Autonomy Applications (R4987)",
-   "location": "Seoul",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/1b9cdf0a-be42-4874-a971-87594f3236bf",
-   "postedAt": "2026-07-14T16:04:55.502+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -7194,32 +6076,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p>Our formula for success is to hire exceptional people, encourage their ideas and reward their results.</p> <p>As a <strong>Quantitative Research Intern</strong> you will have an opportunity to solve challenging problems arising in a trading environment while utilizing the latest statistical scientific algorithms, ma",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-04c3ca9e-96ff-430b-ab9c-15084428fedf",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Manager, Autonomy Applications Engineering (R5188)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/04c3ca9e-96ff-430b-ab9c-15084428fedf",
-   "postedAt": "2026-07-13T10:29:22.900+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -8119,58 +6975,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-5301dadb-adce-4f5a-b715-3a0e0251c491",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Engineer II, Applications (R4789)",
-   "location": "Taipei",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/5301dadb-adce-4f5a-b715-3a0e0251c491",
-   "postedAt": "2026-07-10T09:52:40.600+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-87c9be77-e95f-4c25-8e79-97bef049e63c",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Engineer, Applications (R4792)",
-   "location": "Taipei",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/87c9be77-e95f-4c25-8e79-97bef049e63c",
-   "postedAt": "2026-07-10T09:52:30.835+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-doctolib-7795831003",
    "company": "Doctolib",
    "ats": "greenhouse",
@@ -8270,32 +7074,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-b20e9e53-78f8-4323-88ae-bd1433c38afb",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Business Development Manager – Romania Internal Security & Caucasus (R5011)",
-   "location": "Bucharest",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/b20e9e53-78f8-4323-88ae-bd1433c38afb",
-   "postedAt": "2026-07-08T19:54:28.899+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -8940,58 +7718,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-a2ed5bdd-db11-4ed7-987d-d4cee12a752e",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Deep Learning (R5180)",
-   "location": "Melbourne",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/a2ed5bdd-db11-4ed7-987d-d4cee12a752e",
-   "postedAt": "2026-07-07T18:05:51.900+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-8e632350-779e-4464-95e0-ea6d3e9b3ed4",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Head of Business Development, Japan (R3905)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/8e632350-779e-4464-95e0-ea6d3e9b3ed4",
-   "postedAt": "2026-07-07T16:43:00.006+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-thirdbridge-4921782101",
    "company": "Third Bridge",
    "ats": "greenhouse",
@@ -9275,32 +8001,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-02eec6d3-59bf-4bee-8467-d611523f99a5",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Director of Business Development - Japan, South Korea, and Taiwan (R4831)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/02eec6d3-59bf-4bee-8467-d611523f99a5",
-   "postedAt": "2026-07-07T09:38:00.360+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -9943,32 +8643,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-ee9ed313-2c24-40a3-8885-8bd15cce63a4",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Sr. Staff BD Account Executive - Autonomy Specialist, Japan (R5096)",
-   "location": "Tokyo",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/ee9ed313-2c24-40a3-8885-8bd15cce63a4",
-   "postedAt": "2026-07-01T13:20:58.929+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-imc-4907400101",
    "company": "IMC Trading",
    "ats": "greenhouse",
@@ -10423,32 +9097,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-51620677-860f-46cf-9830-8b663da8cc2f",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Applications (R4828)",
-   "location": "Taipei",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/51620677-860f-46cf-9830-8b663da8cc2f",
-   "postedAt": "2026-06-30T13:48:26.778+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-palantir-e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
    "company": "Palantir",
    "ats": "lever",
@@ -10498,32 +9146,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Third Bridge is a leading global research firm established in 2007, with a team of over 1,500 employees worldwide dedicated to <strong>fueling decisions with expert insights</strong>. We accelerate and enhance decision-making for investors and business leaders by unearthing unique expert i",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-9ac95e3c-2a7e-4a9b-b0f5-d8502c99c822",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Business Development & Sales Lead - UK",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/9ac95e3c-2a7e-4a9b-b0f5-d8502c99c822",
-   "postedAt": "2026-06-26T12:18:38.947+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -10808,84 +9430,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-4e88bca7-7e5b-4cb1-a25b-9d00b64e6024",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Business Development Lead - Hivemind - Ukraine",
-   "location": "Kyiv",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/4e88bca7-7e5b-4cb1-a25b-9d00b64e6024",
-   "postedAt": "2026-06-22T14:26:27.676+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-2994d6b0-31f5-4a5a-a576-cfb7daf01c85",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Business Development Lead - Hivemind - Poland",
-   "location": "Warsaw",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/2994d6b0-31f5-4a5a-a576-cfb7daf01c85",
-   "postedAt": "2026-06-22T14:25:44.156+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-c584ea11-9b76-4e01-9dff-17c2e108e86f",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Senior Business Development Lead - Hivemind - Nordics",
-   "location": "Oslo",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/c584ea11-9b76-4e01-9dff-17c2e108e86f",
-   "postedAt": "2026-06-22T14:25:21.213+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-alan-207a6ec4-1831-44a3-af4e-4ec42e7b7528",
    "company": "Alan",
    "ats": "ashby",
@@ -10964,84 +9508,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-shield-ai-9443069a-8ab4-4737-825a-d4833ec8a5d8",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Business Development Lead, Baltics (R5227)",
-   "location": "Tallinn",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/9443069a-8ab4-4737-825a-d4833ec8a5d8",
-   "postedAt": "2026-06-18T00:56:11.644+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-7d57c354-7a72-47db-aaa5-1fcfa6970459",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Government Relations Manager - UK, Nordics and Benelux (R5217)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/7d57c354-7a72-47db-aaa5-1fcfa6970459",
-   "postedAt": "2026-06-18T00:40:25.023+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-4944ff3b-2749-4476-98d2-ae66f04c1c92",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Drone Operator (R5145)",
-   "location": "Kyiv",
-   "regions": [
-    "other"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/4944ff3b-2749-4476-98d2-ae66f04c1c92",
-   "postedAt": "2026-06-17T14:31:59.513+00:00",
-   "department": "Aircraft Operations Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-celonis-7775884003",
    "company": "Celonis",
    "ats": "greenhouse",
@@ -11063,32 +9529,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-0e7922b0-ffe1-4ad9-b204-8ff18f9142c0",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Staff Engineer, Software Autonomy Applications (R4962)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/0e7922b0-ffe1-4ad9-b204-8ff18f9142c0",
-   "postedAt": "2026-06-17T02:30:22.170+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -11192,58 +9632,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role Forward Dep",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-bad3c822-4197-4b6a-aab8-d8ef8c91ff7f",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "X-BAT Business Development Director, Middle East (R4949)",
-   "location": "Abu Dhabi",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/bad3c822-4197-4b6a-aab8-d8ef8c91ff7f",
-   "postedAt": "2026-06-15T15:46:25.161+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-8d3e7859-5227-46e2-bf77-dc6c792e977b",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Forward Deployed Engineer",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/8d3e7859-5227-46e2-bf77-dc6c792e977b",
-   "postedAt": "2026-06-15T15:45:31.702+00:00",
-   "department": "Hivemind Solutions Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {
@@ -11684,32 +10072,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-shield-ai-769cd4d6-2cb0-4499-b8d1-7457e218c5ea",
-   "company": "Shield AI",
-   "ats": "ashby",
-   "title": "Business Development Lead, Central Europe (DACH, Czech Republic, Slovakia) (R5054)",
-   "location": "Munich",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/shield-ai/769cd4d6-2cb0-4499-b8d1-7457e218c5ea",
-   "postedAt": "2026-06-03T02:26:15.075+00:00",
-   "department": "Growth Division",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Shield AI is a venture-backed defense-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include Hivemind autonomy software, V-BAT and X-BAT aircraft, and Aechelon simulation and synthetic reality technologies. With offices and facilities across the U.S., Eu",
    "hasDeadlineHint": false
   },
   {

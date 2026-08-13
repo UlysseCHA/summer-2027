@@ -47,6 +47,11 @@
 
 * { box-sizing: border-box; }
 
+/* L'attribut `hidden` doit toujours gagner. Sans cette regle, tout selecteur de classe
+   qui fixe `display` (.gate, .new-banner, .btn-more) reaffiche un element pourtant
+   marque hidden : la page se retrouve avec l'ecran de connexion par-dessus l'app. */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 
 body {
