@@ -257,7 +257,9 @@ function offerHtml(offer) {
     newIds.has(offer.id) ? '<span class="badge badge-new">Nouveau</span>' : '',
     `<span class="badge badge-${offer.industry}">${label('industry', offer.industry)}</span>`,
     offer.kind !== 'internship' ? `<span class="badge">${label('kind', offer.kind)}</span>` : '',
-    age !== null && age <= 7 ? '<span class="badge badge-accent">Publiee cette semaine</span>' : '',
+    // Neutre volontairement : presque toutes les annonces sont recentes, du rouge ici
+    // le banaliserait. Le rouge reste pour ce qui est rare (nouveautes, deadlines).
+    age !== null && age <= 7 ? '<span class="badge">Publiee cette semaine</span>' : '',
     offer.cycleSource === 'posting-date' ? '<span class="badge badge-soft" title="L\'annonce ne precise pas l\'annee ; elle est rattachee a la campagne d\'apres sa date de publication">annee deduite</span>' : '',
     offer.hasDeadlineHint ? '<span class="badge badge-soft" title="La description mentionne une date limite ou un recrutement au fil de l\'eau">deadline mentionnee</span>' : '',
   ].filter(Boolean).join('');
