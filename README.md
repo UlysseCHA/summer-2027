@@ -4,7 +4,13 @@ Index des offres de **stage et graduate programs** en tech, finance et conseil p
 Summer 2027. Les annonces sont collectées depuis les API publiques des ATS (Greenhouse, Lever,
 Ashby) de **202 entreprises**, et chaque offre pointe vers l'annonce officielle.
 
-Dépôt privé : <https://github.com/UlysseCHA/summer-2027>
+**Site en ligne : <https://ulyssecha.github.io/summer-2027/>**
+Dépôt : <https://github.com/UlysseCHA/summer-2027>
+
+> Le site est public. La page de connexion sépare les profils d'Ulysse et de Rayan, elle
+> **ne protège rien** : la vérification se fait dans le navigateur et se contourne en une ligne
+> dans la console. Ce qui est exposé, ce sont des offres d'emploi déjà publiques. Les suivis de
+> candidatures, eux, restent dans le navigateur de chacun et ne sont jamais envoyés.
 
 ## Démarrer
 
@@ -40,7 +46,8 @@ Trois mécanismes, du plus immédiat au plus complet :
 | Quand | Quoi | Profondeur |
 |---|---|---|
 | À chaque ouverture du site | La page réinterroge les 202 boards en direct depuis le navigateur (~30 s en fond). Les nouvelles offres sont signalées, celles qui ont été fermées disparaissent. | Titres seuls |
-| Toutes les 6 h, même PC éteint | GitHub Actions relance la collecte complète et commite `data/offers.json`. Récupérer avec `git pull`. | Titres + descriptions |
+| Toutes les 20 min, onglet ouvert | Nouvelle vérification automatique, et immédiate au retour sur l'onglet. Rien ne tourne si l'onglet est en arrière-plan. | Titres seuls |
+| Toutes les 6 h, même PC éteint | GitHub Actions relance la collecte complète, commite `data/offers.json` et redéploie le site. | Titres + descriptions |
 | À la demande | `npm run fetch` | Titres + descriptions |
 
 Le rafraîchissement navigateur est possible parce que Greenhouse, Lever et Ashby renvoient tous
