@@ -11,7 +11,7 @@
  * Le collecteur Node reste la source de verite, plus complete.
  */
 
-import { parseJobs, buildOffer, listUrl } from './classify.js';
+import { parseJobs, buildOffer, listUrl, BROWSER_SAFE } from './classify.js';
 
 const CONCURRENCY = 8;
 const TIMEOUT = 15_000;
@@ -30,7 +30,13 @@ async function getJson(url) {
  * distinguer « cette offre a ete retiree » de « ce board n'a pas repondu », et on
  * supprimerait a tort des offres encore ouvertes.
  */
-export async function refreshLive(boards, onProgress) {
+export async function refreshLive(allBoards, onProgress) {
+  // Workday refuse les appels cross-origin : ses employeurs (Barclays, Citi, Deutsche
+  // Bank...) ne sont joignables que par le collecteur Node. On ne les interroge donc
+  // pas ici. Comme ils restent absents de `okCompanies`, mergeLive conserve leurs
+  // offres au lieu de les croire fermees.
+  const boards = allBoards.filter(b => BROWSER_SAFE.has(b.ats));
+
   const offers = [];
   const okCompanies = new Set();
   const failed = [];

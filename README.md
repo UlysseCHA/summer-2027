@@ -55,6 +55,13 @@ Le rafraîchissement navigateur est possible parce que Greenhouse, Lever et Ashb
 sans les descriptions, l'année du programme est moins bien détectée pour les annonces qui ne la
 mettent pas dans leur titre. Le collecteur Node reste la source de vérité.
 
+**Workday fait exception.** Les banques (Barclays, Citi, Deutsche Bank, Bank of America,
+Blackstone, BlackRock, Apollo, PJT, Moelis, Houlihan Lokey) et Accenture publient via Workday, qui
+n'autorise pas les appels depuis un navigateur. Leurs offres n'arrivent donc que par `npm run
+fetch` ou le job GitHub, jamais par le rafraîchissement de la page. Le code en tient compte : ces
+employeurs sont exclus du passage navigateur, et leurs offres sont conservées au lieu d'être prises
+pour des annonces fermées.
+
 ## Comptes
 
 Deux profils, `ulysse` et `rayan`, avec le même mot de passe. Chacun a ses favoris et son suivi de
@@ -97,6 +104,14 @@ les offres.
 Le plus simple : ajouter son nom dans `CANDIDATES` dans
 [`scripts/discover.mjs`](scripts/discover.mjs) et lancer `npm run discover`. Le script teste des
 variantes de slug sur les trois ATS et écrit ce qu'il trouve dans `data/discovered.json`.
+
+Si l'entreprise n'est sur aucun des trois, `npm run sniff` suit sa page carrière et identifie le
+logiciel de recrutement utilisé (Workday, Oracle, Phenom, Avature, iCIMS, SuccessFactors...). Pour
+Workday, il en extrait le `tenant`, le `wd` et le `site` à recopier dans `data/sources.json` :
+
+```json
+{"company":"Barclays","ats":"workday","tenant":"barclays","wd":"wd3","site":"External_Career_Site_Barclays","industry":"finance","tags":["investment-banking"]}
+```
 
 À la main : trouver le token depuis l'URL de son board (`boards.greenhouse.io/<token>`,
 `jobs.lever.co/<token>`, `jobs.ashbyhq.com/<token>`), puis ajouter une ligne dans

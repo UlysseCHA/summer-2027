@@ -15,7 +15,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml } from '../assets/classify.js';
+import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml, workdayBase } from '../assets/classify.js';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'summer-internships-board/1.0 (aggregator; public job board APIs)';
@@ -26,8 +26,12 @@ const argv = process.argv.slice(2);
 const QUIET = argv.includes('--quiet');
 const ONLY = (() => {
   const i = argv.indexOf('--only');
-  return i === -1 ? null : new Set(argv[i + 1].split(',').map(s => s.trim()));
+  return i === -1 ? null : new Set(argv[i + 1].split(',').map(s => s.trim().toLowerCase()));
 })();
+
+/** Un board est-il vise par --only ? On accepte le nom, le token ou le tenant. */
+const isTargeted = (b) => !ONLY
+  || [b.company, b.token, b.tenant].some(v => v && ONLY.has(String(v).toLowerCase()));
 
 const log = (...a) => { if (!QUIET) console.log(...a); };
 
@@ -63,12 +67,71 @@ async function pool(items, worker, concurrency = CONCURRENCY) {
   return out;
 }
 
+async function postJson(url, body) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', accept: 'application/json', 'user-agent': UA },
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(TIMEOUT),
+      });
+      if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) return null;
+      return await res.json();
+    } catch (err) {
+      if (attempt === 2) throw err;
+      await new Promise(r => setTimeout(r, 800 * (attempt + 1)));
+    }
+  }
+}
+
+/*
+ * Workday n'a pas de « liste complete » exploitable : certains employeurs ont des
+ * milliers de postes. On lance donc quelques recherches ciblees et on dedoublonne.
+ * Les termes couvrent les formulations vues chez les banques (« Summer Analyst »)
+ * comme chez les entreprises tech (« intern »).
+ */
+const WORKDAY_QUERIES = ['2027', 'intern', 'summer analyst', 'graduate', 'campus', 'apprentice', 'placement'];
+const WORKDAY_PAGE = 20;
+const WORKDAY_MAX_PER_QUERY = 100;
+
+async function fetchWorkday(board) {
+  const base = `${workdayBase(board)}/wday/cxs/${board.tenant}/${board.site}`;
+  const seen = new Map();
+
+  for (const searchText of WORKDAY_QUERIES) {
+    for (let offset = 0; offset < WORKDAY_MAX_PER_QUERY; offset += WORKDAY_PAGE) {
+      const page = await postJson(`${base}/jobs`, { appliedFacets: {}, limit: WORKDAY_PAGE, offset, searchText });
+      const postings = page?.jobPostings || [];
+      for (const j of postings) if (j.externalPath) seen.set(j.externalPath, j);
+      if (postings.length < WORKDAY_PAGE || offset + WORKDAY_PAGE >= (page?.total ?? 0)) break;
+    }
+  }
+
+  // On ne garde que les titres early-career avant de charger les fiches detaillees.
+  const candidates = parseJobs('workday', { jobPostings: [...seen.values()] }, board);
+
+  const details = await pool(candidates, r => getJson(`${base}${r.externalId}`), 5);
+  candidates.forEach((r, k) => {
+    const info = details[k]?.jobPostingInfo;
+    if (!info) return;
+    r.description = stripHtml(info.jobDescription || '');
+    r.postedAt = info.startDate || r.postedAt;
+    r.url = info.externalUrl || r.url;
+  });
+
+  return candidates.map(r => buildOffer(board, r));
+}
+
 /**
  * Recupere les annonces early-career d'un board.
  * Greenhouse n'expose pas la description dans la liste : on la charge poste par poste,
  * mais uniquement pour les titres deja retenus (l'annee du programme y est souvent).
  */
 async function fetchBoard(board) {
+  if (board.ats === 'workday') return fetchWorkday(board);
+
   const payload = await getJson(listUrl(board.ats, board.token));
   const raw = parseJobs(board.ats, payload, board);
 
@@ -88,7 +151,12 @@ async function fetchBoard(board) {
 /* ----------------------------------------------------------------- main */
 
 const { boards } = JSON.parse(await readFile(resolve(ROOT, 'data/sources.json'), 'utf8'));
-const targets = ONLY ? boards.filter(b => ONLY.has(b.token) || ONLY.has(b.company)) : boards;
+const targets = boards.filter(isTargeted);
+
+if (!targets.length) {
+  console.error('Aucun board ne correspond a --only : rien a faire, data/offers.json est laisse intact.');
+  process.exit(1);
+}
 
 log(`-> ${targets.length} job boards a interroger...\n`);
 

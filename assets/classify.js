@@ -167,6 +167,16 @@ export const listUrl = (ats, token) => ({
   ashby: `https://api.ashbyhq.com/posting-api/job-board/${token}?includeCompensation=false`,
 }[ats]);
 
+/**
+ * ATS interrogeables depuis un navigateur. Les trois ci-dessus renvoient
+ * `Access-Control-Allow-Origin: *`, Workday non : ses offres ne peuvent etre
+ * collectees que par le script Node.
+ */
+export const BROWSER_SAFE = new Set(['greenhouse', 'lever', 'ashby']);
+
+/** Racine du site carriere Workday d'un employeur. */
+export const workdayBase = (b) => `https://${b.tenant}.${b.wd}.myworkdayjobs.com`;
+
 export const detailUrl = (ats, token, id) =>
   ats === 'greenhouse' ? `https://boards-api.greenhouse.io/v1/boards/${token}/jobs/${id}` : null;
 
@@ -222,6 +232,24 @@ export function parseJobs(ats, payload, board) {
         postedAt: j.publishedAt || null,
         description: stripHtml(j.descriptionHtml || j.descriptionPlain || ''),
         department: j.department || j.team || '',
+      }));
+  }
+
+  if (ats === 'workday') {
+    // payload : la liste des jobPostings deja aggregee par scripts/fetch.mjs.
+    return (payload?.jobPostings || [])
+      .filter(j => isCandidate(j.title || ''))
+      .map(j => ({
+        id: `wd-${board.tenant}-${(j.bulletFields || [])[0] || j.externalPath}`,
+        externalId: j.externalPath,
+        title: (j.title || '').trim(),
+        location: (j.locationsText || '').trim(),
+        url: `${workdayBase(board)}/${board.site}${j.externalPath}`,
+        // `postedOn` est un texte relatif (« Posted 10 Days Ago ») : la vraie date
+        // vient de la fiche detaillee, chargee ensuite par le collecteur.
+        postedAt: j.startDate || null,
+        description: j.description || '',
+        department: '',
       }));
   }
 
