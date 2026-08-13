@@ -30,7 +30,12 @@ const LABELS = {
 
 const label = (kind, key) => LABELS[kind]?.[key] || key;
 const PAGE_SIZE = 40;
+
+// Deux verrous distincts : le premier evite de reinterroger 202 boards a chaque
+// rechargement de page, le second declenche une verification periodique tant que
+// l'onglet reste ouvert.
 const REFRESH_COOLDOWN_MS = 20 * 60 * 1000;
+const REFRESH_TICK_MS = 5 * 60 * 1000;
 
 /* ------------------------------------------------------------- stockage */
 
@@ -750,6 +755,24 @@ async function start(user) {
 
   // Rafraichissement en direct, en fond : la page est deja utilisable pendant ce temps.
   runRefresh().then(renderAbout);
+  watchForNewOffers();
+}
+
+/**
+ * Garde les offres a jour tant que l'onglet reste ouvert, sans avoir a recharger.
+ * On ne verifie que si l'onglet est visible : inutile de solliciter 202 boards pour
+ * un onglet en arriere-plan. Le cooldown de runRefresh limite de toute facon la
+ * frequence reelle a une verification toutes les 20 minutes.
+ */
+function watchForNewOffers() {
+  setInterval(() => {
+    if (document.visibilityState === 'visible') runRefresh();
+  }, REFRESH_TICK_MS);
+
+  // Au retour sur l'onglet apres une absence, on verifie tout de suite.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') runRefresh();
+  });
 }
 
 function init() {
