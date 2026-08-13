@@ -20,8 +20,18 @@ npm run check-links  # vérifie les liens des portails entreprises
 Sous Windows, `Lancer le site.cmd` et `Mettre a jour les offres.cmd` font la même chose en
 double-clic.
 
-> Ouvrir `index.html` directement (`file://`) ne marche pas : le navigateur y bloque `fetch()`.
-> Passe par `npm start`.
+### Ouvrir depuis un favori Chrome
+
+`Demarrage automatique.cmd` (une seule fois) met en place :
+
+- le lancement du serveur en tâche de fond à chaque ouverture de session Windows, sans fenêtre ;
+- un raccourci `Summer 2027` sur le Bureau.
+
+Ensuite <http://localhost:5273/> répond en permanence, donc un favori Chrome suffit.
+`Arreter le demarrage automatique.cmd` annule tout.
+
+> Mettre en favori le fichier `index.html` (`file://`) ne marche pas : Chrome y bloque le
+> chargement des données et des modules JavaScript. Il faut passer par `localhost`.
 
 ## Comment les nouvelles offres arrivent
 
