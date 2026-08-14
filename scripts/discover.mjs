@@ -22,6 +22,26 @@ const CONCURRENCY = 14;
 /* Entreprises a tester, par secteur. Les tokens sont devines a partir du nom. */
 const CANDIDATES = {
   finance: [
+    // Market makers crypto et prop shops : categorie ou l'app etait la plus incomplete.
+    'Wincent', 'Wintermute', 'GSR', 'B2C2', 'Cumberland', 'Amber Group', 'Auros', 'Keyrock',
+    'Flowdesk', 'Kaiko', 'Talos', 'FalconX', 'Hidden Road', 'Blockchain com', 'Bitstamp',
+    'Bitpanda', 'Deribit', 'Bybit', 'OKX', 'Crypto com', 'Copper', 'Zodia', 'Archax',
+    'Maven Securities', 'Eclipse Trading', 'Grasshopper', 'Da Vinci Derivatives', 'Mako',
+    'Liquid Capital', 'Vivienne Court', 'Tibra', 'Cutler Group', 'Blackedge', 'Aquatic Capital',
+    'Millburn', 'XR Trading', 'Simplex Trading', 'Consolidated Trading', 'Allston Trading',
+    'Teza Technologies', 'Hehmeyer', 'Volant Trading', 'Spot Trading', '3Red Partners',
+    'Valkyrie Trading', 'Transmarket Group', 'Marquette Partners', 'Nico Trading',
+    // Hedge funds
+    'Aspect Capital', 'Cantab Capital', 'Florin Court', 'Quadrature Capital', 'Brevan Howard',
+    'Rokos Capital', 'Caxton Associates', 'Element Capital', 'Tudor Investment', 'Moore Capital',
+    'Hudson Bay Capital', 'Eisler Capital', 'Astaris Capital', 'Kintbury Capital', 'Man AHL',
+    // Banques et boutiques britanniques
+    'Numis', 'Peel Hunt', 'Investec', 'Panmure Liberum', 'Canaccord Genuity', 'Robey Warshaw',
+    'Gleacher Shacklock', 'DC Advisory', 'Alantra', 'Rothschild and Co',
+    // Gestion d'actifs
+    'Baillie Gifford', 'Schroders', 'abrdn', 'Legal and General', 'M and G', 'Janus Henderson',
+    'Fidelity International', 'Capital Group', 'T Rowe Price', 'Ninety One', 'Jupiter Asset',
+    'Polar Capital', 'Lindsell Train', 'Ruffer', 'Insight Investment', 'Redburn',
     'Susquehanna', 'SIG Susquehanna', 'Hudson River Trading', 'HRT', 'Two Sigma', 'Citadel',
     'Citadel Securities', 'DE Shaw', 'Millennium', 'Point72', 'Balyasny', 'Verition', 'Walleye',
     'ExodusPoint', 'Brevan Howard', 'Marshall Wace', 'Winton', 'Qube Research', 'XTX Markets',
