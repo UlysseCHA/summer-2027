@@ -95,25 +95,70 @@ async function postJson(url, body) {
 const WORKDAY_QUERIES = ['2027', 'intern', 'summer analyst', 'graduate', 'campus', 'apprentice', 'placement'];
 const WORKDAY_PAGE = 20;
 const WORKDAY_MAX_PER_QUERY = 100;
+const WORKDAY_MAX_SITES = 4;
+
+/* Sites a ne jamais interroger : instances de test, portails internes, et les
+   « ghost sites » que Workday cree pour chaque cabinet de recrutement partenaire. */
+const SITE_IGNORE = /ghost|test|internal|confidential|invitation|restricted|contractor|private|referral/i;
+
+/* Un stage se trouve rarement sur le site principal : les banques ont un site campus
+   distinct. On les fait passer devant. */
+const SITE_PRIORITAIRE = /campus|student|university|graduate|early|intern|school/i;
+
+/**
+ * Sites carriere declares par le tenant dans son robots.txt.
+ * C'est ce qui a permis de trouver Blackstone_Campus_Careers, Moelis University-Hires
+ * et PJT Students, invisibles depuis la page carriere publique.
+ */
+async function workdaySites(board) {
+  const configure = board.site ? [board.site] : [];
+  try {
+    const res = await fetch(`${workdayBase(board)}/robots.txt`, {
+      headers: { 'user-agent': UA, accept: 'text/plain,*/*' },
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!res.ok) return configure;
+    const txt = await res.text();
+    const declares = [...new Set([...txt.matchAll(/Sitemap:\s*https?:\/\/[^/]+\/([^/]+)\/siteMap\.xml/gi)].map(m => m[1]))]
+      .filter(s => !SITE_IGNORE.test(s));
+
+    const tries = [...new Set([
+      ...declares.filter(s => SITE_PRIORITAIRE.test(s)),
+      ...configure,
+      ...declares,
+    ])];
+    return tries.slice(0, WORKDAY_MAX_SITES);
+  } catch {
+    return configure;
+  }
+}
 
 async function fetchWorkday(board) {
-  const base = `${workdayBase(board)}/wday/cxs/${board.tenant}/${board.site}`;
+  const sites = await workdaySites(board);
   const seen = new Map();
 
-  for (const searchText of WORKDAY_QUERIES) {
-    for (let offset = 0; offset < WORKDAY_MAX_PER_QUERY; offset += WORKDAY_PAGE) {
-      const page = await postJson(`${base}/jobs`, { appliedFacets: {}, limit: WORKDAY_PAGE, offset, searchText });
-      const postings = page?.jobPostings || [];
-      for (const j of postings) if (j.externalPath) seen.set(j.externalPath, j);
-      if (postings.length < WORKDAY_PAGE || offset + WORKDAY_PAGE >= (page?.total ?? 0)) break;
+  for (const site of sites) {
+    const base = `${workdayBase(board)}/wday/cxs/${board.tenant}/${site}`;
+    for (const searchText of WORKDAY_QUERIES) {
+      for (let offset = 0; offset < WORKDAY_MAX_PER_QUERY; offset += WORKDAY_PAGE) {
+        const page = await postJson(`${base}/jobs`, { appliedFacets: {}, limit: WORKDAY_PAGE, offset, searchText });
+        const postings = page?.jobPostings || [];
+        // Le site sert a reconstruire l'URL publique de l'annonce.
+        for (const j of postings) if (j.externalPath) seen.set(j.externalPath, { ...j, _site: site });
+        if (postings.length < WORKDAY_PAGE || offset + WORKDAY_PAGE >= (page?.total ?? 0)) break;
+      }
     }
   }
 
   // On ne garde que les titres early-career avant de charger les fiches detaillees.
-  const candidates = parseJobs('workday', { jobPostings: [...seen.values()] }, board);
+  const candidates = parseJobs('workday', { jobPostings: [...seen.values()] }, board)
+    .map((r, i) => ({ ...r, _site: [...seen.values()][i]?._site || board.site }));
 
-  const details = await pool(candidates, r => getJson(`${base}${r.externalId}`), 5);
+  const details = await pool(candidates, r =>
+    getJson(`${workdayBase(board)}/wday/cxs/${board.tenant}/${r._site}${r.externalId}`), 5);
+
   candidates.forEach((r, k) => {
+    r.url = `${workdayBase(board)}/${r._site}${r.externalId}`;
     const info = details[k]?.jobPostingInfo;
     if (!info) return;
     r.description = stripHtml(info.jobDescription || '');
@@ -211,4 +256,4 @@ log(`  par campagne : ${JSON.stringify(payload.counts.byCycle)}`);
 log(`  par secteur  : ${JSON.stringify(payload.counts.byIndustry)}`);
 log(`  par type     : ${JSON.stringify(payload.counts.byKind)}`);
 const failed = stats.filter(s => !s.ok);
-if (failed.length) log(`  ${failed.length} board(s) en echec : ${failed.map(f => f.token).join(', ')}`);
+if (failed.length) log(`  ${failed.length} board(s) en echec : ${failed.map(f => `${f.company} (${f.error})`).join(', ')}`);
