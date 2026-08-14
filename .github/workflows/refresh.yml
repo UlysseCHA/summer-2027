@@ -1,0 +1,55 @@
+name: Rafraichir les offres
+
+# Recollecte complete (titres + descriptions) toutes les 6 heures, meme PC eteint.
+# Le commit de data/offers.json redeploie automatiquement le site GitHub Pages.
+#
+# C'est le seul moyen d'avoir les offres Workday (Barclays, Citi, Deutsche Bank...)
+# a jour sans ouvrir le site : Workday refuse les appels depuis un navigateur.
+#
+# Le depot etant public, les minutes Actions sont gratuites et illimitees.
+#
+# Ce fichier ne peut etre pousse que par un jeton disposant du scope `workflow`.
+# Double-cliquer sur "Activer la mise a jour auto.cmd" a la racine du projet.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Collecter les offres
+        run: node scripts/fetch.mjs
+
+      - name: Verifier les liens des portails
+        continue-on-error: true
+        run: node scripts/check-links.mjs
+
+      - name: Commiter si les offres ont change
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/offers.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "Offres rafraichies ($(date -u '+%Y-%m-%d %H:%M') UTC)"
+            git push
+          fi
