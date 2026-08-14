@@ -99,6 +99,24 @@ les offres.
 | Annonce sans année (« Quantitative Research Intern ») | Rattachée à Summer 2027 si publiée dans la fenêtre de recrutement, badge « année déduite » |
 | Date limite de candidature | Pas extraite : rarement structurée. Un badge signale les annonces qui en mentionnent une |
 
+## Ajouter une offre à la main
+
+Certains employeurs ne publient **aucune** source listable : McKinsey (application Next.js sur API
+internes, portail Avature en 404), Goldman Sachs (Avature), Nomura (portail tal.net derrière un
+CAPTCHA). Impossible de lister leurs annonces, même en s'y prenant bien.
+
+Pour ces cas, `Ajouter une offre.cmd` (ou `npm run add-offer`) enregistre l'offre dans
+[`data/manual.json`](data/manual.json). Elle apparaît alors dans l'app comme les autres, avec un
+badge **ajoutée à la main**, et le rafraîchissement ne la supprime jamais : aucun board ne peut
+confirmer sa fermeture, donc à toi de vérifier de temps en temps qu'elle est toujours ouverte.
+
+```bash
+npm run add-offer "McKinsey" "Business Analyst Intern" "https://..." consulting "Paris"
+```
+
+Par ailleurs, chercher le nom d'un de ces employeurs dans l'onglet Offres affiche désormais un
+encart vers son portail, au lieu de ne rien renvoyer.
+
 ## Ajouter une entreprise
 
 Le plus simple : ajouter son nom dans `CANDIDATES` dans

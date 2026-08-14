@@ -78,6 +78,13 @@ export function mergeLive(baseOffers, live) {
   let closed = 0;
 
   for (const base of baseOffers) {
+    // Une offre saisie a la main n'est adossee a aucun board : rien ne peut confirmer
+    // sa fermeture, on la conserve toujours.
+    if (base.manual) {
+      merged.push(base);
+      continue;
+    }
+
     if (liveByUrl.has(base.url)) {
       merged.push(base);
       liveByUrl.delete(base.url);

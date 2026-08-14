@@ -326,6 +326,30 @@ main { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 .active-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
 .active-filters:empty { display: none; }
 
+.portal-matches {
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--brand);
+  border-radius: var(--radius);
+}
+.portal-matches-title { margin: 0 0 10px; font-size: 13px; color: var(--text-2); }
+.portal-matches-list { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.portal-match {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 7px 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-size: 13px;
+}
+.portal-match:hover { border-color: var(--brand); background: var(--brand-soft); }
+.portal-match-name { font-weight: 600; }
+.portal-match-go { color: var(--brand-text); font-size: 12px; }
+
 .new-banner {
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 10px;

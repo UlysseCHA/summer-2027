@@ -1,0 +1,28 @@
+{
+  "_comment": "Offres ajoutees a la main, pour les employeurs dont aucune source publique n'est listable (McKinsey, Goldman Sachs, Nomura...). Elles apparaissent dans l'app comme les autres, avec un badge « ajoutee a la main ». Le collecteur ne les touche jamais : elles ne disparaissent pas au rafraichissement. Pour en ajouter une : double-clic sur « Ajouter une offre.cmd », ou une ligne ici puis `npm run fetch`.",
+  "_champs": {
+    "company": "obligatoire",
+    "title": "obligatoire",
+    "url": "obligatoire, le lien de candidature",
+    "industry": "tech | finance | consulting",
+    "location": "libre, sert aussi a deduire la region",
+    "cycle": "annee de la campagne, par exemple 2027",
+    "kind": "internship | graduate | early-career",
+    "track": "quant | engineering | ai-ml | data | banking | consulting | product | design | business | other",
+    "deadline": "facultatif, texte libre affiche tel quel",
+    "note": "facultatif"
+  },
+  "offers": [
+    {
+      "company": "McKinsey & Company",
+      "title": "Business Analyst Intern",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+      "industry": "consulting",
+      "location": "Paris, Londres, New York et 60 autres bureaux",
+      "cycle": 2027,
+      "kind": "internship",
+      "track": "consulting",
+      "note": "Campagne ouverte le 13 aout 2026. Les dates limites varient selon le pays et l'ecole : verifier sur mckinsey.com/careers/students/application-deadlines"
+    }
+  ]
+}

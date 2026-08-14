@@ -15,7 +15,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml, workdayBase } from '../assets/classify.js';
+import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml, workdayBase, regionsOf } from '../assets/classify.js';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'summer-internships-board/1.0 (aggregator; public job board APIs)';
@@ -220,6 +220,46 @@ await pool(targets, async (board) => {
     log(`  KO ${String(++done).padStart(3)}/${targets.length}  ${board.company.padEnd(26)} echec (${err.message})`);
   }
 });
+
+/*
+ * Offres saisies a la main : elles concernent les employeurs sans source publique
+ * (McKinsey, Goldman Sachs, Nomura...). On les ajoute apres la collecte, et on ne
+ * les supprime jamais automatiquement : aucun board ne peut confirmer leur fermeture.
+ */
+async function offresManuelles() {
+  let fichier;
+  try { fichier = JSON.parse(await readFile(resolve(ROOT, 'data/manual.json'), 'utf8')); }
+  catch { return []; }
+
+  return (fichier.offers || []).filter(o => o.company && o.title && o.url).map((o, i) => ({
+    id: `manual-${i}-${o.url.slice(-40)}`,
+    company: o.company,
+    ats: 'manual',
+    title: o.title,
+    location: o.location || 'Non precise',
+    regions: regionsOf(`${o.location || ''} ${o.title}`),
+    url: o.url,
+    postedAt: o.postedAt || null,
+    department: '',
+    kind: o.kind || 'internship',
+    year: o.cycle ?? null,
+    yearSource: o.cycle ? 'manual' : null,
+    season: o.season || 'summer',
+    track: o.track || 'other',
+    industry: o.industry || 'consulting',
+    tags: o.tags || [],
+    cycle: o.cycle ?? null,
+    cycleSource: o.cycle ? 'manual' : null,
+    excerpt: o.note || '',
+    hasDeadlineHint: Boolean(o.deadline),
+    deadline: o.deadline || null,
+    manual: true,
+  }));
+}
+
+const manuelles = await offresManuelles();
+offers.push(...manuelles);
+if (manuelles.length) log(`\n  + ${manuelles.length} offre(s) ajoutee(s) a la main (data/manual.json)`);
 
 // Dedoublonnage par URL (certaines boites republient la meme annonce).
 const seen = new Set();

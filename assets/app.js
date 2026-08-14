@@ -265,8 +265,10 @@ function offerHtml(offer) {
     // Neutre volontairement : presque toutes les annonces sont recentes, du rouge ici
     // le banaliserait. Le rouge reste pour ce qui est rare (nouveautes, deadlines).
     age !== null && age <= 7 ? '<span class="badge">Publiee cette semaine</span>' : '',
+    offer.manual ? '<span class="badge badge-accent" title="Cet employeur ne publie aucune source listable : l\'offre a ete saisie a la main. Verifier sur son portail qu\'elle est toujours ouverte.">ajoutee a la main</span>' : '',
     offer.cycleSource === 'posting-date' ? '<span class="badge badge-soft" title="L\'annonce ne precise pas l\'annee ; elle est rattachee a la campagne d\'apres sa date de publication">annee deduite</span>' : '',
-    offer.hasDeadlineHint ? '<span class="badge badge-soft" title="La description mentionne une date limite ou un recrutement au fil de l\'eau">deadline mentionnee</span>' : '',
+    offer.deadline ? `<span class="badge badge-accent">${escapeHtml(offer.deadline)}</span>` : '',
+    offer.hasDeadlineHint && !offer.deadline ? '<span class="badge badge-soft" title="La description mentionne une date limite ou un recrutement au fil de l\'eau">deadline mentionnee</span>' : '',
   ].filter(Boolean).join('');
 
   const statusOptions = ['', 'todo', 'applied', 'interview', 'offer', 'rejected']
@@ -313,7 +315,46 @@ function renderOffers() {
   renderFacets();
   renderActiveFilters();
   renderNewBanner();
+  renderPortalMatches();
   syncUrl();
+}
+
+/**
+ * Une recherche par nom d'entreprise ne doit pas rester sans reponse quand cette
+ * entreprise n'a pas de board public. Chercher « mckinsey » ne renvoyait rien, alors
+ * que son portail existe : on l'affiche ici, au-dessus des offres.
+ */
+function renderPortalMatches() {
+  const box = $('#portal-matches');
+  const terms = state.q.toLowerCase().split(/\s+/).filter(t => t.length >= 3);
+
+  if (!terms.length) { box.hidden = true; box.innerHTML = ''; return; }
+
+  const matches = PORTALS.portals.filter(p => {
+    const blob = `${p.company} ${(p.tags || []).join(' ')}`.toLowerCase();
+    return terms.every(t => blob.includes(t));
+  });
+
+  // Inutile de le repeter si l'entreprise a deja des offres listees.
+  const avecOffres = new Set(OFFERS.map(o => o.company.toLowerCase()));
+  const utiles = matches.filter(p => !avecOffres.has(p.company.toLowerCase()));
+
+  box.hidden = utiles.length === 0;
+  if (!utiles.length) { box.innerHTML = ''; return; }
+
+  box.innerHTML = `
+    <p class="portal-matches-title">
+      ${utiles.length === 1 ? 'Cet employeur ne publie pas' : 'Ces employeurs ne publient pas'}
+      d'offres via une source ouverte : ${utiles.length === 1 ? 'son' : 'leur'} portail officiel est le seul point d'entree.
+    </p>
+    <div class="portal-matches-list">
+      ${utiles.slice(0, 6).map(p => `
+        <a class="portal-match" href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">
+          <span class="portal-match-name">${escapeHtml(p.company)}</span>
+          <span class="badge badge-${p.industry}">${label('industry', p.industry)}</span>
+          <span class="portal-match-go">Ouvrir le portail</span>
+        </a>`).join('')}
+    </div>`;
 }
 
 function renderNewBanner() {
