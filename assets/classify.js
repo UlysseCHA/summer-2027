@@ -85,11 +85,23 @@ function dropGraduationSentences(text) {
 export function inferCycle(title, description, kind) {
   const t = title || '';
 
-  const st = matchSeasonYear(t);
+  // « Intern - Students Graduating Summer 2028 » : 2028 est l'année de DIPLÔME.
+  // On retire ces mentions avant toute recherche d'année. Attention a ne viser que
+  // « graduatING » et « class of » : « 2027 Graduate Programme » designe bien, lui,
+  // l'annee du programme.
+  const MOIS = '(?:summer|spring|fall|autumn|winter|december|may|june|july|august|january)';
+  const t2 = t
+    // « Graduating Summer 2028 or December 2028 » : tout le groupe part.
+    .replace(new RegExp(`\\bgraduat(?:ing|es|e)?\\s+(?:in\\s+)?${MOIS}?\\s*20\\d{2}(?:\\s*(?:or|/|,|and)\\s*${MOIS}?\\s*20\\d{2})*\\b`, 'gi'), ' ')
+    .replace(/\bclass of\s+20\d{2}\b/gi, ' ');
+
+  const st = matchSeasonYear(t2);
   if (st) return { ...st, yearSource: 'title' };
 
-  // « (2028 Graduate) » = promo, « (2027 Start) » = démarrage du programme.
-  const titleClean = t.replace(/\b20\d{2}\s*(graduate|grad|promo|promotion)\b/gi, ' ');
+  // « (2028 Graduate) » = promo. Mais « 2027 Graduate Programme » designe bien
+  // l'annee du programme : on ne retire l'annee que si rien ne suit qui la qualifie.
+  const titleClean = t2.replace(
+    /\b20\d{2}\s*(graduate|grad|promo|promotion)\b(?!\s*(programme|program|scheme|analyst|associate|intake|start|role|position|trainee|hire|job|opportunit))/gi, ' ');
   const bareTitle = titleClean.match(/\b(202[5-9]|203\d)\b/);
   if (bareTitle) return { year: +bareTitle[1], season: kind === 'internship' ? 'summer' : null, yearSource: 'title' };
 
