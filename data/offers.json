@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-14T09:55:39.041Z",
+ "generatedAt": "2026-08-14T13:22:46.777Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,34 +7,34 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1375,
+  "total": 1379,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 185,
+   "2026": 184,
    "2027": 397,
    "2028": 2,
-   "non precisee": 779
+   "non precisee": 784
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 185,
-   "2027": 847,
+   "2026": 184,
+   "2027": 853,
    "2028": 2,
-   "non precisee": 329
+   "non precisee": 328
   },
   "byIndustry": {
-   "finance": 576,
-   "consulting": 165,
-   "tech": 634
+   "finance": 574,
+   "tech": 641,
+   "consulting": 164
   },
   "byKind": {
-   "internship": 1003,
-   "early-career": 138,
-   "graduate": 234
+   "graduate": 234,
+   "internship": 1007,
+   "early-career": 138
   }
  },
  "sources": [
@@ -54,7 +54,7 @@
   {
    "company": "Baker Hughes",
    "ats": "workday",
-   "found": 57,
+   "found": 58,
    "ok": true
   },
   {
@@ -77,16 +77,16 @@
    "ok": true
   },
   {
-   "company": "Citi",
-   "ats": "workday",
-   "found": 46,
-   "ok": true
-  },
-  {
    "company": "Jump Trading",
    "token": "jumptrading",
    "ats": "greenhouse",
    "found": 45,
+   "ok": true
+  },
+  {
+   "company": "Citi",
+   "ats": "workday",
+   "found": 44,
    "ok": true
   },
   {
@@ -157,7 +157,7 @@
    "company": "Celonis",
    "token": "celonis",
    "ats": "greenhouse",
-   "found": 21,
+   "found": 22,
    "ok": true
   },
   {
@@ -261,17 +261,22 @@
    "ok": true
   },
   {
-   "company": "Forvis Mazars",
-   "token": "forvismazars",
+   "company": "Cloudflare",
+   "token": "cloudflare",
    "ats": "greenhouse",
    "found": 10,
    "ok": true
   },
   {
-   "company": "Cloudflare",
-   "token": "cloudflare",
-   "ats": "greenhouse",
+   "company": "State Street",
+   "ats": "workday",
    "found": 10,
+   "ok": true
+  },
+  {
+   "company": "Capital One",
+   "ats": "workday",
+   "found": 9,
    "ok": true
   },
   {
@@ -282,7 +287,14 @@
    "ok": true
   },
   {
-   "company": "Capital One",
+   "company": "Forvis Mazars",
+   "token": "forvismazars",
+   "ats": "greenhouse",
+   "found": 9,
+   "ok": true
+  },
+  {
+   "company": "Visa",
    "ats": "workday",
    "found": 9,
    "ok": true
@@ -295,12 +307,6 @@
    "ok": true
   },
   {
-   "company": "Visa",
-   "ats": "workday",
-   "found": 9,
-   "ok": true
-  },
-  {
    "company": "Snowflake",
    "token": "snowflake",
    "ats": "ashby",
@@ -308,15 +314,15 @@
    "ok": true
   },
   {
-   "company": "Akuna Capital",
-   "token": "akunacapital",
-   "ats": "greenhouse",
+   "company": "Alantra",
+   "ats": "workday",
    "found": 8,
    "ok": true
   },
   {
-   "company": "Alantra",
-   "ats": "workday",
+   "company": "Akuna Capital",
+   "token": "akunacapital",
+   "ats": "greenhouse",
    "found": 8,
    "ok": true
   },
@@ -428,6 +434,13 @@
    "ok": true
   },
   {
+   "company": "Bitpanda",
+   "token": "bitpanda",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
    "company": "Bybit",
    "token": "bybit",
    "ats": "greenhouse",
@@ -470,15 +483,15 @@
    "ok": true
   },
   {
-   "company": "Centrica",
-   "ats": "workday",
+   "company": "Deliveroo",
+   "token": "deliveroo",
+   "ats": "ashby",
    "found": 4,
    "ok": true
   },
   {
-   "company": "Deliveroo",
-   "token": "deliveroo",
-   "ats": "ashby",
+   "company": "Centrica",
+   "ats": "workday",
    "found": 4,
    "ok": true
   },
@@ -509,12 +522,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 4,
-   "ok": true
-  },
-  {
    "company": "Zoox",
    "token": "zoox",
    "ats": "lever",
@@ -536,9 +543,8 @@
    "ok": true
   },
   {
-   "company": "Bitpanda",
-   "token": "bitpanda",
-   "ats": "greenhouse",
+   "company": "Cascadia Capital",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
@@ -550,7 +556,7 @@
    "ok": true
   },
   {
-   "company": "Cascadia Capital",
+   "company": "CIBC",
    "ats": "workday",
    "found": 3,
    "ok": true
@@ -559,12 +565,6 @@
    "company": "GSA Capital",
    "token": "gsacapital",
    "ats": "greenhouse",
-   "found": 3,
-   "ok": true
-  },
-  {
-   "company": "CIBC",
-   "ats": "workday",
    "found": 3,
    "ok": true
   },
@@ -618,15 +618,15 @@
    "ok": true
   },
   {
-   "company": "Flexport",
-   "token": "flexport",
-   "ats": "greenhouse",
+   "company": "Dow Jones",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Dow Jones",
-   "ats": "workday",
+   "company": "Flexport",
+   "token": "flexport",
+   "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
@@ -679,13 +679,6 @@
    "ok": true
   },
   {
-   "company": "Man Group",
-   "token": "manGroup",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Fifth Third Bank",
    "ats": "workday",
    "found": 2,
@@ -705,12 +698,6 @@
    "ok": true
   },
   {
-   "company": "Raymond James",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Voloridge Investment Management",
    "token": "voloridgeinvestmentmanagement",
    "ats": "greenhouse",
@@ -725,9 +712,8 @@
    "ok": true
   },
   {
-   "company": "Teneo",
-   "token": "teneo",
-   "ats": "greenhouse",
+   "company": "Raymond James",
+   "ats": "workday",
    "found": 2,
    "ok": true
   },
@@ -738,9 +724,23 @@
    "ok": true
   },
   {
+   "company": "Teneo",
+   "token": "teneo",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Back Market",
    "token": "backmarket",
    "ats": "ashby",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "BlaBlaCar",
+   "token": "blablacar",
+   "ats": "lever",
    "found": 2,
    "ok": true
   },
@@ -758,20 +758,13 @@
    "ok": true
   },
   {
-   "company": "BlaBlaCar",
-   "token": "blablacar",
-   "ats": "lever",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
+   "company": "Brown Edwards",
    "ats": "workday",
    "found": 2,
    "ok": true
@@ -874,9 +867,21 @@
    "ok": true
   },
   {
+   "company": "Apollo Global",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Blockchain com",
    "token": "blockchain",
    "ats": "greenhouse",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Barings",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -888,13 +893,7 @@
    "ok": true
   },
   {
-   "company": "Apollo Global",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Barings",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -903,12 +902,6 @@
    "company": "Column",
    "token": "column",
    "ats": "ashby",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Cambridge Associates",
-   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -941,6 +934,13 @@
    "ok": true
   },
   {
+   "company": "Man Group",
+   "token": "manGroup",
+   "ats": "greenhouse",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Quadrature Capital",
    "token": "quadraturecapital",
    "ats": "greenhouse",
@@ -955,6 +955,13 @@
    "ok": true
   },
   {
+   "company": "Waterfall Asset Management",
+   "token": "waterfall",
+   "ats": "lever",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Wincent",
    "token": "wincent",
    "ats": "ashby",
@@ -965,13 +972,6 @@
    "company": "XTX Markets",
    "token": "xtxmarketstechnologies",
    "ats": "greenhouse",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Waterfall Asset Management",
-   "token": "waterfall",
-   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -991,13 +991,6 @@
   {
    "company": "Abridge",
    "token": "abridge",
-   "ats": "ashby",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Ankorstore",
-   "token": "ankorstore",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -1024,9 +1017,8 @@
    "ok": true
   },
   {
-   "company": "Figma",
-   "token": "figma",
-   "ats": "greenhouse",
+   "company": "Crowdstrike",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1045,13 +1037,25 @@
    "ok": true
   },
   {
-   "company": "Crowdstrike",
+   "company": "Frontier Economics",
    "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Frontier Economics",
+   "company": "Global Gate",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Global Atlantic",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1064,14 +1068,9 @@
    "ok": true
   },
   {
-   "company": "Global Atlantic",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Global Gate",
-   "ats": "workday",
+   "company": "Harvey",
+   "token": "harvey",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
@@ -1082,15 +1081,9 @@
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Harvey",
-   "token": "harvey",
-   "ats": "ashby",
+   "company": "Figma",
+   "token": "figma",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1116,15 +1109,15 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
-   "ats": "workday",
+   "company": "OpenAI",
+   "token": "openai",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "OpenAI",
-   "token": "openai",
-   "ats": "ashby",
+   "company": "Julius Baer",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1164,16 +1157,16 @@
    "ok": true
   },
   {
-   "company": "Riverlane",
-   "token": "riverlane",
-   "ats": "greenhouse",
+   "company": "Shield AI",
+   "token": "shield-ai",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Shield AI",
-   "token": "shield-ai",
-   "ats": "ashby",
+   "company": "Riverlane",
+   "token": "riverlane",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1185,15 +1178,15 @@
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
+   "company": "The Trade Desk",
+   "token": "thetradedesk",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "The Trade Desk",
-   "token": "thetradedesk",
-   "ats": "greenhouse",
+   "company": "Standard Chartered",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1240,15 +1233,15 @@
    "ok": true
   },
   {
-   "company": "Bracebridge Capital",
-   "token": "bracebridgecapital",
-   "ats": "greenhouse",
+   "company": "Bank of America",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Bank of America",
-   "ats": "workday",
+   "company": "Bracebridge Capital",
+   "token": "bracebridgecapital",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1260,6 +1253,12 @@
    "ok": true
   },
   {
+   "company": "BlackRock",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Chicago Trading Company",
    "token": "chicagotrading",
    "ats": "greenhouse",
@@ -1267,13 +1266,13 @@
    "ok": true
   },
   {
-   "company": "BlackRock",
+   "company": "Blackstone",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Blackstone",
+   "company": "Blue Owl Capital",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1286,22 +1285,9 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Dimensional Fund Advisors",
    "token": "dimensional",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Crypto com",
-   "token": "crypto",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1316,6 +1302,13 @@
    "company": "FalconX",
    "token": "falconx",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Crypto com",
+   "token": "crypto",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1341,13 +1334,6 @@
    "ok": true
   },
   {
-   "company": "Genesis Quant Capital",
-   "token": "genesis",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Geneva Trading",
    "token": "genevatrading",
    "ats": "greenhouse",
@@ -1355,8 +1341,28 @@
    "ok": true
   },
   {
+   "company": "Genesis Quant Capital",
+   "token": "genesis",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Jane Street",
    "token": "janestreet",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Houlihan Lokey",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Level Equity",
+   "token": "levelequity",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1369,22 +1375,9 @@
    "ok": true
   },
   {
-   "company": "Level Equity",
-   "token": "levelequity",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Lithic",
    "token": "lithic",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Houlihan Lokey",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1410,15 +1403,21 @@
    "ok": true
   },
   {
+   "company": "National Bank of Canada",
+   "token": "national",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Lloyds Banking Group",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "National Bank of Canada",
-   "token": "national",
-   "ats": "greenhouse",
+   "company": "Moelis & Company",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1458,7 +1457,7 @@
    "ok": true
   },
   {
-   "company": "Moelis & Company",
+   "company": "PJT Partners",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1485,12 +1484,6 @@
    "ok": true
   },
   {
-   "company": "PJT Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "PSG Equity",
    "ats": "workday",
    "found": 0,
@@ -1511,6 +1504,12 @@
    "ok": true
   },
   {
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Trade Republic",
    "token": "traderepublic",
    "ats": "greenhouse",
@@ -1525,14 +1524,9 @@
    "ok": true
   },
   {
-   "company": "Sands Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Sculptor Capital Management",
-   "ats": "workday",
+   "company": "Valkyrie Trading",
+   "token": "valkyrietrading",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1544,9 +1538,8 @@
    "ok": true
   },
   {
-   "company": "Valkyrie Trading",
-   "token": "valkyrietrading",
-   "ats": "lever",
+   "company": "Sands Capital",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1565,16 +1558,16 @@
    "ok": true
   },
   {
-   "company": "BCG",
-   "token": "bcg",
-   "ats": "greenhouse",
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
+   "company": "BCG",
+   "token": "bcg",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1614,6 +1607,13 @@
    "ok": true
   },
   {
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Putnam Associates",
    "token": "putnamassociatesllc",
    "ats": "greenhouse",
@@ -1621,9 +1621,8 @@
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "U.S. Bank",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1684,15 +1683,16 @@
    "ok": true
   },
   {
-   "company": "U.S. Bank",
-   "ats": "workday",
+   "company": "Alpha FMC",
+   "token": "alphafmc",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Alpha FMC",
-   "token": "alphafmc",
-   "ats": "greenhouse",
+   "company": "Ankorstore",
+   "token": "ankorstore",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1711,16 +1711,16 @@
    "ok": true
   },
   {
-   "company": "Asana",
-   "token": "asana",
-   "ats": "greenhouse",
+   "company": "Ardea Partners",
+   "token": "ardea-partners",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Ardea Partners",
-   "token": "ardea-partners",
-   "ats": "ashby",
+   "company": "Asana",
+   "token": "asana",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1773,15 +1773,21 @@
    "ok": true
   },
   {
+   "company": "Brex",
+   "token": "brex",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Baillie Gifford",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Brex",
-   "token": "brex",
-   "ats": "greenhouse",
+   "company": "Cboe Global Markets",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1795,12 +1801,6 @@
    "company": "Chime",
    "token": "chime",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Cboe Global Markets",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1840,6 +1840,13 @@
    "ok": true
   },
   {
+   "company": "Contentsquare",
+   "token": "contentsquare",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Cursor (Anysphere)",
    "token": "cursor",
    "ats": "ashby",
@@ -1847,8 +1854,8 @@
    "ok": true
   },
   {
-   "company": "Contentsquare",
-   "token": "contentsquare",
+   "company": "D.A. Davidson",
+   "token": "dadavidson",
    "ats": "lever",
    "found": 0,
    "ok": true
@@ -1857,13 +1864,6 @@
    "company": "Datadog",
    "token": "datadog",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "D.A. Davidson",
-   "token": "dadavidson",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1898,13 +1898,6 @@
   {
    "company": "Dropbox",
    "token": "dropbox",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Ducera Partners",
-   "token": "ducerapartners",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1959,6 +1952,12 @@
    "ok": true
   },
   {
+   "company": "Colliers",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Frazier & Deeter",
    "token": "frazierdeeter",
    "ats": "greenhouse",
@@ -1980,6 +1979,12 @@
    "ok": true
   },
   {
+   "company": "eBay",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "General Electric",
    "token": "general",
    "ats": "greenhouse",
@@ -1994,14 +1999,9 @@
    "ok": true
   },
   {
-   "company": "Colliers",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "eBay",
-   "ats": "workday",
+   "company": "Ducera Partners",
+   "token": "ducerapartners",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2020,12 +2020,6 @@
    "ok": true
   },
   {
-   "company": "Grosvenor",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Guggenheim Partners",
    "ats": "workday",
    "found": 0,
@@ -2039,8 +2033,14 @@
    "ok": true
   },
   {
-   "company": "Intercom",
-   "token": "intercom",
+   "company": "Grosvenor",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Honeycomb",
+   "token": "honeycomb",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2053,9 +2053,15 @@
    "ok": true
   },
   {
-   "company": "Honeycomb",
-   "token": "honeycomb",
+   "company": "Intercom",
+   "token": "intercom",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "HarbourVest",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2082,12 +2088,6 @@
   },
   {
    "company": "Just",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2128,12 +2128,6 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Lyft",
    "token": "lyft",
    "ats": "greenhouse",
@@ -2148,12 +2142,6 @@
    "ok": true
   },
   {
-   "company": "Leerink Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Marshmallow",
    "token": "marshmallow",
    "ats": "ashby",
@@ -2164,6 +2152,18 @@
    "company": "Maxwell Locke & Ritter",
    "token": "maxwell",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Hiscox",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Leerink Partners",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2189,21 +2189,15 @@
    "ok": true
   },
   {
-   "company": "Liberty Global",
-   "ats": "workday",
+   "company": "MongoDB",
+   "token": "mongodb",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
    "company": "Monzo",
    "token": "monzo",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "MongoDB",
-   "token": "mongodb",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2226,6 +2220,12 @@
    "company": "National Gas",
    "token": "national",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Liberty Global",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2279,12 +2279,6 @@
    "ok": true
   },
   {
-   "company": "MBDA",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Mizuho",
    "ats": "workday",
    "found": 0,
@@ -2301,6 +2295,12 @@
    "company": "PagerDuty",
    "token": "pagerduty",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "NCR Atleos",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2347,6 +2347,12 @@
    "ok": true
   },
   {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Quilter",
    "token": "quilter",
    "ats": "ashby",
@@ -2361,19 +2367,7 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "NCR Atleos",
+   "company": "MBDA",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2386,15 +2380,22 @@
    "ok": true
   },
   {
-   "company": "Reddit",
-   "token": "reddit",
+   "company": "Remote",
+   "token": "remote",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Remote",
-   "token": "remote",
+   "company": "Render",
+   "token": "render",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Reddit",
+   "token": "reddit",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2407,14 +2408,7 @@
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Nordic Semiconductor",
+   "company": "Oxford Properties Group",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2442,6 +2436,12 @@
   },
   {
    "company": "NASDAQ",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2489,9 +2489,8 @@
    "ok": true
   },
   {
-   "company": "Squarespace",
-   "token": "squarespace",
-   "ats": "greenhouse",
+   "company": "Qualcomm",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2503,8 +2502,9 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
-   "ats": "workday",
+   "company": "Squarespace",
+   "token": "squarespace",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2565,16 +2565,16 @@
    "ok": true
   },
   {
-   "company": "Twilio",
-   "token": "twilio",
-   "ats": "greenhouse",
+   "company": "Treefera",
+   "token": "treefera",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Treefera",
-   "token": "treefera",
-   "ats": "ashby",
+   "company": "Twilio",
+   "token": "twilio",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2593,16 +2593,16 @@
    "ok": true
   },
   {
-   "company": "UnlikelyAI",
-   "token": "unlikelyai",
-   "ats": "ashby",
+   "company": "UVIMCO",
+   "token": "uvimco",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "UVIMCO",
-   "token": "uvimco",
-   "ats": "greenhouse",
+   "company": "UnlikelyAI",
+   "token": "unlikelyai",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2621,13 +2621,6 @@
    "ok": true
   },
   {
-   "company": "Wise",
-   "token": "wise",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Weaviate",
    "token": "weaviate",
    "ats": "ashby",
@@ -2635,8 +2628,8 @@
    "ok": true
   },
   {
-   "company": "Wiz",
-   "token": "wizinc",
+   "company": "Wise",
+   "token": "wise",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2645,6 +2638,13 @@
    "company": "Writer",
    "token": "writer",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Wiz",
+   "token": "wizinc",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2663,12 +2663,6 @@
    "ok": true
   },
   {
-   "company": "Tokio Marine Kiln",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "UserTesting",
    "ats": "workday",
    "found": 0,
@@ -2679,9 +2673,65 @@
    "ats": "workday",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Tokio Marine Kiln",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
   }
  ],
  "offers": [
+  {
+   "id": "gh-bitpanda-4936846101",
+   "company": "Bitpanda",
+   "ats": "greenhouse",
+   "title": "Graduate Frontend Engineer -  React/TypeScript",
+   "location": "București, Bucharest, Romania",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4936846101",
+   "postedAt": "2026-08-14T09:19:27-04:00",
+   "department": "Product & Engineering",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [
+    "crypto"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><h4><strong>Who we are </strong></h4> <p>We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-celonis-7853256003",
+   "company": "Celonis",
+   "ats": "greenhouse",
+   "title": "Global Content Graduated Internship (12 months)",
+   "location": "Madrid, Spain",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7853256003?gh_jid=7853256003",
+   "postedAt": "2026-08-14T07:44:13-04:00",
+   "department": "Marketing",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our ",
+   "hasDeadlineHint": false
+  },
   {
    "id": "wd-keybank-R-41380",
    "company": "KeyBank",
@@ -2731,15 +2781,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-citi-26976561",
-   "company": "Citi",
+   "id": "wd-visa-REF086776W",
+   "company": "Visa",
    "ats": "workday",
-   "title": "Young Apprentice - C00 - MUMBAI",
-   "location": "Mumbai Maharashtra India",
+   "title": "Issuing VAS Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "AZ - Baku, Azerbaijan",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Mumbai-Maharashtra-India/Young-Apprentice---C00---MUMBAI_26976561",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/Issuing-VAS-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086776W",
    "postedAt": "2026-08-14",
    "department": "",
    "kind": "internship",
@@ -2748,13 +2798,106 @@
    "season": "summer",
    "track": "other",
    "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
+   "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "The Young Apprentice performs most basic, routine tasks/assignments. Works under direct supervision with detailed procedures. May service a very limited number of products/services. Applies knowledge of routine work area procedures. Completes standardized activities. Exchanges basic information with other co-workers. R",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086795W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "UA - Kyiv, Ukraine",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/UA---Kyiv-Ukraine/VCA-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086795W",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086798W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Marketing Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "MA - Casablanca, Morocco",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/Marketing-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086798W",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086782W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "KZ - Almaty, Kazakhstan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/VCA-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086782W",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086777W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VAS Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "MA - Casablanca, Morocco",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/VAS-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086777W",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -2806,6 +2949,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-bakerhughes-R168061",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern - Employer Brand & Content Creator",
+   "location": "GB-AC-ABERDEEN-BAKER HUGHES BUILDING",
+   "regions": [
+    "other"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Employer-Brand---Content-Creator_R168061",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Intern – Employer Brand & Content Creator (12 Month Fixed Term) Do you have a passion for storytelling and creating engaging content? Are you excited to bring an employer brand to life through social media and multimedia content? Partner with the best At Baker Hughes, we are rewriting the energy equation by combining t",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00340352",
    "company": "Accenture",
    "ats": "workday",
@@ -2829,6 +2996,32 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Liker du å skrive kode som faktisk brukes? Vil du tilbringe sommeren med å bygge, teste og videreutvikle teknologi i et reelt kundeprosjekt — ikke i en sandkasse? Som Summer Intern hos Accenture jobber du som utvikler i et tverrfaglig team, på et prosjekt der du bidrar til leveranser som betyr noe. Du lærer av erfarne ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-accenture-R00351141",
+   "company": "Accenture",
+   "ats": "workday",
+   "title": "Workplace Support Intern (part-time for students)",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bratislava/Workplace-Support-Intern--part-time-for-students-_R00351141-1",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [
+    "tech-consulting"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "WHO WE ARE Accenture is a leading global provider of a broad range of professional services in strategy and consulting, interactive marketing, information technology and business operations services, with digital capabilities in all of these areas. With more than 800,000 employees worldwide, we serve clients in more th",
    "hasDeadlineHint": false
   },
   {
@@ -2877,6 +3070,150 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Social Media Team Apprentice As a Social Media Apprentice within State Street Investment Management, you will support the global social media team in executing organic and paid social campaigns across platforms. This role will provide hands-on exposure to marketing processes, social tools, and campaign execution in a r",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796071",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "Hyderabad, India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Hyderabad-India/Apprentice_R-796071",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796069",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "Bangalore, India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Bangalore-India/Apprentice_R-796069",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796014",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "Bangalore, India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Bangalore-India/Apprentice_R-796014",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Purpose of Role: Street Global Advisors' Operations department, the Regulatory Reporting Team mission is to provide knowledgeable and professional operational service, through collaboration and clear thinking. The team plays a critical role in ensuring the company is compliant with regulatory requirements and industry ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796074",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "Coimbatore, India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Coimbatore-India/Apprentice_R-796074",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796075",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "Mumbai, India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Mumbai-India/Apprentice_R-796075",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-796076",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Apprentice",
+   "location": "HINJEWADI PUNE",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/HINJEWADI-PUNE/Apprentice_R-796076",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
    "hasDeadlineHint": false
   },
   {
@@ -3086,6 +3423,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-visa-REF086764W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "KZ - Almaty, Kazakhstan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086781W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern - Graduates Summer 2028/December 2027",
+   "location": "AZ - Baku, Azerbaijan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-gartner-113095",
    "company": "Gartner",
    "ats": "workday",
@@ -3108,30 +3493,6 @@
    "cycleSource": "title",
    "excerpt": "Application Deadline: October 9th, 2026 A summer internship opportunity for high-potential individuals who are currently pursuing an Engineering or Computer Science degree (Graduating in May 2028). This is a unique opportunity to spend time working with our software development or IT teams. What you'll do: Have a paid ",
    "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-autodesk-26WD100002",
-   "company": "Autodesk",
-   "ats": "workday",
-   "title": "Graduate Software Engineer",
-   "location": "Norway - Oslo",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Norway---Oslo/Graduate-Software-Engineer_26WD100002-1",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Requisition ID # 26WD100002 Join Autodesk in Oslo as a Graduate Software Engineer in August 2027 Position Overview At Autodesk Oslo, we develop next-generation, AI-powered architecture design tools. Our teams build everything from advanced 3D web drawing to real-time analytics powering multiple Autodesk products. Y",
-   "hasDeadlineHint": false
   },
   {
    "id": "wd-guidehouse-43390",
@@ -3566,27 +3927,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-centrica-R0084450",
-   "company": "Centrica",
+   "id": "wd-autodesk-26WD100002",
+   "company": "Autodesk",
    "ats": "workday",
-   "title": "Apprentice Heating Installation Engineer",
-   "location": "UK - Field Based (Engineers)",
+   "title": "Graduate Software Engineer",
+   "location": "Norway - Oslo",
    "regions": [
-    "other"
+    "europe"
    ],
-   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Apprentice-Heating-Installation-Engineer_R0084450",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Norway---Oslo/Graduate-Software-Engineer_26WD100002-1",
    "postedAt": "2026-08-13",
    "department": "",
-   "kind": "internship",
+   "kind": "graduate",
    "year": null,
    "yearSource": null,
-   "season": "summer",
+   "season": null,
    "track": "engineering",
    "industry": "tech",
    "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
+   "excerpt": "Job Requisition ID # 26WD100002 Join Autodesk in Oslo as a Graduate Software Engineer in August 2027 Position Overview At Autodesk Oslo, we develop next-generation, AI-powered architecture design tools. Our teams build everything from advanced 3D web drawing to real-time analytics powering multiple Autodesk products. Y",
    "hasDeadlineHint": false
   },
   {
@@ -3635,6 +3996,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Are you passionate about building a strong foundation in engineering design and technology? Do you enjoy learning from experienced engineers while contributing to real‑world oilfield engineering solutions? Join our team Baker Hughes is a global energy‑technology company operating in over 120 countries. We deliver innov",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-centrica-R0084450",
+   "company": "Centrica",
+   "ats": "workday",
+   "title": "Apprentice Heating Installation Engineer",
+   "location": "UK - Field Based (Engineers)",
+   "regions": [
+    "other"
+   ],
+   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Apprentice-Heating-Installation-Engineer_R0084450",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
    "hasDeadlineHint": false
   },
   {
@@ -4370,6 +4755,60 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-citi-26985457",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking, Summer Analyst, Singapore – APAC, 2027",
+   "location": "Singapore  Singapore",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Banking---Commercial-Banking--Summer-Analyst--Singapore---APAC--2027_26985457",
+   "postedAt": "2026-08-12",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "You’re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join our team. Our Commercial Banking division works with businesses with annual sales ranging from $10 million to more than $3 billion. Our Commercial Banking Team works to find ways for our clients to maximize their gr",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-citi-26985455",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027",
+   "location": "Kowloon  Hong Kong",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455",
+   "postedAt": "2026-08-12",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "We want to hear from you if... You are in your penultimate year of a Bachelor's or Master's degree in any discipline from a top academic institution (graduating between Dec 2027 – June 2028). Who we think will be a great fit... Work experience is not a requirement, but dedication to learning and a true passion for the ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "wd-northwesternmutual-JR-45807",
    "company": "Northwestern Mutual",
    "ats": "workday",
@@ -4464,60 +4903,6 @@
    "cycleSource": "title",
    "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a career beyond your expectations. Our focus is o",
    "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-26985457",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking, Summer Analyst, Singapore – APAC, 2027",
-   "location": "Singapore  Singapore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Banking---Commercial-Banking--Summer-Analyst--Singapore---APAC--2027_26985457",
-   "postedAt": "2026-08-12",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "You’re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join our team. Our Commercial Banking division works with businesses with annual sales ranging from $10 million to more than $3 billion. Our Commercial Banking Team works to find ways for our clients to maximize their gr",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-citi-26985455",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027",
-   "location": "Kowloon  Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455",
-   "postedAt": "2026-08-12",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "We want to hear from you if... You are in your penultimate year of a Bachelor's or Master's degree in any discipline from a top academic institution (graduating between Dec 2027 – June 2028). Who we think will be a great fit... Work experience is not a requirement, but dedication to learning and a true passion for the ",
-   "hasDeadlineHint": true
   },
   {
    "id": "wd-guidehouse-43287",
@@ -5068,6 +5453,33 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-citi-25926681",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking - Natural Resources & Energy,  Summer Analyst, Houston - US, 2027",
+   "location": "Houston Texas United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Houston-Texas-United-States/Banking---Commercial-Banking--Summer-Analyst--Houston---US--2027_25926681",
+   "postedAt": "2026-08-11",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "You ’ re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join the Natural Resources team in Houston. This team covers clients in the Oil & Gas (Upstream and Midstream), Energy Transition, and Power and Utilities sectors. Our Commercial Banking division works with businesses ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-mastercard-R-288250",
    "company": "Mastercard",
    "ats": "workday",
@@ -5425,33 +5837,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-25926681",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking - Natural Resources & Energy,  Summer Analyst, Houston - US, 2027",
-   "location": "Houston Texas United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Houston-Texas-United-States/Banking---Commercial-Banking--Summer-Analyst--Houston---US--2027_25926681",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "You ’ re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join the Natural Resources team in Houston. This team covers clients in the Oil & Gas (Upstream and Midstream), Energy Transition, and Power and Utilities sectors. Our Commercial Banking division works with businesses ",
    "hasDeadlineHint": false
   },
   {
@@ -5958,30 +6343,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cibc-2616325",
-   "company": "CIBC",
-   "ats": "workday",
-   "title": "Associate, Graduate Leadership Development Program -GLDP",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate--Graduate-Leadership-Development-Program--GLDP_2616325-1",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and ",
-   "hasDeadlineHint": true
-  },
-  {
    "id": "wd-fifththird-R70610",
    "company": "Fifth Third Bank",
    "ats": "workday",
@@ -6004,6 +6365,30 @@
    "cycleSource": "title",
    "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking disciplines, while build",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cibc-2616325",
+   "company": "CIBC",
+   "ats": "workday",
+   "title": "Associate, Graduate Leadership Development Program -GLDP",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Associate--Graduate-Leadership-Development-Program--GLDP_2616325-1",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and ",
+   "hasDeadlineHint": true
   },
   {
    "id": "wd-citi-26983735",
@@ -6034,7 +6419,7 @@
   },
   {
    "id": "wd-global-R0031779",
-   "company": "Global Atlantic",
+   "company": "Global Gate",
    "ats": "workday",
    "title": "Advanced Analytics Intern",
    "location": "Newton Office",
@@ -7251,6 +7636,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-fifththird-R70611",
+   "company": "Fifth Third Bank",
+   "ats": "workday",
+   "title": "2027 IT Audit Intern",
+   "location": "Cincinnati, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-IT-Audit-Intern_R70611",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. GENERAL FUNCTION: The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking discip",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-cibc-2616392",
    "company": "CIBC",
    "ats": "workday",
@@ -7369,78 +7778,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around the world. If y",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-fifththird-R70611",
-   "company": "Fifth Third Bank",
-   "ats": "workday",
-   "title": "2027 IT Audit Intern",
-   "location": "Cincinnati, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-IT-Audit-Intern_R70611",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. GENERAL FUNCTION: The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking discip",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-39972",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 KeyBank Finance/Accounting Summer Internship - Cleveland, OH",
-   "location": "Cleveland, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-KeyBank-Finance-Accounting-Summer-Internship---Cleveland--OH_R-39972",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 127 Public Square, Cleveland Ohio Program Duration: May 26, 2027 - August 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that will spark e",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-raymondjames-NC - Charlotte - 650 S Tryon St Ste 1525",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst Consumer Charlotte, NC",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/NC---Charlotte---650-S-Tryon-St-Ste-1525/XMLNAME-2027-Investment-Banking-Summer-Analyst-Consumer-Charlotte--NC_R-0012361",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
    "hasDeadlineHint": false
   },
   {
@@ -7577,6 +7914,54 @@
    "cycleSource": "title",
    "excerpt": "You're the brains behind our work… You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you need to p",
    "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-keybank-R-39972",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 KeyBank Finance/Accounting Summer Internship - Cleveland, OH",
+   "location": "Cleveland, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-KeyBank-Finance-Accounting-Summer-Internship---Cleveland--OH_R-39972",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 127 Public Square, Cleveland Ohio Program Duration: May 26, 2027 - August 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that will spark e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-NC - Charlotte - 650 S Tryon St Ste 1525",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst Consumer Charlotte, NC",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/NC---Charlotte---650-S-Tryon-St-Ste-1525/XMLNAME-2027-Investment-Banking-Summer-Analyst-Consumer-Charlotte--NC_R-0012361",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
+   "hasDeadlineHint": false
   },
   {
    "id": "wd-southstatebank-R-05812",
@@ -7915,30 +8300,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-visa-REF93870J",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Data Science Graduate",
-   "location": "GB - London, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Data-Science-Graduate_REF93870J",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-bakertilly-JR107395",
    "company": "Baker Tilly",
    "ats": "workday",
@@ -7960,6 +8321,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Overview Baker Tilly is a leading advisory, tax and assurance firm, providing clients with a genuine coast-to-coast and global advantage in major regions of the U.S. and in many of the world’s leading financial centers – New York, London, San Francisco, Los Angeles, Chicago and Boston. Baker Tilly Advisory Group, LP an",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF93870J",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Data Science Graduate",
+   "location": "GB - London, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Data-Science-Graduate_REF93870J",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -10837,6 +11222,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-barings-JR_006390",
+   "company": "Barings",
+   "ats": "workday",
+   "title": "2027 Investment Management Summer Internship",
+   "location": "4 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://barings.wd1.myworkdayjobs.com/Barings/job/Charlotte--NC-United-States/XMLNAME-2027-Investment-Management-Summer-Internship_JR_006390-1",
+   "postedAt": "2026-08-03",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "At Barings, we are as invested in our associates as we are in our clients. We recognize those who work diligently for us and reward them for personal and professional integrity, communication skills, distinct competencies and expertise in specific strategies, ability to collaborate as a team member and true dedication ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-barclays-JR-0000083842",
    "company": "Barclays",
    "ats": "workday",
@@ -10860,30 +11269,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Job Description Purpose of the role To participate in the day-to-day activities of the investment banking division. Gain broad exposure to different typed of clients, transactions and focus on specialist areas. Accountabilities Collaboration on live deals, client pitches, support the team with advising on a broad range",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-barings-JR_006390",
-   "company": "Barings",
-   "ats": "workday",
-   "title": "2027 Investment Management Summer Internship",
-   "location": "4 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://barings.wd1.myworkdayjobs.com/Barings/job/Charlotte--NC-United-States/XMLNAME-2027-Investment-Management-Summer-Internship_JR_006390-1",
-   "postedAt": "2026-08-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "At Barings, we are as invested in our associates as we are in our clients. We recognize those who work diligently for us and reward them for personal and professional integrity, communication skills, distinct competencies and expertise in specific strategies, ability to collaborate as a team member and true dedication ",
    "hasDeadlineHint": false
   },
   {
@@ -11625,30 +12010,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-286675",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Internship Program @ Mastercard , 2027 – Bogota, Colombia",
-   "location": "Bogota, Colombia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Bogota-Colombia/Internship-Program---Mastercard---2027---Bogota--Colombia_R-286675-1",
-   "postedAt": "2026-07-30",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-citi-26982662",
    "company": "Citi",
    "ats": "workday",
@@ -11701,6 +12062,30 @@
    "cycleSource": "title",
    "excerpt": "※申し込みの際添付いただくエントリーシートに関する注意点があります。下記応募方法の欄を必ずご一読ください。 我々、Citigroup Japanは、コーポレート・バンキング部門2027 Summer Internshipの募集をオープンいたしました。 募集部門 Corporate Banking (コーポレート・バンキング部門) 応募対象者&#xff1a;2028年9月までに国内外の大学・大学院を卒業見込みの方 応募締め切り一覧 第一次&#xff1a;9月15日 第二次&#xff1a;10月15日 ※締め切り後、5営業日以内にWebテストのご案内をお送りいたします。Webテストの受験を頂かないと応募完了となりませんので、ご注意くださ",
    "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-mastercard-R-286675",
+   "company": "Mastercard",
+   "ats": "workday",
+   "title": "Internship Program @ Mastercard , 2027 – Bogota, Colombia",
+   "location": "Bogota, Colombia",
+   "regions": [
+    "other"
+   ],
+   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Bogota-Colombia/Internship-Program---Mastercard---2027---Bogota--Colombia_R-286675-1",
+   "postedAt": "2026-07-30",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "hasDeadlineHint": false
   },
   {
    "id": "wd-greystar-R0196510",
@@ -11867,7 +12252,7 @@
    "kind": "graduate",
    "year": null,
    "yearSource": null,
-   "season": null,
+   "season": "fall",
    "track": "quant",
    "industry": "finance",
    "tags": [
@@ -11952,33 +12337,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-manGroup-4672725101",
-   "company": "Man Group",
-   "ats": "greenhouse",
-   "title": "AHL IDI Graduate Analyst",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4672725101",
-   "postedAt": "2026-07-29T04:33:18-04:00",
-   "department": "IDI",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "quant",
-   "industry": "finance",
-   "tags": [
-    "hedge-fund",
-    "asset-management"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><p><strong>About Man Group</strong></p> <p>Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manag",
    "hasDeadlineHint": false
   },
   {
@@ -16978,32 +17336,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-accenture-R00342637",
-   "company": "Accenture",
-   "ats": "workday",
-   "title": "Supply Chain & Engineering AI internship",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Engineering-Services-New-Associate_R00342637",
-   "postedAt": "2026-07-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "consulting",
-   "tags": [
-    "tech-consulting"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Period: ~6 months (minimum of 4 months) Hours per week: 40 Location: Accenture main office in Amsterdam Start date: the first day of each month The work Are you looking for an internship where you can: Combine consulting, engineering, and applied AI Work in a fast-moving environment Support leading industrial companies",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-pika-e135acb1-2a0b-47b4-81b2-3cb0f787657a",
    "company": "Pika",
    "ats": "ashby",
@@ -18473,7 +18805,7 @@
    "kind": "internship",
    "year": null,
    "yearSource": null,
-   "season": "summer",
+   "season": "fall",
    "track": "engineering",
    "industry": "tech",
    "tags": [],
@@ -18736,30 +19068,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-knightfrank-JR101606",
-   "company": "Knight Frank",
-   "ats": "workday",
-   "title": "2026 Graduate Trainee Programme (GTP) – Real Estate / Property Management",
-   "location": "Kuala Lumpur",
-   "regions": [
-    "other"
-   ],
-   "url": "https://knightfrank.wd103.myworkdayjobs.com/KF/job/Kuala-Lumpur/XMLNAME-2026-Graduate-Trainee-Programme--GTP----Real-Estate---Property-Management_JR101606",
-   "postedAt": "2026-07-06",
-   "department": "",
-   "kind": "graduate",
-   "year": 2026,
-   "yearSource": "title",
-   "season": null,
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Who are we Founded in 1896, Knight Frank was registered as Knight Frank LLP a Limited Liability Partnership, on 3 November 2003, registered in England & Wales at 55 Baker Street, London, W1U 8AN with the registered number of OC305934. Headquartered in London, UK, Knight Frank is one of the world's leading independent r",
    "hasDeadlineHint": false
   },
   {
@@ -20715,6 +21023,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-verkada-5172974007",
+   "company": "Verkada",
+   "ats": "greenhouse",
+   "title": "Technical Support Engineer - University Graduate 2026",
+   "location": "New York City, NY United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5172974007",
+   "postedAt": "2026-06-24T13:19:55-04:00",
+   "department": "Technical Support Engineering",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><h3><strong>Who We Are</strong></h3> <p>Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor managemen",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-point72-8603979002",
    "company": "Point72",
    "ats": "greenhouse",
@@ -21115,32 +21449,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Health can’t wait . Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prev",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-ankorstore-cccde482-db62-441f-a0cb-f18a52de28e6",
-   "company": "Ankorstore",
-   "ats": "ashby",
-   "title": "Corporate IT Intern/Apprentice",
-   "location": "Paris",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/ankorstore/cccde482-db62-441f-a0cb-f18a52de28e6",
-   "postedAt": "2026-06-19T08:47:38.332+00:00",
-   "department": "Engineering",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About us Ankorstore exists to help independent brands and retailers thrive by making wholesale simpler, faster, and more profitable. We’re building the infrastructure that powers modern wholesale for brands — from getting discovered by the right retailers to ordering, logistics, and financing — so both sides can work t",
    "hasDeadlineHint": false
   },
   {
@@ -21859,7 +22167,7 @@
   },
   {
    "id": "wd-brown-REQ209800",
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "title": "Campus Police Officer",
    "location": "75 Charlesfield Street",
@@ -24088,174 +24396,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-visa-REF086776W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Issuing VAS Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "AZ - Baku, Azerbaijan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/Issuing-VAS-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086776W",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086795W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "UA - Kyiv, Ukraine",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/UA---Kyiv-Ukraine/VCA-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086795W",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086798W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Marketing Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "MA - Casablanca, Morocco",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/Marketing-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086798W",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086782W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "KZ - Almaty, Kazakhstan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/VCA-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086782W",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086777W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VAS Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "MA - Casablanca, Morocco",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/VAS-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086777W",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086764W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "KZ - Almaty, Kazakhstan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086781W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern - Graduates Summer 2028/December 2027",
-   "location": "AZ - Baku, Azerbaijan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-gartner-113094",
    "company": "Gartner",
    "ats": "workday",
@@ -24444,33 +24584,6 @@
    "yearSource": "title",
    "season": "summer",
    "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "You’re the brains behind our work. You're ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you need to ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-26986138",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Markets – Sales and Trading, Internship, São Paulo - Brazil, 2026",
-   "location": "Sao Paulo Sao Paulo Brazil",
-   "regions": [
-    "latam"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Markets---Sales-and-Trading--Internship--So-Paulo---Brazil--2026_26986138",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
    "industry": "finance",
    "tags": [
     "investment-banking",
@@ -26787,6 +26900,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-knightfrank-JR101606",
+   "company": "Knight Frank",
+   "ats": "workday",
+   "title": "2026 Graduate Trainee Programme (GTP) – Real Estate / Property Management",
+   "location": "Kuala Lumpur",
+   "regions": [
+    "other"
+   ],
+   "url": "https://knightfrank.wd103.myworkdayjobs.com/KF/job/Kuala-Lumpur/XMLNAME-2026-Graduate-Trainee-Programme--GTP----Real-Estate---Property-Management_JR101606",
+   "postedAt": "2026-07-06",
+   "department": "",
+   "kind": "graduate",
+   "year": 2026,
+   "yearSource": "title",
+   "season": null,
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Who are we Founded in 1896, Knight Frank was registered as Knight Frank LLP a Limited Liability Partnership, on 3 November 2003, registered in England & Wales at 55 Baker Street, London, W1U 8AN with the registered number of OC305934. Headquartered in London, UK, Knight Frank is one of the world's leading independent r",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-schonfeld-8044346",
    "company": "Schonfeld",
    "ats": "greenhouse",
@@ -27089,32 +27226,6 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><div><strong>About Us</strong></div> <div> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-verkada-5172974007",
-   "company": "Verkada",
-   "ats": "greenhouse",
-   "title": "Technical Support Engineer - University Graduate 2026",
-   "location": "New York City, NY United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5172974007",
-   "postedAt": "2026-06-24T13:19:55-04:00",
-   "department": "Technical Support Engineering",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><h3><strong>Who We Are</strong></h3> <p>Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor managemen",
    "hasDeadlineHint": false
   },
   {
@@ -27696,32 +27807,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "<div class= content-intro ><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-forvismazars-4872741101",
-   "company": "Forvis Mazars",
-   "ats": "greenhouse",
-   "title": "Praktikum Public Sector – Organisations- und Prozessberatung (all genders)",
-   "location": "Berlin; Nürnberg",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://karriere-de.forvismazars.com/stellensuche?gh_jid=4872741101",
-   "postedAt": "2026-05-26T11:50:08-04:00",
-   "department": "Consulting",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [
-    "big-four"
-   ],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "<div class= content-intro ><p> </p> <p><span style= color: #464b4b; >Wir sind Forvis Mazars und du findest uns in <strong>mehr als 100 Ländern</strong>, weil wir aus <strong>Audit, Tax</strong> und <strong>Advisory</strong> weltweit nicht wegzudenken sind. Als integrierte Partnerschaft mit <strong>über 40.000 Professio",
    "hasDeadlineHint": false
   },
   {
@@ -28898,7 +28983,7 @@
   },
   {
    "id": "wd-brown-REQ202958",
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "title": "Athletics Multimedia and Production Intern",
    "location": "Pizzitola",
