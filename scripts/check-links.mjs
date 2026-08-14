@@ -19,8 +19,9 @@ async function check(url) {
   const opts = { redirect: 'follow', headers: { 'user-agent': UA, accept: 'text/html' }, signal: AbortSignal.timeout(25_000) };
   try {
     let res = await fetch(url, { ...opts, method: 'HEAD' });
-    // Beaucoup de sites corporate refusent HEAD : on retente en GET.
-    if (res.status === 405 || res.status === 403 || res.status === 501) res = await fetch(url, { ...opts, method: 'GET' });
+    // Beaucoup de sites corporate gerent mal HEAD : certains repondent 405 ou 403,
+    // d'autres carrement 404 sur une page qui existe pourtant en GET. On retente.
+    if (!res.ok) res = await fetch(url, { ...opts, method: 'GET' });
     return { status: res.status, finalUrl: res.url };
   } catch (err) {
     return { status: 0, error: String(err.message || err) };
