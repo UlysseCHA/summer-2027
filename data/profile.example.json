@@ -16,10 +16,22 @@
   "siteWeb": "",
 
   "ecole": "",
+  "ecoleAutresNoms": [],
+  "ecoleSiAbsente": "Other",
+  "_comment_ecole": "Les listes deroulantes ne connaissent pas toujours ton ecole sous le nom que tu utilises : mets ses autres orthographes dans ecoleAutresNoms, elles seront essayees dans l ordre. Si aucune ne figure dans la liste, le script choisit ecoleSiAbsente et te le signale en clair. Mets ecoleSiAbsente a \"\" pour qu il laisse le champ vide a la place.",
+
   "diplome": "",
   "specialite": "",
+  "programme": "",
+  "debutMois": "September",
+  "debutAnnee": "2026",
+  "finMois": "August",
+  "finAnnee": "2028",
   "anneeDiplome": "2028",
   "niveau": "Master",
+
+  "_comment_dates": "Mois en anglais : les formulaires anglophones proposent September, pas Septembre. « diplome » doit reprendre le libelle du site (souvent « Master's Degree »), « specialite » la discipline (« Management », « Finance »), « programme » le nom exact du cursus.",
+
 
   "cv": "cv/CV.pdf",
   "lettre": "",
@@ -39,5 +51,8 @@
   "reponsesTypes": {
     "pourquoiNous": "",
     "_comment": "Reponse par defaut aux questions ouvertes. Laisse vide si tu preferes ecrire a chaque fois : le script signale les champs qu il n a pas remplis au lieu d inventer."
-  }
+  },
+
+  "aProposDeMoi": "",
+  "_comment_apropos": "Deux ou trois phrases sur ce qui ne figure pas sur ton CV. Sert de matiere premiere a npm run draft, qui redige un brouillon de reponse aux questions ouvertes. Laisse vide et le brouillon s appuiera sur le seul CV."
 }

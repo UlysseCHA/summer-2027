@@ -431,6 +431,19 @@ main { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
 .star:hover { transform: scale(1.15); }
 .star[aria-pressed="true"] { color: #e0a020; }
 
+/* Discret a cote de « Postuler » : c'est une aide a la redaction, pas l'action
+   principale de la carte. */
+.assist {
+  padding: 6px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2); color: var(--text-2);
+  font: inherit; font-size: 12.5px; font-weight: 500;
+  white-space: nowrap; cursor: pointer;
+  transition: border-color .12s, color .12s;
+}
+.assist:hover { border-color: var(--brand); color: var(--brand-text); }
+
 .apply {
   display: inline-block;
   padding: 6px 13px;

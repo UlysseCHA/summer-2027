@@ -73,12 +73,23 @@ const REGLES = [
   [/linked.?in/i, profil.linkedin],
   [/git.?hub/i, profil.github],
   [/portfolio|personal.?(web)?site|site.?web/i, profil.siteWeb],
-  [/school|university|universit[eé]|[eé]cole|institution|establishment/i, profil.ecole],
+  // Un etablissement porte plusieurs noms selon les listes. Les variantes sont
+  // essayees dans l'ordre, et seule une correspondance exacte est retenue.
+  [/school|university|universit[eé]|[eé]cole|institution|establishment/i,
+    [profil.ecole, ...(profil.ecoleAutresNoms || [])].filter(Boolean)],
   [/degree|dipl[oô]me/i, profil.diplome],
   [/discipline|major|field of study|sp[eé]cialit[eé]/i, profil.specialite],
-  // « End date » dans un bloc formation = fin d'etudes. Le controle de coherence
-  // garantit que l'annee n'atterrit pas dans le champ mois voisin.
-  [/graduation|grad.?year|end.?date|ann[eé]e de dipl|fin d.?[eé]tudes/i, profil.anneeDiplome],
+
+  // Dates de formation. Chaque case a sa regle : « Start date month » et « Start date
+  // year » sont deux champs distincts, et la premiere regle qui correspond gagne. Une
+  // regle trop large mettrait l'annee dans la case du mois, ce que le controle de
+  // coherence rejetterait sans essayer la regle suivante : le champ resterait vide.
+  [/start.?date.*\bmonth\b|\bmonth\b.*start.?date|d[eé]but.*mois/i, profil.debutMois],
+  [/start.?date.*\byear\b|\byear\b.*start.?date|d[eé]but.*ann[eé]e/i, profil.debutAnnee],
+  [/(end.?date|graduation).*\bmonth\b|\bmonth\b.*(end.?date|graduation)/i, profil.finMois],
+  [/graduation|grad.?year|end.?date|ann[eé]e de dipl|fin d.?[eé]tudes/i, profil.finAnnee || profil.anneeDiplome],
+  // Champ unique « Start date » sans decoupage mois / annee.
+  [/start.?date|d[eé]but/i, [profil.debutMois, profil.debutAnnee].filter(Boolean).join(' ')],
   [/postal|zip/i, profil.codePostal],
   [/state|province|region|r[eé]gion|d[eé]partement/i, profil.region],
   [/hometown|ville natale|ville d.?origine/i, profil.villeNatale],
@@ -119,12 +130,18 @@ function valeurCoherente(etiquette, valeur) {
   return true;
 }
 
+/**
+ * Rend la liste des valeurs a essayer pour ce champ, de la plus juste a la moins
+ * probable, ou null s'il ne faut rien ecrire. Une seule valeur reste une liste
+ * d'un element : les champs a liste deroulante en essaient plusieurs, les autres
+ * ne prennent que la premiere.
+ */
 const valeurPour = (etiquette) => {
   if (JAMAIS.test(etiquette) || AMBIGU.test(etiquette)) return null;
   for (const [re, val] of REGLES) {
-    if (!val || !re.test(etiquette)) continue;
-    const v = String(val);
-    return valeurCoherente(etiquette, v) ? v : null;
+    const liste = (Array.isArray(val) ? val : [val]).filter(Boolean).map(String);
+    if (!liste.length || !re.test(etiquette)) continue;
+    return valeurCoherente(etiquette, liste[0]) ? liste : null;
   }
   return null;
 };
@@ -191,7 +208,17 @@ await envoyer('Runtime.enable');
 await envoyer('DOM.enable');
 
 console.log(`\nOuverture de ${url}\n`);
-await sleep(6000);
+
+/*
+ * Attendre que le formulaire existe, pas un delai arbitraire. Six secondes
+ * suffisaient d'habitude et pas toujours : le script annoncait alors « aucun champ
+ * detecte » sur une page qui en contenait vingt.
+ */
+for (let i = 0; i < 40; i++) {
+  await sleep(500);
+  const n = await evaluer(`document.querySelectorAll('input:not([type=hidden]), textarea, select').length`);
+  if (n >= 3) { await sleep(1500); break; }   // laisser le rendu se stabiliser
+}
 
 /* --------------------------------------------------------------- remplissage */
 
@@ -258,69 +285,177 @@ if (!champs || !champs.length) {
  * On passe donc par le protocole du navigateur, qui produit de vrais clics et de
  * vraies frappes, indiscernables d'un utilisateur.
  */
-async function remplirCombobox(champ, valeur) {
-  const rect = async (selecteur) => evaluer(`(() => {
-    const el = ${selecteur};
-    if (!el) return null;
-    const r = el.getBoundingClientRect();
-    const dansEcran = r.top >= 0 && r.bottom <= innerHeight && r.width && r.height;
-    return dansEcran ? { x: r.x + r.width / 2, y: r.y + r.height / 2 } : null;
-  })()`);
+async function remplirCombobox(champ, valeurs, repli) {
+  const sel = `document.querySelector('[data-remplissage="${champ.i}"]')`;
+  const echec = (candidats) => ({ ok: false, candidats: candidats || null });
 
-  const clic = async (pos) => {
-    for (const type of ['mousePressed', 'mouseReleased']) {
-      await envoyer('Input.dispatchMouseEvent', {
-        type, x: pos.x, y: pos.y, button: 'left', clickCount: 1,
-      });
-    }
+  // Vraies frappes, envoyees au champ qui a le focus. Contrairement aux evenements
+  // clavier fabriques en JavaScript, celles-ci portent isTrusted=true : c'est la
+  // seule chose que ces composants acceptent.
+  const touche = async (key, vk, texte) => {
+    await envoyer('Input.dispatchKeyEvent', {
+      type: 'keyDown', key, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk,
+      ...(texte ? { text: texte } : {}),
+    });
+    await envoyer('Input.dispatchKeyEvent', {
+      type: 'keyUp', key, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk,
+    });
   };
 
-  // Amener le champ a l'ecran, PUIS relire sa position : lue trop tot, elle est
-  // faussee par le defilement en cours, le clic tombe a cote, et la frappe part
-  // dans le champ precedent. Teste : l'email etait devenu « ...@example.comFrance ».
-  await evaluer(`document.querySelector('[data-remplissage="${champ.i}"]')?.scrollIntoView({ block: 'center' })`);
-  await sleep(500);
+  const effacer = async () => {
+    for (let n = 0; n < 60; n++) await touche('Backspace', 8);
+    await sleep(300);
+  };
 
-  const pos = await rect(`document.querySelector('[data-remplissage="${champ.i}"]')`);
-  if (!pos) return false;
+  const abandonner = async (candidats) => {
+    await effacer();
+    await touche('Escape', 27);
+    await evaluer(`${sel}?.blur()`);
+    return echec(candidats);
+  };
 
-  await clic(pos);
+  // Le focus est donne par JavaScript, pas par un clic a des coordonnees.
+  // Le clic etait la cause de la corruption du premier essai : la position etait
+  // lue pendant le defilement, le clic tombait a cote, et la frappe partait dans
+  // le champ precedemment actif (l'email etait devenu « ...@example.comFrance »).
+  // Sans coordonnees, il n'y a plus rien a rater.
+  await evaluer(`${sel}?.scrollIntoView({ block: 'center' })`);
+  await sleep(400);
+  await evaluer(`(() => { const el = ${sel}; if (el) { el.focus(); el.click(); } })()`);
+  await sleep(250);
+
+  if (!await evaluer(`document.activeElement === ${sel}`)) return echec();
+
+  // Le composant n'ouvre sa liste qu'a la premiere touche reelle : le focus seul
+  // laisse aria-expanded a false, quoi qu'on lui envoie en JavaScript.
+  await touche('ArrowDown', 40);
   await sleep(300);
 
-  // Garde-fou : on n'ecrit que si le clic a bien donne le focus au bon champ.
-  const bonFocus = await evaluer(
-    `document.activeElement === document.querySelector('[data-remplissage="${champ.i}"]')`);
-  if (!bonFocus) return false;
+  /**
+   * Cherche `attendu` dans la liste, en tapant `requete`. Rend la position de
+   * l'option a retenir, ou de quoi expliquer l'echec.
+   *
+   * La liste lue est uniquement celle que CE champ pilote (aria-controls). Le
+   * premier essai ratissait tout le document et tombait sur les 244 indicatifs
+   * telephoniques du champ voisin.
+   */
+  const chercher = async (requete, attendu) => {
+    await effacer();
+    await envoyer('Input.insertText', { text: requete });
+    await sleep(1200);
 
-  await envoyer('Input.insertText', { text: valeur });
-  await sleep(900);
+    const lire = () => evaluer(`(() => {
+      const el = ${sel};
+      const box = document.getElementById(el.getAttribute('aria-controls') || '');
+      if (!box) return { rien: true };
+      const options = [...box.querySelectorAll('[role=option]')];
+      if (!options.length) return { rien: true };
 
-  // L'option a cliquer, en excluant la liste d'indicatifs telephoniques qui porte
-  // elle aussi role=option et polluait la recherche.
-  const trouve = await evaluer(`(() => {
-    const v = ${JSON.stringify(valeur)}.trim().toLowerCase();
-    const options = [...document.querySelectorAll('[role=option]')]
-      .filter(o => o.offsetParent && !o.closest('.iti__country-list'));
-    const cible = options.find(o => o.textContent.trim().toLowerCase() === v)
-               || options.find(o => o.textContent.trim().toLowerCase().startsWith(v))
-               || (options.length === 1 ? options[0] : null);
-    if (!cible) return null;
-    cible.setAttribute('data-choix', '1');
-    return cible.textContent.trim().slice(0, 40);
-  })()`);
+      const norme = s => s.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, ' ').trim();
+      const v = norme(${JSON.stringify(attendu)});
+      const t = o => norme(o.textContent);
 
-  if (!trouve) {
-    await envoyer('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', windowsVirtualKeyCode: 27 });
-    await envoyer('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', windowsVirtualKeyCode: 27 });
-    return false;
+      /*
+       * Egalite, ou au plus un suffixe ajoute par le site (« France » -> « France +33 »).
+       * Rien de plus permissif : accepter qu'une option CONTIENNE la valeur a fait
+       * choisir « Human Resources Management » pour une specialite « Management ».
+       * Une erreur de ce genre est invisible a la relecture, donc pire que le vide.
+       */
+      let i = options.findIndex(o => t(o) === v);
+      if (i < 0) i = options.findIndex(o => t(o).startsWith(v + ' '));
+      if (i < 0) return { rien: true, candidats: options.slice(0, 4).map(o => o.textContent.trim()) };
+
+      const actif = el.getAttribute('aria-activedescendant');
+      return {
+        position: i,
+        depart: options.findIndex(o => o.id && o.id === actif),
+        cibleId: options[i].id,
+        libelle: options[i].textContent.trim(),
+      };
+    })()`);
+
+    let etat = await lire();
+    // Certaines listes se remplissent apres coup. Vue trop tot, une liste encore
+    // vide faisait declarer « Finance » introuvable alors que l'option existe.
+    if (etat?.rien && !etat.candidats) { await sleep(1000); etat = await lire(); }
+    return etat;
+  };
+
+  /** Valide l'option reperee : on s'y deplace au clavier, puis Entree. */
+  const valider = async (etat) => {
+    // Sans option active, la premiere fleche selectionne la premiere de la liste,
+    // d'ou le decalage de 1.
+    const depart = etat.depart >= 0 ? etat.depart : -1;
+    const ecart = etat.position - depart;
+    for (let n = 0; n < Math.abs(ecart); n++) {
+      await touche(ecart > 0 ? 'ArrowDown' : 'ArrowUp', ecart > 0 ? 40 : 38);
+      await sleep(70);
+    }
+
+    /*
+     * Verification AVANT de valider, pas apres : une fois l'option choisie, le
+     * composant vide son champ de recherche et n'affiche plus que le libelle
+     * retenu, parfois abrege (« France » devient « +33 »). Comparer apres coup
+     * rejetterait une saisie pourtant juste. On s'assure donc que la ligne
+     * surlignee est bien la bonne, puis Entree ne peut plus se tromper.
+     */
+    if (!await evaluer(`${sel}.getAttribute('aria-activedescendant') === ${JSON.stringify(etat.cibleId)}`)) {
+      return null;
+    }
+
+    await touche('Enter', 13, '\r');
+    await sleep(700);
+
+    return evaluer(`(() => {
+      const el = ${sel};
+      if (!el) return '';
+      if (el.value) return el.value;
+      const cont = el.closest('[class*="select__control"]') || el.closest('[class*="control"]');
+      const sv = cont && cont.querySelector('[class*="single-value"], [class*="multi-value__label"]');
+      return sv ? sv.textContent.trim() : '';
+    })()`);
+  };
+
+  let derniersCandidats = null;
+
+  /*
+   * Un etablissement porte plusieurs noms selon les listes (« emlyon business
+   * school », « EM Lyon », « ESC Lyon »). On les essaie dans l'ordre du profil.
+   * Pour chacun, une requete complete puis, si elle ne donne rien, le premier mot
+   * seul — mais l'option retenue doit toujours correspondre au nom COMPLET :
+   * chercher « lyon » remonte « Lyon College », etablissement de l'Arkansas.
+   */
+  for (const valeur of valeurs.filter(Boolean)) {
+    const premierMot = valeur.trim().split(/\s+/)[0];
+    const requetes = premierMot.length >= 3 && premierMot !== valeur.trim()
+      ? [valeur, premierMot] : [valeur];
+
+    for (const requete of requetes) {
+      const etat = await chercher(requete, valeur);
+      if (!etat || etat.rien) { derniersCandidats = etat?.candidats || derniersCandidats; continue; }
+
+      const choisi = await valider(etat);
+      if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi };
+      return abandonner(etat.candidats);
+    }
   }
 
-  const posOption = await rect(`document.querySelector('[data-choix="1"]')`);
-  if (!posOption) return false;
-  await clic(posOption);
-  await sleep(400);
+  /*
+   * Repli explicite, uniquement si le profil en definit un (« Other »). Aucune
+   * valeur n'est inventee : c'est toi qui as decide, dans data/profile.json, ce
+   * qu'il faut choisir quand ton etablissement est absent de la liste. Le rapport
+   * le signale pour que tu completes le nom ailleurs dans le formulaire.
+   */
+  if (repli) {
+    const etat = await chercher(repli, repli);
+    if (etat && !etat.rien) {
+      const choisi = await valider(etat);
+      if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi, repli: true };
+    }
+  }
 
-  return Boolean(await evaluer(`document.querySelector('[data-remplissage="${champ.i}"]')?.value`));
+  return abandonner(derniersCandidats);
 }
 
 const remplis = [];
@@ -329,13 +464,22 @@ const ignores = [];
 for (const champ of champs) {
   if (champ.type === 'file') continue;
 
-  const valeur = valeurPour(champ.etiquette);
-  if (!valeur) { ignores.push(champ); continue; }
+  const valeurs = valeurPour(champ.etiquette);
+  if (!valeurs) { ignores.push(champ); continue; }
+  const valeur = valeurs[0];
   if (champ.dejaRempli) continue;
 
-  if (champ.combobox) {
-    const ok = await remplirCombobox(champ, valeur);
-    (ok ? remplis : ignores).push(champ);
+  // Un vrai <select> se remplit par sa valeur, meme s'il porte aria-haspopup.
+  if (champ.combobox && champ.tag !== 'select') {
+    // Le repli ne vaut que pour l'etablissement, et seulement si tu l'as choisi
+    // dans ton profil.
+    const repli = /school|university|universit[eé]|[eé]cole|institution/i.test(champ.etiquette)
+      ? profil.ecoleSiAbsente : null;
+    const r = await remplirCombobox(champ, valeurs, repli);
+    if (r.ok) { champ.repli = r.repli ? valeur : null; remplis.push(champ); }
+    // Les options proposees par la liste sont conservees : quand aucune ne
+    // correspond, les afficher t'evite de rouvrir le menu pour rien.
+    else { champ.candidats = r.candidats; ignores.push(champ); }
     continue;
   }
 
@@ -414,8 +558,16 @@ const etatReel = await evaluer(`(() => {
       const o = el.options[el.selectedIndex];
       const txt = o ? o.text.trim() : '';
       out[i] = (el.selectedIndex > 0 && txt && !/^(select|choisir|--)/i.test(txt)) ? txt : '';
+    } else if (el.value) {
+      out[i] = el.value;
     } else {
-      out[i] = el.value || '';
+      // Une liste a autocompletion vide son champ de saisie apres le choix et
+      // n'affiche plus que le libelle retenu. Lire el.value declarerait vides des
+      // champs pourtant remplis.
+      const cont = el.closest('[class*="select__control"]') || el.closest('[class*="control"]');
+      const sv = cont && cont.querySelector('[class*="single-value"], [class*="multi-value__label"]');
+      const txt = sv ? sv.textContent.trim() : '';
+      out[i] = /^(select|choisir|--)/i.test(txt) ? '' : txt;
     }
   }
   return out;
@@ -444,15 +596,39 @@ const sensibles = dedupe(aFaire.filter(c => lisible(c) && JAMAIS.test(c.etiquett
 const ambigues = dedupe(aFaire.filter(c => lisible(c) && AMBIGU.test(c.etiquette) && !JAMAIS.test(c.etiquette)));
 const manquantsRequis = dedupe(aFaire.filter(c =>
   c.requis && !c.dejaRempli && lisible(c) && !JAMAIS.test(c.etiquette) && !AMBIGU.test(c.etiquette)));
-const ouverts = dedupe(aFaire.filter(c => c.tag === 'textarea' && !c.dejaRempli && lisible(c)));
+/*
+ * Les questions ouvertes ne sont pas toujours des <textarea>. « Tell us something
+ * about yourself that we can't find on your resume. » est un simple <input> sur ce
+ * formulaire : filtrer sur la balise la laissait passer sous silence, alors que
+ * c'est justement la question qui demande du travail. On se fie donc a l'intitule.
+ */
+const questionOuverte = (e) => /\?/.test(e) || e.replace(/\s+/g, ' ').trim().split(' ').length >= 8;
+const ouverts = dedupe(aFaire.filter(c =>
+  !c.dejaRempli && lisible(c) && !JAMAIS.test(c.etiquette) && !AMBIGU.test(c.etiquette)
+  && (c.tag === 'textarea'
+      || (c.tag === 'input' && ['', 'text'].includes(c.type) && questionOuverte(c.etiquette)))));
 
 console.log('='.repeat(66));
 console.log(`  ${vraimentRemplis.length} champ(s) rempli(s)${cvCharge ? ', CV joint' : cvPret ? ', CV NON joint' : ''}`);
 vraimentRemplis.forEach(c => console.log(`    + ${court(c).padEnd(46)} = ${String(etatReel[String(c.i)]).slice(0, 32)}`));
 
+// Un repli est un choix par defaut, pas la bonne reponse : il doit sauter aux yeux.
+const replis = vraimentRemplis.filter(c => c.repli);
+if (replis.length) {
+  console.log(`\n  ${replis.length} champ(s) mis par defaut, A VERIFIER :`);
+  replis.forEach(c => console.log(
+    `    ~ ${court(c)} = « ${etatReel[String(c.i)]} », faute de trouver « ${c.repli} » dans la liste`));
+}
+
 if (manquantsRequis.length) {
   console.log(`\n  ${manquantsRequis.length} champ(s) OBLIGATOIRE(S) que tu dois remplir :`);
-  manquantsRequis.forEach(c => console.log(`    ! ${court(c)}${c.options ? '   [liste deroulante]' : ''}`));
+  manquantsRequis.forEach(c => {
+    console.log(`    ! ${court(c)}${c.options ? '   [liste deroulante]' : ''}`);
+    // Quand la liste ne propose pas ta valeur, autant montrer ce qu'elle propose.
+    if (c.candidats?.length) {
+      console.log(`        la liste propose : ${c.candidats.slice(0, 4).join(' | ').slice(0, 90)}`);
+    }
+  });
 }
 
 if (sensibles.length) {
@@ -470,6 +646,11 @@ if (ambigues.length) {
 if (ouverts.length) {
   console.log(`\n  ${ouverts.length} question(s) ouverte(s), a rediger :`);
   ouverts.forEach(c => console.log(`    ? ${court(c)}`));
+  // L'intitule collecte concatene plusieurs sources : on ne garde que la premiere
+  // phrase, sinon la commande proposee contient le libelle trois fois.
+  const phrase = ouverts[0].etiquette.replace(/\s+/g, ' ').match(/^[^?.]*[?.]?/)[0].replace(/\*/g, '').trim();
+  console.log('\n    Pour un brouillon appuye sur ton CV :');
+  console.log(`      npm run draft -- "${phrase}"`);
 }
 
 console.log('\n' + '='.repeat(64));

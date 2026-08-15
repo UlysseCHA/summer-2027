@@ -292,6 +292,7 @@ function offerHtml(offer) {
       <div class="offer-side">
         <div class="offer-actions">
           <button class="star" role="switch" aria-pressed="${fav}" data-fav="${escapeHtml(offer.id)}" title="Mettre en favori">${fav ? '★' : '☆'}</button>
+          <button class="assist" data-assist="${escapeHtml(offer.id)}" title="Copier la demande a coller dans Claude">Preparer</button>
           <a class="apply" href="${escapeHtml(offer.url)}" target="_blank" rel="noopener noreferrer">Postuler</a>
         </div>
         <select class="status-select" data-status="${escapeHtml(offer.id)}" title="Suivi de candidature">${statusOptions}</select>
@@ -642,6 +643,47 @@ function bindEvents() {
     $('#q').value = ''; $('#cycle').value = '2027'; $('#sort').value = 'recent';
     $('#only-fav').checked = $('#only-new').checked = $('#only-recent').checked = $('#hide-applied').checked = false;
     renderOffers();
+  });
+
+  /*
+   * « Preparer » copie la demande toute faite dans le presse-papier.
+   *
+   * Une page web ne peut pas ouvrir une conversation dans ton editeur : aucun pont
+   * n'existe dans ce sens, et le site tourne de toute facon chez GitHub. Le mieux
+   * qu'elle puisse faire est de rassembler ce qu'il faut dire, pour qu'il ne reste
+   * qu'un Ctrl+V.
+   */
+  $('#offer-list').addEventListener('click', async e => {
+    const btn = e.target.closest('[data-assist]');
+    if (!btn) return;
+    const offer = OFFERS.find(o => o.id === btn.dataset.assist);
+    if (!offer) return;
+
+    const demande = [
+      'Aide-moi a candidater a cette offre.',
+      '',
+      `Entreprise : ${offer.company}`,
+      `Poste : ${offer.title}`,
+      offer.location ? `Lieu : ${offer.location}` : null,
+      `Lien : ${offer.url}`,
+      '',
+      'Lis l offre, puis prepare la candidature a partir de mon CV (cv/CV.pdf).',
+      // Les lignes vides separent les blocs : filtrer sur Boolean les supprimerait
+      // aussi, et tout se retrouverait colle en un seul paragraphe.
+    ].filter(l => l !== null).join('\n');
+
+    const initial = btn.textContent;
+    try {
+      await navigator.clipboard.writeText(demande);
+      btn.textContent = 'Copie';
+    } catch {
+      // Presse-papier refuse (page en http, ou permission bloquee) : plutot que de
+      // faire croire a une copie qui n'a pas eu lieu, on montre le texte a copier.
+      window.prompt('Copie ce texte et colle-le dans Claude :', demande);
+      btn.textContent = initial;
+      return;
+    }
+    setTimeout(() => { btn.textContent = initial; }, 1600);
   });
 
   $('#offer-list').addEventListener('click', e => {

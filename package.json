@@ -19,6 +19,11 @@
     "sniff-workday": "node scripts/sniff-workday.mjs",
     "watch": "node scripts/watch.mjs",
     "watch-add": "node scripts/add-watch.mjs",
-    "apply": "node scripts/apply.mjs"
+    "apply": "node scripts/apply.mjs",
+    "draft": "node scripts/draft.mjs"
+  },
+  "_comment_dependances": "Le site et la collecte des offres ne dependent de rien. Seul npm run draft (redaction des questions ouvertes) a besoin du SDK Anthropic et d une cle API.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0"
   }
 }
