@@ -1,0 +1,43 @@
+{
+  "_comment": "Modele de profil. Copie ce fichier en data/profile.json et remplis-le. data/profile.json est ignore par git : il ne partira jamais sur GitHub, le depot etant public. Ne mets rien de sensible ailleurs que dans ce fichier.",
+
+  "prenom": "Ulysse",
+  "nom": "Chabrier",
+  "email": "ulysse.chabrier1@gmail.com",
+  "telephone": "+33 6 12 34 56 78",
+
+  "ville": "Paris",
+  "pays": "France",
+  "adresse": "",
+  "codePostal": "",
+
+  "linkedin": "https://www.linkedin.com/in/…",
+  "github": "",
+  "siteWeb": "",
+
+  "ecole": "",
+  "diplome": "",
+  "specialite": "",
+  "anneeDiplome": "2028",
+  "niveau": "Master",
+
+  "cv": "cv/CV.pdf",
+  "lettre": "",
+
+  "_comment_cv": "Chemin relatif au dossier du projet. Mets ton CV dans un sous-dossier cv/, lui aussi ignore par git.",
+
+  "autorisationTravail": {
+    "france": true,
+    "ue": true,
+    "royaumeUni": false,
+    "etatsUnis": false,
+    "besoinSponsor": true
+  },
+
+  "langues": ["Francais (natif)", "Anglais (courant)"],
+
+  "reponsesTypes": {
+    "pourquoiNous": "",
+    "_comment": "Reponse par defaut aux questions ouvertes. Laisse vide si tu preferes ecrire a chaque fois : le script signale les champs qu il n a pas remplis au lieu d inventer."
+  }
+}
