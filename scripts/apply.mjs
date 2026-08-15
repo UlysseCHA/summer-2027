@@ -62,6 +62,9 @@ if (cheminCv) {
  * « first name ». Une valeur absente du profil laisse le champ vide, jamais invente.
  */
 const REGLES = [
+  // « Preferred name » = le prenom par lequel on veut etre appele. Pour la plupart
+  // des gens c'est le prenom tout court, et le champ est souvent obligatoire.
+  [/preferred.?name|pr[eé]nom d.?usage/i, profil.prenomUsage || profil.prenom],
   [/first.?name|pr[eé]nom|given.?name/i, profil.prenom],
   [/last.?name|family.?name|surname|nom de famille/i, profil.nom],
   [/full.?name|nom complet|^name$|^nom$/i, [profil.prenom, profil.nom].filter(Boolean).join(' ')],
@@ -77,6 +80,8 @@ const REGLES = [
   // garantit que l'annee n'atterrit pas dans le champ mois voisin.
   [/graduation|grad.?year|end.?date|ann[eé]e de dipl|fin d.?[eé]tudes/i, profil.anneeDiplome],
   [/postal|zip/i, profil.codePostal],
+  [/state|province|region|r[eé]gion|d[eé]partement/i, profil.region],
+  [/hometown|ville natale|ville d.?origine/i, profil.villeNatale],
   [/address|adresse/i, profil.adresse],
   [/city|ville|town/i, profil.ville],
   [/country|pays/i, profil.pays],
@@ -87,7 +92,7 @@ const REGLES = [
  * test y avait mis la ville actuelle : plausible, donc invisible a la relecture, et
  * potentiellement faux. On ne repond que si le profil donne explicitement la reponse.
  */
-const AMBIGU = /hometown|ville natale|ville d.?origine|birth|naissance|nationality|nationalit[eé]|preferred name|pr[eé]nom d.?usage/i;
+const AMBIGU = /birth|naissance|nationality|nationalit[eé]/i;
 
 /**
  * Champs auxquels on ne touche jamais.
@@ -228,6 +233,7 @@ const champs = await evaluer(`(() => {
       etiquette: etiquetteDe(el),
       requis: el.required || el.getAttribute('aria-required') === 'true',
       dejaRempli: Boolean(el.value),
+      combobox: el.getAttribute('role') === 'combobox' || el.getAttribute('aria-haspopup') === 'true',
       options: el.tagName === 'SELECT' ? [...el.options].map(o => o.text.trim()).slice(0, 60) : null,
     });
   }
@@ -241,6 +247,82 @@ if (!champs || !champs.length) {
   process.exit(0);
 }
 
+/**
+ * Champs a autocompletion (role=combobox).
+ *
+ * Greenhouse n'utilise pas de <select> pour Country, School, Degree ou Discipline,
+ * mais un input qui ouvre une liste. Ces composants ignorent les evenements
+ * fabriques en JavaScript : teste, le champ restait `aria-expanded=false` et la
+ * valeur tapee etait effacee au blur.
+ *
+ * On passe donc par le protocole du navigateur, qui produit de vrais clics et de
+ * vraies frappes, indiscernables d'un utilisateur.
+ */
+async function remplirCombobox(champ, valeur) {
+  const rect = async (selecteur) => evaluer(`(() => {
+    const el = ${selecteur};
+    if (!el) return null;
+    const r = el.getBoundingClientRect();
+    const dansEcran = r.top >= 0 && r.bottom <= innerHeight && r.width && r.height;
+    return dansEcran ? { x: r.x + r.width / 2, y: r.y + r.height / 2 } : null;
+  })()`);
+
+  const clic = async (pos) => {
+    for (const type of ['mousePressed', 'mouseReleased']) {
+      await envoyer('Input.dispatchMouseEvent', {
+        type, x: pos.x, y: pos.y, button: 'left', clickCount: 1,
+      });
+    }
+  };
+
+  // Amener le champ a l'ecran, PUIS relire sa position : lue trop tot, elle est
+  // faussee par le defilement en cours, le clic tombe a cote, et la frappe part
+  // dans le champ precedent. Teste : l'email etait devenu « ...@example.comFrance ».
+  await evaluer(`document.querySelector('[data-remplissage="${champ.i}"]')?.scrollIntoView({ block: 'center' })`);
+  await sleep(500);
+
+  const pos = await rect(`document.querySelector('[data-remplissage="${champ.i}"]')`);
+  if (!pos) return false;
+
+  await clic(pos);
+  await sleep(300);
+
+  // Garde-fou : on n'ecrit que si le clic a bien donne le focus au bon champ.
+  const bonFocus = await evaluer(
+    `document.activeElement === document.querySelector('[data-remplissage="${champ.i}"]')`);
+  if (!bonFocus) return false;
+
+  await envoyer('Input.insertText', { text: valeur });
+  await sleep(900);
+
+  // L'option a cliquer, en excluant la liste d'indicatifs telephoniques qui porte
+  // elle aussi role=option et polluait la recherche.
+  const trouve = await evaluer(`(() => {
+    const v = ${JSON.stringify(valeur)}.trim().toLowerCase();
+    const options = [...document.querySelectorAll('[role=option]')]
+      .filter(o => o.offsetParent && !o.closest('.iti__country-list'));
+    const cible = options.find(o => o.textContent.trim().toLowerCase() === v)
+               || options.find(o => o.textContent.trim().toLowerCase().startsWith(v))
+               || (options.length === 1 ? options[0] : null);
+    if (!cible) return null;
+    cible.setAttribute('data-choix', '1');
+    return cible.textContent.trim().slice(0, 40);
+  })()`);
+
+  if (!trouve) {
+    await envoyer('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', windowsVirtualKeyCode: 27 });
+    await envoyer('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', windowsVirtualKeyCode: 27 });
+    return false;
+  }
+
+  const posOption = await rect(`document.querySelector('[data-choix="1"]')`);
+  if (!posOption) return false;
+  await clic(posOption);
+  await sleep(400);
+
+  return Boolean(await evaluer(`document.querySelector('[data-remplissage="${champ.i}"]')?.value`));
+}
+
 const remplis = [];
 const ignores = [];
 
@@ -250,6 +332,12 @@ for (const champ of champs) {
   const valeur = valeurPour(champ.etiquette);
   if (!valeur) { ignores.push(champ); continue; }
   if (champ.dejaRempli) continue;
+
+  if (champ.combobox) {
+    const ok = await remplirCombobox(champ, valeur);
+    (ok ? remplis : ignores).push(champ);
+    continue;
+  }
 
   const ok = await evaluer(`(() => {
     const el = document.querySelector('[data-remplissage="${champ.i}"]');
