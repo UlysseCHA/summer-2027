@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-15T12:52:36.290Z",
+ "generatedAt": "2026-08-15T18:40:55.192Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,33 +7,33 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1525,
+  "total": 1532,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 219,
+   "2026": 216,
    "2027": 455,
    "2028": 1,
-   "non precisee": 838
+   "non precisee": 848
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 219,
-   "2027": 961,
+   "2026": 216,
+   "2027": 970,
    "2028": 1,
-   "non precisee": 332
+   "non precisee": 333
   },
   "byIndustry": {
-   "tech": 669,
+   "tech": 676,
    "finance": 690,
    "consulting": 166
   },
   "byKind": {
-   "graduate": 274,
-   "internship": 1110,
+   "graduate": 277,
+   "internship": 1114,
    "early-career": 141
   }
  },
@@ -60,7 +60,7 @@
   {
    "company": "Baker Hughes",
    "ats": "workday",
-   "found": 58,
+   "found": 59,
    "ok": true
   },
   {
@@ -278,6 +278,12 @@
    "ok": true
   },
   {
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "found": 11,
+   "ok": true
+  },
+  {
    "company": "AQR Capital",
    "token": "aqr",
    "ats": "greenhouse",
@@ -339,6 +345,12 @@
    "ok": true
   },
   {
+   "company": "State Street",
+   "ats": "workday",
+   "found": 9,
+   "ok": true
+  },
+  {
    "company": "Akuna Capital",
    "token": "akunacapital",
    "ats": "greenhouse",
@@ -373,12 +385,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 8,
-   "ok": true
-  },
-  {
    "company": "Ryan",
    "ats": "workday",
    "found": 8,
@@ -401,12 +407,6 @@
    "company": "Flow Traders",
    "token": "flowtraders",
    "ats": "greenhouse",
-   "found": 6,
-   "ok": true
-  },
-  {
-   "company": "Cadence",
-   "ats": "workday",
    "found": 6,
    "ok": true
   },
@@ -648,15 +648,15 @@
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
-   "ats": "workday",
+   "company": "Databricks",
+   "token": "databricks",
+   "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Databricks",
-   "token": "databricks",
-   "ats": "greenhouse",
+   "company": "Brown Gibbons Lang & Company",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
@@ -668,15 +668,15 @@
    "ok": true
   },
   {
-   "company": "HelloFresh",
-   "token": "hellofresh",
-   "ats": "greenhouse",
+   "company": "Dow Jones",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Dow Jones",
-   "ats": "workday",
+   "company": "HelloFresh",
+   "token": "hellofresh",
+   "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
@@ -848,22 +848,8 @@
    "ok": true
   },
   {
-   "company": "project44",
-   "token": "project44",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Robinhood",
    "token": "robinhood",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Scale AI",
-   "token": "scaleai",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -876,9 +862,23 @@
    "ok": true
   },
   {
+   "company": "Scale AI",
+   "token": "scaleai",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Sorare",
    "token": "sorare",
    "ats": "ashby",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "project44",
+   "token": "project44",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -897,16 +897,16 @@
    "ok": true
   },
   {
-   "company": "Amber Group",
-   "token": "ambergroup",
-   "ats": "lever",
+   "company": "AgWest Farm Credit",
+   "token": "agwestfarmcredit",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "AgWest Farm Credit",
-   "token": "agwestfarmcredit",
-   "ats": "greenhouse",
+   "company": "Amber Group",
+   "token": "ambergroup",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -932,7 +932,7 @@
    "ok": true
   },
   {
-   "company": "Cambridge Associates",
+   "company": "Bank of America",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -959,7 +959,7 @@
    "ok": true
   },
   {
-   "company": "Bank of America",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1075,13 +1075,25 @@
    "ok": true
   },
   {
+   "company": "Global Gate",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Global Atlantic",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Frontier Economics",
    "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Global Gate",
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1094,27 +1106,15 @@
    "ok": true
   },
   {
-   "company": "Global Atlantic",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Global Infrastructure Advisors",
-   "ats": "workday",
+   "company": "Harvey",
+   "token": "harvey",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
    "company": "Gunvor",
    "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Harvey",
-   "token": "harvey",
-   "ats": "ashby",
    "found": 1,
    "ok": true
   },
@@ -1243,13 +1243,6 @@
    "ok": true
   },
   {
-   "company": "B2C2",
-   "token": "b2c2",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Bastion Trading",
    "token": "bastion",
    "ats": "ashby",
@@ -1264,8 +1257,9 @@
    "ok": true
   },
   {
-   "company": "BlackRock",
-   "ats": "workday",
+   "company": "B2C2",
+   "token": "b2c2",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1273,6 +1267,12 @@
    "company": "Bracebridge Capital",
    "token": "bracebridgecapital",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "BlackRock",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1423,6 +1423,12 @@
    "ok": true
   },
   {
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Nubank",
    "token": "nubank",
    "ats": "ashby",
@@ -1458,15 +1464,15 @@
    "ok": true
   },
   {
-   "company": "Public",
-   "token": "public",
-   "ats": "greenhouse",
+   "company": "Moelis & Company",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Moelis & Company",
-   "ats": "workday",
+   "company": "Public",
+   "token": "public",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1485,12 +1491,6 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "PSG Equity",
    "ats": "workday",
    "found": 0,
@@ -1504,7 +1504,7 @@
    "ok": true
   },
   {
-   "company": "Sculptor Capital Management",
+   "company": "Sands Capital",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1517,15 +1517,15 @@
    "ok": true
   },
   {
-   "company": "Sands Capital",
-   "ats": "workday",
+   "company": "Trade Republic",
+   "token": "traderepublic",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Trade Republic",
-   "token": "traderepublic",
-   "ats": "greenhouse",
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1551,13 +1551,6 @@
    "ok": true
   },
   {
-   "company": "Weiss Asset Management",
-   "token": "weissassetmanagement",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Wealthfront",
    "token": "wealthfront",
    "ats": "lever",
@@ -1565,9 +1558,22 @@
    "ok": true
   },
   {
+   "company": "Weiss Asset Management",
+   "token": "weissassetmanagement",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Winton",
    "token": "winton",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "PJT Partners",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1600,12 +1606,6 @@
    "ok": true
   },
   {
-   "company": "PJT Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Interpath Advisory",
    "token": "interpath",
    "ats": "greenhouse",
@@ -1620,16 +1620,16 @@
    "ok": true
   },
   {
-   "company": "Putnam Associates",
-   "token": "putnamassociatesllc",
-   "ats": "greenhouse",
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "Putnam Associates",
+   "token": "putnamassociatesllc",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1793,6 +1793,13 @@
    "ok": true
   },
   {
+   "company": "Cadence",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Chime",
    "token": "chime",
    "ats": "greenhouse",
@@ -1827,13 +1834,6 @@
    "ok": true
   },
   {
-   "company": "Contentsquare",
-   "token": "contentsquare",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Copper.co",
    "token": "copperco",
    "ats": "greenhouse",
@@ -1844,6 +1844,13 @@
    "company": "Coursera",
    "token": "coursera",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Contentsquare",
+   "token": "contentsquare",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1890,12 +1897,6 @@
    "ok": true
   },
   {
-   "company": "Cboe Global Markets",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Drata",
    "token": "drata",
    "ats": "ashby",
@@ -1920,6 +1921,12 @@
    "company": "Duolingo",
    "token": "duolingo",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Colliers",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1986,14 +1993,14 @@
    "ok": true
   },
   {
-   "company": "General Electric",
+   "company": "General Atlantic",
    "token": "general",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "General Atlantic",
+   "company": "General Electric",
    "token": "general",
    "ats": "greenhouse",
    "found": 0,
@@ -2007,15 +2014,8 @@
    "ok": true
   },
   {
-   "company": "Colliers",
+   "company": "Cboe Global Markets",
    "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "GoCardless",
-   "token": "gocardless",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2023,12 +2023,6 @@
    "company": "Grafana Labs",
    "token": "grafanalabs",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Grosvenor",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2061,6 +2055,12 @@
    "ok": true
   },
   {
+   "company": "Grosvenor",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
@@ -2081,6 +2081,12 @@
    "ok": true
   },
   {
+   "company": "Hiscox",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Lambda Labs",
    "token": "lambda",
    "ats": "ashby",
@@ -2088,14 +2094,15 @@
    "ok": true
   },
   {
-   "company": "Leerink Partners",
+   "company": "Just",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Just",
-   "ats": "workday",
+   "company": "GoCardless",
+   "token": "gocardless",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2156,15 +2163,15 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
+   "company": "Maxwell Locke & Ritter",
+   "token": "maxwell",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Maxwell Locke & Ritter",
-   "token": "maxwell",
-   "ats": "greenhouse",
+   "company": "Leerink Partners",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2218,12 +2225,6 @@
    "ok": true
   },
   {
-   "company": "Mizuho",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "National Gas",
    "token": "national",
    "ats": "greenhouse",
@@ -2265,7 +2266,7 @@
    "ok": true
   },
   {
-   "company": "Guggenheim Partners",
+   "company": "Mizuho",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2288,6 +2289,12 @@
    "company": "Orion Group",
    "token": "oriongroup",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Guggenheim Partners",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2347,17 +2354,18 @@
    "ok": true
   },
   {
-   "company": "NCR Atleos",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Qonto",
    "token": "qonto",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "company": "Quilter",
@@ -2381,7 +2389,7 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
+   "company": "Oxford Properties Group",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2402,15 +2410,15 @@
    "ok": true
   },
   {
-   "company": "Replit",
-   "token": "replit",
+   "company": "Render",
+   "token": "render",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
+   "company": "Replit",
+   "token": "replit",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2437,9 +2445,27 @@
    "ok": true
   },
   {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Sardine",
    "token": "sardine",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "NASDAQ",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2456,13 +2482,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
   },
   {
    "company": "Sierra",
@@ -2496,12 +2515,6 @@
    "company": "Squarespace",
    "token": "squarespace",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Qualcomm",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2541,12 +2554,6 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Tailscale",
    "token": "tailscale",
    "ats": "greenhouse",
@@ -2561,12 +2568,6 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Trainline",
    "token": "trainline",
    "ats": "ashby",
@@ -2574,9 +2575,9 @@
    "ok": true
   },
   {
-   "company": "Twilio",
-   "token": "twilio",
-   "ats": "greenhouse",
+   "company": "Treefera",
+   "token": "treefera",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2584,13 +2585,6 @@
    "company": "Twitch",
    "token": "twitch",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Treefera",
-   "token": "treefera",
-   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2665,12 +2659,6 @@
    "ok": true
   },
   {
-   "company": "T. Rowe Price",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Zopa",
    "token": "zopa",
    "ats": "lever",
@@ -2680,6 +2668,19 @@
   {
    "company": "UserTesting",
    "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Twilio",
+   "token": "twilio",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -3639,6 +3640,102 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guidehouse-43447",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Associate - Marketing - Campus 2027",
+   "location": "3 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Associate---Marketing---Campus-2027_43447",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "business",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Content Development & Marketing Travel Required : Up to 10% Clearance Required : None What You Will Do : This role is focused on executing marketing programs that support the firm’s business and revenue goals. The person in this new role will support a variety of external and internal programs including br",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43483",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Energy Providers - Campus 2027",
+   "location": "10 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : None What You Will Do : The Energy Providers practice helps utilities and energy companies lead the way in an industry undergoing rapid transformation. As companies respond to the requirements for rapidly growing demand, increased relia",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43479",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Homeland Security & Law Enforcement, Defense & Security - Campus 2027",
+   "location": "US - VA, McLean",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Homeland-Security---Law-Enforcement--Defense---Security---Campus-2027_43479",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43480",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consulting Analyst - Defense, Diplomacy, & Intelligence, Defense & Security - Campus 2027",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consulting-Analyst---Defense--Diplomacy----Intelligence--Defense---Security---Campus-2027_43480",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-visa-REF086776W",
    "company": "Visa",
    "ats": "workday",
@@ -3759,126 +3856,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-guidehouse-43447",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Associate - Marketing - Campus 2027",
-   "location": "3 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Associate---Marketing---Campus-2027_43447",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "business",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Content Development & Marketing Travel Required : Up to 10% Clearance Required : None What You Will Do : This role is focused on executing marketing programs that support the firm’s business and revenue goals. The person in this new role will support a variety of external and internal programs including br",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43483",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Energy Providers - Campus 2027",
-   "location": "10 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : None What You Will Do : The Energy Providers practice helps utilities and energy companies lead the way in an industry undergoing rapid transformation. As companies respond to the requirements for rapidly growing demand, increased relia",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43479",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Homeland Security & Law Enforcement, Defense & Security - Campus 2027",
-   "location": "US - VA, McLean",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Homeland-Security---Law-Enforcement--Defense---Security---Campus-2027_43479",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43480",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consulting Analyst - Defense, Diplomacy, & Intelligence, Defense & Security - Campus 2027",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consulting-Analyst---Defense--Diplomacy----Intelligence--Defense---Security---Campus-2027_43480",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-bakerhughes-R168061",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern - Employer Brand & Content Creator",
-   "location": "GB-AC-ABERDEEN-BAKER HUGHES BUILDING",
-   "regions": [
-    "other"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Employer-Brand---Content-Creator_R168061",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Intern – Employer Brand & Content Creator (12 Month Fixed Term) Do you have a passion for storytelling and creating engaging content? Are you excited to bring an employer brand to life through social media and multimedia content? Partner with the best At Baker Hughes, we are rewriting the energy equation by combining t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-autodesk-26WD100593",
    "company": "Autodesk",
    "ats": "workday",
@@ -3924,6 +3901,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Requisition ID # 26WD100593 Research Associates will explore new areas of technology and help Autodesk (as well as the academic community) understand how emerging technologies can be leveraged to improve creation and design processes. Within the HCI and Visualization research group, you and your mentor(s) will arri",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R168061",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern - Employer Brand & Content Creator",
+   "location": "GB-AC-ABERDEEN-BAKER HUGHES BUILDING",
+   "regions": [
+    "other"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AC-ABERDEEN-BAKER-HUGHES-BUILDING/Intern---Employer-Brand---Content-Creator_R168061",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Intern – Employer Brand & Content Creator (12 Month Fixed Term) Do you have a passion for storytelling and creating engaging content? Are you excited to bring an employer brand to life through social media and multimedia content? Partner with the best At Baker Hughes, we are rewriting the energy equation by combining t",
    "hasDeadlineHint": false
   },
   {
@@ -3979,30 +3980,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Plantation, FL (FL96)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Android Platform Software Engineering Intern - Summer 2027",
-   "location": "Plantation, FL, More...",
-   "regions": [
-    "us"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0191351",
    "company": "Greystar",
    "ats": "workday",
@@ -4024,6 +4001,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Plantation, FL (FL96)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Android Platform Software Engineering Intern - Summer 2027",
+   "location": "Plantation, FL, More...",
+   "regions": [
+    "us"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -4449,54 +4450,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-visa-REF086764W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "KZ - Almaty, Kazakhstan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086781W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern - Graduates Summer 2028/December 2027",
-   "location": "AZ - Baku, Azerbaijan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-guidehouse-43433",
    "company": "Guidehouse",
    "ats": "workday",
@@ -4545,27 +4498,51 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R159419",
-   "company": "Baker Hughes",
+   "id": "wd-visa-REF086764W",
+   "company": "Visa",
    "ats": "workday",
-   "title": "Graduate Engineer - Mechanical New Technology",
-   "location": "GB-AN-MONTROSE-CHARLETON ROAD",
+   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "KZ - Almaty, Kazakhstan",
    "regions": [
     "other"
    ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AN-MONTROSE-CHARLETON-ROAD/Lead-Engineer--Product-Development---New-Technology--F-H-_R159419",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
    "postedAt": "2026-08-13",
    "department": "",
-   "kind": "graduate",
+   "kind": "internship",
    "year": null,
    "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
    "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "Are you passionate about building a strong foundation in engineering design and technology? Do you enjoy learning from experienced engineers while contributing to real‑world oilfield engineering solutions? Join our team Baker Hughes is a global energy‑technology company operating in over 120 countries. We deliver innov",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086781W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern - Graduates Summer 2028/December 2027",
+   "location": "AZ - Baku, Azerbaijan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -4617,6 +4594,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-bakerhughes-R159419",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Graduate Engineer - Mechanical New Technology",
+   "location": "GB-AN-MONTROSE-CHARLETON ROAD",
+   "regions": [
+    "other"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/GB-AN-MONTROSE-CHARLETON-ROAD/Lead-Engineer--Product-Development---New-Technology--F-H-_R159419",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Are you passionate about building a strong foundation in engineering design and technology? Do you enjoy learning from experienced engineers while contributing to real‑world oilfield engineering solutions? Join our team Baker Hughes is a global energy‑technology company operating in over 120 countries. We deliver innov",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-centrica-R0084450",
    "company": "Centrica",
    "ats": "workday",
@@ -4638,30 +4639,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-motorolasolutions-Singapore, Singapore (ZSG43)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "APAC Benefits Intern",
-   "location": "Singapore, Singapore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/APAC-Benefits-Intern_R67445",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -4710,6 +4687,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Singapore, Singapore (ZSG43)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "APAC Benefits Intern",
+   "location": "Singapore, Singapore",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/APAC-Benefits-Intern_R67445",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -6794,6 +6795,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0197663",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Turn Assistant - Wexler (Student Living)",
+   "location": "Wexler, Sacramento, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Wexler-Sacramento-CA/Turn-Assistant---Wexler--Student-Living-_R0197663",
+   "postedAt": "2026-08-11",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0197636",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Monarch 716 (Student Living)",
+   "location": "Monarch 716, Buffalo, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Monarch-716-Buffalo-NY/Community-Assistant---Monarch-716--Student-Living-_R0197636",
+   "postedAt": "2026-08-11",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-motorolasolutions-Chicago, IL (IL156)",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -6863,54 +6912,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-greystar-R0197663",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Turn Assistant - Wexler (Student Living)",
-   "location": "Wexler, Sacramento, CA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Wexler-Sacramento-CA/Turn-Assistant---Wexler--Student-Living-_R0197663",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-greystar-R0197636",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Assistant - Monarch 716 (Student Living)",
-   "location": "Monarch 716, Buffalo, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Monarch-716-Buffalo-NY/Community-Assistant---Monarch-716--Student-Living-_R0197636",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -7273,30 +7274,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-fifththird-R70610",
-   "company": "Fifth Third Bank",
-   "ats": "workday",
-   "title": "2027 Financial Audit Intern",
-   "location": "Cincinnati, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-Financial-Audit-Intern_R70610",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking disciplines, while build",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-cibc-2616325",
    "company": "CIBC",
    "ats": "workday",
@@ -7368,6 +7345,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-fifththird-R70610",
+   "company": "Fifth Third Bank",
+   "ats": "workday",
+   "title": "2027 Financial Audit Intern",
+   "location": "Cincinnati, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-Financial-Audit-Intern_R70610",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking disciplines, while build",
    "hasDeadlineHint": false
   },
   {
@@ -8546,30 +8547,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ciena-R031467",
-   "company": "Ciena",
-   "ats": "workday",
-   "title": "Software Developer in Test Automation Intern",
-   "location": "Ottawa",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-in-Test-Automation-Intern_R031467",
-   "postedAt": "2026-08-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business prioritie",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-centrica-R0080920",
    "company": "Centrica",
    "ats": "workday",
@@ -8642,6 +8619,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ciena-R031467",
+   "company": "Ciena",
+   "ats": "workday",
+   "title": "Software Developer in Test Automation Intern",
+   "location": "Ottawa",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-in-Test-Automation-Intern_R031467",
+   "postedAt": "2026-08-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business prioritie",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-dowjones-Job_Req_54590",
    "company": "Dow Jones",
    "ats": "workday",
@@ -8699,6 +8700,30 @@
     "europe"
    ],
    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
+   "postedAt": "2026-08-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Who we are looking for We are looking for a Working Student to join the Chief Administration Office (CAO) of State Street Bank International GmbH (SSBI). Reporting to the Executive Business Manager for SSBI CAO, Executive Management Board Member, you will gain exposure to senior leadership, governance processes, regula",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-795614",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Working Student – Chief Administration Office (m/w/d))",
+   "location": "Munich, Germany",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/eQuest/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614",
    "postedAt": "2026-08-07",
    "department": "",
    "kind": "internship",
@@ -8908,30 +8933,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-fifththird-R70611",
-   "company": "Fifth Third Bank",
-   "ats": "workday",
-   "title": "2027 IT Audit Intern",
-   "location": "Cincinnati, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-IT-Audit-Intern_R70611",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. GENERAL FUNCTION: The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking discip",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-cibc-2616392",
    "company": "CIBC",
    "ats": "workday",
@@ -8979,6 +8980,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-fifththird-R70611",
+   "company": "Fifth Third Bank",
+   "ats": "workday",
+   "title": "2027 IT Audit Intern",
+   "location": "Cincinnati, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/XMLNAME-2027-IT-Audit-Intern_R70611",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. GENERAL FUNCTION: The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking discip",
    "hasDeadlineHint": false
   },
   {
@@ -9117,30 +9142,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-keybank-R-39972",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 KeyBank Finance/Accounting Summer Internship - Cleveland, OH",
-   "location": "Cleveland, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-KeyBank-Finance-Accounting-Summer-Internship---Cleveland--OH_R-39972",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 127 Public Square, Cleveland Ohio Program Duration: May 26, 2027 - August 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that will spark e",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-hl-R3443",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -9164,6 +9165,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Business Unit: Capital Solutions Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad internatio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-keybank-R-39972",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 KeyBank Finance/Accounting Summer Internship - Cleveland, OH",
+   "location": "Cleveland, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-KeyBank-Finance-Accounting-Summer-Internship---Cleveland--OH_R-39972",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 127 Public Square, Cleveland Ohio Program Duration: May 26, 2027 - August 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that will spark e",
    "hasDeadlineHint": false
   },
   {
@@ -9601,54 +9626,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Hong Kong, Hong Kong (ZHK46)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "HR Intern",
-   "location": "Hong Kong, Hong Kong (ZHK46)",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Hong-Kong-Hong-Kong-ZHK46/HR-Intern_R67444",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-motorolasolutions-Krakow, Poland",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Order Management Intern (1st shift)",
-   "location": "Krakow, Poland",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Order-Management-Intern--1st-shift-_R67237",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0194744",
    "company": "Greystar",
    "ats": "workday",
@@ -9694,6 +9671,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Hong Kong, Hong Kong (ZHK46)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "HR Intern",
+   "location": "Hong Kong, Hong Kong (ZHK46)",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Hong-Kong-Hong-Kong-ZHK46/HR-Intern_R67444",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Krakow, Poland",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Order Management Intern (1st shift)",
+   "location": "Krakow, Poland",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Order-Management-Intern--1st-shift-_R67237",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -10507,6 +10532,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ncratleos-R1151125",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Graduate Hardware Test Engineer",
+   "location": "DUNDEE, GBR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/DUNDEE-GBR/Graduate-Hardware-Test-Engineer_R1151125",
+   "postedAt": "2026-08-05",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Title: Graduate Hardware Test Engineer Lo",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R107906",
    "company": "Tencent",
    "ats": "workday",
@@ -11255,30 +11304,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Krakow, Poland",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Intern Software Developer (C++)",
-   "location": "Krakow, Poland",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer--C---_R66285",
-   "postedAt": "2026-08-04",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0189661",
    "company": "Greystar",
    "ats": "workday",
@@ -11324,6 +11349,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Krakow, Poland",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Intern Software Developer (C++)",
+   "location": "Krakow, Poland",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-Software-Developer--C---_R66285",
+   "postedAt": "2026-08-04",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -12547,30 +12596,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-gartner-112992",
-   "company": "Gartner",
-   "ats": "workday",
-   "title": "North America Summer 2027 Sales Internship",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Fort-Myers-FL/North-America-Summer-2027-Sales-Internship_112992",
-   "postedAt": "2026-08-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "About Our Internship Program We offer world-class training, professional development and unlimited growth potential. Here, you won't just grow your resume; you'll develop invaluable skills to excel today and build a meaningful career for tomorrow. Our internship program allows you to get hands-on experience at a global",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-mastercard-R-286481",
    "company": "Mastercard",
    "ats": "workday",
@@ -12616,6 +12641,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-gartner-112992",
+   "company": "Gartner",
+   "ats": "workday",
+   "title": "North America Summer 2027 Sales Internship",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Fort-Myers-FL/North-America-Summer-2027-Sales-Internship_112992",
+   "postedAt": "2026-08-03",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "About Our Internship Program We offer world-class training, professional development and unlimited growth potential. Here, you won't just grow your resume; you'll develop invaluable skills to excel today and build a meaningful career for tomorrow. Our internship program allows you to get hands-on experience at a global",
    "hasDeadlineHint": false
   },
   {
@@ -14064,30 +14113,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Electrical / Electronics Engineer (Fresh Graduate)",
-   "location": "Penang, Malaysia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Electrical---Electronics-Engineer--Fresh-Graduate-_R67200",
-   "postedAt": "2026-07-29",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0196353",
    "company": "Greystar",
    "ats": "workday",
@@ -14133,6 +14158,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Electrical / Electronics Engineer (Fresh Graduate)",
+   "location": "Penang, Malaysia",
+   "regions": [
+    "other"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Electrical---Electronics-Engineer--Fresh-Graduate-_R67200",
+   "postedAt": "2026-07-29",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -15069,30 +15118,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-northwesternmutual-JR-45705",
-   "company": "Northwestern Mutual",
-   "ats": "workday",
-   "title": "Investment Analyst Intern - Private Debt & Equity, Summer 2027",
-   "location": "Milwaukee, WI Corporate",
-   "regions": [
-    "other"
-   ],
-   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Investment-Analyst-Intern---Private-Debt---Equity--Summer-2027_JR-45705",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Internship candidates can expect a fulltime onsite internship program, running from June 2027 to August 2027. Carefully selected from universities across the country, our interns bring distinctive ideas and perspectives to our organization. Our employees are passionate about building our emerging talent and future lead",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-db-R0429474",
    "company": "Deutsche Bank",
    "ats": "workday",
@@ -15171,51 +15196,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Glasgow, UK (ZUK118)",
-   "company": "Motorola Solutions",
+   "id": "wd-northwesternmutual-JR-45705",
+   "company": "Northwestern Mutual",
    "ats": "workday",
-   "title": "Graduate Software Engineer",
-   "location": "Glasgow, UK (ZUK118)",
+   "title": "Investment Analyst Intern - Private Debt & Equity, Summer 2027",
+   "location": "Milwaukee, WI Corporate",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Graduate-Software-Engineer_R65351",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-juliusbaer-r-19001",
-   "company": "Julius Baer",
-   "ats": "workday",
-   "title": "Intern Regional CFO Emerging Markets 100% (f/m/d) - 6-12months",
-   "location": "Zurich",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://juliusbaer.wd3.myworkdayjobs.com/Internships/job/Zurich/Intern-Regional-CFO-Emerging-Markets-60---100---f-m-d-_r-19001",
+   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Investment-Analyst-Intern---Private-Debt---Equity--Summer-2027_JR-45705",
    "postedAt": "2026-07-24",
    "department": "",
    "kind": "internship",
-   "year": null,
-   "yearSource": null,
+   "year": 2027,
+   "yearSource": "title",
    "season": "summer",
    "track": "banking",
-   "industry": "tech",
+   "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "At Julius Baer, we celebrate and value the individual qualities you bring, enabling you to be impactful, to be entrepreneurial, to be empowered, and to create value beyond wealth. Let’s shape the future of wealth management together. The regional CFO team for Emerging Markets (reporting to the Group CFO) provides overa",
+   "cycleSource": "title",
+   "excerpt": "Internship candidates can expect a fulltime onsite internship program, running from June 2027 to August 2027. Carefully selected from universities across the country, our interns bring distinctive ideas and perspectives to our organization. Our employees are passionate about building our emerging talent and future lead",
    "hasDeadlineHint": false
   },
   {
@@ -15264,6 +15265,78 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Glasgow, UK (ZUK118)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Graduate Software Engineer",
+   "location": "Glasgow, UK (ZUK118)",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Graduate-Software-Engineer_R65351",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-juliusbaer-r-19001",
+   "company": "Julius Baer",
+   "ats": "workday",
+   "title": "Intern Regional CFO Emerging Markets 100% (f/m/d) - 6-12months",
+   "location": "Zurich",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://juliusbaer.wd3.myworkdayjobs.com/Internships/job/Zurich/Intern-Regional-CFO-Emerging-Markets-60---100---f-m-d-_r-19001",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "At Julius Baer, we celebrate and value the individual qualities you bring, enabling you to be impactful, to be entrepreneurial, to be empowered, and to create value beyond wealth. Let’s shape the future of wealth management together. The regional CFO team for Emerging Markets (reporting to the Group CFO) provides overa",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-R1153949",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Graduate Mechanical Design Engineer",
+   "location": "DUNDEE, GBR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/DUNDEE-GBR/Graduate-Mechanical-Design-Engineer_R1153949-1",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Title : Graduate Mechanical Design Engine",
    "hasDeadlineHint": false
   },
   {
@@ -15875,30 +15948,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Taipei, Taiwan (ZTW27)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Customer Support Engineer Intern",
-   "location": "Taipei, Taiwan (ZTW27)",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Taipei-Taiwan-ZTW27/Customer-Support-Engineer-Intern_R66744",
-   "postedAt": "2026-07-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0195470",
    "company": "Greystar",
    "ats": "workday",
@@ -15920,6 +15969,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Taipei, Taiwan (ZTW27)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Customer Support Engineer Intern",
+   "location": "Taipei, Taiwan (ZTW27)",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Taipei-Taiwan-ZTW27/Customer-Support-Engineer-Intern_R66744",
+   "postedAt": "2026-07-22",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -16390,6 +16463,198 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ncratleos-UR2026762",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Retail Support Intern",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Retail-Support-Intern_UR2026762",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "product",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support retail",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026761",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Retail Support Intern",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Retail-Support-Intern_UR2026761",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "product",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support retail",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026763",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Retail Support Intern",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Retail-Support-Intern_UR2026763",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "product",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support retail",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026770",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Logistics Intern-2",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Logistics-Intern-2_UR2026770",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support wareho",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026764",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Business Support Intern-1",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Business-Support-Intern-1_UR2026764",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support ATM se",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026756",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Rework Center Intern-6",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Rework-Center-Intern-6_UR2026756",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support repair",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026760",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Rework Center Intern-10",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Rework-Center-Intern-10_UR2026760",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support repair",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-UR2026765",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Business Support Intern-2",
+   "location": "ISTANBUL, TUR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/ISTANBUL-TUR/Business-Support-Intern-2_UR2026765",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support ATM se",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-optiverus-8642260002",
    "company": "Optiver",
    "ats": "greenhouse",
@@ -16831,30 +17096,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Electronics Engineer Graduate Trainee (Fresh Graduate)",
-   "location": "Penang, Malaysia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Electronics-Engineer-Graduate-Trainee--Fresh-Graduate-_R66585",
-   "postedAt": "2026-07-17",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0193330",
    "company": "Greystar",
    "ats": "workday",
@@ -16948,6 +17189,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Electronics Engineer Graduate Trainee (Fresh Graduate)",
+   "location": "Penang, Malaysia",
+   "regions": [
+    "other"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Electronics-Engineer-Graduate-Trainee--Fresh-Graduate-_R66585",
+   "postedAt": "2026-07-17",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -17329,30 +17594,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Mechanical Engineer (Fresh Graduate)",
-   "location": "Penang, Malaysia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Mechanical-Engineer_R66588",
-   "postedAt": "2026-07-15",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0194753",
    "company": "Greystar",
    "ats": "workday",
@@ -17374,6 +17615,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Mechanical Engineer (Fresh Graduate)",
+   "location": "Penang, Malaysia",
+   "regions": [
+    "other"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Mechanical-Engineer_R66588",
+   "postedAt": "2026-07-15",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -20950,54 +21215,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cadence-R54998",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "Intern - Characterization and Support",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-3",
-   "postedAt": "2026-07-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. This is an on-site internship role in San Jose, California, within the Cadence DDR IP group for a Post-Silicon Validation Engineering Intern. Intern will be responsible for validating both system-level and elec",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-cadence-R54998",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "Intern - Characterization and Support",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-2",
-   "postedAt": "2026-07-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. This is an on-site internship role in San Jose, California, within the Cadence DDR IP group for a Post-Silicon Validation Engineering Intern. Intern will be responsible for validating both system-level and elec",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0193864",
    "company": "Greystar",
    "ats": "workday",
@@ -23175,30 +23392,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Software Engineer Intern",
-   "location": "Penang, Malaysia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Software-Engineer-Intern_R66328",
-   "postedAt": "2026-06-29",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0193111",
    "company": "Greystar",
    "ats": "workday",
@@ -23220,6 +23413,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Software Engineer Intern",
+   "location": "Penang, Malaysia",
+   "regions": [
+    "other"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Software-Engineer-Intern_R66328",
+   "postedAt": "2026-06-29",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -27123,6 +27340,30 @@
    "manual": true
   },
   {
+   "id": "wd-bakerhughes-R167491",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Apprentice - Alternant(e) Ingénieur Bureau d’Études Turbines à Vapeur  (H/F) - France - 2026",
+   "location": "FR-BFC-LE CREUSOT-480 ALLEE GUSTAVE EIFFEL",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-LE-CREUSOT-480-ALLEE-GUSTAVE-EIFFEL/Apprentice---Alternant-e--Ingnieur-Bureau-d-tudes-Turbines--Vapeur---H-F----France---2026_R167491",
+   "postedAt": "2026-08-15",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Vous êtes à la recherche d'une opportunité intéressante et inspirante ? Vous avez envie de faire partie d’une équipe performante ? Rejoignez nos équipes ! Chez Baker Hughes, notre objectif est clair. Nous faisons progresser l'énergie en la rendant plus sûre, plus propre et plus efficace pour les personnes et la planète",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-abridge-3f07a457-dc14-4238-bf4e-5c33b5c1f883",
    "company": "Abridge",
    "ats": "ashby",
@@ -29337,54 +29578,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cadence-R52641",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "SSG Design Engineering Intern (Fall 2026)",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/SSG-Design-Engineering-Intern--Summer-2026_R52641-1",
-   "postedAt": "2026-07-16",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Design Engineering Intern The Cadence Silicon Solutions Group (SSG) is seeing rapid adoption of our industry leading Digital IP (intellectual Property), from processor cores and DSPs to Memory Controllers, to N",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-cadence-R52641",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "SSG Design Engineering Intern (Fall 2026)",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/SSG-Design-Engineering-Intern--Summer-2026_R52641",
-   "postedAt": "2026-07-16",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Design Engineering Intern The Cadence Silicon Solutions Group (SSG) is seeing rapid adoption of our industry leading Digital IP (intellectual Property), from processor cores and DSPs to Memory Controllers, to N",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-notion-6ccbc30c-2de0-4395-af14-3641cd15961b",
    "company": "Notion",
    "ats": "ashby",
@@ -30552,54 +30745,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cadence-R53475",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "Product Engineering Internship, Simulation and Verification (Fall 2026)",
-   "location": "Burlington, MA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Product-Engineering-Internship--Simulation-and-Verification--Fall-2026-_R53475",
-   "postedAt": "2026-06-25",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Product Engineering Internship, Simulation and Verification (Fall 2026) This PE Internship will be based out of our Burlington office during the Fall Semester. Applicants should be local to the area in order to",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-cadence-R53475",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "Product Engineering Internship, Simulation and Verification (Fall 2026)",
-   "location": "Burlington, MA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/Burlington-MA/Product-Engineering-Internship--Simulation-and-Verification--Fall-2026-_R53475-1",
-   "postedAt": "2026-06-25",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "fall",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Product Engineering Internship, Simulation and Verification (Fall 2026) This PE Internship will be based out of our Burlington office during the Fall Semester. Applicants should be local to the area in order to",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-accenture-R00338705",
    "company": "Accenture",
    "ats": "workday",
@@ -31132,6 +31277,30 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "Perché assistere al cambiamento, quando puoi guidarlo? In Accenture, potrai crescere in un ambiente inclusivo e rispettoso della tua unicità e dei tuoi valori, sviluppando le tue abilità con programmi di training continuativi ed esperienziali. Scopri cosa significa lavorare al cuore del cambiamento e accompagna le azie",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ncratleos-R1150348",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "title": "Graduate Project Manager",
+   "location": "DUNDEE, GBR",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ncratleos.wd1.myworkdayjobs.com/ext_intern_EMEA/job/DUNDEE-GBR/Software-Internship---Summer-2026--12-Weeks-_R1150348-1",
+   "postedAt": "2026-05-28",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Role: Graduate Project Manager Location: ",
    "hasDeadlineHint": false
   },
   {
@@ -32501,30 +32670,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Glasgow, UK (ZUK118)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Graduate Software Engineer",
-   "location": "Glasgow, UK (ZUK118)",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Graduate-Software-Engineer_R62290",
-   "postedAt": "2026-05-06",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0187595",
    "company": "Greystar",
    "ats": "workday",
@@ -32546,6 +32691,30 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Glasgow, UK (ZUK118)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Graduate Software Engineer",
+   "location": "Glasgow, UK (ZUK118)",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Graduate-Software-Engineer_R62290",
+   "postedAt": "2026-05-06",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
