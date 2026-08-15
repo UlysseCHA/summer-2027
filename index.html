@@ -61,6 +61,7 @@
     <button class="tab is-active" data-view="offers" role="tab">Offres <span class="tab-count" id="count-offers">0</span></button>
     <button class="tab" data-view="portals" role="tab">Portails entreprises <span class="tab-count" id="count-portals">0</span></button>
     <button class="tab" data-view="tracker" role="tab">Mon suivi <span class="tab-count" id="count-tracker">0</span></button>
+    <button class="tab" data-view="profil" role="tab">Mon profil</button>
     <button class="tab" data-view="about" role="tab">Sources et methode</button>
   </nav>
 </header>
@@ -183,6 +184,31 @@
       </div>
     </div>
     <div class="board" id="tracker-board"></div>
+  </section>
+
+  <!-- ------------------------------------------------------------- Mon profil -->
+  <section class="view" id="view-profil">
+    <div class="section-intro">
+      <h2>Mon profil</h2>
+      <p>
+        Ces informations remplissent les formulaires de candidature via <code>npm run apply</code>.
+        Elles sont ecrites dans <code>data/profile.json</code>, sur ta machine uniquement : ce fichier
+        est ignore par git et ne part jamais sur le depot public.
+      </p>
+    </div>
+    <div id="profil-hors-ligne" class="notice" hidden>
+      <p>
+        Cette page est ouverte depuis le site en ligne, qui ne peut pas ecrire sur ton disque.
+        Lance <code>npm start</code> et ouvre <code>http://localhost:5173</code> pour enregistrer,
+        ou remplis le formulaire ici et telecharge le fichier a placer dans <code>data/</code>.
+      </p>
+    </div>
+    <form id="profil-form" class="profil-form" autocomplete="on"></form>
+    <div class="profil-actions">
+      <button class="btn" id="profil-save" type="button">Enregistrer</button>
+      <button class="btn btn-ghost btn-sm" id="profil-download" type="button">Telecharger le fichier</button>
+      <span id="profil-status" class="profil-status" role="status"></span>
+    </div>
   </section>
 
   <!-- --------------------------------------------------------------- A propos -->

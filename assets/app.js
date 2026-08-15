@@ -493,7 +493,143 @@ function showView(view) {
   $$('.view').forEach(v => v.classList.toggle('is-active', v.id === `view-${view}`));
   if (view === 'tracker') renderTracker();
   if (view === 'portals') renderPortals();
+  if (view === 'profil') chargerProfil();
   syncUrl();
+}
+
+/* --------------------------------------------------------------- mon profil */
+
+/*
+ * Le profil vit dans data/profile.json, lu par les scripts Node. Le formulaire
+ * ci-dessous l'edite sans passer par un editeur de texte, mais uniquement quand la
+ * page est servie en local : une page web ne peut pas ecrire sur ton disque, et le
+ * site en ligne n'a de toute facon pas ce fichier, qui est ignore par git.
+ */
+const PROFIL_CHAMPS = [
+  ['titre', 'Identite'],
+  ['prenom', 'Prenom'],
+  ['nom', 'Nom'],
+  ['prenomUsage', 'Prenom d usage', { aide: 'Seulement si tu te fais appeler autrement' }],
+  ['email', 'Email', { type: 'email' }],
+  ['telephone', 'Telephone', { aide: 'Format international : +33 6 12 34 56 78' }],
+
+  ['titre', 'Adresse'],
+  ['adresse', 'Adresse'],
+  ['codePostal', 'Code postal'],
+  ['ville', 'Ville'],
+  ['region', 'Region / State', { aide: 'Reclame par les formulaires americains' }],
+  ['pays', 'Pays'],
+  ['villeNatale', 'Ville d origine', { aide: 'Pour les questions « where is your hometown », differente de la ville actuelle' }],
+
+  ['titre', 'Liens'],
+  ['linkedin', 'LinkedIn'],
+  ['github', 'GitHub'],
+  ['siteWeb', 'Site personnel'],
+
+  ['titre', 'Formation'],
+  ['ecole', 'Ecole'],
+  ['ecoleAutresNoms', 'Autres noms de l ecole', { liste: true, aide: 'Separes par des virgules, essayes dans l ordre quand la liste du site ne connait pas le premier' }],
+  ['ecoleSiAbsente', 'Si l ecole est absente de la liste', { aide: 'Other pour ce repli, vide pour laisser le champ non rempli' }],
+  ['diplome', 'Diplome', { aide: "Le libelle qu'emploient les sites anglophones, souvent Master's Degree" }],
+  ['specialite', 'Discipline', { aide: 'Telle qu elle figure dans leurs listes : Finance' }],
+  ['programme', 'Nom du cursus'],
+  ['debutMois', 'Debut, mois', { aide: 'En anglais : September' }],
+  ['debutAnnee', 'Debut, annee'],
+  ['finMois', 'Fin, mois', { aide: 'En anglais : August' }],
+  ['finAnnee', 'Fin, annee'],
+  ['anneeDiplome', 'Annee de diplome'],
+
+  ['titre', 'Documents et redaction'],
+  ['cv', 'Chemin du CV', { aide: 'Relatif au projet. Depose le PDF toi-meme dans cv/, le navigateur ne peut pas le faire' }],
+  ['langues', 'Langues', { liste: true, aide: 'Separees par des virgules' }],
+  ['aProposDeMoi', 'Hors CV', { long: true, aide: 'Deux ou trois phrases sur ce qui ne figure pas sur ton CV' }],
+  ['reponsesTypes.pourquoiNous', 'Motivation habituelle', { long: true }],
+];
+
+const lireCle = (obj, cle) => cle.split('.').reduce((o, k) => o?.[k], obj);
+const ecrireCle = (obj, cle, val) => {
+  const parts = cle.split('.');
+  const dernier = parts.pop();
+  const cible = parts.reduce((o, k) => (o[k] ??= {}), obj);
+  cible[dernier] = val;
+};
+
+let profilCharge = false;
+
+function dessinerProfil(profil) {
+  $('#profil-form').innerHTML = PROFIL_CHAMPS.map(([cle, label, opt = {}]) => {
+    if (cle === 'titre') return `<h3 class="profil-groupe">${escapeHtml(label)}</h3>`;
+    const brut = lireCle(profil, cle);
+    const val = Array.isArray(brut) ? brut.join(', ') : (brut ?? '');
+    const id = `p-${cle.replace(/\./g, '-')}`;
+    const aide = opt.aide ? `<small>${escapeHtml(opt.aide)}</small>` : '';
+    const champ = opt.long
+      ? `<textarea id="${id}" data-cle="${escapeHtml(cle)}" rows="3">${escapeHtml(String(val))}</textarea>`
+      : `<input id="${id}" data-cle="${escapeHtml(cle)}" type="${opt.type || 'text'}" value="${escapeHtml(String(val))}">`;
+    return `<div class="profil-champ${opt.long ? ' is-long' : ''}">
+      <label for="${id}">${escapeHtml(label)}</label>${champ}${aide}</div>`;
+  }).join('');
+}
+
+function collecterProfil() {
+  const profil = {};
+  for (const el of $$('#profil-form [data-cle]')) {
+    const cle = el.dataset.cle;
+    const opt = PROFIL_CHAMPS.find(c => c[0] === cle)?.[2] || {};
+    const v = el.value.trim();
+    ecrireCle(profil, cle, opt.liste ? v.split(',').map(s => s.trim()).filter(Boolean) : v);
+  }
+  return profil;
+}
+
+function statutProfil(texte, type = '') {
+  const el = $('#profil-status');
+  el.textContent = texte;
+  el.className = `profil-status${type ? ' is-' + type : ''}`;
+}
+
+async function chargerProfil() {
+  if (profilCharge) return;
+  profilCharge = true;
+  try {
+    const r = await fetch('api/profil', { headers: { accept: 'application/json' } });
+    if (!r.ok || !/json/.test(r.headers.get('content-type') || '')) throw new Error('hors ligne');
+    dessinerProfil(await r.json());
+  } catch {
+    // Site en ligne, ou serveur lance autrement : le formulaire reste utilisable,
+    // seul l'enregistrement direct est impossible.
+    $('#profil-hors-ligne').hidden = false;
+    $('#profil-save').disabled = true;
+    dessinerProfil({});
+  }
+}
+
+async function enregistrerProfil() {
+  statutProfil('Enregistrement...');
+  try {
+    const r = await fetch('api/profil', {
+      method: 'PUT',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(collecterProfil()),
+    });
+    const rep = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(rep.erreur || `erreur ${r.status}`);
+    statutProfil('Enregistre dans data/profile.json', 'ok');
+  } catch (e) {
+    // Ne jamais afficher un succes qu'on n'a pas verifie : un profil qu'on croit
+    // enregistre et qui ne l'est pas se decouvre au pire moment.
+    statutProfil(`Echec : ${e.message}. Utilise le telechargement.`, 'ko');
+  }
+}
+
+function telechargerProfil() {
+  const blob = new Blob([JSON.stringify(collecterProfil(), null, 2) + '\n'], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'profile.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  statutProfil('Telecharge. Place-le dans data/ du projet.', 'ok');
 }
 
 /* ------------------------------------------------------- rafraichissement */
@@ -584,6 +720,9 @@ function exportCsv() {
 
 function bindEvents() {
   $$('.tab').forEach(tab => tab.addEventListener('click', () => showView(tab.dataset.view)));
+
+  $('#profil-save').addEventListener('click', enregistrerProfil);
+  $('#profil-download').addEventListener('click', telechargerProfil);
 
   let debounce;
   $('#q').addEventListener('input', e => {
