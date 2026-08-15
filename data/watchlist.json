@@ -1,0 +1,90 @@
+{
+  "_comment": "Entreprises a surveiller qui n'ont pas encore de job board exploitable. scripts/watch.mjs les re-teste a chaque collecte : si l'une d'elles ouvre un board Greenhouse, Lever, Ashby ou Workday, elle est ajoutee automatiquement a data/sources.json et ses offres entrent dans l'app des la collecte suivante. Une entreprise qui a deja un board n'a rien a faire ici : elle est deja surveillee en continu.",
+  "_usage": "Ajouter un nom : double-clic sur « Surveiller une entreprise.cmd », ou une ligne dans la liste ci-dessous.",
+  "companies": [
+    {
+      "name": "Bain & Company",
+      "industry": "consulting"
+    },
+    {
+      "name": "Centerview Partners",
+      "industry": "finance"
+    },
+    {
+      "name": "Citadel",
+      "industry": "finance"
+    },
+    {
+      "name": "Citadel Securities",
+      "industry": "finance"
+    },
+    {
+      "name": "D. E. Shaw",
+      "industry": "finance"
+    },
+    {
+      "name": "Evercore",
+      "industry": "finance"
+    },
+    {
+      "name": "Goldman Sachs",
+      "industry": "finance"
+    },
+    {
+      "name": "Greenhill",
+      "industry": "finance"
+    },
+    {
+      "name": "J.P. Morgan",
+      "industry": "finance"
+    },
+    {
+      "name": "Jane Street",
+      "industry": "finance"
+    },
+    {
+      "name": "Lazard",
+      "industry": "finance"
+    },
+    {
+      "name": "Marshall Wace",
+      "industry": "finance"
+    },
+    {
+      "name": "McKinsey & Company",
+      "industry": "consulting"
+    },
+    {
+      "name": "Millennium",
+      "industry": "finance"
+    },
+    {
+      "name": "Morgan Stanley",
+      "industry": "finance"
+    },
+    {
+      "name": "Nomura",
+      "industry": "finance"
+    },
+    {
+      "name": "Perella Weinberg Partners",
+      "industry": "finance"
+    },
+    {
+      "name": "Qatalyst Partners",
+      "industry": "finance"
+    },
+    {
+      "name": "Rothschild & Co",
+      "industry": "finance"
+    },
+    {
+      "name": "Susquehanna",
+      "industry": "finance"
+    },
+    {
+      "name": "Two Sigma",
+      "industry": "finance"
+    }
+  ]
+}

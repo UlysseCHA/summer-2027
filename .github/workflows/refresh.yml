@@ -35,6 +35,12 @@ jobs:
         with:
           node-version: '22'
 
+      # Une entreprise de la liste de surveillance a-t-elle ouvert un job board ?
+      # Si oui, elle rejoint data/sources.json et la collecte qui suit la prend.
+      - name: Surveiller les entreprises sans board
+        continue-on-error: true
+        run: node scripts/watch.mjs
+
       - name: Collecter les offres
         run: node scripts/fetch.mjs
 
@@ -46,7 +52,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/offers.json
+          git add data/offers.json data/sources.json
           if git diff --staged --quiet; then
             echo "Aucun changement."
           else

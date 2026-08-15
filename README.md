@@ -99,6 +99,26 @@ les offres.
 | Annonce sans année (« Quantitative Research Intern ») | Rattachée à Summer 2027 si publiée dans la fenêtre de recrutement, badge « année déduite » |
 | Date limite de candidature | Pas extraite : rarement structurée. Un badge signale les annonces qui en mentionnent une |
 
+## Surveiller une entreprise
+
+Une entreprise présente dans [`data/sources.json`](data/sources.json) est déjà surveillée en
+continu : son board est réinterrogé toutes les 6 heures, et toute offre publiée entre dans l'app
+sans rien faire. Même si elle n'a rien d'ouvert aujourd'hui.
+
+Pour celles qui n'ont **pas encore** de board, `Surveiller une entreprise.cmd` (ou
+`npm run watch-add`) les inscrit dans [`data/watchlist.json`](data/watchlist.json). À chaque
+collecte, `scripts/watch.mjs` les re-teste contre Greenhouse, Lever, Ashby et Workday. Le jour où
+l'une d'elles ouvre un board, elle bascule automatiquement dans les sources et ses offres arrivent.
+
+```bash
+npm run watch-add "Qatalyst Partners" finance
+npm run watch-add --file mes-entreprises.txt finance   # un nom par ligne
+```
+
+Le script ne retient un board que si **tous** les mots distinctifs du nom se retrouvent dans
+l'URL ou le nom d'organisation. Sans cette sévérité, « Marshall Wace » attrapait le tenant de
+Marshall of Cambridge (aéronautique), et « American Express » celui d'American University.
+
 ## Ajouter une offre à la main
 
 Certains employeurs ne publient **aucune** source listable : McKinsey (application Next.js sur API
