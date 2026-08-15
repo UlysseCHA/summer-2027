@@ -83,6 +83,13 @@ const REGLES = [
 ];
 
 /**
+ * « Where is your hometown ? » n'est pas « dans quelle ville habites-tu ». Le premier
+ * test y avait mis la ville actuelle : plausible, donc invisible a la relecture, et
+ * potentiellement faux. On ne repond que si le profil donne explicitement la reponse.
+ */
+const AMBIGU = /hometown|ville natale|ville d.?origine|birth|naissance|nationality|nationalit[eé]|preferred name|pr[eé]nom d.?usage/i;
+
+/**
  * Champs auxquels on ne touche jamais.
  *
  * Les questions de diversite, de handicap ou de statut de veteran sont personnelles et
@@ -108,7 +115,7 @@ function valeurCoherente(etiquette, valeur) {
 }
 
 const valeurPour = (etiquette) => {
-  if (JAMAIS.test(etiquette)) return null;
+  if (JAMAIS.test(etiquette) || AMBIGU.test(etiquette)) return null;
   for (const [re, val] of REGLES) {
     if (!val || !re.test(etiquette)) continue;
     const v = String(val);
@@ -256,14 +263,23 @@ for (const champ of champs) {
               || [...el.options].find(o => v.toLowerCase().includes(o.text.trim().toLowerCase()) && o.text.trim().length > 2);
       if (!opt) return false;
       el.value = opt.value;
-    } else {
-      el.focus();
-      el.value = v;
+      el.dispatchEvent(new Event('change', { bubbles: true }));
+      return el.value === opt.value;
     }
+
+    // Greenhouse, Lever et Ashby sont ecrits en React. Ecrire directement dans
+    // el.value ne previent pas React, qui reecrase le champ au rendu suivant :
+    // le formulaire semble rempli une seconde, puis se vide. Il faut passer par le
+    // setter natif pour que le onChange de React parte vraiment.
+    const proto = el instanceof HTMLTextAreaElement ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+    const setter = Object.getOwnPropertyDescriptor(proto, 'value')?.set;
+
+    el.focus();
+    if (setter) setter.call(el, v); else el.value = v;
     el.dispatchEvent(new Event('input', { bubbles: true }));
     el.dispatchEvent(new Event('change', { bubbles: true }));
     el.blur();
-    return true;
+    return el.value === v;
   })()`);
 
   (ok ? remplis : ignores).push(champ);
@@ -293,6 +309,33 @@ if (cvPret) {
 
 /* ---------------------------------------------------------------- rapport */
 
+/*
+ * On relit l'etat REEL du formulaire avant de faire le rapport.
+ *
+ * Sans cela, le script annoncait « Country rempli » alors que la liste deroulante
+ * affichait toujours « Select... » : ces composants React reprennent la main apres
+ * coup. Un rapport qui decrit les intentions plutot que le resultat est pire
+ * qu'inutile, puisqu'il donne confiance dans un champ vide.
+ */
+await sleep(1500);
+const etatReel = await evaluer(`(() => {
+  const out = {};
+  for (const el of document.querySelectorAll('[data-remplissage]')) {
+    const i = el.getAttribute('data-remplissage');
+    if (el.tagName === 'SELECT') {
+      const o = el.options[el.selectedIndex];
+      const txt = o ? o.text.trim() : '';
+      out[i] = (el.selectedIndex > 0 && txt && !/^(select|choisir|--)/i.test(txt)) ? txt : '';
+    } else {
+      out[i] = el.value || '';
+    }
+  }
+  return out;
+})()`) || {};
+
+const vraimentRemplis = remplis.filter(c => etatReel[String(c.i)]);
+const perdus = remplis.filter(c => !etatReel[String(c.i)]);
+
 /* Un formulaire contient beaucoup de champs techniques sans etiquette lisible :
    on ne rapporte que ce sur quoi tu peux agir. */
 const lisible = c => c.etiquette && c.etiquette.replace(/[\s*:]/g, '').length > 2;
@@ -304,16 +347,20 @@ const dedupe = liste => liste.filter(c => {
   return vus.has(k) ? false : vus.add(k);
 });
 
+// Un champ que le site a reecrase reste a faire, au meme titre qu'un champ jamais touche.
+const aFaire = [...ignores, ...perdus];
+
 // Les questions sensibles ont leur propre rubrique : elles ne sont pas « oubliees »,
 // elles sont volontairement laissees de cote.
-const sensibles = dedupe(ignores.filter(c => lisible(c) && JAMAIS.test(c.etiquette)));
-const manquantsRequis = dedupe(ignores.filter(c =>
-  c.requis && !c.dejaRempli && lisible(c) && !JAMAIS.test(c.etiquette)));
-const ouverts = dedupe(ignores.filter(c => c.tag === 'textarea' && !c.dejaRempli && lisible(c)));
+const sensibles = dedupe(aFaire.filter(c => lisible(c) && JAMAIS.test(c.etiquette)));
+const ambigues = dedupe(aFaire.filter(c => lisible(c) && AMBIGU.test(c.etiquette) && !JAMAIS.test(c.etiquette)));
+const manquantsRequis = dedupe(aFaire.filter(c =>
+  c.requis && !c.dejaRempli && lisible(c) && !JAMAIS.test(c.etiquette) && !AMBIGU.test(c.etiquette)));
+const ouverts = dedupe(aFaire.filter(c => c.tag === 'textarea' && !c.dejaRempli && lisible(c)));
 
 console.log('='.repeat(66));
-console.log(`  ${remplis.length} champ(s) rempli(s)${cvCharge ? ', CV joint' : cvPret ? ', CV NON joint' : ''}`);
-remplis.forEach(c => console.log(`    + ${court(c)}`));
+console.log(`  ${vraimentRemplis.length} champ(s) rempli(s)${cvCharge ? ', CV joint' : cvPret ? ', CV NON joint' : ''}`);
+vraimentRemplis.forEach(c => console.log(`    + ${court(c).padEnd(46)} = ${String(etatReel[String(c.i)]).slice(0, 32)}`));
 
 if (manquantsRequis.length) {
   console.log(`\n  ${manquantsRequis.length} champ(s) OBLIGATOIRE(S) que tu dois remplir :`);
@@ -324,6 +371,12 @@ if (sensibles.length) {
   console.log(`\n  ${sensibles.length} question(s) volontairement NON remplie(s) :`);
   console.log('    (autorisation de travail, sponsorship, diversite : a toi seul d y repondre)');
   sensibles.forEach(c => console.log(`    - ${court(c)}`));
+}
+
+if (ambigues.length) {
+  console.log(`\n  ${ambigues.length} question(s) laissee(s) vide(s) faute de certitude :`);
+  console.log('    (« hometown » n est pas ta ville actuelle : mieux vaut vide que faux)');
+  ambigues.forEach(c => console.log(`    ? ${court(c)}`));
 }
 
 if (ouverts.length) {
