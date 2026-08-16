@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-15T18:40:55.192Z",
+ "generatedAt": "2026-08-16T01:48:58.791Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,33 +7,33 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1532,
+  "total": 1471,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 216,
-   "2027": 455,
+   "2026": 220,
+   "2027": 456,
    "2028": 1,
-   "non precisee": 848
+   "non precisee": 782
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 8,
-   "2026": 216,
-   "2027": 970,
+   "2026": 220,
+   "2027": 912,
    "2028": 1,
-   "non precisee": 333
+   "non precisee": 326
   },
   "byIndustry": {
-   "tech": 676,
+   "tech": 615,
    "finance": 690,
    "consulting": 166
   },
   "byKind": {
+   "internship": 1053,
    "graduate": 277,
-   "internship": 1114,
    "early-career": 141
   }
  },
@@ -49,12 +49,6 @@
    "token": "palantir",
    "ats": "lever",
    "found": 72,
-   "ok": true
-  },
-  {
-   "company": "Tencent",
-   "ats": "workday",
-   "found": 67,
    "ok": true
   },
   {
@@ -128,13 +122,13 @@
    "ok": true
   },
   {
-   "company": "Invesco",
+   "company": "Blackstone",
    "ats": "workday",
    "found": 24,
    "ok": true
   },
   {
-   "company": "Blackstone",
+   "company": "Invesco",
    "ats": "workday",
    "found": 24,
    "ok": true
@@ -324,16 +318,16 @@
    "ok": true
   },
   {
-   "company": "Forvis Mazars",
-   "token": "forvismazars",
-   "ats": "greenhouse",
+   "company": "Alan",
+   "token": "alan",
+   "ats": "ashby",
    "found": 9,
    "ok": true
   },
   {
-   "company": "Alan",
-   "token": "alan",
-   "ats": "ashby",
+   "company": "Forvis Mazars",
+   "token": "forvismazars",
+   "ats": "greenhouse",
    "found": 9,
    "ok": true
   },
@@ -385,13 +379,13 @@
    "ok": true
   },
   {
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "found": 8,
    "ok": true
   },
   {
-   "company": "Ryan Specialty",
+   "company": "Ryan",
    "ats": "workday",
    "found": 8,
    "ok": true
@@ -407,6 +401,12 @@
    "company": "Flow Traders",
    "token": "flowtraders",
    "ats": "greenhouse",
+   "found": 6,
+   "ok": true
+  },
+  {
+   "company": "Cadence",
+   "ats": "workday",
    "found": 6,
    "ok": true
   },
@@ -492,6 +492,12 @@
    "ok": true
   },
   {
+   "company": "CIBC",
+   "ats": "workday",
+   "found": 4,
+   "ok": true
+  },
+  {
    "company": "Lincoln International",
    "token": "lincolninternational",
    "ats": "greenhouse",
@@ -499,22 +505,9 @@
    "ok": true
   },
   {
-   "company": "CIBC",
-   "ats": "workday",
-   "found": 4,
-   "ok": true
-  },
-  {
    "company": "Mollie",
    "token": "mollie",
    "ats": "ashby",
-   "found": 4,
-   "ok": true
-  },
-  {
-   "company": "Raisin",
-   "token": "raisin",
-   "ats": "greenhouse",
    "found": 4,
    "ok": true
   },
@@ -533,6 +526,13 @@
    "ok": true
   },
   {
+   "company": "Raisin",
+   "token": "raisin",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
    "company": "Schneider Downs",
    "token": "schneiderdowns",
    "ats": "greenhouse",
@@ -541,6 +541,12 @@
   },
   {
    "company": "Gartner",
+   "ats": "workday",
+   "found": 4,
+   "ok": true
+  },
+  {
+   "company": "Centrica",
    "ats": "workday",
    "found": 4,
    "ok": true
@@ -556,12 +562,6 @@
    "company": "Epic Games",
    "token": "epicgames",
    "ats": "greenhouse",
-   "found": 4,
-   "ok": true
-  },
-  {
-   "company": "Centrica",
-   "ats": "workday",
    "found": 4,
    "ok": true
   },
@@ -641,6 +641,12 @@
    "ok": true
   },
   {
+   "company": "Brown Gibbons Lang & Company",
+   "ats": "workday",
+   "found": 3,
+   "ok": true
+  },
+  {
    "company": "Cohere",
    "token": "cohere",
    "ats": "ashby",
@@ -648,21 +654,15 @@
    "ok": true
   },
   {
-   "company": "Databricks",
-   "token": "databricks",
+   "company": "Flexport",
+   "token": "flexport",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
-   "ats": "workday",
-   "found": 3,
-   "ok": true
-  },
-  {
-   "company": "Flexport",
-   "token": "flexport",
+   "company": "Databricks",
+   "token": "databricks",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -727,9 +727,8 @@
    "ok": true
   },
   {
-   "company": "PDT Partners",
-   "token": "pdtpartners",
-   "ats": "greenhouse",
+   "company": "Nationwide",
+   "ats": "workday",
    "found": 2,
    "ok": true
   },
@@ -741,8 +740,9 @@
    "ok": true
   },
   {
-   "company": "Nationwide",
-   "ats": "workday",
+   "company": "PDT Partners",
+   "token": "pdtpartners",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -848,8 +848,22 @@
    "ok": true
   },
   {
+   "company": "project44",
+   "token": "project44",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Robinhood",
    "token": "robinhood",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "Scale AI",
+   "token": "scaleai",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -862,23 +876,9 @@
    "ok": true
   },
   {
-   "company": "Scale AI",
-   "token": "scaleai",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Sorare",
    "token": "sorare",
    "ats": "ashby",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "project44",
-   "token": "project44",
-   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -932,12 +932,6 @@
    "ok": true
   },
   {
-   "company": "Bank of America",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Eclipse Trading",
    "token": "eclipsetrading",
    "ats": "greenhouse",
@@ -952,15 +946,21 @@
    "ok": true
   },
   {
-   "company": "Headlands Technologies",
-   "token": "headlandstechnologiesllc",
-   "ats": "greenhouse",
+   "company": "Bank of America",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
    "company": "Cambridge Associates",
    "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Headlands Technologies",
+   "token": "headlandstechnologiesllc",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1014,15 +1014,15 @@
    "ok": true
   },
   {
-   "company": "Moore Colson",
-   "token": "moorecolson",
-   "ats": "lever",
+   "company": "Baker Tilly",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Baker Tilly",
-   "ats": "workday",
+   "company": "Moore Colson",
+   "token": "moorecolson",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -1075,7 +1075,7 @@
    "ok": true
   },
   {
-   "company": "Global Gate",
+   "company": "Frontier Economics",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1087,13 +1087,7 @@
    "ok": true
   },
   {
-   "company": "Frontier Economics",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Global Infrastructure Advisors",
+   "company": "Global Gate",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1109,6 +1103,12 @@
    "company": "Harvey",
    "token": "harvey",
    "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Global Infrastructure Advisors",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1175,6 +1175,13 @@
    "ok": true
   },
   {
+   "company": "Replit",
+   "token": "replit",
+   "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Riot Games",
    "token": "riotgames",
    "ats": "greenhouse",
@@ -1189,12 +1196,6 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Shield AI",
    "token": "shield-ai",
    "ats": "ashby",
@@ -1202,15 +1203,15 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "Julius Baer",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -1236,6 +1237,13 @@
    "ok": true
   },
   {
+   "company": "B2C2",
+   "token": "b2c2",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Anchorage Digital",
    "token": "anchorage",
    "ats": "lever",
@@ -1257,9 +1265,8 @@
    "ok": true
   },
   {
-   "company": "B2C2",
-   "token": "b2c2",
-   "ats": "greenhouse",
+   "company": "BlackRock",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1271,21 +1278,9 @@
    "ok": true
   },
   {
-   "company": "BlackRock",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Capstone Investment",
    "token": "capstoneinvestmentadvisors",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1297,15 +1292,14 @@
    "ok": true
   },
   {
-   "company": "Compound Equity Group",
-   "token": "compound",
-   "ats": "ashby",
+   "company": "Blue Owl Capital",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Dimensional Fund Advisors",
-   "token": "dimensional",
+   "company": "Compound Equity Group",
+   "token": "compound",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1314,6 +1308,13 @@
    "company": "Crypto com",
    "token": "crypto",
    "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Dimensional Fund Advisors",
+   "token": "dimensional",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1423,12 +1424,6 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Nubank",
    "token": "nubank",
    "ats": "ashby",
@@ -1450,15 +1445,14 @@
    "ok": true
   },
   {
-   "company": "Paxos",
-   "token": "paxos",
-   "ats": "ashby",
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Plaid",
-   "token": "plaid",
+   "company": "Paxos",
+   "token": "paxos",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1470,9 +1464,22 @@
    "ok": true
   },
   {
+   "company": "Plaid",
+   "token": "plaid",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Public",
    "token": "public",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "PSG Equity",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1491,7 +1498,13 @@
    "ok": true
   },
   {
-   "company": "PSG Equity",
+   "company": "Sands Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "PJT Partners",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1504,7 +1517,7 @@
    "ok": true
   },
   {
-   "company": "Sands Capital",
+   "company": "Sculptor Capital Management",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1520,12 +1533,6 @@
    "company": "Trade Republic",
    "token": "traderepublic",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Sculptor Capital Management",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1572,12 +1579,6 @@
    "ok": true
   },
   {
-   "company": "PJT Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "BCG",
    "token": "bcg",
    "ats": "greenhouse",
@@ -1620,16 +1621,16 @@
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "Putnam Associates",
+   "token": "putnamassociatesllc",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Putnam Associates",
-   "token": "putnamassociatesllc",
-   "ats": "greenhouse",
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1793,11 +1794,10 @@
    "ok": true
   },
   {
-   "company": "Cadence",
+   "company": "Baillie Gifford",
    "ats": "workday",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Chime",
@@ -1821,15 +1821,16 @@
    "ok": true
   },
   {
-   "company": "Baillie Gifford",
-   "ats": "workday",
+   "company": "Confluent",
+   "token": "confluent",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Confluent",
-   "token": "confluent",
-   "ats": "ashby",
+   "company": "Contentsquare",
+   "token": "contentsquare",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1848,9 +1849,8 @@
    "ok": true
   },
   {
-   "company": "Contentsquare",
-   "token": "contentsquare",
-   "ats": "lever",
+   "company": "Cboe Global Markets",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1890,6 +1890,12 @@
    "ok": true
   },
   {
+   "company": "Colliers",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Dojo",
    "token": "dojo",
    "ats": "greenhouse",
@@ -1904,15 +1910,15 @@
    "ok": true
   },
   {
-   "company": "Dropbox",
-   "token": "dropbox",
+   "company": "Ducera Partners",
+   "token": "ducerapartners",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Ducera Partners",
-   "token": "ducerapartners",
+   "company": "Dropbox",
+   "token": "dropbox",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1921,12 +1927,6 @@
    "company": "Duolingo",
    "token": "duolingo",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Colliers",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1987,12 +1987,6 @@
    "ok": true
   },
   {
-   "company": "eBay",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "General Atlantic",
    "token": "general",
    "ats": "greenhouse",
@@ -2014,8 +2008,15 @@
    "ok": true
   },
   {
-   "company": "Cboe Global Markets",
+   "company": "eBay",
    "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "GoCardless",
+   "token": "gocardless",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2030,6 +2031,12 @@
    "company": "Harris Associates",
    "token": "harrisassociates",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Grosvenor",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2055,18 +2062,6 @@
    "ok": true
   },
   {
-   "company": "Grosvenor",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "HarbourVest",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Justworks",
    "token": "justworks",
    "ats": "greenhouse",
@@ -2081,12 +2076,6 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Lambda Labs",
    "token": "lambda",
    "ats": "ashby",
@@ -2094,15 +2083,14 @@
    "ok": true
   },
   {
-   "company": "Just",
+   "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "GoCardless",
-   "token": "gocardless",
-   "ats": "greenhouse",
+   "company": "Leerink Partners",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2170,15 +2158,8 @@
    "ok": true
   },
   {
-   "company": "Leerink Partners",
+   "company": "Hiscox",
    "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Mirakl",
-   "token": "mirakl",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2190,9 +2171,22 @@
    "ok": true
   },
   {
+   "company": "Mirakl",
+   "token": "mirakl",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Miro",
    "token": "miro",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Just",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2218,6 +2212,12 @@
    "ok": true
   },
   {
+   "company": "Mizuho",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "N26",
    "token": "n26",
    "ats": "greenhouse",
@@ -2225,15 +2225,15 @@
    "ok": true
   },
   {
-   "company": "National Gas",
-   "token": "national",
-   "ats": "greenhouse",
+   "company": "MBDA",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "MBDA",
-   "ats": "workday",
+   "company": "National Gas",
+   "token": "national",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2259,22 +2259,15 @@
    "ok": true
   },
   {
-   "company": "Newton",
-   "token": "newton",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Mizuho",
+   "company": "Guggenheim Partners",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "OakNorth",
-   "token": "oaknorth",
-   "ats": "ashby",
+   "company": "Newton",
+   "token": "newton",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2286,15 +2279,16 @@
    "ok": true
   },
   {
-   "company": "Orion Group",
-   "token": "oriongroup",
-   "ats": "greenhouse",
+   "company": "OakNorth",
+   "token": "oaknorth",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Guggenheim Partners",
-   "ats": "workday",
+   "company": "Orion Group",
+   "token": "oriongroup",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2361,13 +2355,6 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
-  },
-  {
    "company": "Quilter",
    "token": "quilter",
    "ats": "ashby",
@@ -2387,13 +2374,6 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
   },
   {
    "company": "Reddit",
@@ -2417,11 +2397,11 @@
    "ok": true
   },
   {
-   "company": "Replit",
-   "token": "replit",
-   "ats": "ashby",
+   "company": "Oxford Properties Group",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "company": "Roku",
@@ -2445,27 +2425,22 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 500"
+  },
+  {
    "company": "Sardine",
    "token": "sardine",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "NASDAQ",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2480,6 +2455,12 @@
    "company": "Shea & Company",
    "token": "sheacompany",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Qualcomm",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2505,16 +2486,16 @@
    "ok": true
   },
   {
-   "company": "Spotify",
-   "token": "spotify",
-   "ats": "lever",
+   "company": "Squarespace",
+   "token": "squarespace",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Squarespace",
-   "token": "squarespace",
-   "ats": "greenhouse",
+   "company": "Spotify",
+   "token": "spotify",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2554,11 +2535,24 @@
    "ok": true
   },
   {
+   "company": "NASDAQ",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Tailscale",
    "token": "tailscale",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Standard Chartered",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Thought Machine",
@@ -2582,6 +2576,13 @@
    "ok": true
   },
   {
+   "company": "Twilio",
+   "token": "twilio",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Twitch",
    "token": "twitch",
    "ats": "greenhouse",
@@ -2601,6 +2602,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Tencent",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "UVIMCO",
@@ -2659,6 +2667,12 @@
    "ok": true
   },
   {
+   "company": "UserTesting",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Zopa",
    "token": "zopa",
    "ats": "lever",
@@ -2666,21 +2680,8 @@
    "ok": true
   },
   {
-   "company": "UserTesting",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "T. Rowe Price",
    "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Twilio",
-   "token": "twilio",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2692,6 +2693,32 @@
   }
  ],
  "offers": [
+  {
+   "id": "ab-replit-7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "company": "Replit",
+   "ats": "ashby",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "location": "Foster City, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+   "postedAt": "2026-08-15T18:49:00.242+00:00",
+   "department": "Engineering",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "devtools"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Replit is the agentic software creation platform that enables anyone to build applications using natural language. With millions of users worldwide, Replit is democratizing software development by removing traditional barriers to application creation. About the role: Join our engineering team for a 12-week paid interns",
+   "hasDeadlineHint": false
+  },
   {
    "id": "ab-applied-0695a5b7-6823-4da5-b918-3b580d49662c",
    "company": "Applied Intuition",
@@ -3519,6 +3546,31 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-raymondjames-Vienna, Virginia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP Financial Advisor Trainee - Vienna, VA",
+   "location": "Non précisé",
+   "regions": [
+    "us",
+    "europe"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Vienna-Virginia---United-States/AMP-Financial-Advisor-Trainee---Vienna--VA_R-0012407",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-southstatebank-R-05807",
    "company": "SouthState Bank",
    "ats": "workday",
@@ -3612,127 +3664,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-raymondjames-Vienna, Virginia - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "AMP Financial Advisor Trainee - Vienna, VA",
-   "location": "Non précisé",
-   "regions": [
-    "us",
-    "europe"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Vienna-Virginia---United-States/AMP-Financial-Advisor-Trainee---Vienna--VA_R-0012407",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43447",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Associate - Marketing - Campus 2027",
-   "location": "3 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Associate---Marketing---Campus-2027_43447",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "business",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Content Development & Marketing Travel Required : Up to 10% Clearance Required : None What You Will Do : This role is focused on executing marketing programs that support the firm’s business and revenue goals. The person in this new role will support a variety of external and internal programs including br",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43483",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Energy Providers - Campus 2027",
-   "location": "10 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : None What You Will Do : The Energy Providers practice helps utilities and energy companies lead the way in an industry undergoing rapid transformation. As companies respond to the requirements for rapidly growing demand, increased relia",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43479",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Homeland Security & Law Enforcement, Defense & Security - Campus 2027",
-   "location": "US - VA, McLean",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Homeland-Security---Law-Enforcement--Defense---Security---Campus-2027_43479",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-43480",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consulting Analyst - Defense, Diplomacy, & Intelligence, Defense & Security - Campus 2027",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consulting-Analyst---Defense--Diplomacy----Intelligence--Defense---Security---Campus-2027_43480",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
    "hasDeadlineHint": false
   },
   {
@@ -3853,6 +3784,102 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43447",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Associate - Marketing - Campus 2027",
+   "location": "3 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Associate---Marketing---Campus-2027_43447",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "business",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Content Development & Marketing Travel Required : Up to 10% Clearance Required : None What You Will Do : This role is focused on executing marketing programs that support the firm’s business and revenue goals. The person in this new role will support a variety of external and internal programs including br",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43483",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Energy Providers - Campus 2027",
+   "location": "10 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : None What You Will Do : The Energy Providers practice helps utilities and energy companies lead the way in an industry undergoing rapid transformation. As companies respond to the requirements for rapidly growing demand, increased relia",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43479",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Homeland Security & Law Enforcement, Defense & Security - Campus 2027",
+   "location": "US - VA, McLean",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Homeland-Security---Law-Enforcement--Defense---Security---Campus-2027_43479",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43480",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consulting Analyst - Defense, Diplomacy, & Intelligence, Defense & Security - Campus 2027",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consulting-Analyst---Defense--Diplomacy----Intelligence--Defense---Security---Campus-2027_43480",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : Our Management Consulting professionals help our clients to identify, evaluate, and solve some of their most complex challenges, assisting them in achieving their strategic goals and obj",
    "hasDeadlineHint": false
   },
   {
@@ -4028,30 +4055,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-standard-REQ006847",
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "title": "Actuarial Internship",
-   "location": "Portland, OR",
-   "regions": [
-    "us"
-   ],
-   "url": "https://standard.wd1.myworkdayjobs.com/Search/job/Portland-OR/Actuarial-Internship_REQ006847",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "The next part of your journey is right around the corner — with The Standard. A genuine desire to make a difference in the lives of others is the foundation for everything we do. With a customer-first mindset and an intentional focus on building strong teams, we’ve been able to uphold our legacy of financial stability ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-statestreet-R-796071",
    "company": "State Street",
    "ats": "workday",
@@ -4193,30 +4196,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description Grow your career at State Street From technology and product innovation to corporate responsibility and community development, we’re making our mark on the financial services industry. We’re a global company with diverse people and varied experiences with a network of over 35,000 employees spanning more",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107682",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "AI Compute Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/AI-Infra-Intern_R107682",
-   "postedAt": "2026-08-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Tencent Overseas IT has the mission to empower Tencent’s rapid global growth with future ready, global IT platforms, applications and services. We are chartered to lead the Overseas IT strategy, architecture, roadmap and execution. Satisfying our internal/external customers and becoming a world cl",
    "hasDeadlineHint": false
   },
   {
@@ -4426,6 +4405,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-visa-REF086764W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "KZ - Almaty, Kazakhstan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086781W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern - Graduates Summer 2028/December 2027",
+   "location": "AZ - Baku, Azerbaijan",
+   "regions": [
+    "other"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-gartner-113095",
    "company": "Gartner",
    "ats": "workday",
@@ -4495,54 +4522,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Family : Intern Travel Required : None Clearance Required : None As a Working Student in our Public Sector team, you’ll actively contribute to projects at the intersection of climate and energy policy, energy markets, and international cooperation. This is a unique opportunity to gain hands-on experience in consult",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086764W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Client Services Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "KZ - Almaty, Kazakhstan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/KZ---Almaty-Kazakhstan/Client-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086764W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086781W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern - Graduates Summer 2028/December 2027",
-   "location": "AZ - Baku, Azerbaijan",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/AZ---Baku-Azerbaijan/VCA-Intern---Graduates-Summer-2028-December-2027_REF086781W",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -4711,79 +4690,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107835",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Tencent Cloud - Business Development Interns (Malaysia)",
-   "location": "Malaysia-Kuala Lumpur",
-   "regions": [
-    "other"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Malaysia-Kuala-Lumpur/Tencent-Cloud---Business-Development-Interns--Malaysia-_R107835",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107758",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "HR Intern, EMEA",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk",
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/EMEA-Team-Intern_R107758",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107768",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Science Intern (Safety Strategies)",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Safety-Strategies-_R107768",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
    "hasDeadlineHint": false
   },
   {
@@ -5302,6 +5208,60 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-citi-26985457",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking, Summer Analyst, Singapore – APAC, 2027",
+   "location": "Singapore  Singapore",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Banking---Commercial-Banking--Summer-Analyst--Singapore---APAC--2027_26985457",
+   "postedAt": "2026-08-12",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "You’re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join our team. Our Commercial Banking division works with businesses with annual sales ranging from $10 million to more than $3 billion. Our Commercial Banking Team works to find ways for our clients to maximize their gr",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-citi-26985455",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027",
+   "location": "Kowloon  Hong Kong",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455",
+   "postedAt": "2026-08-12",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "We want to hear from you if... You are in your penultimate year of a Bachelor's or Master's degree in any discipline from a top academic institution (graduating between Dec 2027 – June 2028). Who we think will be a great fit... Work experience is not a requirement, but dedication to learning and a true passion for the ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "wd-invesco-R-15047",
    "company": "Invesco",
    "ats": "workday",
@@ -5396,60 +5356,6 @@
    "cycleSource": "description",
    "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
    "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-26985457",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking, Summer Analyst, Singapore – APAC, 2027",
-   "location": "Singapore  Singapore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Banking---Commercial-Banking--Summer-Analyst--Singapore---APAC--2027_26985457",
-   "postedAt": "2026-08-12",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "You’re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join our team. Our Commercial Banking division works with businesses with annual sales ranging from $10 million to more than $3 billion. Our Commercial Banking Team works to find ways for our clients to maximize their gr",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-citi-26985455",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking, Summer Analyst, Hong Kong – APAC, 2027",
-   "location": "Kowloon  Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Kowloon--Hong-Kong/Banking---Commercial-Banking--Summer-Analyst--Hong-Kong---APAC--2027_26985455",
-   "postedAt": "2026-08-12",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "We want to hear from you if... You are in your penultimate year of a Bachelor's or Master's degree in any discipline from a top academic institution (graduating between Dec 2027 – June 2028). Who we think will be a great fit... Work experience is not a requirement, but dedication to learning and a true passion for the ",
-   "hasDeadlineHint": true
   },
   {
    "id": "wd-northwesternmutual-JR-45807",
@@ -5692,30 +5598,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107771",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Cloud Engineer Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Cloud-Engineer-Intern_R107771",
-   "postedAt": "2026-08-12",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-aqr-8123095",
    "company": "AQR Capital",
    "ats": "greenhouse",
@@ -5901,6 +5783,33 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div data-block= true data-editor= coe4n data-offset-key= eo6uh-0-0 > <div class= public-DraftStyleDefault-block public-DraftStyleDefault-ltr data-offset-key= eo6uh-0-0 > <p><strong>AQR Capital Management</strong></p> <p>AQR is a global investment firm built at the intersection of financial theory and practical applica",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-citi-25926681",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Banking - Commercial Banking - Natural Resources & Energy,  Summer Analyst, Houston - US, 2027",
+   "location": "Houston Texas United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Houston-Texas-United-States/Banking---Commercial-Banking--Summer-Analyst--Houston---US--2027_25926681",
+   "postedAt": "2026-08-11",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "You ’ re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join the Natural Resources team in Houston. This team covers clients in the Oil & Gas (Upstream and Midstream), Energy Transition, and Power and Utilities sectors. Our Commercial Banking division works with businesses ",
    "hasDeadlineHint": false
   },
   {
@@ -6189,33 +6098,6 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-25926681",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Commercial Banking - Natural Resources & Energy,  Summer Analyst, Houston - US, 2027",
-   "location": "Houston Texas United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Houston-Texas-United-States/Banking---Commercial-Banking--Summer-Analyst--Houston---US--2027_25926681",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "You ’ re the brains behind our work. Citi’s Commercial Bank (“CCB”) is looking for Summer Analysts to join the Natural Resources team in Houston. This team covers clients in the Oil & Gas (Upstream and Midstream), Energy Transition, and Power and Utilities sectors. Our Commercial Banking division works with businesses ",
    "hasDeadlineHint": false
   },
   {
@@ -6939,78 +6821,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107947",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Product Operations Intern (Monetization)",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Product-Operations-Intern--Monetization-_R107947",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new business exploration, CDG is responsible for promoting development and innovation for important areas such as financial technology and advertising, as well as marketing services, including payment and finan",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107949",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "WeChat Pay - Business Development Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WeChat-Pay---Business-Development-Intern_R107949",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107933",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "HR Generalist Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/HR-Generalist-Intern_R107933",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-dvtrading-4719125005",
    "company": "DV Trading",
    "ats": "greenhouse",
@@ -7274,6 +7084,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-blackstone-43862",
+   "company": "Blackstone",
+   "ats": "workday",
+   "title": "2027 Blackstone Credit and Insurance, Infrastructure and Asset Based Credit Summer Analyst (London)",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [
+    "private-equity"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-cibc-2616325",
    "company": "CIBC",
    "ats": "workday",
@@ -7320,32 +7156,6 @@
    "cycleSource": "posting-date",
    "excerpt": "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and ",
    "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-blackstone-43862",
-   "company": "Blackstone",
-   "ats": "workday",
-   "title": "2027 Blackstone Credit and Insurance, Infrastructure and Asset Based Credit Summer Analyst (London)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "private-equity"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
-   "hasDeadlineHint": false
   },
   {
    "id": "wd-fifththird-R70610",
@@ -7502,7 +7312,7 @@
   },
   {
    "id": "wd-global-R0031779",
-   "company": "Global Gate",
+   "company": "Global Atlantic",
    "ats": "workday",
    "title": "Advanced Analytics Intern",
    "location": "Newton Office",
@@ -7722,7 +7532,7 @@
   },
   {
    "id": "wd-ryan-R0019863",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Graduate Business Development Executive",
    "location": "MediaCity UK",
@@ -7746,7 +7556,7 @@
   },
   {
    "id": "wd-ryan-R0019863",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Graduate Business Development Executive",
    "location": "MediaCity UK",
@@ -8547,6 +8357,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ciena-R031467",
+   "company": "Ciena",
+   "ats": "workday",
+   "title": "Software Developer in Test Automation Intern",
+   "location": "Ottawa",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-in-Test-Automation-Intern_R031467",
+   "postedAt": "2026-08-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business prioritie",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-centrica-R0080920",
    "company": "Centrica",
    "ats": "workday",
@@ -8616,30 +8450,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ciena-R031467",
-   "company": "Ciena",
-   "ats": "workday",
-   "title": "Software Developer in Test Automation Intern",
-   "location": "Ottawa",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-in-Test-Automation-Intern_R031467",
-   "postedAt": "2026-08-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business prioritie",
    "hasDeadlineHint": false
   },
   {
@@ -8762,174 +8572,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Marketing Intern Join us in our mission to transform the way people shop and eat, where impact, innovation, and growth drives everything we do. Our Brand & Experience team builds the emotional connection between Deliveroo and our customers, riders, and partners. With a deep understanding of our audience and a passion f",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15053",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Global Strategies",
-   "location": "Atlanta, Georgia",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Global-Strategies_R-15053",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15051",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Investor Engagement",
-   "location": "New York, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/New-York-New-York/Early-Career-Intern---Investor-Engagement_R-15051",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15050",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Investor Engagement",
-   "location": "Atlanta, Georgia",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Investor-Engagement_R-15050",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15053",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Global Strategies",
-   "location": "Atlanta, Georgia",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Global-Strategies_R-15053-1",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15051",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Investor Engagement",
-   "location": "New York, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Investor-Engagement_R-15051-1",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-15050",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "Early Career Intern - Investor Engagement",
-   "location": "Atlanta, Georgia",
-   "regions": [
-    "us"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Investor-Engagement_R-15050-1",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-invesco-R-14902",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "NATA Trainee",
-   "location": "Hyderabad, Telangana",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Hyderabad-Telangana/NATA-Trainee_R-14902",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around the world. If y",
    "hasDeadlineHint": false
   },
   {
@@ -9142,6 +8784,174 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-invesco-R-15053",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Global Strategies",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Global-Strategies_R-15053",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15051",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Investor Engagement",
+   "location": "New York, New York",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/New-York-New-York/Early-Career-Intern---Investor-Engagement_R-15051",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15050",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Investor Engagement",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Investor-Engagement_R-15050",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15053",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Global Strategies",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Global-Strategies_R-15053-1",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15051",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Investor Engagement",
+   "location": "New York, New York",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Investor-Engagement_R-15051-1",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15050",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Investor Engagement",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Investor-Engagement_R-15050-1",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-14902",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "NATA Trainee",
+   "location": "Hyderabad, Telangana",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Hyderabad-Telangana/NATA-Trainee_R-14902",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around the world. If y",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-hl-R3443",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -9189,6 +8999,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Location: 127 Public Square, Cleveland Ohio Program Duration: May 26, 2027 - August 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that will spark e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-NC - Charlotte - 650 S Tryon St Ste 1525",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst Consumer Charlotte, NC",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/NC---Charlotte---650-S-Tryon-St-Ste-1525/XMLNAME-2027-Investment-Banking-Summer-Analyst-Consumer-Charlotte--NC_R-0012361",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
    "hasDeadlineHint": false
   },
   {
@@ -9480,30 +9314,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-raymondjames-NC - Charlotte - 650 S Tryon St Ste 1525",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst Consumer Charlotte, NC",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/NC---Charlotte---650-S-Tryon-St-Ste-1525/XMLNAME-2027-Investment-Banking-Summer-Analyst-Consumer-Charlotte--NC_R-0012361",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-visa-REF93870J",
    "company": "Visa",
    "ats": "workday",
@@ -9576,30 +9386,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-gunvor-JR102754",
-   "company": "Gunvor",
-   "ats": "workday",
-   "title": "Shipping Operations Intern",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/London/Shipping-Operations-Intern_JR102754-1",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Title: Shipping Operations Intern Contract Type: Time Type: Full time Job Description: We are looking for a motivated candidate to join the Shipping Operations team for a six-month internship. This internship is designed for students in the final stage of their studies or recent graduates looking to kick-start thei",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-accenture-R00340379",
    "company": "Accenture",
    "ats": "workday",
@@ -9623,6 +9409,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Our Global M&A practice combines business and technology expertise, providing services along the entire M&A transaction lifecycle. As an intern, you will actively support the M&A team in serving clients across industries and geographies. You will take part in projects in pre-deal and post-deal phases, working with our ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-gunvor-JR102754",
+   "company": "Gunvor",
+   "ats": "workday",
+   "title": "Shipping Operations Intern",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/London/Shipping-Operations-Intern_JR102754-1",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Title: Shipping Operations Intern Contract Type: Time Type: Full time Job Description: We are looking for a motivated candidate to join the Shipping Operations team for a six-month internship. This internship is designed for students in the final stage of their studies or recent graduates looking to kick-start thei",
    "hasDeadlineHint": false
   },
   {
@@ -9719,126 +9529,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107938",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Advertising Product Manager Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Advertising-Product-Manager-Intern_R107938",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "product",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new business exploration, CDG is responsible for promoting development and innovation for important areas such as financial technology and advertising, as well as marketing services, including payment and finan",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107848",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Global Recruitment Intern",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Global-Recruitment-Intern_R107848-1",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "What the Role Entails About Tencent Tencent is an Internet-based platform company founded in Shenzhen, China, in 1998. We use technology to enrich the lives of Internet users and assist the digital upgrade of enterprises. Our mission is \"Value for Users, Tech for Good\". We embrace a culture of teamwork & creativity and",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107936",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Big Data Development Engineer Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Big-Data-Development-Engineer-Intern_R107936",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new business exploration, CDG is responsible for promoting development and innovation for important areas such as financial technology and advertising, as well as marketing services, including payment and finan",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107928",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "WeChat - Backend Engineer Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WeChat---Backend-Engineer-Intern_R107928",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107929",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "WeChat - Data & AI Analytics Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WeChat---Data---AI-Analytics-Intern_R107929",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
    "hasDeadlineHint": false
   },
   {
@@ -10553,30 +10243,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Title: Graduate Hardware Test Engineer Lo",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107906",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Tencent Cloud - Edge Platform Product Solutions Architecture Intern - Singapore",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Tencent-Cloud---Edge-Platform-Product-Solutions-Architecture-Intern---Singapore_R107906",
-   "postedAt": "2026-08-05",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
    "hasDeadlineHint": false
   },
   {
@@ -13682,30 +13348,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107887",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "TCI JP_Business Development Intern｜腾讯云日本销培生",
-   "location": "Japan-Tokyo-Mori Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Mori-Tower/TCI-JP-Business-Development-Intern-_R107887",
-   "postedAt": "2026-07-30",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "部署紹介/Business Unit 当社の「クラウド＆スマート・インダストリー・グループ（CSIG）」は、クラウドおよびインダストリー・インターネット戦略の推進を担い、クラウド技術、AI、ネットワークセキュリティの進化を通じて、スマート産業の革新的なソリューションを生み出しています。CSIG は、小売、医療、教育、交通など多様な産業のデジタル化を推進しながら、企業がより効率的にユーザーにサービスを提供できるよう支援しています。また、企業とユーザーを結びつける新たなインテリジェント産業エコシステムの構築にも取り組んでいます。 Cloud & Smart Industries Group (CSIG) is responsible f",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-virtu-8657500002",
    "company": "Virtu Financial",
    "ats": "greenhouse",
@@ -14209,54 +13851,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107147",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "PR Intern - Communications",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/PR-Intern---Communications_R107147",
-   "postedAt": "2026-07-29",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "チーム紹介/About the Hiring Team Level Infinite は、テンセントのグローバルゲームブランドとして、世界中のゲーム、開発チーム、スタジオにワンストップなサービスネットワークを提供するグローバルなゲームパブリッシャーです。私たちは、いつでもどこでも、誰もが楽しめる魅力的で独創的なゲーム体験を提供すると同時に、包容力があり、すべてのプレイヤーを繋ぐコミュニティの育成に尽力しています。また、Level Infiniteは、世界中の開発者やパートナースタジオに対し、幅広いサービスとリソースを提供することで、ゲームに秘められたポテンシャルを最大限に引き出すサポートも行っています。 Level Infinite",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107226",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Operations Intern",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Operations-Intern_R107226",
-   "postedAt": "2026-07-29",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "What the Role Entails We are seeking a highly motivated and detail-oriented Game Operation Intern to support the publishing and promotional operations of Delta Force across PC, mobile, and console platforms in the Japanese market. This role is ideal for individuals who are passionate about gaming—especially FPS titles—",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-modal-38888294-6bc7-4dab-b072-6d0f0c2ed79a",
    "company": "Modal",
    "ats": "ashby",
@@ -14626,54 +14220,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107868",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Legal Intern, Cloud",
-   "location": "France-Paris",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/France-Paris/Legal-Intern--Cloud_R107868",
-   "postedAt": "2026-07-28",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107870",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Sales Intern, Cloud & AI",
-   "location": "UAE-Dubai",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UAE-Dubai/Sales-Intern--Cloud---AI_R107870",
-   "postedAt": "2026-07-28",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
    "hasDeadlineHint": false
   },
   {
@@ -15340,126 +14886,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107839",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Business Development Intern",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Business-Development-Intern_R107839",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "部署紹介/Business Unit 全世界で12億人以上のユーザーを誇る WeChat は、中国と世界中の人々、サービス、企業をつなぎ、モバイルの未来を大きく変革しています。海外市場で WeChat Pay として知られる Weixin Pay は、2013年にWeixinによって導入されたモバイル決済ソリューションです。銀行口座と Weixin Pay アカウントを連携させることで、ユーザーは迅速かつ便利で、安全な決済や取引をスムーズに完了できます。 中国国内では、Weixin Pay は日常生活のあらゆる場面に溶け込み、オンラインまたはオフラインを問わず、小売、飲食、交通、ヘルスケア、レジャーといったさまざまな分野で、効率的か",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107847",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Global Recruitment Intern",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Global-Recruitment-Intern_R107847",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107688",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Design Intern — Rapid Prototyping",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Design-Intern---Rapid-Prototyping_R107688-1",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "design",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107689",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Social Media Operation Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Social-Media-Operation-Intern---_R107689-1",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107849",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Global Recruitment Intern",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Global-Recruitment-Intern_R107849",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "What the Role Entails About Tencent Tencent is an Internet-based platform company founded in Shenzhen, China, in 1998. We use technology to enrich the lives of Internet users and assist the digital upgrade of enterprises. Our mission is \"Value for Users, Tech for Good\". We embrace a culture of teamwork & creativity and",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-zoox-c794f77e-c39d-44f2-9309-8bc904e0f868",
    "company": "Zoox",
    "ats": "lever",
@@ -15638,78 +15064,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107834",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Global Talent Sourcing Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Global-Talent-Sourcing-Intern_R107834",
-   "postedAt": "2026-07-23",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107769",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Science Intern (Safety Strategies)",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Safety-Strategies-_R107769",
-   "postedAt": "2026-07-23",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107551",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "WXG - Data Scientist Intern (Safety Strategies)",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WXG---Data-Scientist-Intern--Safety-Strategies-_R107551",
-   "postedAt": "2026-07-23",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
    "hasDeadlineHint": false
   },
   {
@@ -15993,78 +15347,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107793",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "PUBG Mobile Marketing Team Intern",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/PUBG-Mobile-Marketing-Team-Intern_R107793-1",
-   "postedAt": "2026-07-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107470",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Site Reliability Engineer Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Site-Reliability-Engineer-Intern_R107470",
-   "postedAt": "2026-07-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Tencent Overseas IT has the mission to empower Tencent’s rapid global growth with future ready, global IT platforms, applications and services. We are chartered to lead the Overseas IT strategy, architecture, roadmap and execution. Satisfying our internal/external customers and becoming a world cl",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107793",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "PUBG Mobile Marketing Team Intern",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/PUBG-Mobile-Marketing-Team-Intern_R107793",
-   "postedAt": "2026-07-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
    "hasDeadlineHint": false
   },
   {
@@ -16887,30 +16169,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107662",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Cloud & AI Sales Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Associate-Account-Representative--Intern_R107662",
-   "postedAt": "2026-07-20",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-ledger-6dcd473c-804a-4d0e-b477-4f2a4e318cf2",
    "company": "Ledger",
    "ats": "ashby",
@@ -17213,54 +16471,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107804",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "BD and Strategic Analysis Intern",
-   "location": "4 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/BD-and-Strategic-Analysis-Intern_R107804",
-   "postedAt": "2026-07-17",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit About the Hiring Team What the Role Entails Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactiv",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107779",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "World Model Research Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/World-Model-Research-Intern_R107779",
-   "postedAt": "2026-07-17",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -17642,30 +16852,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107794",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Cloud Media Services Intern",
-   "location": "US-Washington-Bellevue",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Cloud-Media-Services-Intern_R107794",
-   "postedAt": "2026-07-15",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit What the Role Entails With over 20 years of research and experience in audio and video technology, Tencent Cloud launched Tencent Cloud Media Service, a new international audio and video brand, in 2022. It provides a one-stop media solution, the basic media processing infrastructure named MPS, including i",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-column-c349d594-33a2-49a2-a168-afa8d8226572",
    "company": "Column",
    "ats": "ashby",
@@ -18008,102 +17194,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107720",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "IT Operations Intern",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Operations-Intern_R107720",
-   "postedAt": "2026-07-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team What the Role Entails We are looking for a proactive and detail-oriented IT Operations Intern to join Tencent’s IT team in the PA office, United States. You will work closely with our IT Operations, Infrastructure, and Service Support teams to support daily IT operations, project delivery, data an",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107790",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "TCI KR_Business Development Intern",
-   "location": "S.Korea-Seoul",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/TCI-KR-Business-Development-Intern_R107790",
-   "postedAt": "2026-07-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107754",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Scientist Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Scientist-Intern_R107754",
-   "postedAt": "2026-07-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107653",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Research Intern — Coding LLMs",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Research-Intern---Coding-LLMs_R107653-1",
-   "postedAt": "2026-07-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
    "hasDeadlineHint": false
   },
   {
@@ -19866,78 +18956,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107173",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Product Manager Intern, Game Performance Optimization",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Product-Manager-Intern--gaming_R107173-1",
-   "postedAt": "2026-07-10",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "product",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107767",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data & AI Analytics Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data---AI-Analytics-Intern_R107767",
-   "postedAt": "2026-07-10",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107173",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Product Manager Intern, Game Performance Optimization",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Netherlands-Amsterdam/Product-Manager-Intern--gaming_R107173",
-   "postedAt": "2026-07-10",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "product",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-snowflake-a4753822-7581-4cf3-8fcc-856f54d684b0",
    "company": "Snowflake",
    "ats": "ashby",
@@ -19985,30 +19003,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description: For over 150 years, our dedication to being the Global Hausbank for our clients has been driven by our people – in around 60 countries and across more than 150 nationalities. Their deep understanding, insights, expertise, and passion help our clients navigate an increasingly complex world – be it in ou",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107751",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game User Research Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Game-User-Research-Intern_R107751",
-   "postedAt": "2026-07-09",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "design",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -21215,6 +20209,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-cadence-R54998",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "Intern - Characterization and Support",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-3",
+   "postedAt": "2026-07-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. This is an on-site internship role in San Jose, California, within the Cadence DDR IP group for a Post-Silicon Validation Engineering Intern. Intern will be responsible for validating both system-level and elec",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R54998",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "Intern - Characterization and Support",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/Intern---Characterization-and-Support_R54998-2",
+   "postedAt": "2026-07-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. This is an on-site internship role in San Jose, California, within the Cadence DDR IP group for a Post-Silicon Validation Engineering Intern. Intern will be responsible for validating both system-level and elec",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-greystar-R0193864",
    "company": "Greystar",
    "ats": "workday",
@@ -21236,54 +20278,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107162",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Software Engineering Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/Software-Engineering-Intern_R107162-1",
-   "postedAt": "2026-07-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107162",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Software Engineering Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Software-Engineering-Intern_R107162",
-   "postedAt": "2026-07-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -22062,174 +21056,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107344",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Research & Development Intern, Engine Research",
-   "location": "US-California-Los Angeles",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Los-Angeles/Game-Research---Development-Intern--Engine-Research_R107344-1",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107363",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Research & Development Intern, Engine Research",
-   "location": "US-Washington-Bellevue",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Game-Research---Development-Intern--Engine-Research_R107363-1",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107051",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R106650",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107051",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051-1",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R106650",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650-2",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107084",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Hunyuan Multimodal Reinforcement Learning Research Intern",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Reinforcement-Learning-Research-Intern_R107084",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
    "hasDeadlineHint": false
   },
   {
@@ -24122,78 +22948,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107654",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "AI Product Manager Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Product-manager-Intern_R107654",
-   "postedAt": "2026-06-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107681",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Engineer Intern",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Netherlands-Amsterdam/Data-Engineer-Intern_R107681",
-   "postedAt": "2026-06-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107644",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Product Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Data-Product-Intern_R107644",
-   "postedAt": "2026-06-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-alan-207a6ec4-1831-44a3-af4e-4ec42e7b7528",
    "company": "Alan",
    "ats": "ashby",
@@ -24526,30 +23280,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107493",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "PUBG MOBILE Marketing and Communication Assistant Intern",
-   "location": "France-Paris",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/France-Paris/Marketing-and-Communication-Assistant-Intern_R107493",
-   "postedAt": "2026-06-17",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-snowflake-1bad12df-f443-426f-9d09-e96fc780d698",
    "company": "Snowflake",
    "ats": "ashby",
@@ -24852,30 +23582,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107659",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Project Management Intern, Gaming",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Project-Management-Intern--Gaming_R107659",
-   "postedAt": "2026-06-15",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-blackedgecapital-4705571005",
    "company": "BlackEdge Capital",
    "ats": "greenhouse",
@@ -25057,30 +23763,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107657",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Community Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Game-Community-Intern_R107657",
-   "postedAt": "2026-06-12",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-gusto-8001931",
    "company": "Gusto",
    "ats": "greenhouse",
@@ -25258,7 +23940,7 @@
   },
   {
    "id": "wd-ryan-R0019519",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Graduate Consultant, Innovation Funding",
    "location": "2 Locations",
@@ -25282,7 +23964,7 @@
   },
   {
    "id": "wd-ryan-R0019519",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Graduate Consultant, Innovation Funding",
    "location": "2 Locations",
@@ -25592,7 +24274,7 @@
   },
   {
    "id": "wd-ryan-R0019777",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "IEFP Internship - Associate Consultant, VAT",
    "location": "Braga PT",
@@ -25616,7 +24298,7 @@
   },
   {
    "id": "wd-ryan-R0019777",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "IEFP Internship - Associate Consultant, VAT",
    "location": "Braga PT",
@@ -25736,78 +24418,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Département : Expansion Durée du stage : 6 mois Lieu : Paris Début : Mars 2027 Le rôle Au sein d’une équipe pan-européenne de 37 personnes localisé à Paris (22 personnes), Frankfurt (10 personnes) et Milan (5 personnes), le stagiaire participera et assistera l’équipe dans l’ensemble des tâches du métier d’investisseur ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107621",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "AI Product Engineer Intern — Game Development",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/AI-Product-Engineer-Intern---Game-Development_R107621-1",
-   "postedAt": "2026-06-03",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107518",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Research & Development Intern, Engine Research",
-   "location": "Australia-New South Wales-Sydney",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Australia-New-South-Wales-Sydney/Game-Research---Development-Intern--Engine-Research_R107518-1",
-   "postedAt": "2026-06-03",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107621",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "AI Product Engineer Intern — Game Development",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Netherlands-Amsterdam/AI-Product-Engineer-Intern---Game-Development_R107621",
-   "postedAt": "2026-06-03",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -29578,6 +28188,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-cadence-R52641",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "SSG Design Engineering Intern (Fall 2026)",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/SSG-Design-Engineering-Intern--Summer-2026_R52641-1",
+   "postedAt": "2026-07-16",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Design Engineering Intern The Cadence Silicon Solutions Group (SSG) is seeing rapid adoption of our industry leading Digital IP (intellectual Property), from processor cores and DSPs to Memory Controllers, to N",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R52641",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "SSG Design Engineering Intern (Fall 2026)",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/SSG-Design-Engineering-Intern--Summer-2026_R52641",
+   "postedAt": "2026-07-16",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Design Engineering Intern The Cadence Silicon Solutions Group (SSG) is seeing rapid adoption of our industry leading Digital IP (intellectual Property), from processor cores and DSPs to Memory Controllers, to N",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-notion-6ccbc30c-2de0-4395-af14-3641cd15961b",
    "company": "Notion",
    "ats": "ashby",
@@ -30745,6 +29403,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-cadence-R53475",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "Product Engineering Internship, Simulation and Verification (Fall 2026)",
+   "location": "Burlington, MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/Burlington-MA/Product-Engineering-Internship--Simulation-and-Verification--Fall-2026-_R53475",
+   "postedAt": "2026-06-25",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Product Engineering Internship, Simulation and Verification (Fall 2026) This PE Internship will be based out of our Burlington office during the Fall Semester. Applicants should be local to the area in order to",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R53475",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "Product Engineering Internship, Simulation and Verification (Fall 2026)",
+   "location": "Burlington, MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/Burlington-MA/Product-Engineering-Internship--Simulation-and-Verification--Fall-2026-_R53475-1",
+   "postedAt": "2026-06-25",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "fall",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Product Engineering Internship, Simulation and Verification (Fall 2026) This PE Internship will be based out of our Burlington office during the Fall Semester. Applicants should be local to the area in order to",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00338705",
    "company": "Accenture",
    "ats": "workday",
@@ -31577,7 +30283,7 @@
   },
   {
    "id": "wd-ryan-R0019646",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "VAT Reclaim Intern  (IEFP Internship)",
    "location": "Braga PT",
@@ -31601,7 +30307,7 @@
   },
   {
    "id": "wd-ryan-R0019646",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "VAT Reclaim Intern  (IEFP Internship)",
    "location": "Braga PT",
@@ -32544,30 +31250,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107259",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Science Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Data-Science-Intern_R107259-1",
-   "postedAt": "2026-05-07",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-veepee-75775d4c-88e6-41e1-826a-b4a748a09804",
    "company": "Veepee",
    "ats": "lever",
@@ -33207,30 +31889,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107361",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Data Science Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Data-Science-Intern_R107361",
-   "postedAt": "2026-04-23",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-spacex-8516568002",
    "company": "SpaceX",
    "ats": "greenhouse",
@@ -33792,54 +32450,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107145",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Marketing Intern",
-   "location": "S.Korea-Seoul",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/Marketing-Intern_R107145",
-   "postedAt": "2026-04-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107258",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game ML Researcher Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Game-ML-Researcher-Intern_R107258",
-   "postedAt": "2026-04-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -34701,54 +33311,6 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "Position Overview Apollo is a high-growth, global alternative asset manager. In our asset management business, we seek to provide our clients excess return at every point along the risk-reward spectrum from investment grade to private equity with a focus on three investing strategies: yield, hybrid, and equity. For mor",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107005",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "WeChat - Backend Developer Intern",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/WeChat---Backend-Developer-Intern_R107005",
-   "postedAt": "2026-03-09",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "Business Unit What the Role Entails Develop innovative IT solutions that drive business impact, leveraging cutting-edge technologies and methods Collaborate with Product and Safety teams to deliver robust and secure online services that meet business requirements Design and execute plans to improve data compliance, use",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107024",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Research & Development Intern, Engine Research",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Research---Development-Intern--Engine-Research_R107024",
-   "postedAt": "2026-03-09",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "部署紹介/Business Unit LIGHTSPEED STUDIOS は、物語性の高いストーリー、没入感のあるゲームプレイ、最先端のテクノロジーを駆使し、ゲーム開発をアートとサイエンスの融合として追求し続けています。世界中のプレイヤー、そしてあらゆるデバイスに次世代のゲームエクスペリエンスを提供することを使命としています。 LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced ",
    "hasDeadlineHint": false
   },
   {
@@ -35682,30 +34244,6 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "Position Overview Apollo is a high-growth, global alternative asset manager. In our asset management business, we seek to provide our clients excess return at every point along the risk-reward spectrum from investment grade to private equity with a focus on three investing strategies: yield, hybrid, and equity. For mor",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R106758",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "NLP Research Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/NLP-Research-Intern_R106758",
-   "postedAt": "2026-01-19",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
    "hasDeadlineHint": false
   },
   {
