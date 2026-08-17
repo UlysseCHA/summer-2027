@@ -538,6 +538,8 @@ const PROFIL_CHAMPS = [
   ['finMois', 'Fin, mois', { aide: 'En anglais : August' }],
   ['finAnnee', 'Fin, annee'],
   ['anneeDiplome', 'Annee de diplome'],
+  ['gpa', 'Moyenne / GPA', { aide: 'Tel que tu le declares : 4/4, 3.8/4.0, 16/20. Repond aux champs GPA et Overall Grade' }],
+  ['disponibleTempsPlein', 'Disponible en temps plein apres le diplome', { aide: 'Yes ou No. Ne concerne pas le visa, qui reste toujours a toi' }],
 
   ['titre', 'Documents et redaction'],
   ['cv', 'Chemin du CV', { aide: 'Relatif au projet. Depose le PDF toi-meme dans cv/, le navigateur ne peut pas le faire' }],

@@ -14,7 +14,7 @@
  */
 
 import { spawn } from 'node:child_process';
-import { readFile, access } from 'node:fs/promises';
+import { readFile, readdir, access } from 'node:fs/promises';
 import { dirname, resolve, isAbsolute } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -47,13 +47,38 @@ try {
   process.exit(1);
 }
 
-const cheminCv = profil.cv
-  ? (isAbsolute(profil.cv) ? profil.cv : resolve(ROOT, profil.cv))
-  : null;
-let cvPret = false;
-if (cheminCv) {
-  try { await access(cheminCv); cvPret = true; }
-  catch { console.log(`  ! CV introuvable : ${cheminCv}\n    Le reste sera rempli quand meme.\n`); }
+/**
+ * Le CV, en tolerant le nom du fichier.
+ *
+ * Imposer « cv/CV.pdf » fait echouer le televersement au premier CV depose sous son
+ * vrai nom, et le rapport se contente alors d'un avertissement discret alors que la
+ * piece est obligatoire sur la plupart des formulaires. On prend donc le chemin du
+ * profil s'il existe, sinon l'unique PDF du dossier cv/.
+ */
+async function trouverCv() {
+  if (profil.cv) {
+    const p = isAbsolute(profil.cv) ? profil.cv : resolve(ROOT, profil.cv);
+    try { await access(p); return p; } catch { /* on cherche ailleurs */ }
+  }
+  try {
+    const pdfs = (await readdir(resolve(ROOT, 'cv')))
+      .filter(f => f.toLowerCase().endsWith('.pdf'));
+    if (pdfs.length === 1) {
+      const p = resolve(ROOT, 'cv', pdfs[0]);
+      console.log(`  CV trouve sous un autre nom : ${pdfs[0]}\n`);
+      return p;
+    }
+    if (pdfs.length > 1) {
+      console.log(`  ! ${pdfs.length} PDF dans cv/ : precise lequel dans le champ « Chemin du CV » du profil.\n`);
+    }
+  } catch { /* pas de dossier cv/ */ }
+  return null;
+}
+
+const cheminCv = await trouverCv();
+const cvPret = Boolean(cheminCv);
+if (!cvPret) {
+  console.log('  ! Aucun CV trouve. Depose ton PDF dans le dossier cv/.\n    Le reste sera rempli quand meme.\n');
 }
 
 /**
@@ -95,6 +120,10 @@ const REGLES = [
     [profil.ecole, ...(profil.ecoleAutresNoms || [])].filter(Boolean)],
   [/degree|dipl[oô]me/i, profil.diplome],
   [/discipline|major|field of study|sp[eé]cialit[eé]/i, profil.specialite],
+  [/\bgpa\b|overall grade|grade point|moyenne g[eé]n[eé]rale/i, profil.gpa],
+  // Disponibilite apres le diplome : une question de fait, pas d'autorisation de
+  // travail. Les questions de visa et de sponsorship restent bloquees par JAMAIS.
+  [/ready for full.?time|available for full.?time|disponible.*temps plein/i, profil.disponibleTempsPlein],
 
   // Dates de formation. Chaque case a sa regle : « Start date month » et « Start date
   // year » sont deux champs distincts, et la premiere regle qui correspond gagne. Une
@@ -450,15 +479,26 @@ async function remplirCombobox(champ, valeurs, repli) {
    * orthographes. L'option retenue doit correspondre a un nom COMPLET : chercher
    * « lyon » remonte « Lyon College », etablissement de l'Arkansas.
    */
-  const requetes = [];
+  const cle = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ').trim();
+
+  const brutes = [];
   for (const v of valeurs) {
     for (const q of [v.trim(), v.trim().split(/\s+/)[0]]) {
-      if (q.length >= 3 && !requetes.some(r => r.toLowerCase() === q.toLowerCase())) requetes.push(q);
+      if (q.length >= 3 && !brutes.some(r => cle(r) === cle(q))) brutes.push(q);
     }
   }
 
-  // Huit requetes au plus. Six coupaient trop tot quand le profil declare deux
-  // etablissements : les orthographes du second n'etaient jamais essayees.
+  /*
+   * Une orthographe longue ne trouve rien de plus que son propre debut : si
+   * « emlyon » ne renvoie aucune option, « emlyon business school » n'en renverra
+   * pas davantage. On ne garde donc que les requetes les plus courtes, celles qui
+   * n'ont aucune autre requete pour prefixe, et on essaie quand meme toutes les
+   * orthographes qui different vraiment (« ESC Lyon », « ENS Cachan »).
+   */
+  const requetes = brutes.filter(q =>
+    !brutes.some(p => p !== q && cle(q).startsWith(cle(p) + ' ')));
+
   let derniersCandidats = null;
   for (const requete of requetes.slice(0, 8)) {
     const etat = await chercher(requete, valeurs);
@@ -653,6 +693,19 @@ if (replis.length) {
   console.log(`\n  ${replis.length} champ(s) mis par defaut, A VERIFIER :`);
   replis.forEach(c => console.log(
     `    ~ ${court(c)} = « ${etatReel[String(c.i)]} », faute de trouver « ${c.repli} » dans la liste`));
+}
+
+/*
+ * Un site interroge peut cesser de repondre s'il est sollicite trop souvent : lors
+ * des essais, une execution a vu TOUTES ses listes deroulantes echouer, puis la
+ * suivante les a toutes remplies. Sans ce message, le rapport ressemble a un bug du
+ * script alors qu'il suffit d'attendre une minute.
+ */
+const listes = champs.filter(c => c.combobox && c.tag !== 'select' && valeurPour(c.etiquette));
+const listesRatees = listes.filter(c => !etatReel[String(c.i)]);
+if (listes.length >= 3 && listesRatees.length > listes.length / 2) {
+  console.log('\n  ! La plupart des listes deroulantes n ont rien renvoye.');
+  console.log('    Le site limite probablement les requetes. Attends une minute et relance.');
 }
 
 if (manquantsRequis.length) {
