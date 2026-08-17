@@ -91,6 +91,17 @@ const MOIS = {
   mai: 'May', juin: 'June', juillet: 'July', aout: 'August',
   septembre: 'September', octobre: 'October', novembre: 'November', decembre: 'December',
 };
+/** « +33 6 51 40 28 11 » -> « +33 ». Vide si le numero n'a pas d'indicatif. */
+const indicatif = (tel) => (String(tel || '').match(/^\s*(\+\d{1,3})/) || [])[1] || '';
+
+/**
+ * Le numero sans son indicatif, quand le formulaire a un champ separe.
+ * Le zero de tete francais ne se remet pas : avec un indicatif a part, la
+ * convention internationale est le numero national sans son zero.
+ */
+const numeroSansIndicatif = (tel) => String(tel || '')
+  .replace(/^\s*\+\d{1,3}\s*/, '').trim();
+
 const moisAnglais = (m) => {
   const cle = String(m || '').trim().toLowerCase()
     .normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -110,6 +121,9 @@ const REGLES = [
   [/last.?name|family.?name|surname|nom de famille/i, profil.nom],
   [/full.?name|nom complet|^name$|^nom$/i, [profil.prenom, profil.nom].filter(Boolean).join(' ')],
   [/e.?mail/i, profil.email],
+  // L'indicatif a son propre champ sur Workday. Sans cette regle, le numero complet
+  // y atterrissait, et le « +33 » se retrouvait ecrit deux fois.
+  [/country.?phone.?code|country.?code|indicatif|dialling code|dial code/i, indicatif(profil.telephone)],
   [/phone|t[eé]l[eé]phone|mobile|portable/i, profil.telephone],
   [/linked.?in/i, profil.linkedin],
   [/git.?hub/i, profil.github],
@@ -138,8 +152,11 @@ const REGLES = [
   [/postal|zip/i, profil.codePostal],
   [/state|province|region|r[eé]gion|d[eé]partement/i, profil.region],
   [/hometown|ville natale|ville d.?origine/i, profil.villeNatale],
-  [/address|adresse/i, profil.adresse],
+  // La ville avant l'adresse : l'intitule « City or Town » de Workday contient
+  // « address » dans son identifiant interne (address--city), et la regle d'adresse
+  // y ecrivait la rue.
   [/city|ville|town/i, profil.ville],
+  [/address|adresse/i, profil.adresse],
   [/country|pays/i, profil.pays],
 ];
 
@@ -244,8 +261,15 @@ function valeurCoherente(etiquette, valeur) {
  * d'un element : les champs a liste deroulante en essaient plusieurs, les autres
  * ne prennent que la premiere.
  */
+/*
+ * Champs volontairement laisses vides parce qu'aucune valeur du profil n'y a sa
+ * place. « Phone Extension » attrapait la regle du telephone et recevait le numero
+ * complet : un poste interne invente sur une candidature etudiante.
+ */
+const LAISSER_VIDE = /phone.?ext|\bextension\b|poste t[eé]l|middle.?name|second pr[eé]nom/i;
+
 const valeurPour = (etiquette) => {
-  if (JAMAIS.test(etiquette) || AMBIGU.test(etiquette)) return null;
+  if (JAMAIS.test(etiquette) || AMBIGU.test(etiquette) || LAISSER_VIDE.test(etiquette)) return null;
   for (const [re, val] of REGLES) {
     const liste = (Array.isArray(val) ? val : [val]).filter(Boolean).map(String);
     if (!liste.length || !re.test(etiquette)) continue;
@@ -391,8 +415,20 @@ const scanner = () => evaluer(`(() => {
     if (el.type === 'hidden' || el.disabled || el.readOnly) continue;
     if (!visible(el) && el.type !== 'file') continue;
     el.setAttribute('data-remplissage', String(n));
+    /*
+     * Un selecteur stable en plus du repere.
+     *
+     * Workday redessine son formulaire entre le reperage et le remplissage :
+     * l'attribut data-remplissage disparait avec les anciens noeuds, plus rien
+     * n'est retrouve, et le rapport annonce zero champ rempli sur un formulaire
+     * pourtant reconnu. L'identifiant ou le nom du champ, eux, survivent.
+     */
+    const sel = el.id ? '#' + CSS.escape(el.id)
+      : el.name ? el.tagName.toLowerCase() + '[name="' + CSS.escape(el.name) + '"]'
+      : '[data-remplissage="' + n + '"]';
     out.push({
       i: n++,
+      sel,
       tag: el.tagName.toLowerCase(),
       type: (el.type || '').toLowerCase(),
       etiquette: etiquetteDe(el),
@@ -540,7 +576,7 @@ if (!formulaireUtile(champs)) {
  * vraies frappes, indiscernables d'un utilisateur.
  */
 async function remplirCombobox(champ, valeurs, repli, strategie) {
-  const sel = `document.querySelector('[data-remplissage="${champ.i}"]')`;
+  const sel = `document.querySelector(${JSON.stringify(champ.sel)})`;
   const echec = (candidats) => ({ ok: false, candidats: candidats || null });
 
   // Vraies frappes, envoyees au champ qui a le focus. Contrairement aux evenements
@@ -801,6 +837,13 @@ function strategiePour(etiquette) {
   return null;
 }
 
+/*
+ * Quand le formulaire separe l'indicatif du numero, le numero ne doit plus le
+ * porter : « +33 » ecrit dans les deux cases donne un numero invalide.
+ */
+const INDICATIF_A_PART = /country.?phone.?code|country.?code|indicatif|dialling code|dial code/i;
+const indicatifSepare = champs.some(c => INDICATIF_A_PART.test(c.etiquette));
+
 for (const champ of champs) {
   if (champ.type === 'file') continue;
 
@@ -811,8 +854,15 @@ for (const champ of champs) {
   // Une question d'autorisation dont le pays n'est pas nommable reste sans reponse.
   if (AUTORISATION.test(champ.etiquette) && !auto) { ignores.push(champ); continue; }
 
-  const valeurs = auto ? [auto] : (strategie ? ['—'] : valeurPour(champ.etiquette));
+  let valeurs = auto ? [auto] : (strategie ? ['—'] : valeurPour(champ.etiquette));
   if (!valeurs) { ignores.push(champ); continue; }
+
+  if (indicatifSepare && /phone|t[eé]l[eé]phone|mobile|portable/i.test(champ.etiquette)
+      && !INDICATIF_A_PART.test(champ.etiquette)) {
+    valeurs = valeurs.map(numeroSansIndicatif).filter(Boolean);
+    if (!valeurs.length) { ignores.push(champ); continue; }
+  }
+
   const valeur = valeurs[0];
   if (champ.dejaRempli) continue;
   if (auto || strategie) champ.deduit = auto ? 'autorisation de travail deduite du pays' : strategie.motif;
@@ -835,7 +885,7 @@ for (const champ of champs) {
   }
 
   const ok = await evaluer(`(() => {
-    const el = document.querySelector('[data-remplissage="${champ.i}"]');
+    const el = document.querySelector(${JSON.stringify(champ.sel)});
     if (!el) return false;
     const v = ${JSON.stringify(valeur)};
 
@@ -903,8 +953,11 @@ if (cvPret) {
 await sleep(1500);
 const etatReel = await evaluer(`(() => {
   const out = {};
-  for (const el of document.querySelectorAll('[data-remplissage]')) {
-    const i = el.getAttribute('data-remplissage');
+  // Relecture par selecteur stable : le repere data-remplissage ne survit pas a un
+  // formulaire qui se redessine, et l'etat reel serait alors lu comme vide partout.
+  for (const [i, sel] of ${JSON.stringify(champs.map(c => [String(c.i), c.sel]))}) {
+    const el = document.querySelector(sel);
+    if (!el) { out[i] = ''; continue; }
     if (el.tagName === 'SELECT') {
       const o = el.options[el.selectedIndex];
       const txt = o ? o.text.trim() : '';
