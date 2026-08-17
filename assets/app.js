@@ -528,8 +528,8 @@ const PROFIL_CHAMPS = [
 
   ['titre', 'Formation'],
   ['ecole', 'Ecole'],
-  ['ecoleAutresNoms', 'Autres noms de l ecole', { liste: true, aide: 'Separes par des virgules, essayes dans l ordre quand la liste du site ne connait pas le premier' }],
-  ['ecoleSiAbsente', 'Si l ecole est absente de la liste', { aide: 'Other pour ce repli, vide pour laisser le champ non rempli' }],
+  ['ecoleAutresNoms', 'Autres orthographes de TON ecole', { liste: true, aide: 'emlyon, EM Lyon, ESC Lyon... Separees par des virgules, essayees dans l ordre quand la liste du site ne connait pas la premiere' }],
+  ['ecoleSiAbsente', 'A defaut, choisir dans la liste du site', { liste: true, aide: 'Ce n est pas ton ecole : c est l option de repli a cocher quand elle est introuvable. En general Other. Laisse vide pour que le champ reste non rempli.' }],
   ['diplome', 'Diplome', { aide: "Le libelle qu'emploient les sites anglophones, souvent Master's Degree" }],
   ['specialite', 'Discipline', { aide: 'Telle qu elle figure dans leurs listes : Finance' }],
   ['programme', 'Nom du cursus'],

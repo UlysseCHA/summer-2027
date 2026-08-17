@@ -57,6 +57,22 @@ if (cheminCv) {
 }
 
 /**
+ * Les listes de mois des formulaires sont en anglais. Ecrire « Juin » dans le profil
+ * est le reflexe naturel, et le champ restait vide sans que rien ne l'explique :
+ * la traduction se fait donc ici plutot que de compter sur la memoire.
+ */
+const MOIS = {
+  janvier: 'January', fevrier: 'February', mars: 'March', avril: 'April',
+  mai: 'May', juin: 'June', juillet: 'July', aout: 'August',
+  septembre: 'September', octobre: 'October', novembre: 'November', decembre: 'December',
+};
+const moisAnglais = (m) => {
+  const cle = String(m || '').trim().toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '');
+  return MOIS[cle] || m;
+};
+
+/**
  * Correspondance entre l'intitule d'un champ et la valeur du profil.
  * L'ordre compte : les regles les plus specifiques d'abord, sinon « name » attrape
  * « first name ». Une valeur absente du profil laisse le champ vide, jamais invente.
@@ -84,12 +100,12 @@ const REGLES = [
   // year » sont deux champs distincts, et la premiere regle qui correspond gagne. Une
   // regle trop large mettrait l'annee dans la case du mois, ce que le controle de
   // coherence rejetterait sans essayer la regle suivante : le champ resterait vide.
-  [/start.?date.*\bmonth\b|\bmonth\b.*start.?date|d[eé]but.*mois/i, profil.debutMois],
+  [/start.?date.*\bmonth\b|\bmonth\b.*start.?date|d[eé]but.*mois/i, moisAnglais(profil.debutMois)],
   [/start.?date.*\byear\b|\byear\b.*start.?date|d[eé]but.*ann[eé]e/i, profil.debutAnnee],
-  [/(end.?date|graduation).*\bmonth\b|\bmonth\b.*(end.?date|graduation)/i, profil.finMois],
+  [/(end.?date|graduation).*\bmonth\b|\bmonth\b.*(end.?date|graduation)/i, moisAnglais(profil.finMois)],
   [/graduation|grad.?year|end.?date|ann[eé]e de dipl|fin d.?[eé]tudes/i, profil.finAnnee || profil.anneeDiplome],
   // Champ unique « Start date » sans decoupage mois / annee.
-  [/start.?date|d[eé]but/i, [profil.debutMois, profil.debutAnnee].filter(Boolean).join(' ')],
+  [/start.?date|d[eé]but/i, [moisAnglais(profil.debutMois), profil.debutAnnee].filter(Boolean).join(' ')],
   [/postal|zip/i, profil.codePostal],
   [/state|province|region|r[eé]gion|d[eé]partement/i, profil.region],
   [/hometown|ville natale|ville d.?origine/i, profil.villeNatale],
@@ -339,7 +355,7 @@ async function remplirCombobox(champ, valeurs, repli) {
    * premier essai ratissait tout le document et tombait sur les 244 indicatifs
    * telephoniques du champ voisin.
    */
-  const chercher = async (requete, attendu) => {
+  const chercher = async (requete, attendus) => {
     await effacer();
     await envoyer('Input.insertText', { text: requete });
     await sleep(1200);
@@ -353,17 +369,24 @@ async function remplirCombobox(champ, valeurs, repli) {
 
       const norme = s => s.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')
         .replace(/[^a-z0-9]+/g, ' ').trim();
-      const v = norme(${JSON.stringify(attendu)});
       const t = o => norme(o.textContent);
 
       /*
+       * La liste renvoyee est confrontee a TOUTES les orthographes connues, pas
+       * seulement a celle qu'on vient de taper : chercher « Ecole » remonte les
+       * ENS, et l'une d'elles correspond peut-etre a une autre orthographe.
+       *
        * Egalite, ou au plus un suffixe ajoute par le site (« France » -> « France +33 »).
        * Rien de plus permissif : accepter qu'une option CONTIENNE la valeur a fait
        * choisir « Human Resources Management » pour une specialite « Management ».
        * Une erreur de ce genre est invisible a la relecture, donc pire que le vide.
        */
-      let i = options.findIndex(o => t(o) === v);
-      if (i < 0) i = options.findIndex(o => t(o).startsWith(v + ' '));
+      let i = -1;
+      for (const v of ${JSON.stringify(attendus)}.map(norme)) {
+        i = options.findIndex(o => t(o) === v);
+        if (i < 0) i = options.findIndex(o => t(o).startsWith(v + ' '));
+        if (i >= 0) break;
+      }
       if (i < 0) return { rien: true, candidats: options.slice(0, 4).map(o => o.textContent.trim()) };
 
       const actif = el.getAttribute('aria-activedescendant');
@@ -417,28 +440,33 @@ async function remplirCombobox(champ, valeurs, repli) {
     })()`);
   };
 
-  let derniersCandidats = null;
-
   /*
-   * Un etablissement porte plusieurs noms selon les listes (« emlyon business
-   * school », « EM Lyon », « ESC Lyon »). On les essaie dans l'ordre du profil.
-   * Pour chacun, une requete complete puis, si elle ne donne rien, le premier mot
-   * seul — mais l'option retenue doit toujours correspondre au nom COMPLET :
-   * chercher « lyon » remonte « Lyon College », etablissement de l'Arkansas.
+   * Un etablissement porte plusieurs noms (« emlyon business school », « EM Lyon »,
+   * « ENS Paris-Saclay »...). Interroger le serveur une fois par orthographe le
+   * sature : onze noms faisaient vingt-deux requetes, apres quoi il ne renvoyait
+   * plus rien et les champs suivants du formulaire echouaient a leur tour.
+   *
+   * On interroge donc peu, et chaque liste renvoyee est confrontee a toutes les
+   * orthographes. L'option retenue doit correspondre a un nom COMPLET : chercher
+   * « lyon » remonte « Lyon College », etablissement de l'Arkansas.
    */
-  for (const valeur of valeurs.filter(Boolean)) {
-    const premierMot = valeur.trim().split(/\s+/)[0];
-    const requetes = premierMot.length >= 3 && premierMot !== valeur.trim()
-      ? [valeur, premierMot] : [valeur];
-
-    for (const requete of requetes) {
-      const etat = await chercher(requete, valeur);
-      if (!etat || etat.rien) { derniersCandidats = etat?.candidats || derniersCandidats; continue; }
-
-      const choisi = await valider(etat);
-      if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi };
-      return abandonner(etat.candidats);
+  const requetes = [];
+  for (const v of valeurs) {
+    for (const q of [v.trim(), v.trim().split(/\s+/)[0]]) {
+      if (q.length >= 3 && !requetes.some(r => r.toLowerCase() === q.toLowerCase())) requetes.push(q);
     }
+  }
+
+  // Huit requetes au plus. Six coupaient trop tot quand le profil declare deux
+  // etablissements : les orthographes du second n'etaient jamais essayees.
+  let derniersCandidats = null;
+  for (const requete of requetes.slice(0, 8)) {
+    const etat = await chercher(requete, valeurs);
+    if (!etat || etat.rien) { derniersCandidats = etat?.candidats || derniersCandidats; continue; }
+
+    const choisi = await valider(etat);
+    if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi };
+    return abandonner(etat.candidats);
   }
 
   /*
@@ -447,12 +475,11 @@ async function remplirCombobox(champ, valeurs, repli) {
    * qu'il faut choisir quand ton etablissement est absent de la liste. Le rapport
    * le signale pour que tu completes le nom ailleurs dans le formulaire.
    */
-  if (repli) {
-    const etat = await chercher(repli, repli);
-    if (etat && !etat.rien) {
-      const choisi = await valider(etat);
-      if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi, repli: true };
-    }
+  for (const r of repli) {
+    const etat = await chercher(r, [r]);
+    if (!etat || etat.rien) continue;
+    const choisi = await valider(etat);
+    if (choisi) return { ok: true, valeur: etat.libelle, affiche: choisi, repli: true };
   }
 
   return abandonner(derniersCandidats);
@@ -472,9 +499,12 @@ for (const champ of champs) {
   // Un vrai <select> se remplit par sa valeur, meme s'il porte aria-haspopup.
   if (champ.combobox && champ.tag !== 'select') {
     // Le repli ne vaut que pour l'etablissement, et seulement si tu l'as choisi
-    // dans ton profil.
+    // dans ton profil. Plusieurs valeurs separees par des virgules sont acceptees
+    // et essayees dans l'ordre : le champ a ete compris comme une liste au premier
+    // usage reel, et refuser cette lecture n'aurait servi personne.
     const repli = /school|university|universit[eé]|[eé]cole|institution/i.test(champ.etiquette)
-      ? profil.ecoleSiAbsente : null;
+      ? String(profil.ecoleSiAbsente || '').split(',').map(s => s.trim()).filter(Boolean)
+      : [];
     const r = await remplirCombobox(champ, valeurs, repli);
     if (r.ok) { champ.repli = r.repli ? valeur : null; remplis.push(champ); }
     // Les options proposees par la liste sont conservees : quand aucune ne
@@ -605,6 +635,11 @@ const manquantsRequis = dedupe(aFaire.filter(c =>
 const questionOuverte = (e) => /\?/.test(e) || e.replace(/\s+/g, ' ').trim().split(' ').length >= 8;
 const ouverts = dedupe(aFaire.filter(c =>
   !c.dejaRempli && lisible(c) && !JAMAIS.test(c.etiquette) && !AMBIGU.test(c.etiquette)
+  // Une liste deroulante n'est pas une question ouverte, meme quand son intitule
+  // est une longue phrase interrogative : « Are you interested in our Women's
+  // Winternship programme ? » se repond par oui ou non dans un menu. Proposer d'en
+  // rediger un brouillon envoyait sur une fausse piste.
+  && !c.combobox
   && (c.tag === 'textarea'
       || (c.tag === 'input' && ['', 'text'].includes(c.type) && questionOuverte(c.etiquette)))));
 
