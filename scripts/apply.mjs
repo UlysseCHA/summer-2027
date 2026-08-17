@@ -158,7 +158,48 @@ const AMBIGU = /birth|naissance|nationality|nationalit[eé]/i;
  * Les questions d'autorisation de travail et de sponsorship engagent juridiquement,
  * une erreur de remplissage peut invalider la candidature.
  */
-const JAMAIS = /gender|genre|race|ethnic|disability|handicap|veteran|sexual|orientation|diversity|diversit[eé]|pronoun|salary|salaire|r[eé]mun[eé]ration|authorized to work|sponsorship|visa|work permit|criminal|conviction/i;
+const JAMAIS = /gender|genre|race|ethnic|disability|handicap|veteran|sexual|orientation|diversity|diversit[eé]|pronoun|salary|salaire|r[eé]mun[eé]ration|criminal|conviction/i;
+
+/**
+ * Autorisation de travail et sponsorship.
+ *
+ * Ces reponses engagent juridiquement et le script les laissait vides. Tu as demande
+ * qu'elles soient remplies selon une regle simple : autorise dans l'Union europeenne,
+ * besoin d'un visa partout ailleurs. La regle est appliquee telle quelle, sans
+ * interpretation, et uniquement quand le pays est nomme dans la question. Chaque
+ * reponse est signalee a part dans le rapport : c'est une declaration, elle doit
+ * etre relue.
+ */
+const AUTORISATION = /authoriz(?:ed|ation) to work|authoris(?:ed|ation) to work|right to work|legally (?:able|eligible) to work|need sponsorship|require sponsorship|sponsorship (?:from|to)|work (?:permit|visa)|autoris[eé].*travailler/i;
+const DEMANDE_SPONSOR = /sponsor|visa|work permit/i;
+
+const PAYS_UE = [
+  'austria', 'autriche', 'belgium', 'belgique', 'bulgaria', 'bulgarie', 'croatia', 'croatie',
+  'cyprus', 'chypre', 'czech', 'tcheque', 'denmark', 'danemark', 'estonia', 'estonie',
+  'finland', 'finlande', 'france', 'germany', 'allemagne', 'greece', 'grece',
+  'hungary', 'hongrie', 'ireland', 'irlande', 'italy', 'italie', 'latvia', 'lettonie',
+  'lithuania', 'lituanie', 'luxembourg', 'malta', 'malte', 'netherlands', 'pays-bas',
+  'poland', 'pologne', 'portugal', 'romania', 'roumanie', 'slovakia', 'slovaquie',
+  'slovenia', 'slovenie', 'spain', 'espagne', 'sweden', 'suede',
+  'european union', 'union europeenne', ' eu ', ' ue ', 'eea', 'schengen',
+];
+
+/**
+ * Rend « Yes » ou « No » selon la question posee et le pays qu'elle nomme, ou null
+ * quand le pays n'est pas identifiable : mieux vaut alors laisser vide que deviner.
+ */
+function reponseAutorisation(etiquette) {
+  const t = ' ' + etiquette.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '') + ' ';
+  const ue = PAYS_UE.some(p => t.includes(p));
+  if (!ue) {
+    // Pays hors UE explicitement nomme : la reponse est l'inverse. Sans pays du tout,
+    // on ne peut rien affirmer.
+    const horsUe = /\bu\.?s\.?a?\.?\b|united states|america|\buk\b|united kingdom|britain|switzerland|suisse|canada|singapore|hong kong|japan|australia|india|china|brazil|uae|emirates/.test(t);
+    if (!horsUe) return null;
+    return DEMANDE_SPONSOR.test(etiquette) ? 'Yes' : 'No';
+  }
+  return DEMANDE_SPONSOR.test(etiquette) ? 'No' : 'Yes';
+}
 
 /**
  * Une valeur ne doit jamais atterrir dans un champ qui attend autre chose : le premier
@@ -330,7 +371,7 @@ if (!champs || !champs.length) {
  * On passe donc par le protocole du navigateur, qui produit de vrais clics et de
  * vraies frappes, indiscernables d'un utilisateur.
  */
-async function remplirCombobox(champ, valeurs, repli) {
+async function remplirCombobox(champ, valeurs, repli, strategie) {
   const sel = `document.querySelector('[data-remplissage="${champ.i}"]')`;
   const echec = (candidats) => ({ ok: false, candidats: candidats || null });
 
@@ -410,12 +451,46 @@ async function remplirCombobox(champ, valeurs, repli) {
        * choisir « Human Resources Management » pour une specialite « Management ».
        * Une erreur de ce genre est invisible a la relecture, donc pire que le vide.
        */
+      const strategie = ${JSON.stringify(strategie || null)};
       let i = -1;
-      for (const v of ${JSON.stringify(attendus)}.map(norme)) {
-        i = options.findIndex(o => t(o) === v);
-        if (i < 0) i = options.findIndex(o => t(o).startsWith(v + ' '));
-        if (i >= 0) break;
+
+      if (strategie && strategie.type === 'max') {
+        /*
+         * Aucune liste de mentions n'est libellee en GPA : « 4/4 » ne correspond a
+         * rien dans « 70% and above - First class honours ». On retient l'option
+         * dont le nombre le plus eleve est le plus grand, ce qui marche aussi bien
+         * pour des pourcentages que pour des bornes 3.5-4.0. Les options sans
+         * chiffre (« I'd rather not disclose ») sont ecartees.
+         */
+        let meilleur = -Infinity;
+        options.forEach((o, n) => {
+          const nombres = (o.textContent.match(/\\d+(?:[.,]\\d+)?/g) || []).map(x => parseFloat(x.replace(',', '.')));
+          if (!nombres.length) return;
+          const m = Math.max(...nombres);
+          if (m > meilleur) { meilleur = m; i = n; }
+        });
+      } else if (strategie && strategie.type === 'libre') {
+        /*
+         * Reponse sans enjeu, mais jamais une reponse verifiable : cocher « ancien
+         * employe » ou « recommandation » est un mensonge que le recruteur peut
+         * controler. On prend la premiere option neutre de la liste de preferences.
+         */
+        const exclu = /employee|intern\\b|referr|friend|family|recruiter|employe|connaissance/i;
+        const libres = options.map((o, n) => ({ n, txt: t(o), brut: o.textContent }))
+          .filter(o => !exclu.test(o.brut));
+        for (const pref of strategie.preferences.map(norme)) {
+          const trouve = libres.find(o => o.txt.includes(pref));
+          if (trouve) { i = trouve.n; break; }
+        }
+        if (i < 0 && libres.length) i = libres[0].n;
+      } else {
+        for (const v of ${JSON.stringify(attendus)}.map(norme)) {
+          i = options.findIndex(o => t(o) === v);
+          if (i < 0) i = options.findIndex(o => t(o).startsWith(v + ' '));
+          if (i >= 0) break;
+        }
       }
+
       if (i < 0) return { rien: true, candidats: options.slice(0, 4).map(o => o.textContent.trim()) };
 
       const actif = el.getAttribute('aria-activedescendant');
@@ -482,11 +557,16 @@ async function remplirCombobox(champ, valeurs, repli) {
   const cle = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, ' ').trim();
 
+  // La valeur complete est toujours essayee, quelle que soit sa longueur : le seuil
+  // de trois caracteres ne vaut que pour le premier mot, dont on se sert comme
+  // requete large. Sans cette distinction, « No » n'etait jamais tape et la question
+  // de sponsorship restait vide alors que « Yes » passait.
   const brutes = [];
+  const ajouter = (q) => { if (q && !brutes.some(r => cle(r) === cle(q))) brutes.push(q); };
   for (const v of valeurs) {
-    for (const q of [v.trim(), v.trim().split(/\s+/)[0]]) {
-      if (q.length >= 3 && !brutes.some(r => cle(r) === cle(q))) brutes.push(q);
-    }
+    ajouter(v.trim());
+    const premier = v.trim().split(/\s+/)[0];
+    if (premier.length >= 3) ajouter(premier);
   }
 
   /*
@@ -496,7 +576,9 @@ async function remplirCombobox(champ, valeurs, repli) {
    * n'ont aucune autre requete pour prefixe, et on essaie quand meme toutes les
    * orthographes qui different vraiment (« ESC Lyon », « ENS Cachan »).
    */
-  const requetes = brutes.filter(q =>
+  // Les strategies « max » et « libre » choisissent dans la liste entiere : il n'y a
+  // rien a taper, il suffit de l'ouvrir.
+  const requetes = strategie ? [''] : brutes.filter(q =>
     !brutes.some(p => p !== q && cle(q).startsWith(cle(p) + ' ')));
 
   let derniersCandidats = null;
@@ -528,13 +610,44 @@ async function remplirCombobox(champ, valeurs, repli) {
 const remplis = [];
 const ignores = [];
 
+/**
+ * Choix qui ne viennent pas litteralement du profil : la mention convertie depuis
+ * ton GPA, l'autorisation de travail deduite du pays, la provenance de l'annonce.
+ * Le rapport les met a part, parce qu'une reponse deduite se relit autrement qu'une
+ * reponse recopiee.
+ */
+const NOTE = /\bgpa\b|overall grade|grade point|classification|moyenne g[eé]n[eé]rale|mention/i;
+const PROVENANCE = /how did you (?:hear|find|learn)|where did you (?:hear|find)|comment.*(?:connu|entendu parler)|source de la candidature/i;
+const PREFERENCES_PROVENANCE = [
+  'job posting', 'job board', 'careers site', 'career site', 'company website',
+  'linkedin', 'online search', 'university', 'other',
+];
+
+function strategiePour(etiquette) {
+  if (NOTE.test(etiquette) && profil.noteAuPlusHaut) {
+    return { type: 'max', motif: `mention la plus haute, d apres un GPA de ${profil.gpa || '?'}` };
+  }
+  if (PROVENANCE.test(etiquette)) {
+    return { type: 'libre', preferences: PREFERENCES_PROVENANCE, motif: 'reponse neutre, sans consequence' };
+  }
+  return null;
+}
+
 for (const champ of champs) {
   if (champ.type === 'file') continue;
 
-  const valeurs = valeurPour(champ.etiquette);
+  const strategie = strategiePour(champ.etiquette);
+  const auto = AUTORISATION.test(champ.etiquette) && !JAMAIS.test(champ.etiquette)
+    ? reponseAutorisation(champ.etiquette) : null;
+
+  // Une question d'autorisation dont le pays n'est pas nommable reste sans reponse.
+  if (AUTORISATION.test(champ.etiquette) && !auto) { ignores.push(champ); continue; }
+
+  const valeurs = auto ? [auto] : (strategie ? ['—'] : valeurPour(champ.etiquette));
   if (!valeurs) { ignores.push(champ); continue; }
   const valeur = valeurs[0];
   if (champ.dejaRempli) continue;
+  if (auto || strategie) champ.deduit = auto ? 'autorisation de travail deduite du pays' : strategie.motif;
 
   // Un vrai <select> se remplit par sa valeur, meme s'il porte aria-haspopup.
   if (champ.combobox && champ.tag !== 'select') {
@@ -545,7 +658,7 @@ for (const champ of champs) {
     const repli = /school|university|universit[eé]|[eé]cole|institution/i.test(champ.etiquette)
       ? String(profil.ecoleSiAbsente || '').split(',').map(s => s.trim()).filter(Boolean)
       : [];
-    const r = await remplirCombobox(champ, valeurs, repli);
+    const r = await remplirCombobox(champ, valeurs, repli, strategie);
     if (r.ok) { champ.repli = r.repli ? valeur : null; remplis.push(champ); }
     // Les options proposees par la liste sont conservees : quand aucune ne
     // correspond, les afficher t'evite de rouvrir le menu pour rien.
@@ -693,6 +806,15 @@ if (replis.length) {
   console.log(`\n  ${replis.length} champ(s) mis par defaut, A VERIFIER :`);
   replis.forEach(c => console.log(
     `    ~ ${court(c)} = « ${etatReel[String(c.i)]} », faute de trouver « ${c.repli} » dans la liste`));
+}
+
+/* Une reponse deduite n'a pas la meme valeur qu'une reponse recopiee du profil :
+   celles-ci engagent, notamment l'autorisation de travail. */
+const deduits = vraimentRemplis.filter(c => c.deduit);
+if (deduits.length) {
+  console.log(`\n  ${deduits.length} reponse(s) DEDUITE(S), a relire attentivement :`);
+  deduits.forEach(c => console.log(
+    `    > ${court(c)}\n        = « ${etatReel[String(c.i)]} »  (${c.deduit})`));
 }
 
 /*

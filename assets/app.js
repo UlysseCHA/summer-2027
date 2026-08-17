@@ -539,6 +539,7 @@ const PROFIL_CHAMPS = [
   ['finAnnee', 'Fin, annee'],
   ['anneeDiplome', 'Annee de diplome'],
   ['gpa', 'Moyenne / GPA', { aide: 'Tel que tu le declares : 4/4, 3.8/4.0, 16/20. Repond aux champs GPA et Overall Grade' }],
+  ['noteAuPlusHaut', 'Convertir la note vers la mention la plus haute', { aide: 'true ou vide. Les listes anglo-saxonnes proposent des mentions (First class honours) et non un GPA : avec true, le script retient la plus elevee et le signale dans le rapport.' }],
   ['disponibleTempsPlein', 'Disponible en temps plein apres le diplome', { aide: 'Yes ou No. Ne concerne pas le visa, qui reste toujours a toi' }],
 
   ['titre', 'Documents et redaction'],
