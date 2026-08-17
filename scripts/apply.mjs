@@ -423,15 +423,70 @@ let champs = await scanner();
  * la, en te demandant de tout relancer une fois connecte. Il attend maintenant :
  * la fenetre est deja ouverte, tu te connectes, il repart tout seul.
  */
+/**
+ * Avance d'un ecran vers le formulaire, en cliquant « Apply » ou « Apply Manually ».
+ *
+ * Ces boutons ouvrent le formulaire, ils n'envoient rien : les franchir fait gagner
+ * deux clics et ne t'engage pas. Tout ce qui ressemble a un envoi est exclu par une
+ * liste noire, et le seul bouton que ce script ne cliquera jamais reste « Submit ».
+ */
+const DEJA_CLIQUE = new Set();
+async function avancerVersFormulaire() {
+  const libelle = await evaluer(`(() => {
+    const ENVOI = /submit|send application|envoyer|soumettre|confirm|accept|agree|delete|withdraw/i;
+    const OUVRE = /^(apply manually|apply now|apply|postuler|candidater|start application|continue|suivant|next|autofill with resume)$/i;
+    const deja = ${JSON.stringify([...DEJA_CLIQUE])};
+
+    const candidats = [...document.querySelectorAll('a, button, [role=button], [role=link]')]
+      .filter(el => {
+        const r = el.getBoundingClientRect();
+        if (!r.width || !r.height) return false;
+        const t = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
+        if (!t || t.length > 30) return false;
+        if (ENVOI.test(t)) return false;              // jamais un envoi
+        if (deja.includes(t.toLowerCase())) return false;
+        return OUVRE.test(t);
+      });
+
+    // « Apply Manually » avant « Apply » : sur Workday, le premier mene droit au
+    // formulaire, le second ouvre encore un menu.
+    candidats.sort((a, b) => {
+      const p = t => /manually|manuellement/i.test(t) ? 0 : /^apply|postuler|candidater/i.test(t) ? 1 : 2;
+      return p(a.innerText || '') - p(b.innerText || '');
+    });
+
+    const cible = candidats[0];
+    if (!cible) return null;
+    const t = (cible.innerText || cible.textContent).replace(/\\s+/g, ' ').trim();
+    cible.scrollIntoView({ block: 'center' });
+    cible.click();
+    return t;
+  })()`);
+
+  if (libelle) DEJA_CLIQUE.add(libelle.toLowerCase());
+  return libelle;
+}
+
 if (!formulaireUtile(champs)) {
   console.log('Pas encore de formulaire sur cette page.');
+
+  const premier = await avancerVersFormulaire();
+  if (premier) {
+    console.log(`  J ai clique sur « ${premier} » pour ouvrir le formulaire.`);
+    await sleep(4000);
+    const apres = await scanner();
+    if (formulaireUtile(apres)) champs = apres;
+  }
+}
+
+if (!formulaireUtile(champs)) {
   console.log('');
-  console.log('  Dans la fenetre qui vient de s ouvrir :');
-  console.log('    1. clique sur « Apply » / « Postuler »');
-  console.log('    2. connecte-toi ou cree le compte si le site le demande');
-  console.log('    3. laisse-toi porter jusqu au formulaire');
+  console.log('  Dans la fenetre ouverte, il reste a :');
+  console.log('    - te connecter ou creer le compte si le site le demande');
+  console.log('    - te laisser porter jusqu au formulaire');
   console.log('');
-  console.log('  Je surveille la page et je remplis des qu elle apparait.');
+  console.log('  Je clique sur « Apply » quand j en vois un, je surveille la page,');
+  console.log('  et je remplis des que le formulaire apparait.');
   console.log('  (Ctrl+C pour abandonner. Abandon automatique apres 15 minutes.)\n');
 
   const limite = Date.now() + 15 * 60 * 1000;
@@ -445,6 +500,16 @@ if (!formulaireUtile(champs)) {
     if (vu === undefined) { await rebrancher(); vu = await scanner(); }
 
     if (formulaireUtile(vu)) { champs = vu; break; }
+
+    // Un « Apply » peut reapparaitre apres la connexion, ou un ecran intermediaire
+    // proposer « Apply Manually ». On le franchit, sans jamais toucher a un envoi.
+    const clique = await avancerVersFormulaire();
+    if (clique) {
+      console.log(`  clic sur « ${clique} »`);
+      await sleep(3500);
+      const suite = await scanner();
+      if (formulaireUtile(suite)) { champs = suite; break; }
+    }
 
     const ou = (await evaluer('location.hostname')) || '?';
     const mot = `  ... j attends sur ${ou}`;
