@@ -292,16 +292,35 @@ if (!cible) {
   process.exit(1);
 }
 
-const ws = new WebSocket(cible.webSocketDebuggerUrl);
-await new Promise(r => ws.addEventListener('open', r, { once: true }));
-
-let idMsg = 0;
+/*
+ * La connexion au navigateur est refaite a la demande.
+ *
+ * Sur les portails a compte, tu te connectes puis tu navigues, parfois dans un
+ * nouvel onglet. Une socket ouverte une fois pour toutes sur l'onglet de depart
+ * mourrait en route ; le script sait donc se rebrancher sur l'onglet actif.
+ */
+let ws, idMsg = 0;
 const attentes = new Map();
-ws.addEventListener('message', e => {
-  const m = JSON.parse(e.data);
-  if (m.id && attentes.has(m.id)) { attentes.get(m.id)(m); attentes.delete(m.id); }
-});
+
+async function connecter(cibleWs) {
+  ws = new WebSocket(cibleWs);
+  await new Promise((ok, ko) => {
+    ws.addEventListener('open', ok, { once: true });
+    ws.addEventListener('error', ko, { once: true });
+  });
+  attentes.clear();
+  ws.addEventListener('message', e => {
+    const m = JSON.parse(e.data);
+    if (m.id && attentes.has(m.id)) { attentes.get(m.id)(m); attentes.delete(m.id); }
+  });
+  ws.addEventListener('close', () => { for (const r of attentes.values()) r({}); attentes.clear(); });
+  await envoyer('Page.enable');
+  await envoyer('Runtime.enable');
+  await envoyer('DOM.enable');
+}
+
 const envoyer = (methode, params = {}) => new Promise(r => {
+  if (!ws || ws.readyState !== 1) return r({});
   const i = ++idMsg;
   attentes.set(i, r);
   ws.send(JSON.stringify({ id: i, method: methode, params }));
@@ -311,9 +330,20 @@ const evaluer = async (expr) => {
   return r.result?.result?.value;
 };
 
-await envoyer('Page.enable');
-await envoyer('Runtime.enable');
-await envoyer('DOM.enable');
+/** Se rebranche sur l'onglet le plus plausible, en privilegiant le meme site. */
+async function rebrancher() {
+  try {
+    const hote = new URL(url).hostname.split('.').slice(-2).join('.');
+    const liste = await (await fetch(`http://127.0.0.1:${PORT}/json/list`)).json();
+    const pages = liste.filter(t => t.type === 'page' && !/^(about|chrome|edge):/.test(t.url));
+    const choisie = pages.find(t => t.url.includes(hote)) || pages[0];
+    if (!choisie) return false;
+    await connecter(choisie.webSocketDebuggerUrl);
+    return true;
+  } catch { return false; }
+}
+
+await connecter(cible.webSocketDebuggerUrl);
 
 console.log(`\nOuverture de ${url}\n`);
 
@@ -331,7 +361,7 @@ for (let i = 0; i < 40; i++) {
 /* --------------------------------------------------------------- remplissage */
 
 // Le script marque chaque champ pour pouvoir le retrouver ensuite cote CDP.
-const champs = await evaluer(`(() => {
+const scanner = () => evaluer(`(() => {
   const etiquetteDe = (el) => {
     const parts = [];
     if (el.id) {
@@ -375,11 +405,62 @@ const champs = await evaluer(`(() => {
   return out;
 })()`);
 
-if (!champs || !champs.length) {
-  console.log('Aucun champ de formulaire detecte sur cette page.');
-  console.log('C est peut-etre une page de description : clique sur « Apply » puis relance la commande.');
-  ws.close();
-  process.exit(0);
+/*
+ * Un formulaire suffisamment reel pour valoir un remplissage.
+ *
+ * Une page de description Workday contient une barre de recherche et un selecteur
+ * de langue : compter les champs ne suffit pas, il faut au moins un champ de saisie
+ * qu'on sache remplir. Sinon le script se declarait pret sur une page vide.
+ */
+const formulaireUtile = (liste) => Array.isArray(liste)
+  && liste.filter(c => valeurPour(c.etiquette)).length >= 3;
+
+let champs = await scanner();
+
+/*
+ * Les portails a compte (Workday, Avature, tal.net) montrent d'abord une page de
+ * description, puis un ecran de connexion. Le script ouvrait la page et s'arretait
+ * la, en te demandant de tout relancer une fois connecte. Il attend maintenant :
+ * la fenetre est deja ouverte, tu te connectes, il repart tout seul.
+ */
+if (!formulaireUtile(champs)) {
+  console.log('Pas encore de formulaire sur cette page.');
+  console.log('');
+  console.log('  Dans la fenetre qui vient de s ouvrir :');
+  console.log('    1. clique sur « Apply » / « Postuler »');
+  console.log('    2. connecte-toi ou cree le compte si le site le demande');
+  console.log('    3. laisse-toi porter jusqu au formulaire');
+  console.log('');
+  console.log('  Je surveille la page et je remplis des qu elle apparait.');
+  console.log('  (Ctrl+C pour abandonner. Abandon automatique apres 15 minutes.)\n');
+
+  const limite = Date.now() + 15 * 60 * 1000;
+  let dernierMot = '';
+  while (Date.now() < limite) {
+    await sleep(3000);
+
+    // La connexion peut avoir change d'onglet, ou la socket etre morte pendant
+    // une redirection : on se rebranche avant de conclure a l'absence de formulaire.
+    let vu = await scanner();
+    if (vu === undefined) { await rebrancher(); vu = await scanner(); }
+
+    if (formulaireUtile(vu)) { champs = vu; break; }
+
+    const ou = (await evaluer('location.hostname')) || '?';
+    const mot = `  ... j attends sur ${ou}`;
+    if (mot !== dernierMot) { console.log(mot); dernierMot = mot; }
+  }
+
+  if (!formulaireUtile(champs)) {
+    console.log('\nToujours pas de formulaire apres 15 minutes.');
+    console.log('Le navigateur reste ouvert. Relance la commande sur l URL du formulaire.');
+    ws.close();
+    process.exit(0);
+  }
+
+  console.log('\nFormulaire detecte, remplissage en cours...\n');
+  await sleep(1200);
+  champs = await scanner();   // relire apres stabilisation du rendu
 }
 
 /**
