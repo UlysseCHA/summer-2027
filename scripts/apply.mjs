@@ -123,7 +123,10 @@ const REGLES = [
   [/e.?mail/i, profil.email],
   // L'indicatif a son propre champ sur Workday. Sans cette regle, le numero complet
   // y atterrissait, et le « +33 » se retrouvait ecrit deux fois.
-  [/country.?phone.?code|country.?code|indicatif|dialling code|dial code/i, indicatif(profil.telephone)],
+  // Le pays d'abord : la liste de Workday s'intitule « France (+33) », donc taper
+  // « France » la trouve, taper « +33 » non.
+  [/country.?phone.?code|country.?code|indicatif|dialling code|dial code/i,
+    [profil.pays, indicatif(profil.telephone)].filter(Boolean)],
   [/phone|t[eé]l[eé]phone|mobile|portable/i, profil.telephone],
   [/linked.?in/i, profil.linkedin],
   [/git.?hub/i, profil.github],
@@ -435,6 +438,10 @@ const scanner = () => evaluer(`(() => {
       requis: el.required || el.getAttribute('aria-required') === 'true',
       dejaRempli: Boolean(el.value),
       combobox: el.getAttribute('role') === 'combobox' || el.getAttribute('aria-haspopup') === 'true',
+      // Workday n'utilise ni <select> ni role=combobox : ses listes sont des champs
+      // « Search » reconnaissables a cet attribut maison. Sans lui, le script les
+      // prenait pour du texte libre et y ecrivait la valeur telle quelle.
+      prompt: el.getAttribute('data-uxi-widget-type') === 'selectinput',
       options: el.tagName === 'SELECT' ? [...el.options].map(o => o.text.trim()).slice(0, 60) : null,
     });
   }
@@ -811,6 +818,115 @@ async function remplirCombobox(champ, valeurs, repli, strategie) {
   return abandonner(derniersCandidats);
 }
 
+/**
+ * Listes « Search » de Workday.
+ *
+ * Elles ne portent ni role=combobox ni aria-controls : impossible de lire leurs
+ * options comme ailleurs. En revanche la selection au clavier fonctionne, et le
+ * resultat s'affiche dans une etiquette voisine sous la forme « 1 item selected,
+ * France (+33) ». On tape, on valide, puis on relit cette etiquette : si rien n'a
+ * ete retenu, on efface plutot que de laisser une saisie libre dans un champ qui
+ * attend un choix.
+ */
+async function remplirPromptWorkday(champ, valeurs, strategie) {
+  const sel = `document.querySelector(${JSON.stringify(champ.sel)})`;
+  const touche = async (key, vk, texte) => {
+    await envoyer('Input.dispatchKeyEvent', {
+      type: 'keyDown', key, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk,
+      ...(texte ? { text: texte } : {}),
+    });
+    await envoyer('Input.dispatchKeyEvent', {
+      type: 'keyUp', key, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk,
+    });
+  };
+
+  const choix = () => evaluer(`(() => {
+    const el = ${sel};
+    if (!el) return '';
+    const bloc = el.closest('[data-automation-id="multiSelectContainer"]')
+      || el.closest('[data-automation-id="multiselectInputContainer"]');
+    const t = (bloc ? bloc.innerText : '').replace(/\\s+/g, ' ').trim();
+    const m = t.match(/\\d+ items? selected,\\s*(.+?)(?:\\s*\\1)?$/i);
+    return m ? m[1].trim() : '';
+  })()`);
+
+  const norme = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+  /*
+   * Workday pre-remplit certains de ces champs avec un defaut a lui : le pays de
+   * l'indicatif arrivait sur « United Kingdom (+44) ». Une valeur presente ne veut
+   * donc pas dire une valeur juste. On ne s'arrete que si elle correspond deja a ce
+   * qu'on voulait mettre ; sinon on la remplace, et le rapport le signale.
+   */
+  const initial = await choix();
+  if (initial && valeurs.some(v => norme(initial).includes(norme(v)))) return { ok: true };
+  let faux = null;   // valeur retenue par erreur, a signaler plutot qu'a taire
+
+  await evaluer(`${sel}?.scrollIntoView({ block: 'center' })`);
+  await sleep(400);
+
+  // Quatre essais au plus : chacun coute quatre secondes, et marteler un widget
+  // Workday finit par le laisser dans un etat incoherent.
+  for (const valeur of valeurs.slice(0, 4)) {
+    await evaluer(`(() => { const e = ${sel}; if (e) { e.focus(); e.click(); } })()`);
+    await sleep(500);
+    if (!await evaluer(`document.activeElement === ${sel}`)) continue;
+
+    for (let n = 0; n < 40; n++) await touche('Backspace', 8);
+    await sleep(250);
+    await envoyer('Input.insertText', { text: valeur });
+    await sleep(2200);   // le filtrage est distant : trop tot, la liste est encore entiere
+
+    await touche('ArrowDown', 40);
+    await sleep(500);
+    await touche('Enter', 13, '\r');
+    await sleep(1100);
+
+    /*
+     * On verifie que la ligne retenue correspond bien a ce qui a ete tape.
+     *
+     * Sans ce controle, une liste pas encore filtree fait valider sa premiere
+     * entree : le script a choisi « Afghanistan (+93) » pour une recherche de
+     * « France ». Un pays faux sur une candidature est pire qu'un champ vide,
+     * parce qu'il a l'air rempli.
+     */
+    const retenu = await choix();
+    if (retenu && norme(retenu).includes(norme(valeur))) {
+      return { ok: true, affiche: retenu, remplace: initial && initial !== retenu ? initial : null };
+    }
+    if (retenu && retenu !== initial) faux = retenu;   // a signaler si rien de mieux ne vient
+  }
+
+  /*
+   * Reponse sans enjeu dont aucune requete n'a rien donne : la recherche de Workday
+   * compare au debut du libelle, et « career » ne trouve pas « Citi Jobs Career
+   * Site ». On ouvre alors la liste sans rien taper et on prend la premiere ligne
+   * acceptable, en refusant tout ce qui se verifie : ancien employe, cooptation.
+   */
+  if (strategie?.type === 'libre') {
+    const EXCLU = /employee|referr|friend|family|recruiter|employe|cooptation/i;
+    for (let rang = 1; rang <= 5; rang++) {
+      await evaluer(`(() => { const e = ${sel}; if (e) { e.focus(); e.click(); } })()`);
+      await sleep(600);
+      for (let n = 0; n < rang; n++) { await touche('ArrowDown', 40); await sleep(180); }
+      await touche('Enter', 13, '\r');
+      await sleep(1000);
+
+      const retenu = await choix();
+      if (retenu && retenu !== initial && !EXCLU.test(retenu)) {
+        return { ok: true, affiche: retenu, remplace: initial || null };
+      }
+    }
+  }
+
+  // Aucun essai n'a abouti : on ne laisse pas de texte libre derriere soi. Pas
+  // d'Echap ici, qui sur Workday referme parfois plus que la liste ouverte.
+  await evaluer(`(() => { const e = ${sel}; if (e) e.focus(); })()`);
+  for (let n = 0; n < 40; n++) await touche('Backspace', 8);
+  await evaluer(`${sel}?.blur()`);
+  return { ok: false, faux };
+}
+
 const remplis = [];
 const ignores = [];
 
@@ -822,9 +938,13 @@ const ignores = [];
  */
 const NOTE = /\bgpa\b|overall grade|grade point|classification|moyenne g[eé]n[eé]rale|mention/i;
 const PROVENANCE = /how did you (?:hear|find|learn)|where did you (?:hear|find)|comment.*(?:connu|entendu parler)|source de la candidature/i;
+/*
+ * Requetes courtes plutot que libelles exacts : chaque entreprise nomme ses sources
+ * a sa facon. Citi propose « Citi Jobs Career Site », que « job posting » ne trouve
+ * pas et que « career » trouve. Un mot suffit a faire remonter la bonne ligne.
+ */
 const PREFERENCES_PROVENANCE = [
-  'job posting', 'job board', 'careers site', 'career site', 'company website',
-  'linkedin', 'online search', 'university', 'other',
+  'career', 'job board', 'linkedin', 'university', 'school', 'online', 'other',
 ];
 
 function strategiePour(etiquette) {
@@ -854,7 +974,9 @@ for (const champ of champs) {
   // Une question d'autorisation dont le pays n'est pas nommable reste sans reponse.
   if (AUTORISATION.test(champ.etiquette) && !auto) { ignores.push(champ); continue; }
 
-  let valeurs = auto ? [auto] : (strategie ? ['—'] : valeurPour(champ.etiquette));
+  let valeurs = auto ? [auto]
+    : strategie ? (strategie.preferences || ['—'])
+    : valeurPour(champ.etiquette);
   if (!valeurs) { ignores.push(champ); continue; }
 
   if (indicatifSepare && /phone|t[eé]l[eé]phone|mobile|portable/i.test(champ.etiquette)
@@ -866,6 +988,23 @@ for (const champ of champs) {
   const valeur = valeurs[0];
   if (champ.dejaRempli) continue;
   if (auto || strategie) champ.deduit = auto ? 'autorisation de travail deduite du pays' : strategie.motif;
+
+  // Liste « Search » de Workday : selection au clavier, verifiee sur l'etiquette.
+  if (champ.prompt) {
+    const r = await remplirPromptWorkday(champ, valeurs, strategie);
+    if (r.ok) {
+      // Un defaut du site qu'on ecrase merite d'etre dit : c'est le seul cas ou le
+      // script modifie une valeur deja presente.
+      if (r.remplace) champ.deduit = `remplace le defaut du site, « ${r.remplace} »`;
+      remplis.push(champ);
+    } else {
+      // Le champ porte peut-etre une valeur fausse qu'on n'a pas su effacer :
+      // le taire serait le plus dangereux des silences.
+      champ.faux = r.faux || null;
+      ignores.push(champ);
+    }
+    continue;
+  }
 
   // Un vrai <select> se remplit par sa valeur, meme s'il porte aria-haspopup.
   if (champ.combobox && champ.tag !== 'select') {
@@ -970,7 +1109,17 @@ const etatReel = await evaluer(`(() => {
       // champs pourtant remplis.
       const cont = el.closest('[class*="select__control"]') || el.closest('[class*="control"]');
       const sv = cont && cont.querySelector('[class*="single-value"], [class*="multi-value__label"]');
-      const txt = sv ? sv.textContent.trim() : '';
+      let txt = sv ? sv.textContent.trim() : '';
+
+      // Workday range son choix dans une etiquette voisine, pas dans le champ.
+      if (!txt) {
+        const bloc = el.closest('[data-automation-id="multiSelectContainer"]')
+          || el.closest('[data-automation-id="multiselectInputContainer"]');
+        const brut = (bloc ? bloc.innerText : '').replace(/\\s+/g, ' ').trim();
+        const m = brut.match(/\\d+ items? selected,\\s*(.+?)(?:\\s*\\1)?$/i);
+        if (m) txt = m[1].trim();
+      }
+
       out[i] = /^(select|choisir|--)/i.test(txt) ? '' : txt;
     }
   }
@@ -1055,6 +1204,7 @@ if (manquantsRequis.length) {
   console.log(`\n  ${manquantsRequis.length} champ(s) OBLIGATOIRE(S) que tu dois remplir :`);
   manquantsRequis.forEach(c => {
     console.log(`    ! ${court(c)}${c.options ? '   [liste deroulante]' : ''}`);
+    if (c.faux) console.log(`        ATTENTION : le champ affiche « ${c.faux} », qui est faux. Corrige-le.`);
     // Quand la liste ne propose pas ta valeur, autant montrer ce qu'elle propose.
     if (c.candidats?.length) {
       console.log(`        la liste propose : ${c.candidats.slice(0, 4).join(' | ').slice(0, 90)}`);
