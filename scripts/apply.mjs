@@ -173,6 +173,13 @@ const JAMAIS = /gender|genre|race|ethnic|disability|handicap|veteran|sexual|orie
 const AUTORISATION = /authoriz(?:ed|ation) to work|authoris(?:ed|ation) to work|right to work|legally (?:able|eligible) to work|need sponsorship|require sponsorship|sponsorship (?:from|to)|work (?:permit|visa)|autoris[eé].*travailler/i;
 const DEMANDE_SPONSOR = /sponsor|visa|work permit/i;
 
+/*
+ * Pays ou un citoyen de l'Union europeenne travaille sans sponsor. L'Espace
+ * economique europeen et la Suisse y figurent : ils ne sont pas dans l'Union, mais
+ * la libre circulation s'y applique, et repondre « j'ai besoin d'un visa » pour Oslo
+ * ou Zurich serait faux. La regle que tu as donnee vise l'absence de visa, pas
+ * l'appartenance a l'Union.
+ */
 const PAYS_UE = [
   'austria', 'autriche', 'belgium', 'belgique', 'bulgaria', 'bulgarie', 'croatia', 'croatie',
   'cyprus', 'chypre', 'czech', 'tcheque', 'denmark', 'danemark', 'estonia', 'estonie',
@@ -181,8 +188,24 @@ const PAYS_UE = [
   'lithuania', 'lituanie', 'luxembourg', 'malta', 'malte', 'netherlands', 'pays-bas',
   'poland', 'pologne', 'portugal', 'romania', 'roumanie', 'slovakia', 'slovaquie',
   'slovenia', 'slovenie', 'spain', 'espagne', 'sweden', 'suede',
-  'european union', 'union europeenne', ' eu ', ' ue ', 'eea', 'schengen',
+  'norway', 'norvege', 'iceland', 'islande', 'liechtenstein', 'switzerland', 'suisse',
+  'european union', 'union europeenne', ' eu ', ' ue ', 'eea', 'eee', 'schengen',
 ];
+
+/*
+ * Pays hors de cette zone. La liste est explicite plutot que deduite : sans nom de
+ * pays reconnu, la question reste sans reponse, ce qui vaut mieux qu'une declaration
+ * au jugé. Taiwan manquait au premier essai reel, et le champ etait reste vide.
+ */
+const PAYS_HORS_UE = new RegExp([
+  '\\bu\\.?s\\.?a?\\.?\\b', 'united states', 'america', '\\buk\\b', 'united kingdom', 'britain',
+  'canada', 'mexico', 'brazil', 'bresil', 'argentina', 'chile', 'colombia', 'peru',
+  'china', 'chine', 'hong kong', 'taiwan', 'taipei', 'japan', 'japon', 'korea', 'coree', 'seoul',
+  'singapore', 'singapour', 'india', 'inde', 'indonesia', 'malaysia', 'philippines',
+  'thailand', 'thailande', 'vietnam', 'australia', 'australie', 'new zealand',
+  'uae', 'emirates', 'dubai', 'abu dhabi', 'qatar', 'saudi', 'kuwait', 'bahrain',
+  'israel', 'turkey', 'turquie', 'egypt', 'south africa', 'nigeria', 'kenya', 'morocco', 'maroc',
+].join('|'), 'i');
 
 /**
  * Rend « Yes » ou « No » selon la question posee et le pays qu'elle nomme, ou null
@@ -192,10 +215,9 @@ function reponseAutorisation(etiquette) {
   const t = ' ' + etiquette.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '') + ' ';
   const ue = PAYS_UE.some(p => t.includes(p));
   if (!ue) {
-    // Pays hors UE explicitement nomme : la reponse est l'inverse. Sans pays du tout,
-    // on ne peut rien affirmer.
-    const horsUe = /\bu\.?s\.?a?\.?\b|united states|america|\buk\b|united kingdom|britain|switzerland|suisse|canada|singapore|hong kong|japan|australia|india|china|brazil|uae|emirates/.test(t);
-    if (!horsUe) return null;
+    // Pays hors zone explicitement nomme : la reponse est l'inverse. Sans pays
+    // reconnu, on ne peut rien affirmer, et le champ reste vide.
+    if (!PAYS_HORS_UE.test(t)) return null;
     return DEMANDE_SPONSOR.test(etiquette) ? 'Yes' : 'No';
   }
   return DEMANDE_SPONSOR.test(etiquette) ? 'No' : 'Yes';
