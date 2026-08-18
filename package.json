@@ -20,7 +20,8 @@
     "watch": "node scripts/watch.mjs",
     "watch-add": "node scripts/add-watch.mjs",
     "apply": "node scripts/apply.mjs",
-    "draft": "node scripts/draft.mjs"
+    "draft": "node scripts/draft.mjs",
+    "version": "node scripts/version-assets.mjs"
   },
   "_comment_dependances": "Le site et la collecte des offres ne dependent de rien. Seul npm run draft (redaction des questions ouvertes) a besoin du SDK Anthropic et d une cle API.",
   "dependencies": {
