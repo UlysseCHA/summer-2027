@@ -19,7 +19,7 @@ const LABELS = {
     design: 'Design', business: 'Business', other: 'Autre',
   },
   region: {
-    us: 'Etats-Unis', uk: 'Royaume-Uni', europe: 'Europe', apac: 'Asie-Pacifique',
+    us: 'Etats-Unis', uk: 'Royaume-Uni', europe: 'Europe', paris: 'Paris', germany: 'Allemagne', italy: 'Italie', apac: 'Asie-Pacifique',
     canada: 'Canada', latam: 'Amerique latine', mena: 'Moyen-Orient', remote: 'Remote', other: 'Autre',
   },
   status: {

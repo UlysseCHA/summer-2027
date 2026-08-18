@@ -46,14 +46,30 @@ const TRACKS = [
 ];
 
 const REGIONS = [
-  ['us',     /\b(united states|usa|u\.s\.|new york|nyc|san francisco|bay area|chicago|austin|boston|seattle|los angeles|palo alto|menlo park|mountain view|sunnyvale|san jose|washington|d\.c\.|miami|dallas|houston|atlanta|denver|philadelphia|charlotte|jersey city|stamford|greenwich|princeton|pittsburgh|nashville|phoenix|portland|san diego|minneapolis|detroit|salt lake|remote - us|,\s*(ny|ca|il|tx|ma|wa|fl|ct|nj|pa|ga|co|nc|va|md|mi|mn|az|or|ut|oh|dc)\b)/i],
-  ['uk',     /\b(united kingdom|london|bristol|edinburgh|manchester|glasgow|leeds|belfast|oxford|cambridge, uk|birmingham)\b/i],
-  ['europe', /\b(amsterdam|paris|berlin|munich|frankfurt|hamburg|dublin|zurich|zug|geneva|lausanne|madrid|barcelona|milan|rome|lisbon|porto|warsaw|krakow|prague|budapest|stockholm|copenhagen|aarhus|oslo|helsinki|brussels|luxembourg|vienna|athens|bucharest|netherlands|germany|france|spain|italy|ireland|switzerland|sweden|denmark|norway|poland|portugal|belgium|austria|europe|emea)\b/i],
-  ['apac',   /\b(singapore|hong kong|tokyo|osaka|shanghai|beijing|shenzhen|seoul|taipei|sydney|melbourne|brisbane|perth|auckland|mumbai|bangalore|bengaluru|hyderabad|delhi|gurgaon|pune|chennai|gift city|india|japan|china|australia|apac)\b/i],
+  ['us',     /\b(united states|usa|u\.s\.|new york|nyc|san francisco|bay area|chicago|austin|boston|seattle|los angeles|palo alto|menlo park|mountain view|sunnyvale|san jose|washington|d\.c\.|miami|dallas|houston|atlanta|denver|philadelphia|charlotte|jersey city|stamford|greenwich|princeton|pittsburgh|nashville|phoenix|portland|san diego|minneapolis|detroit|salt lake|baltimore|la jolla|milwaukee|remote - us|,\s*(ny|ca|il|tx|ma|wa|fl|ct|nj|pa|ga|co|nc|va|md|mi|mn|az|or|ut|oh|dc)\b)/i],
+  ['uk',     /\b(united kingdom|london|bristol|edinburgh|manchester|glasgow|leeds|belfast|oxford|cambridge, uk|birmingham|dundee|cardiff|aberdeen|newcastle|sheffield|nottingham|liverpool|gbr)\b/i],
+
+  /*
+   * Europe au sens large : Union, Espace economique europeen et Suisse. La liste
+   * couvre les capitales et les grandes villes, faute de quoi une offre se retrouve
+   * dans « Autre » sans que rien ne l'explique. Wincent a Bratislava y etait tombee.
+   */
+  ['europe', /\b(amsterdam|rotterdam|the hague|eindhoven|utrecht|paris(?!s*,?s*(?:tx|texas))|lyon|marseille|toulouse|lille|nantes|bordeaux|strasbourg|nice|rennes|grenoble|montpellier|sophia antipolis|berlin|munich|m[uü]nchen|frankfurt|hamburg|cologne|k[oö]ln|d[uü]sseldorf|stuttgart|leipzig|dresden|nuremberg|hannover|essen|dortmund|bremen|mannheim|karlsruhe|bonn|heidelberg|dublin|cork|galway|limerick|zurich|z[uü]rich|zug|geneva|gen[eè]ve|lausanne|basel|b[aâ]le|bern|lugano|madrid|barcelona|valencia|seville|sevilla|bilbao|malaga|zaragoza|milan|milano|rome|roma|turin|torino|naples|napoli|bologna|florence|firenze|venice|venezia|genoa|genova|bari|palermo|verona|padua|padova|trieste|lisbon|lisboa|porto|braga|coimbra|kyiv|kiev|ukraine|warsaw|warszawa|krakow|krak[oó]w|gdansk|wroclaw|poznan|prague|praha|brno|ostrava|bratislava|kosice|ko[sš]ice|ljubljana|zagreb|sofia|budapest|debrecen|bucharest|bucuresti|cluj|athens|thessaloniki|stockholm|gothenburg|g[oö]teborg|malmo|malm[oö]|copenhagen|k[oø]benhavn|aarhus|odense|oslo|bergen|trondheim|helsinki|espoo|tampere|reykjavik|tallinn|riga|vilnius|valletta|nicosia|brussels|bruxelles|antwerp|anvers|ghent|gand|leuven|liege|li[eè]ge|luxembourg|vienna|wien|salzburg|graz|monaco|netherlands|pays-bas|germany|allemagne|france|spain|espagne|italy|italie|italia|ireland|irlande|switzerland|suisse|sweden|su[eè]de|denmark|danemark|norway|norv[eè]ge|finland|finlande|iceland|islande|poland|pologne|portugal|belgium|belgique|austria|autriche|greece|gr[eè]ce|hungary|hongrie|czech|czechia|tch[eè]que|slovakia|slovaquie|slovenia|slov[eé]nie|croatia|croatie|bulgaria|bulgarie|romania|roumanie|estonia|estonie|latvia|lettonie|lithuania|lituanie|malta|malte|cyprus|chypre|europe|emea)\b/i],
+
+  /*
+   * Trois zones plus fines demandees en plus de l'Europe : une offre a Berlin porte
+   * « europe » et « allemagne », ce qui laisse le choix de filtrer large ou serre.
+   */
+  ['paris',  /\b(paris|[iî]le[- ]de[- ]france|la d[eé]fense|issy[- ]les[- ]moulineaux|levallois|courbevoie|nanterre|boulogne[- ]billancourt|saint[- ]denis)\b(?!\s*,?\s*(tx|texas))/i],
+  ['germany',/\b(germany|allemagne|deutschland|berlin|munich|m[uü]nchen|frankfurt|hamburg|cologne|k[oö]ln|d[uü]sseldorf|stuttgart|leipzig|dresden|nuremberg|n[uü]rnberg|hannover|essen|dortmund|bremen|mannheim|karlsruhe|bonn|freiburg|heidelberg)\b/i],
+  ['italy',  /\b(italy|italie|italia|milan|milano|rome|roma|turin|torino|naples|napoli|bologna|florence|firenze|venice|venezia|genoa|genova|bari|palermo|verona|padua|padova|trieste)\b/i],
+
+  ['apac',   /\b(singapore|hong kong|tokyo|osaka|shanghai|beijing|shenzhen|seoul|taipei|sydney|melbourne|brisbane|perth|auckland|mumbai|bangalore|bengaluru|hyderabad|delhi|gurgaon|pune|chennai|gift city|penang|kuala lumpur|malaysia|colombo|sri lanka|jakarta|indonesia|manila|philippines|bangkok|thailand|hanoi|vietnam|india|japan|china|australia|apac)\b/i],
   ['canada', /\b(toronto|montreal|montréal|vancouver|waterloo|ottawa|calgary|canada)\b/i],
-  ['latam',  /\b(são paulo|sao paulo|mexico city|buenos aires|bogot|santiago|lima|brazil|mexico)\b/i],
+  ['latam',  /\b(são paulo|sao paulo|mexico city|buenos aires|bogot[aá]|santiago|lima|brazil|mexico)\b/i],
   ['mena',   /\b(dubai|abu dhabi|riyadh|doha|tel aviv|israel|uae|saudi)\b/i],
 ];
+
 
 const SEASONS = /\b(summer|spring|fall|autumn|winter|été|ete)\b/i;
 
@@ -150,11 +166,18 @@ export function classify(title, description, board) {
   };
 }
 
+/* Les zones fines sont des sous-ensembles de l'Europe : « La Defense » ou
+   « Issy-les-Moulineaux » ne nomment pas la France, mais une offre qui s'y trouve
+   doit rester visible sous le filtre Europe. */
+const SOUS_EUROPE = ['paris', 'germany', 'italy'];
+
 export function regionsOf(location) {
   const found = REGIONS.filter(([, re]) => re.test(location)).map(([k]) => k);
+  if (found.some(r => SOUS_EUROPE.includes(r)) && !found.includes('europe')) found.push('europe');
   if (!found.length && /\bremote\b/i.test(location)) return ['remote'];
   return found.length ? found : ['other'];
 }
+
 
 export function stripHtml(html = '') {
   return html
