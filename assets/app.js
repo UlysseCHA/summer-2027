@@ -84,6 +84,7 @@ const state = {
   company: new Set(),
   onlyFav: false,
   onlyRecent: false,
+  onlySummer: false,
   onlyNew: false,
   hideApplied: false,
   sort: 'recent',
@@ -167,6 +168,9 @@ function filterOffers() {
     if (state.onlyFav && !favorites.has(o.id)) return false;
     if (state.onlyNew && !newIds.has(o.id)) return false;
     if (state.onlyRecent && !(daysSince(o.postedAt) !== null && daysSince(o.postedAt) <= 30)) return false;
+    // Le mot doit etre ecrit dans l'intitule. La campagne se deduit parfois de la
+    // description ; ce filtre-ci ne retient que ce qui s'annonce comme summer.
+    if (state.onlySummer && !/\bsummer\b/i.test(o.title || '')) return false;
     if (state.hideApplied && ['applied', 'interview', 'offer', 'rejected'].includes(statuses[o.id])) return false;
     if (terms.length) {
       const blob = searchBlob(o);
@@ -737,7 +741,7 @@ function bindEvents() {
   $('#cycle').addEventListener('change', e => { state.cycle = e.target.value; state.limit = PAGE_SIZE; renderOffers(); });
   $('#sort').addEventListener('change', e => { state.sort = e.target.value; renderOffers(); });
 
-  const toggles = [['#only-fav', 'onlyFav'], ['#only-new', 'onlyNew'], ['#only-recent', 'onlyRecent'], ['#hide-applied', 'hideApplied']];
+  const toggles = [['#only-fav', 'onlyFav'], ['#only-new', 'onlyNew'], ['#only-recent', 'onlyRecent'], ['#only-summer', 'onlySummer'], ['#hide-applied', 'hideApplied']];
   for (const [id, key] of toggles) {
     $(id).addEventListener('change', e => { state[key] = e.target.checked; state.limit = PAGE_SIZE; renderOffers(); });
   }
@@ -770,7 +774,7 @@ function bindEvents() {
       state.q = ''; $('#q').value = '';
     } else {
       state[facet] = false;
-      const box = { onlyFav: '#only-fav', onlyNew: '#only-new', onlyRecent: '#only-recent', hideApplied: '#hide-applied' }[facet];
+      const box = { onlyFav: '#only-fav', onlyNew: '#only-new', onlyRecent: '#only-recent', onlySummer: '#only-summer', hideApplied: '#hide-applied' }[facet];
       if (box) $(box).checked = false;
     }
     renderOffers();
@@ -778,12 +782,13 @@ function bindEvents() {
 
   $('#reset-filters').addEventListener('click', () => {
     Object.assign(state, {
-      q: '', cycle: '2027', onlyFav: false, onlyNew: false, onlyRecent: false, hideApplied: false,
+      q: '', cycle: '2027', onlyFav: false, onlyNew: false, onlyRecent: false, onlySummer: false, hideApplied: false,
       sort: 'recent', limit: PAGE_SIZE,
     });
     for (const f of ['industry', 'kind', 'track', 'region', 'company']) state[f] = new Set();
     $('#q').value = ''; $('#cycle').value = '2027'; $('#sort').value = 'recent';
-    $('#only-fav').checked = $('#only-new').checked = $('#only-recent').checked = $('#hide-applied').checked = false;
+    $('#only-fav').checked = $('#only-new').checked = $('#only-recent').checked = false;
+    $('#only-summer').checked = $('#hide-applied').checked = false;
     renderOffers();
   });
 
