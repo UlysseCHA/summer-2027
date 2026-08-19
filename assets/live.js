@@ -11,7 +11,7 @@
  * Le collecteur Node reste la source de verite, plus complete.
  */
 
-import { parseJobs, buildOffer, listUrl, BROWSER_SAFE } from './classify.js?v=20260818';
+import { parseJobs, buildOffer, listUrl, BROWSER_SAFE } from './classify.js?v=20260819';
 
 const CONCURRENCY = 8;
 const TIMEOUT = 15_000;

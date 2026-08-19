@@ -2,8 +2,8 @@
    Les donnees de base viennent de data/offers.json (genere par scripts/fetch.mjs),
    puis assets/live.js les rafraichit en direct depuis le navigateur. */
 
-import { refreshLive, mergeLive } from './live.js?v=20260818';
-import { login, logout, currentUser, knownUsers, scopeKey } from './auth.js?v=20260818';
+import { refreshLive, mergeLive } from './live.js?v=20260819';
+import { login, logout, currentUser, knownUsers, scopeKey } from './auth.js?v=20260819';
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
