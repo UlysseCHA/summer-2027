@@ -1,402 +1,3478 @@
 {
   "_comment": "Registre des job boards publics interroges par scripts/fetch.mjs. Greenhouse, Lever et Ashby utilisent 'token'. Workday utilise 'tenant', 'wd' et 'site', releves par 'npm run sniff'. Attention : Workday n'autorise pas les appels depuis un navigateur, ces offres ne sont donc collectees que par 'npm run fetch'.",
   "boards": [
-    {"company":"3Red Partners","ats":"greenhouse","token":"3redpartners","industry":"finance","tags":["trading","prop"]},
-    {"company":"abrdn","ats":"workday","tenant":"abrdn","wd":"wd3","site":"abrdn","industry":"finance","tags":[]},
-    {"company":"AgWest Farm Credit","ats":"greenhouse","token":"agwestfarmcredit","industry":"finance","tags":[]},
-    {"company":"Akuna Capital","ats":"greenhouse","token":"akunacapital","industry":"finance","tags":["trading","quant"]},
-    {"company":"Alantra","ats":"workday","tenant":"alantra","wd":"wd3","site":"Alantra","industry":"finance","tags":[]},
-    {"company":"Alpine Investors","ats":"ashby","token":"alpine-investors","industry":"finance","tags":["private-equity"]},
-    {"company":"Amber Group","ats":"lever","token":"ambergroup","industry":"finance","tags":["crypto"]},
-    {"company":"Anchorage Digital","ats":"lever","token":"anchorage","industry":"finance","tags":["crypto"]},
-    {"company":"Apollo Global","ats":"workday","tenant":"athene","wd":"wd5","site":"Apollo_Careers","industry":"finance","tags":["private-equity"]},
-    {"company":"AQR Capital","ats":"greenhouse","token":"aqr","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Aquatic Capital Management","ats":"greenhouse","token":"aquaticcapitalmanagement","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Ardian","ats":"workday","tenant":"ardian","wd":"wd103","site":"ArdianCareers","industry":"finance","tags":[]},
-    {"company":"Arrowstreet Capital","ats":"workday","tenant":"arrowstreetcapital","wd":"wd5","site":"Campus_Careers","industry":"finance","tags":[]},
-    {"company":"B2C2","ats":"greenhouse","token":"b2c2","industry":"finance","tags":["crypto"]},
-    {"company":"Bank of America","ats":"workday","tenant":"ghr","wd":"wd1","site":"lateral-us","industry":"finance","tags":["investment-banking","bulge-bracket"]},
-    {"company":"Barclays","ats":"workday","tenant":"barclays","wd":"wd3","site":"External_Career_Site_Barclays","industry":"finance","tags":["investment-banking"]},
-    {"company":"Barings","ats":"workday","tenant":"barings","wd":"wd1","site":"Barings","industry":"finance","tags":[]},
-    {"company":"Bastion Trading","ats":"ashby","token":"bastion","industry":"finance","tags":[]},
-    {"company":"Belvedere Trading","ats":"lever","token":"belvederetrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"Betterment","ats":"greenhouse","token":"betterment","industry":"finance","tags":["fintech"]},
-    {"company":"Bitpanda","ats":"greenhouse","token":"bitpanda","industry":"finance","tags":["crypto"]},
-    {"company":"BlackEdge Capital","ats":"greenhouse","token":"blackedgecapital","industry":"finance","tags":["trading","prop"]},
-    {"company":"BlackRock","ats":"workday","tenant":"blackrock","wd":"wd1","site":"BlackRock_Professional","industry":"finance","tags":["asset-management"]},
-    {"company":"Blackstone","ats":"workday","tenant":"blackstone","wd":"wd1","site":"Blackstone_Careers","industry":"finance","tags":["private-equity"]},
-    {"company":"Blockchain com","ats":"greenhouse","token":"blockchain","industry":"finance","tags":["crypto"]},
-    {"company":"Blue Owl Capital","ats":"workday","tenant":"blueowl","wd":"wd1","site":"blueowl","industry":"finance","tags":[]},
-    {"company":"Bracebridge Capital","ats":"greenhouse","token":"bracebridgecapital","industry":"finance","tags":[]},
-    {"company":"BTG Pactual","ats":"greenhouse","token":"btgpactual","industry":"finance","tags":["investment-banking"]},
-    {"company":"Bybit","ats":"greenhouse","token":"bybit","industry":"finance","tags":["crypto"]},
-    {"company":"Cambridge Associates","ats":"workday","tenant":"cambridgeassociates","wd":"wd5","site":"Handshake","industry":"finance","tags":[]},
-    {"company":"Capital One","ats":"workday","tenant":"capitalone","wd":"wd12","site":"Capital_One","industry":"finance","tags":[]},
-    {"company":"Capstone Investment","ats":"greenhouse","token":"capstoneinvestmentadvisors","industry":"finance","tags":["hedge-fund"]},
-    {"company":"Cascadia Capital","ats":"workday","tenant":"cascadia","wd":"wd12","site":"cascadiahealth","industry":"finance","tags":[]},
-    {"company":"Chicago Trading Company","ats":"greenhouse","token":"chicagotrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"CIBC","ats":"workday","tenant":"cibc","wd":"wd3","site":"search","industry":"finance","tags":[]},
-    {"company":"Citi","ats":"workday","tenant":"citi","wd":"wd5","site":"2","industry":"finance","tags":["investment-banking","bulge-bracket"]},
-    {"company":"Column","ats":"ashby","token":"column","industry":"finance","tags":["fintech"]},
-    {"company":"Compound Equity Group","ats":"ashby","token":"compound","industry":"finance","tags":[]},
-    {"company":"Crypto com","ats":"lever","token":"crypto","industry":"finance","tags":["crypto"]},
-    {"company":"Da Vinci Derivatives","ats":"greenhouse","token":"davinciderivatives","industry":"finance","tags":["trading","prop"]},
-    {"company":"Deutsche Bank","ats":"workday","tenant":"db","wd":"wd3","site":"DBWebsite","industry":"finance","tags":["investment-banking"]},
-    {"company":"Dimensional Fund Advisors","ats":"ashby","token":"dimensional","industry":"finance","tags":["asset-management"]},
-    {"company":"DRW","ats":"greenhouse","token":"drweng","industry":"finance","tags":["trading","quant"]},
-    {"company":"DV Trading","ats":"greenhouse","token":"dvtrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"Eclipse Trading","ats":"greenhouse","token":"eclipsetrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"Engineers Gate","ats":"greenhouse","token":"engineersgate","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"ExodusPoint","ats":"greenhouse","token":"exoduspoint","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"FalconX","ats":"greenhouse","token":"falconx","industry":"finance","tags":["crypto"]},
-    {"company":"Fifth Third Bank","ats":"workday","tenant":"fifththird","wd":"wd5","site":"53careers","industry":"finance","tags":[]},
-    {"company":"Fireblocks","ats":"greenhouse","token":"fireblocks","industry":"finance","tags":["crypto"]},
-    {"company":"Five Rings","ats":"greenhouse","token":"fiveringsllc","industry":"finance","tags":["trading","quant"]},
-    {"company":"Flow Traders","ats":"greenhouse","token":"flowtraders","industry":"finance","tags":["trading"]},
-    {"company":"Galaxy Digital","ats":"greenhouse","token":"galaxy","industry":"finance","tags":["crypto"]},
-    {"company":"Gemini","ats":"greenhouse","token":"gemini","industry":"finance","tags":["crypto"]},
-    {"company":"Genesis Quant Capital","ats":"lever","token":"genesis","industry":"finance","tags":[]},
-    {"company":"Geneva Trading","ats":"greenhouse","token":"genevatrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"GSA Capital","ats":"greenhouse","token":"gsacapital","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Headlands Technologies","ats":"greenhouse","token":"headlandstechnologiesllc","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Houlihan Lokey","ats":"workday","tenant":"hl","wd":"wd1","site":"External","industry":"finance","tags":["investment-banking"]},
-    {"company":"Hudson River Trading","ats":"greenhouse","token":"hrttalentcommunity","industry":"finance","tags":["trading","quant","prop"]},
-    {"company":"IMC Trading","ats":"greenhouse","token":"imc","industry":"finance","tags":["trading","quant"]},
-    {"company":"Invesco","ats":"workday","tenant":"invesco","wd":"wd1","site":"IVZ","industry":"finance","tags":[]},
-    {"company":"Jane Street","ats":"greenhouse","token":"janestreet","industry":"finance","tags":["trading","quant"]},
-    {"company":"Jump Trading","ats":"greenhouse","token":"jumptrading","industry":"finance","tags":["trading","quant"]},
-    {"company":"KeyBank","ats":"workday","tenant":"keybank","wd":"wd5","site":"External_Career_Site","industry":"finance","tags":[]},
-    {"company":"Keyrock","ats":"ashby","token":"keyrock","industry":"finance","tags":["crypto"]},
-    {"company":"Level Equity","ats":"greenhouse","token":"levelequity","industry":"finance","tags":[]},
-    {"company":"Lincoln International","ats":"greenhouse","token":"lincolninternational","industry":"finance","tags":["investment-banking"]},
-    {"company":"Lithic","ats":"greenhouse","token":"lithic","industry":"finance","tags":["fintech"]},
-    {"company":"Lloyds Banking Group","ats":"workday","tenant":"lloyds","wd":"wd3","site":"Lloyds-of-London","industry":"finance","tags":[]},
-    {"company":"Lombard Odier IM","ats":"workday","tenant":"lombardodier","wd":"wd3","site":"Lombard_Odier_Careers","industry":"finance","tags":[]},
-    {"company":"LSEG","ats":"workday","tenant":"lseg","wd":"wd3","site":"Graduate_Careers","industry":"finance","tags":[]},
-    {"company":"Mako","ats":"greenhouse","token":"mako","industry":"finance","tags":["trading","prop"]},
-    {"company":"Man Group","ats":"greenhouse","token":"manGroup","industry":"finance","tags":["hedge-fund","asset-management"]},
-    {"company":"Mastercard","ats":"workday","tenant":"mastercard","wd":"wd1","site":"Campus","industry":"finance","tags":[]},
-    {"company":"Mercury","ats":"greenhouse","token":"mercury","industry":"finance","tags":["fintech"]},
-    {"company":"Modern Treasury","ats":"ashby","token":"moderntreasury","industry":"finance","tags":["fintech"]},
-    {"company":"Moelis & Company","ats":"workday","tenant":"moelis","wd":"wd1","site":"Experienced-Hires","industry":"finance","tags":["investment-banking","elite-boutique"]},
-    {"company":"Mollie","ats":"ashby","token":"mollie","industry":"finance","tags":["fintech"]},
-    {"company":"National Bank of Canada","ats":"greenhouse","token":"national","industry":"finance","tags":[]},
-    {"company":"Nationwide","ats":"workday","tenant":"nationwide","wd":"wd1","site":"Nationwide_Career","industry":"finance","tags":[]},
-    {"company":"Northwestern Mutual","ats":"workday","tenant":"northwesternmutual","wd":"wd5","site":"CORPORATE-CAREERS","industry":"finance","tags":[]},
-    {"company":"Nubank","ats":"ashby","token":"nubank","industry":"finance","tags":["fintech"]},
-    {"company":"Oak Hill Advisors","ats":"greenhouse","token":"oakhilladvisors","industry":"finance","tags":[]},
-    {"company":"OKX","ats":"greenhouse","token":"okx","industry":"finance","tags":["crypto"]},
-    {"company":"Old Mission Capital","ats":"greenhouse","token":"oldmissioncapital","industry":"finance","tags":["trading"]},
-    {"company":"Optiver","ats":"greenhouse","token":"optiverus","industry":"finance","tags":["trading","quant"]},
-    {"company":"Paxos","ats":"ashby","token":"paxos","industry":"finance","tags":["crypto"]},
-    {"company":"PDT Partners","ats":"greenhouse","token":"pdtpartners","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Pharo Management","ats":"greenhouse","token":"pharomanagement","industry":"finance","tags":[]},
-    {"company":"PJT Partners","ats":"workday","tenant":"pjtpartners","wd":"wd1","site":"Careers","industry":"finance","tags":["investment-banking","elite-boutique"]},
-    {"company":"Plaid","ats":"ashby","token":"plaid","industry":"finance","tags":["fintech"]},
-    {"company":"Point72","ats":"greenhouse","token":"point72","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"PSG Equity","ats":"workday","tenant":"psgequity","wd":"wd5","site":"PSG_External_Careers","industry":"finance","tags":[]},
-    {"company":"Public","ats":"greenhouse","token":"public","industry":"finance","tags":["fintech"]},
-    {"company":"Quadrature Capital","ats":"greenhouse","token":"quadraturecapital","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Quantbot Technologies","ats":"greenhouse","token":"quantbot-technologies","industry":"finance","tags":["quant","trading"]},
-    {"company":"Raisin","ats":"greenhouse","token":"raisin","industry":"finance","tags":["fintech"]},
-    {"company":"Raymond James","ats":"workday","tenant":"raymondjames","wd":"wd1","site":"RaymondJamesEarlyCareers","industry":"finance","tags":[]},
-    {"company":"Ripple","ats":"greenhouse","token":"ripple","industry":"finance","tags":["crypto"]},
-    {"company":"Roark Capital Group","ats":"greenhouse","token":"roarkcapitalgroup","industry":"finance","tags":[]},
-    {"company":"Robeco","ats":"workday","tenant":"robeco","wd":"wd3","site":"robecoexternalcareers","industry":"finance","tags":[]},
-    {"company":"Sands Capital","ats":"workday","tenant":"sands","wd":"wd1","site":"sands_careers","industry":"finance","tags":[]},
-    {"company":"Schonfeld","ats":"greenhouse","token":"schonfeld","industry":"finance","tags":["hedge-fund"]},
-    {"company":"Sculptor Capital Management","ats":"workday","tenant":"sculptor","wd":"wd12","site":"Sculptor_External_Career_Site","industry":"finance","tags":[]},
-    {"company":"Simplex Trading","ats":"greenhouse","token":"simplextrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"SouthState Bank","ats":"workday","tenant":"southstatebank","wd":"wd5","site":"External","industry":"finance","tags":[]},
-    {"company":"Squarepoint Capital","ats":"greenhouse","token":"squarepointcapital","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"StepStone Group","ats":"greenhouse","token":"stepstone","industry":"finance","tags":["private-equity"]},
-    {"company":"Texas Capital Bank","ats":"workday","tenant":"texascapitalbank","wd":"wd12","site":"College_Career","industry":"finance","tags":[]},
-    {"company":"Teza Technologies","ats":"ashby","token":"teza-technologies","industry":"finance","tags":["trading","quant"]},
-    {"company":"The Raine Group","ats":"lever","token":"raine","industry":"finance","tags":["investment-banking","elite-boutique"]},
-    {"company":"The Riverside Company","ats":"greenhouse","token":"theriversidecompany","industry":"finance","tags":["private-equity"]},
-    {"company":"Tower Research Capital","ats":"greenhouse","token":"towerresearchcapital","industry":"finance","tags":["trading","quant"]},
-    {"company":"Trade Republic","ats":"greenhouse","token":"traderepublic","industry":"finance","tags":["fintech"]},
-    {"company":"Transmarket Group","ats":"greenhouse","token":"transmarketgroup","industry":"finance","tags":["trading","prop"]},
-    {"company":"Triton Partners","ats":"workday","tenant":"tritonpartners","wd":"wd3","site":"External","industry":"finance","tags":[]},
-    {"company":"U.S. Bank","ats":"workday","tenant":"usbank","wd":"wd1","site":"Elavon_Careers","industry":"finance","tags":[]},
-    {"company":"Unit","ats":"ashby","token":"unit","industry":"finance","tags":["fintech"]},
-    {"company":"Valkyrie Trading","ats":"lever","token":"valkyrietrading","industry":"finance","tags":["trading","prop"]},
-    {"company":"Vatic Labs","ats":"greenhouse","token":"vaticlabs","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Virtu Financial","ats":"greenhouse","token":"virtu","industry":"finance","tags":["trading","quant"]},
-    {"company":"Visa","ats":"workday","tenant":"visa","wd":"wd5","site":"Visa_Early_Careers","industry":"finance","tags":[]},
-    {"company":"Voleon","ats":"ashby","token":"voleon","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Voloridge Investment Management","ats":"greenhouse","token":"voloridgeinvestmentmanagement","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"Waterfall Asset Management","ats":"lever","token":"waterfall","industry":"finance","tags":["asset-management"]},
-    {"company":"Wealthfront","ats":"lever","token":"wealthfront","industry":"finance","tags":["fintech"]},
-    {"company":"Weiss Asset Management","ats":"greenhouse","token":"weissassetmanagement","industry":"finance","tags":[]},
-    {"company":"William Blair","ats":"greenhouse","token":"williamblair","industry":"finance","tags":["investment-banking"]},
-    {"company":"Wincent","ats":"ashby","token":"wincent","industry":"finance","tags":["trading","quant","crypto"]},
-    {"company":"Winton","ats":"greenhouse","token":"winton","industry":"finance","tags":["hedge-fund","quant"]},
-    {"company":"XTX Markets","ats":"greenhouse","token":"xtxmarketstechnologies","industry":"finance","tags":["trading","quant"]},
-    {"company":"Accenture","ats":"workday","tenant":"accenture","wd":"wd103","site":"AccentureCareers","industry":"consulting","tags":["tech-consulting"]},
-    {"company":"AlixPartners","ats":"greenhouse","token":"alixpartners","industry":"consulting","tags":["restructuring"]},
-    {"company":"AlphaSights","ats":"greenhouse","token":"alphasights","industry":"consulting","tags":["expert-network"]},
-    {"company":"Baker Tilly","ats":"workday","tenant":"bakertilly","wd":"wd5","site":"BTCareers","industry":"consulting","tags":[]},
-    {"company":"BCG","ats":"greenhouse","token":"bcg","industry":"consulting","tags":["strategy","mbb"]},
-    {"company":"Charles River Associates","ats":"greenhouse","token":"charlesriverassociates","industry":"consulting","tags":["economic"]},
-    {"company":"Clearview Healthcare","ats":"greenhouse","token":"clearviewhealthcarepartners","industry":"consulting","tags":["life-sciences"]},
-    {"company":"Coleman Research","ats":"greenhouse","token":"colemanresearch","industry":"consulting","tags":["expert-network"]},
-    {"company":"Cornerstone Research","ats":"greenhouse","token":"cornerstone","industry":"consulting","tags":["economic"]},
-    {"company":"Forvis Mazars","ats":"greenhouse","token":"forvismazars","industry":"consulting","tags":["big-four"]},
-    {"company":"Gartner","ats":"workday","tenant":"gartner","wd":"wd5","site":"EXT","industry":"consulting","tags":[]},
-    {"company":"Guidehouse","ats":"workday","tenant":"guidehouse","wd":"wd1","site":"External","industry":"consulting","tags":[]},
-    {"company":"Guidepoint","ats":"greenhouse","token":"guidepoint","industry":"consulting","tags":["expert-network"]},
-    {"company":"Interpath Advisory","ats":"greenhouse","token":"interpath","industry":"consulting","tags":[]},
-    {"company":"Moore Colson","ats":"lever","token":"moorecolson","industry":"consulting","tags":["audit"]},
-    {"company":"Oliver Wyman","ats":"lever","token":"oliverwyman","industry":"consulting","tags":["strategy"]},
-    {"company":"Point B","ats":"lever","token":"pointb","industry":"consulting","tags":["tech-consulting"]},
-    {"company":"Putnam Associates","ats":"greenhouse","token":"putnamassociatesllc","industry":"consulting","tags":["life-sciences"]},
-    {"company":"Schneider Downs","ats":"greenhouse","token":"schneiderdowns","industry":"consulting","tags":["audit"]},
-    {"company":"Stout","ats":"workday","tenant":"stout","wd":"wd5","site":"Stout-Careers-URL","industry":"consulting","tags":[]},
-    {"company":"Sweeney Conrad","ats":"greenhouse","token":"sweeneyconrad","industry":"consulting","tags":[]},
-    {"company":"Teneo","ats":"greenhouse","token":"teneo","industry":"consulting","tags":["strategy"]},
-    {"company":"Third Bridge","ats":"greenhouse","token":"thirdbridge","industry":"consulting","tags":["research"]},
-    {"company":"Thoughtworks","ats":"greenhouse","token":"thoughtworks","industry":"consulting","tags":["tech-consulting"]},
-    {"company":"Abridge","ats":"ashby","token":"abridge","industry":"tech","tags":["ai","health"]},
-    {"company":"Adams Street Partners","ats":"greenhouse","token":"adamsstreetpartners","industry":"tech","tags":[]},
-    {"company":"Adyen","ats":"greenhouse","token":"adyen","industry":"tech","tags":["fintech"]},
-    {"company":"Affirm","ats":"greenhouse","token":"affirm","industry":"tech","tags":["fintech"]},
-    {"company":"Agicap","ats":"lever","token":"agicap","industry":"tech","tags":["fintech","france"]},
-    {"company":"Airbnb","ats":"greenhouse","token":"airbnb","industry":"tech","tags":["consumer"]},
-    {"company":"Airtable","ats":"greenhouse","token":"airtable","industry":"tech","tags":["saas"]},
-    {"company":"Alan","ats":"ashby","token":"alan","industry":"tech","tags":["france"]},
-    {"company":"Algolia","ats":"greenhouse","token":"algolia","industry":"tech","tags":["france"]},
-    {"company":"Alpha FMC","ats":"greenhouse","token":"alphafmc","industry":"tech","tags":[]},
-    {"company":"Ankorstore","ats":"ashby","token":"ankorstore","industry":"tech","tags":["france"]},
-    {"company":"Ankura","ats":"workday","tenant":"ankura","wd":"wd5","site":"Ankura","industry":"tech","tags":[]},
-    {"company":"Anthropic","ats":"greenhouse","token":"anthropic","industry":"tech","tags":["ai"]},
-    {"company":"Applied Intuition","ats":"ashby","token":"applied","industry":"tech","tags":["hardware"]},
-    {"company":"AQ Technology Partners","ats":"greenhouse","token":"aqtechnologypartners","industry":"tech","tags":[]},
-    {"company":"Ardea Partners","ats":"ashby","token":"ardea-partners","industry":"tech","tags":[]},
-    {"company":"Asana","ats":"greenhouse","token":"asana","industry":"tech","tags":["saas"]},
-    {"company":"ATKG","ats":"greenhouse","token":"atkgcareers","industry":"tech","tags":[]},
-    {"company":"ATLAS SP Partners","ats":"greenhouse","token":"atlassp","industry":"tech","tags":[]},
-    {"company":"Audax Group","ats":"greenhouse","token":"audaxgroup","industry":"tech","tags":[]},
-    {"company":"Autodesk","ats":"workday","tenant":"autodesk","wd":"wd1","site":"Ext","industry":"tech","tags":[]},
-    {"company":"AVEVA","ats":"workday","tenant":"aveva","wd":"wd3","site":"AVEVA_careers","industry":"tech","tags":[]},
-    {"company":"Back Market","ats":"ashby","token":"backmarket","industry":"tech","tags":["france"]},
-    {"company":"Baillie Gifford","ats":"workday","tenant":"bailliegifford","wd":"wd3","site":"BaillieGiffordCareers","industry":"tech","tags":[]},
-    {"company":"Baker Hughes","ats":"workday","tenant":"bakerhughes","wd":"wd5","site":"BakerHughes","industry":"tech","tags":[]},
-    {"company":"Baringa","ats":"greenhouse","token":"baringa","industry":"tech","tags":[]},
-    {"company":"Baseten","ats":"ashby","token":"baseten","industry":"tech","tags":["ai","infra"]},
-    {"company":"BBVA","ats":"workday","tenant":"bbva","wd":"wd3","site":"BBVA","industry":"tech","tags":[]},
-    {"company":"Bessemer Venture Partners","ats":"greenhouse","token":"bessemerventurepartners","industry":"tech","tags":[]},
-    {"company":"BlaBlaCar","ats":"lever","token":"blablacar","industry":"tech","tags":["france"]},
-    {"company":"Block","ats":"greenhouse","token":"block","industry":"tech","tags":["fintech"]},
-    {"company":"Box","ats":"greenhouse","token":"boxinc","industry":"tech","tags":[]},
-    {"company":"Brex","ats":"greenhouse","token":"brex","industry":"tech","tags":["fintech"]},
-    {"company":"Brown Edwards","ats":"workday","tenant":"brown","wd":"wd5","site":"staff-careers-brown","industry":"tech","tags":[]},
-    {"company":"Brown Gibbons Lang & Company","ats":"workday","tenant":"brown","wd":"wd5","site":"staff-careers-brown","industry":"tech","tags":[]},
-    {"company":"Browserbase","ats":"ashby","token":"browserbase","industry":"tech","tags":["infra"]},
-    {"company":"Cadence","ats":"workday","tenant":"cadence","wd":"wd1","site":"External_Careers","industry":"tech","tags":[]},
-    {"company":"Cboe Global Markets","ats":"workday","tenant":"cboe","wd":"wd1","site":"External_Career_CBOE","industry":"tech","tags":[]},
-    {"company":"Celonis","ats":"greenhouse","token":"celonis","industry":"tech","tags":[]},
-    {"company":"Centrica","ats":"workday","tenant":"centrica","wd":"wd3","site":"Centrica","industry":"tech","tags":[]},
-    {"company":"Chime","ats":"greenhouse","token":"chime","industry":"tech","tags":["fintech"]},
-    {"company":"Ciena","ats":"workday","tenant":"ciena","wd":"wd5","site":"Careers","industry":"tech","tags":[]},
-    {"company":"ClickUp","ats":"ashby","token":"clickup","industry":"tech","tags":[]},
-    {"company":"Cloudflare","ats":"greenhouse","token":"cloudflare","industry":"tech","tags":["infra"]},
-    {"company":"Cohere","ats":"ashby","token":"cohere","industry":"tech","tags":["ai"]},
-    {"company":"Coinbase","ats":"greenhouse","token":"coinbase","industry":"tech","tags":["fintech","crypto"]},
-    {"company":"Colliers","ats":"workday","tenant":"colliers","wd":"wd3","site":"Colliers-External-Career-Site","industry":"tech","tags":[]},
-    {"company":"Confluent","ats":"ashby","token":"confluent","industry":"tech","tags":[]},
-    {"company":"Contentsquare","ats":"lever","token":"contentsquare","industry":"tech","tags":["france"]},
-    {"company":"Copper.co","ats":"greenhouse","token":"copperco","industry":"tech","tags":[]},
-    {"company":"Coursera","ats":"greenhouse","token":"coursera","industry":"tech","tags":[]},
-    {"company":"Crowdstrike","ats":"workday","tenant":"crowdstrike","wd":"wd5","site":"crowdstrikecareers","industry":"tech","tags":[]},
-    {"company":"Cursor (Anysphere)","ats":"ashby","token":"cursor","industry":"tech","tags":["ai"]},
-    {"company":"D.A. Davidson","ats":"lever","token":"dadavidson","industry":"tech","tags":[]},
-    {"company":"Databricks","ats":"greenhouse","token":"databricks","industry":"tech","tags":["data"]},
-    {"company":"Datadog","ats":"greenhouse","token":"datadog","industry":"tech","tags":["saas"]},
-    {"company":"Dataiku","ats":"greenhouse","token":"dataiku","industry":"tech","tags":["france"]},
-    {"company":"Decagon","ats":"ashby","token":"decagon","industry":"tech","tags":["ai"]},
-    {"company":"Deliveroo","ats":"ashby","token":"deliveroo","industry":"tech","tags":["consumer"]},
-    {"company":"Discord","ats":"greenhouse","token":"discord","industry":"tech","tags":["consumer"]},
-    {"company":"Doctolib","ats":"greenhouse","token":"doctolib","industry":"tech","tags":["france"]},
-    {"company":"Dojo","ats":"greenhouse","token":"dojo","industry":"tech","tags":[]},
-    {"company":"Dow Jones","ats":"workday","tenant":"dowjones","wd":"wd1","site":"Dow_Jones_Career","industry":"tech","tags":[]},
-    {"company":"Drata","ats":"ashby","token":"drata","industry":"tech","tags":["security"]},
-    {"company":"Dropbox","ats":"greenhouse","token":"dropbox","industry":"tech","tags":["saas"]},
-    {"company":"Ducera Partners","ats":"greenhouse","token":"ducerapartners","industry":"tech","tags":[]},
-    {"company":"Duolingo","ats":"greenhouse","token":"duolingo","industry":"tech","tags":["consumer"]},
-    {"company":"eBay","ats":"workday","tenant":"ebay","wd":"wd5","site":"TCGPlayer_External_Career","industry":"tech","tags":[]},
-    {"company":"Elastic","ats":"greenhouse","token":"elastic","industry":"tech","tags":[]},
-    {"company":"ElevenLabs","ats":"ashby","token":"elevenlabs","industry":"tech","tags":["ai"]},
-    {"company":"Epic Games","ats":"greenhouse","token":"epicgames","industry":"tech","tags":[]},
-    {"company":"Evergreen Services Group","ats":"greenhouse","token":"evergreenservicesgroup","industry":"tech","tags":[]},
-    {"company":"Fastly","ats":"greenhouse","token":"fastly","industry":"tech","tags":[]},
-    {"company":"Figma","ats":"greenhouse","token":"figma","industry":"tech","tags":["saas"]},
-    {"company":"Fireworks AI","ats":"ashby","token":"fireworks","industry":"tech","tags":["ai"]},
-    {"company":"Fleek","ats":"ashby","token":"fleek","industry":"tech","tags":[]},
-    {"company":"Flexport","ats":"greenhouse","token":"flexport","industry":"tech","tags":[]},
-    {"company":"Frazier & Deeter","ats":"greenhouse","token":"frazierdeeter","industry":"tech","tags":[]},
-    {"company":"Frontier Economics","ats":"workday","tenant":"frontiereconomics","wd":"wd3","site":"Frontier_Economics_Careers","industry":"tech","tags":[]},
-    {"company":"GCM Grosvenor","ats":"greenhouse","token":"gcmgrosvenor","industry":"tech","tags":[]},
-    {"company":"Gearset","ats":"ashby","token":"gearset","industry":"tech","tags":["devtools"]},
-    {"company":"General Atlantic","ats":"greenhouse","token":"general","industry":"tech","tags":[]},
-    {"company":"General Electric","ats":"greenhouse","token":"general","industry":"tech","tags":[]},
-    {"company":"GetYourGuide","ats":"greenhouse","token":"getyourguide","industry":"tech","tags":[]},
-    {"company":"GitLab","ats":"greenhouse","token":"gitlab","industry":"tech","tags":["devtools"]},
-    {"company":"Global Atlantic","ats":"workday","tenant":"global","wd":"wd1","site":"globalpartnerscareers","industry":"tech","tags":[]},
-    {"company":"Global Gate","ats":"workday","tenant":"global","wd":"wd1","site":"globalpartnerscareers","industry":"tech","tags":[]},
-    {"company":"Global Infrastructure Advisors","ats":"workday","tenant":"global","wd":"wd1","site":"globalpartnerscareers","industry":"tech","tags":[]},
-    {"company":"GoCardless","ats":"greenhouse","token":"gocardless","industry":"tech","tags":[]},
-    {"company":"Grafana Labs","ats":"greenhouse","token":"grafanalabs","industry":"tech","tags":[]},
-    {"company":"Greystar","ats":"workday","tenant":"greystar","wd":"wd1","site":"External","industry":"tech","tags":[]},
-    {"company":"Grosvenor","ats":"workday","tenant":"grosvenor","wd":"wd3","site":"External_careers_site_Grosvenor","industry":"tech","tags":[]},
-    {"company":"Guggenheim Partners","ats":"workday","tenant":"guggenheim","wd":"wd1","site":"Guggenheim_Careers_Campus","industry":"tech","tags":[]},
-    {"company":"Gunvor","ats":"workday","tenant":"gunvor","wd":"wd3","site":"Gunvor_Careers","industry":"tech","tags":[]},
-    {"company":"Gusto","ats":"greenhouse","token":"gusto","industry":"tech","tags":[]},
-    {"company":"HarbourVest","ats":"workday","tenant":"harbourvest","wd":"wd5","site":"HVP","industry":"tech","tags":[]},
-    {"company":"Harris Associates","ats":"greenhouse","token":"harrisassociates","industry":"tech","tags":[]},
-    {"company":"Harvey","ats":"ashby","token":"harvey","industry":"tech","tags":["ai"]},
-    {"company":"HelloFresh","ats":"greenhouse","token":"hellofresh","industry":"tech","tags":[]},
-    {"company":"Helsing","ats":"greenhouse","token":"helsing","industry":"tech","tags":["ai","defense"]},
-    {"company":"Hiscox","ats":"workday","tenant":"hiscox","wd":"wd3","site":"Hiscox_External_Site","industry":"tech","tags":[]},
-    {"company":"Honeycomb","ats":"greenhouse","token":"honeycomb","industry":"tech","tags":[]},
-    {"company":"Instacart","ats":"greenhouse","token":"instacart","industry":"tech","tags":["consumer"]},
-    {"company":"Intercom","ats":"greenhouse","token":"intercom","industry":"tech","tags":[]},
-    {"company":"JetBrains","ats":"greenhouse","token":"jetbrains","industry":"tech","tags":["devtools"]},
-    {"company":"Julius Baer","ats":"workday","tenant":"juliusbaer","wd":"wd3","site":"External","industry":"tech","tags":[]},
-    {"company":"Just","ats":"workday","tenant":"just","wd":"wd3","site":"JUST_External","industry":"tech","tags":[]},
-    {"company":"Justworks","ats":"greenhouse","token":"justworks","industry":"tech","tags":[]},
-    {"company":"Khan Academy","ats":"greenhouse","token":"khanacademy","industry":"tech","tags":[]},
-    {"company":"Knight Frank","ats":"workday","tenant":"knightfrank","wd":"wd103","site":"KF","industry":"tech","tags":[]},
-    {"company":"Lambda Labs","ats":"ashby","token":"lambda","industry":"tech","tags":["ai"]},
-    {"company":"LangChain","ats":"ashby","token":"langchain","industry":"tech","tags":["ai"]},
-    {"company":"Ledger","ats":"ashby","token":"ledger","industry":"tech","tags":["crypto","france"]},
-    {"company":"Leerink Partners","ats":"workday","tenant":"leerink","wd":"wd5","site":"leerinkpartners","industry":"tech","tags":[]},
-    {"company":"Liberty Global","ats":"workday","tenant":"libertyglobal","wd":"wd3","site":"Liberty_Global_Careers","industry":"tech","tags":[]},
-    {"company":"Linear","ats":"ashby","token":"linear","industry":"tech","tags":["saas"]},
-    {"company":"LionTree","ats":"greenhouse","token":"liontree","industry":"tech","tags":[]},
-    {"company":"LlamaIndex","ats":"ashby","token":"llamaindex","industry":"tech","tags":["ai"]},
-    {"company":"Lovable","ats":"ashby","token":"lovable","industry":"tech","tags":["ai"]},
-    {"company":"Luma AI","ats":"ashby","token":"lumaai","industry":"tech","tags":["ai"]},
-    {"company":"Lyft","ats":"greenhouse","token":"lyft","industry":"tech","tags":["consumer"]},
-    {"company":"Marqeta","ats":"greenhouse","token":"marqeta","industry":"tech","tags":["fintech"]},
-    {"company":"Marshmallow","ats":"ashby","token":"marshmallow","industry":"tech","tags":[]},
-    {"company":"Match Group","ats":"lever","token":"matchgroup","industry":"tech","tags":["consumer"]},
-    {"company":"Maxwell Locke & Ritter","ats":"greenhouse","token":"maxwell","industry":"tech","tags":[]},
-    {"company":"MBDA","ats":"workday","tenant":"mbda","wd":"wd3","site":"MBDA-UK","industry":"tech","tags":[]},
-    {"company":"Mercor","ats":"ashby","token":"mercor","industry":"tech","tags":["ai"]},
-    {"company":"Mirakl","ats":"greenhouse","token":"mirakl","industry":"tech","tags":["france"]},
-    {"company":"Miro","ats":"ashby","token":"miro","industry":"tech","tags":[]},
-    {"company":"Mizuho","ats":"workday","tenant":"mizuho","wd":"wd1","site":"mizuhoamericas","industry":"tech","tags":[]},
-    {"company":"Modal","ats":"ashby","token":"modal","industry":"tech","tags":["infra"]},
-    {"company":"Moloco","ats":"greenhouse","token":"moloco","industry":"tech","tags":["adtech"]},
-    {"company":"MongoDB","ats":"greenhouse","token":"mongodb","industry":"tech","tags":[]},
-    {"company":"Monzo","ats":"greenhouse","token":"monzo","industry":"tech","tags":["fintech"]},
-    {"company":"Motive","ats":"greenhouse","token":"motive","industry":"tech","tags":["hardware"]},
-    {"company":"Motorola Solutions","ats":"workday","tenant":"motorolasolutions","wd":"wd5","site":"Careers","industry":"tech","tags":[]},
-    {"company":"N26","ats":"greenhouse","token":"n26","industry":"tech","tags":["fintech"]},
-    {"company":"NASDAQ","ats":"workday","tenant":"nasdaq","wd":"wd1","site":"Global_External_Site","industry":"tech","tags":[]},
-    {"company":"National Gas","ats":"greenhouse","token":"national","industry":"tech","tags":[]},
-    {"company":"NCR Atleos","ats":"workday","tenant":"ncratleos","wd":"wd1","site":"ext_intern","industry":"tech","tags":[]},
-    {"company":"Netcraft","ats":"greenhouse","token":"netcraft","industry":"tech","tags":[]},
-    {"company":"Netlify","ats":"greenhouse","token":"netlify","industry":"tech","tags":[]},
-    {"company":"New Relic","ats":"greenhouse","token":"newrelic","industry":"tech","tags":[]},
-    {"company":"Newton","ats":"lever","token":"newton","industry":"tech","tags":[]},
-    {"company":"Nordic Semiconductor","ats":"workday","tenant":"nordic","wd":"wd1","site":"Nordic","industry":"tech","tags":[]},
-    {"company":"Notion","ats":"ashby","token":"notion","industry":"tech","tags":["saas"]},
-    {"company":"Nuro","ats":"greenhouse","token":"nuro","industry":"tech","tags":["hardware"]},
-    {"company":"OakNorth","ats":"ashby","token":"oaknorth","industry":"tech","tags":[]},
-    {"company":"Okta","ats":"greenhouse","token":"okta","industry":"tech","tags":["security"]},
-    {"company":"OpenAI","ats":"ashby","token":"openai","industry":"tech","tags":["ai"]},
-    {"company":"Orion Group","ats":"greenhouse","token":"oriongroup","industry":"tech","tags":[]},
-    {"company":"Oxford Nanopore Technologies","ats":"workday","tenant":"oxford","wd":"wd5","site":"TheBeaufortBonnetCompany","industry":"tech","tags":[]},
-    {"company":"Oxford Properties Group","ats":"workday","tenant":"oxford","wd":"wd5","site":"TheBeaufortBonnetCompany","industry":"tech","tags":[]},
-    {"company":"Oyster","ats":"ashby","token":"oyster","industry":"tech","tags":[]},
-    {"company":"PagerDuty","ats":"greenhouse","token":"pagerduty","industry":"tech","tags":[]},
-    {"company":"Palantir","ats":"lever","token":"palantir","industry":"tech","tags":["data"]},
-    {"company":"Pennylane","ats":"ashby","token":"pennylane","industry":"tech","tags":["fintech","france"]},
-    {"company":"Perplexity","ats":"ashby","token":"perplexity","industry":"tech","tags":["ai"]},
-    {"company":"Pika","ats":"ashby","token":"pika","industry":"tech","tags":["ai"]},
-    {"company":"Pinecone","ats":"ashby","token":"pinecone","industry":"tech","tags":["ai"]},
-    {"company":"Pinterest","ats":"greenhouse","token":"pinterest","industry":"tech","tags":["consumer"]},
-    {"company":"PQShield","ats":"greenhouse","token":"pqshield","industry":"tech","tags":[]},
-    {"company":"project44","ats":"greenhouse","token":"project44","industry":"tech","tags":[]},
-    {"company":"Proxima","ats":"ashby","token":"proxima","industry":"tech","tags":[]},
-    {"company":"Qonto","ats":"ashby","token":"qonto","industry":"tech","tags":["fintech","france"]},
-    {"company":"Qualcomm","ats":"workday","tenant":"qualcomm","wd":"wd12","site":"External","industry":"tech","tags":[]},
-    {"company":"Quilter","ats":"ashby","token":"quilter","industry":"tech","tags":[]},
-    {"company":"Quizlet","ats":"ashby","token":"quizlet-inc","industry":"tech","tags":[]},
-    {"company":"Quora","ats":"ashby","token":"quora","industry":"tech","tags":[]},
-    {"company":"Railway","ats":"ashby","token":"railway","industry":"tech","tags":[]},
-    {"company":"Ramp","ats":"ashby","token":"ramp","industry":"tech","tags":["fintech"]},
-    {"company":"Readystate","ats":"greenhouse","token":"readystate","industry":"tech","tags":[]},
-    {"company":"Reddit","ats":"greenhouse","token":"reddit","industry":"tech","tags":["consumer"]},
-    {"company":"Remote","ats":"greenhouse","token":"remote","industry":"tech","tags":[]},
-    {"company":"Render","ats":"ashby","token":"render","industry":"tech","tags":[]},
-    {"company":"Replit","ats":"ashby","token":"replit","industry":"tech","tags":["devtools"]},
-    {"company":"Retail Insights","ats":"greenhouse","token":"retailinsights","industry":"tech","tags":[]},
-    {"company":"Riot Games","ats":"greenhouse","token":"riotgames","industry":"tech","tags":[]},
-    {"company":"Riverlane","ats":"greenhouse","token":"riverlane","industry":"tech","tags":["quantum-computing"]},
-    {"company":"Robinhood","ats":"greenhouse","token":"robinhood","industry":"tech","tags":["fintech"]},
-    {"company":"Roblox","ats":"greenhouse","token":"roblox","industry":"tech","tags":[]},
-    {"company":"Roku","ats":"greenhouse","token":"roku","industry":"tech","tags":[]},
-    {"company":"Runna","ats":"ashby","token":"runna","industry":"tech","tags":[]},
-    {"company":"Runway","ats":"ashby","token":"runway","industry":"tech","tags":["ai"]},
-    {"company":"Ryan","ats":"workday","tenant":"ryan","wd":"wd1","site":"RyanCareers","industry":"tech","tags":[]},
-    {"company":"Ryan Specialty","ats":"workday","tenant":"ryan","wd":"wd1","site":"RyanCareers","industry":"tech","tags":[]},
-    {"company":"Samsara","ats":"greenhouse","token":"samsara","industry":"tech","tags":["iot"]},
-    {"company":"Santander","ats":"workday","tenant":"santander","wd":"wd3","site":"SantanderCareers","industry":"tech","tags":[]},
-    {"company":"Sardine","ats":"ashby","token":"sardine","industry":"tech","tags":["fintech"]},
-    {"company":"Scale AI","ats":"greenhouse","token":"scaleai","industry":"tech","tags":["ai"]},
-    {"company":"Secureframe","ats":"ashby","token":"secureframe","industry":"tech","tags":["security"]},
-    {"company":"Sentry","ats":"ashby","token":"sentry","industry":"tech","tags":[]},
-    {"company":"Shea & Company","ats":"greenhouse","token":"sheacompany","industry":"tech","tags":[]},
-    {"company":"Shield AI","ats":"ashby","token":"shield-ai","industry":"tech","tags":["hardware"]},
-    {"company":"Sierra","ats":"ashby","token":"sierra","industry":"tech","tags":["ai"]},
-    {"company":"Sixth Street","ats":"greenhouse","token":"sixthstreet","industry":"tech","tags":[]},
-    {"company":"Snowflake","ats":"ashby","token":"snowflake","industry":"tech","tags":[]},
-    {"company":"SoFi","ats":"greenhouse","token":"sofi","industry":"tech","tags":["fintech"]},
-    {"company":"Sorare","ats":"ashby","token":"sorare","industry":"tech","tags":["crypto","france"]},
-    {"company":"SpaceX","ats":"greenhouse","token":"spacex","industry":"tech","tags":["hardware"]},
-    {"company":"Spotify","ats":"lever","token":"spotify","industry":"tech","tags":[]},
-    {"company":"Squarespace","ats":"greenhouse","token":"squarespace","industry":"tech","tags":[]},
-    {"company":"Standard Chartered","ats":"workday","tenant":"standard","wd":"wd1","site":"Search","industry":"tech","tags":[]},
-    {"company":"State Street","ats":"workday","tenant":"statestreet","wd":"wd1","site":"Global","industry":"tech","tags":[]},
-    {"company":"Stripe","ats":"greenhouse","token":"stripe","industry":"tech","tags":["fintech"]},
-    {"company":"Sumo Logic","ats":"greenhouse","token":"sumologic","industry":"tech","tags":[]},
-    {"company":"Suno","ats":"ashby","token":"suno","industry":"tech","tags":["ai"]},
-    {"company":"Supabase","ats":"ashby","token":"supabase","industry":"tech","tags":["devtools"]},
-    {"company":"Swile","ats":"lever","token":"swile","industry":"tech","tags":["fintech","france"]},
-    {"company":"Symphony","ats":"greenhouse","token":"symphony","industry":"tech","tags":[]},
-    {"company":"Synthesia","ats":"ashby","token":"synthesia","industry":"tech","tags":["ai"]},
-    {"company":"T. Rowe Price","ats":"workday","tenant":"troweprice","wd":"wd5","site":"TRowePrice","industry":"tech","tags":[]},
-    {"company":"Tailscale","ats":"greenhouse","token":"tailscale","industry":"tech","tags":["security"]},
-    {"company":"Tencent","ats":"workday","tenant":"tencent","wd":"wd1","site":"Tencent_Careers","industry":"tech","tags":[]},
-    {"company":"The Trade Desk","ats":"greenhouse","token":"thetradedesk","industry":"tech","tags":["adtech"]},
-    {"company":"Thought Machine","ats":"ashby","token":"thought-machine","industry":"tech","tags":[]},
-    {"company":"Together AI","ats":"greenhouse","token":"togetherai","industry":"tech","tags":["ai"]},
-    {"company":"Tokio Marine Kiln","ats":"workday","tenant":"tokiomarinekiln","wd":"wd3","site":"TMK_Careers","industry":"tech","tags":[]},
-    {"company":"Trainline","ats":"ashby","token":"trainline","industry":"tech","tags":[]},
-    {"company":"Treefera","ats":"ashby","token":"treefera","industry":"tech","tags":[]},
-    {"company":"Twilio","ats":"greenhouse","token":"twilio","industry":"tech","tags":["saas"]},
-    {"company":"Twitch","ats":"greenhouse","token":"twitch","industry":"tech","tags":[]},
-    {"company":"Udemy","ats":"greenhouse","token":"udemy","industry":"tech","tags":[]},
-    {"company":"UiPath","ats":"ashby","token":"uipath","industry":"tech","tags":["saas"]},
-    {"company":"UnlikelyAI","ats":"ashby","token":"unlikelyai","industry":"tech","tags":[]},
-    {"company":"UserTesting","ats":"workday","tenant":"usertesting","wd":"wd12","site":"UserTesting","industry":"tech","tags":[]},
-    {"company":"UVIMCO","ats":"greenhouse","token":"uvimco","industry":"tech","tags":[]},
-    {"company":"Vanta","ats":"ashby","token":"vanta","industry":"tech","tags":["saas"]},
-    {"company":"Veepee","ats":"lever","token":"veepee","industry":"tech","tags":["france"]},
-    {"company":"Vercel","ats":"greenhouse","token":"vercel","industry":"tech","tags":["devtools"]},
-    {"company":"Verkada","ats":"greenhouse","token":"verkada","industry":"tech","tags":["hardware"]},
-    {"company":"Waymo","ats":"greenhouse","token":"waymo","industry":"tech","tags":["hardware"]},
-    {"company":"Weaviate","ats":"ashby","token":"weaviate","industry":"tech","tags":["ai"]},
-    {"company":"Wise","ats":"greenhouse","token":"wise","industry":"tech","tags":[]},
-    {"company":"Wiz","ats":"greenhouse","token":"wizinc","industry":"tech","tags":["security"]},
-    {"company":"Writer","ats":"ashby","token":"writer","industry":"tech","tags":["ai"]},
-    {"company":"Xantium","ats":"greenhouse","token":"xantium","industry":"tech","tags":[]},
-    {"company":"Younited","ats":"lever","token":"younited","industry":"tech","tags":["fintech","france"]},
-    {"company":"Zoox","ats":"lever","token":"zoox","industry":"tech","tags":["hardware"]},
-    {"company":"Zopa","ats":"lever","token":"zopa","industry":"tech","tags":["fintech"]},
-    {"company":"Zscaler","ats":"greenhouse","token":"zscaler","industry":"tech","tags":["security"]}
+    {
+      "company": "3Red Partners",
+      "ats": "greenhouse",
+      "token": "3redpartners",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "abrdn",
+      "ats": "workday",
+      "tenant": "abrdn",
+      "wd": "wd3",
+      "site": "abrdn",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Abridge",
+      "ats": "ashby",
+      "token": "abridge",
+      "industry": "tech",
+      "tags": [
+        "ai",
+        "health"
+      ]
+    },
+    {
+      "company": "Accenture",
+      "ats": "workday",
+      "tenant": "accenture",
+      "wd": "wd103",
+      "site": "AccentureCareers",
+      "industry": "consulting",
+      "tags": [
+        "tech-consulting"
+      ]
+    },
+    {
+      "company": "Adams Street Partners",
+      "ats": "greenhouse",
+      "token": "adamsstreetpartners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Adyen",
+      "ats": "greenhouse",
+      "token": "adyen",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Affirm",
+      "ats": "greenhouse",
+      "token": "affirm",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Agicap",
+      "ats": "lever",
+      "token": "agicap",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "france"
+      ]
+    },
+    {
+      "company": "AgWest Farm Credit",
+      "ats": "greenhouse",
+      "token": "agwestfarmcredit",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Airbnb",
+      "ats": "greenhouse",
+      "token": "airbnb",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Airtable",
+      "ats": "greenhouse",
+      "token": "airtable",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Akuna Capital",
+      "ats": "greenhouse",
+      "token": "akunacapital",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Alan",
+      "ats": "ashby",
+      "token": "alan",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Alantra",
+      "ats": "workday",
+      "tenant": "alantra",
+      "wd": "wd3",
+      "site": "Alantra",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Algolia",
+      "ats": "greenhouse",
+      "token": "algolia",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "AlixPartners",
+      "ats": "greenhouse",
+      "token": "alixpartners",
+      "industry": "consulting",
+      "tags": [
+        "restructuring"
+      ]
+    },
+    {
+      "company": "Alpha FMC",
+      "ats": "greenhouse",
+      "token": "alphafmc",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "AlphaSights",
+      "ats": "greenhouse",
+      "token": "alphasights",
+      "industry": "consulting",
+      "tags": [
+        "expert-network"
+      ]
+    },
+    {
+      "company": "Alpine Investors",
+      "ats": "ashby",
+      "token": "alpine-investors",
+      "industry": "finance",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "company": "Amber Group",
+      "ats": "lever",
+      "token": "ambergroup",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Anchorage Digital",
+      "ats": "lever",
+      "token": "anchorage",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Ankorstore",
+      "ats": "ashby",
+      "token": "ankorstore",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Ankura",
+      "ats": "workday",
+      "tenant": "ankura",
+      "wd": "wd5",
+      "site": "Ankura",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Anthropic",
+      "ats": "greenhouse",
+      "token": "anthropic",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Apollo Global",
+      "ats": "workday",
+      "tenant": "athene",
+      "wd": "wd5",
+      "site": "Apollo_Careers",
+      "industry": "finance",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "company": "Applied Intuition",
+      "ats": "ashby",
+      "token": "applied",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "AQ Technology Partners",
+      "ats": "greenhouse",
+      "token": "aqtechnologypartners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "AQR Capital",
+      "ats": "greenhouse",
+      "token": "aqr",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Aquatic Capital Management",
+      "ats": "greenhouse",
+      "token": "aquaticcapitalmanagement",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Ardea Partners",
+      "ats": "ashby",
+      "token": "ardea-partners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Ardian",
+      "ats": "workday",
+      "tenant": "ardian",
+      "wd": "wd103",
+      "site": "ArdianCareers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Arrowstreet Capital",
+      "ats": "workday",
+      "tenant": "arrowstreetcapital",
+      "wd": "wd5",
+      "site": "Campus_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Asana",
+      "ats": "greenhouse",
+      "token": "asana",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "ATKG",
+      "ats": "greenhouse",
+      "token": "atkgcareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "ATLAS SP Partners",
+      "ats": "greenhouse",
+      "token": "atlassp",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Audax Group",
+      "ats": "greenhouse",
+      "token": "audaxgroup",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Autodesk",
+      "ats": "workday",
+      "tenant": "autodesk",
+      "wd": "wd1",
+      "site": "Ext",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "AVEVA",
+      "ats": "workday",
+      "tenant": "aveva",
+      "wd": "wd3",
+      "site": "AVEVA_careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "B2C2",
+      "ats": "greenhouse",
+      "token": "b2c2",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Back Market",
+      "ats": "ashby",
+      "token": "backmarket",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Baillie Gifford",
+      "ats": "workday",
+      "tenant": "bailliegifford",
+      "wd": "wd3",
+      "site": "BaillieGiffordCareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Baker Hughes",
+      "ats": "workday",
+      "tenant": "bakerhughes",
+      "wd": "wd5",
+      "site": "BakerHughes",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Baker Tilly",
+      "ats": "workday",
+      "tenant": "bakertilly",
+      "wd": "wd5",
+      "site": "BTCareers",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "Bank of America",
+      "ats": "workday",
+      "tenant": "ghr",
+      "wd": "wd1",
+      "site": "lateral-us",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "bulge-bracket"
+      ]
+    },
+    {
+      "company": "Barclays",
+      "ats": "workday",
+      "tenant": "barclays",
+      "wd": "wd3",
+      "site": "External_Career_Site_Barclays",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Baringa",
+      "ats": "greenhouse",
+      "token": "baringa",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Barings",
+      "ats": "workday",
+      "tenant": "barings",
+      "wd": "wd1",
+      "site": "Barings",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Baseten",
+      "ats": "ashby",
+      "token": "baseten",
+      "industry": "tech",
+      "tags": [
+        "ai",
+        "infra"
+      ]
+    },
+    {
+      "company": "Bastion Trading",
+      "ats": "ashby",
+      "token": "bastion",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "BBVA",
+      "ats": "workday",
+      "tenant": "bbva",
+      "wd": "wd3",
+      "site": "BBVA",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "BCG",
+      "ats": "greenhouse",
+      "token": "bcg",
+      "industry": "consulting",
+      "tags": [
+        "strategy",
+        "mbb"
+      ]
+    },
+    {
+      "company": "Belvedere Trading",
+      "ats": "lever",
+      "token": "belvederetrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Bessemer Venture Partners",
+      "ats": "greenhouse",
+      "token": "bessemerventurepartners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Betterment",
+      "ats": "greenhouse",
+      "token": "betterment",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Bitpanda",
+      "ats": "greenhouse",
+      "token": "bitpanda",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "BlaBlaCar",
+      "ats": "lever",
+      "token": "blablacar",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "BlackEdge Capital",
+      "ats": "greenhouse",
+      "token": "blackedgecapital",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "BlackRock",
+      "ats": "workday",
+      "tenant": "blackrock",
+      "wd": "wd1",
+      "site": "BlackRock_Professional",
+      "industry": "finance",
+      "tags": [
+        "asset-management"
+      ]
+    },
+    {
+      "company": "Blackstone",
+      "ats": "workday",
+      "tenant": "blackstone",
+      "wd": "wd1",
+      "site": "Blackstone_Careers",
+      "industry": "finance",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "company": "Block",
+      "ats": "greenhouse",
+      "token": "block",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Blockchain com",
+      "ats": "greenhouse",
+      "token": "blockchain",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Blue Owl Capital",
+      "ats": "workday",
+      "tenant": "blueowl",
+      "wd": "wd1",
+      "site": "blueowl",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Box",
+      "ats": "greenhouse",
+      "token": "boxinc",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Bracebridge Capital",
+      "ats": "greenhouse",
+      "token": "bracebridgecapital",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Brex",
+      "ats": "greenhouse",
+      "token": "brex",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Brown Edwards",
+      "ats": "workday",
+      "tenant": "brown",
+      "wd": "wd5",
+      "site": "staff-careers-brown",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Brown Gibbons Lang & Company",
+      "ats": "workday",
+      "tenant": "brown",
+      "wd": "wd5",
+      "site": "staff-careers-brown",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Browserbase",
+      "ats": "ashby",
+      "token": "browserbase",
+      "industry": "tech",
+      "tags": [
+        "infra"
+      ]
+    },
+    {
+      "company": "BTG Pactual",
+      "ats": "greenhouse",
+      "token": "btgpactual",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Bybit",
+      "ats": "greenhouse",
+      "token": "bybit",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Cadence",
+      "ats": "workday",
+      "tenant": "cadence",
+      "wd": "wd1",
+      "site": "External_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Cambridge Associates",
+      "ats": "workday",
+      "tenant": "cambridgeassociates",
+      "wd": "wd5",
+      "site": "Handshake",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Capital One",
+      "ats": "workday",
+      "tenant": "capitalone",
+      "wd": "wd12",
+      "site": "Capital_One",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Capstone Investment",
+      "ats": "greenhouse",
+      "token": "capstoneinvestmentadvisors",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund"
+      ]
+    },
+    {
+      "company": "Cascadia Capital",
+      "ats": "workday",
+      "tenant": "cascadia",
+      "wd": "wd12",
+      "site": "cascadiahealth",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Cboe Global Markets",
+      "ats": "workday",
+      "tenant": "cboe",
+      "wd": "wd1",
+      "site": "External_Career_CBOE",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Celonis",
+      "ats": "greenhouse",
+      "token": "celonis",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Centrica",
+      "ats": "workday",
+      "tenant": "centrica",
+      "wd": "wd3",
+      "site": "Centrica",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Charles River Associates",
+      "ats": "greenhouse",
+      "token": "charlesriverassociates",
+      "industry": "consulting",
+      "tags": [
+        "economic"
+      ]
+    },
+    {
+      "company": "Chicago Trading Company",
+      "ats": "greenhouse",
+      "token": "chicagotrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Chime",
+      "ats": "greenhouse",
+      "token": "chime",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "CIBC",
+      "ats": "workday",
+      "tenant": "cibc",
+      "wd": "wd3",
+      "site": "search",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Ciena",
+      "ats": "workday",
+      "tenant": "ciena",
+      "wd": "wd5",
+      "site": "Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Citi",
+      "ats": "workday",
+      "tenant": "citi",
+      "wd": "wd5",
+      "site": "2",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "bulge-bracket"
+      ]
+    },
+    {
+      "company": "Clearview Healthcare",
+      "ats": "greenhouse",
+      "token": "clearviewhealthcarepartners",
+      "industry": "consulting",
+      "tags": [
+        "life-sciences"
+      ]
+    },
+    {
+      "company": "ClickUp",
+      "ats": "ashby",
+      "token": "clickup",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Cloudflare",
+      "ats": "greenhouse",
+      "token": "cloudflare",
+      "industry": "tech",
+      "tags": [
+        "infra"
+      ]
+    },
+    {
+      "company": "Cohere",
+      "ats": "ashby",
+      "token": "cohere",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Coinbase",
+      "ats": "greenhouse",
+      "token": "coinbase",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "crypto"
+      ]
+    },
+    {
+      "company": "Coleman Research",
+      "ats": "greenhouse",
+      "token": "colemanresearch",
+      "industry": "consulting",
+      "tags": [
+        "expert-network"
+      ]
+    },
+    {
+      "company": "Colliers",
+      "ats": "workday",
+      "tenant": "colliers",
+      "wd": "wd3",
+      "site": "Colliers-External-Career-Site",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Column",
+      "ats": "ashby",
+      "token": "column",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Compound Equity Group",
+      "ats": "ashby",
+      "token": "compound",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Confluent",
+      "ats": "ashby",
+      "token": "confluent",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Contentsquare",
+      "ats": "lever",
+      "token": "contentsquare",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Copper.co",
+      "ats": "greenhouse",
+      "token": "copperco",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Cornerstone Research",
+      "ats": "greenhouse",
+      "token": "cornerstone",
+      "industry": "consulting",
+      "tags": [
+        "economic"
+      ]
+    },
+    {
+      "company": "Coursera",
+      "ats": "greenhouse",
+      "token": "coursera",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Crowdstrike",
+      "ats": "workday",
+      "tenant": "crowdstrike",
+      "wd": "wd5",
+      "site": "crowdstrikecareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Crypto com",
+      "ats": "lever",
+      "token": "crypto",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Cursor (Anysphere)",
+      "ats": "ashby",
+      "token": "cursor",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "D.A. Davidson",
+      "ats": "lever",
+      "token": "dadavidson",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Da Vinci Derivatives",
+      "ats": "greenhouse",
+      "token": "davinciderivatives",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Databricks",
+      "ats": "greenhouse",
+      "token": "databricks",
+      "industry": "tech",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "company": "Datadog",
+      "ats": "greenhouse",
+      "token": "datadog",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Dataiku",
+      "ats": "greenhouse",
+      "token": "dataiku",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Decagon",
+      "ats": "ashby",
+      "token": "decagon",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Deliveroo",
+      "ats": "ashby",
+      "token": "deliveroo",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Deutsche Bank",
+      "ats": "workday",
+      "tenant": "db",
+      "wd": "wd3",
+      "site": "DBWebsite",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Dimensional Fund Advisors",
+      "ats": "ashby",
+      "token": "dimensional",
+      "industry": "finance",
+      "tags": [
+        "asset-management"
+      ]
+    },
+    {
+      "company": "Discord",
+      "ats": "greenhouse",
+      "token": "discord",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Doctolib",
+      "ats": "greenhouse",
+      "token": "doctolib",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Dojo",
+      "ats": "greenhouse",
+      "token": "dojo",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Dow Jones",
+      "ats": "workday",
+      "tenant": "dowjones",
+      "wd": "wd1",
+      "site": "Dow_Jones_Career",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Drata",
+      "ats": "ashby",
+      "token": "drata",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "company": "Dropbox",
+      "ats": "greenhouse",
+      "token": "dropbox",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "DRW",
+      "ats": "greenhouse",
+      "token": "drweng",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Ducera Partners",
+      "ats": "greenhouse",
+      "token": "ducerapartners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Duolingo",
+      "ats": "greenhouse",
+      "token": "duolingo",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "DV Trading",
+      "ats": "greenhouse",
+      "token": "dvtrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "eBay",
+      "ats": "workday",
+      "tenant": "ebay",
+      "wd": "wd5",
+      "site": "TCGPlayer_External_Career",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Eclipse Trading",
+      "ats": "greenhouse",
+      "token": "eclipsetrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Elastic",
+      "ats": "greenhouse",
+      "token": "elastic",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "ElevenLabs",
+      "ats": "ashby",
+      "token": "elevenlabs",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Engineers Gate",
+      "ats": "greenhouse",
+      "token": "engineersgate",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Epic Games",
+      "ats": "greenhouse",
+      "token": "epicgames",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Evergreen Services Group",
+      "ats": "greenhouse",
+      "token": "evergreenservicesgroup",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "ExodusPoint",
+      "ats": "greenhouse",
+      "token": "exoduspoint",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "FalconX",
+      "ats": "greenhouse",
+      "token": "falconx",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Fastly",
+      "ats": "greenhouse",
+      "token": "fastly",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Fifth Third Bank",
+      "ats": "workday",
+      "tenant": "fifththird",
+      "wd": "wd5",
+      "site": "53careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Figma",
+      "ats": "greenhouse",
+      "token": "figma",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Fireblocks",
+      "ats": "greenhouse",
+      "token": "fireblocks",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Fireworks AI",
+      "ats": "ashby",
+      "token": "fireworks",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Five Rings",
+      "ats": "greenhouse",
+      "token": "fiveringsllc",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Fleek",
+      "ats": "ashby",
+      "token": "fleek",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Flexport",
+      "ats": "greenhouse",
+      "token": "flexport",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Flow Traders",
+      "ats": "greenhouse",
+      "token": "flowtraders",
+      "industry": "finance",
+      "tags": [
+        "trading"
+      ]
+    },
+    {
+      "company": "Forvis Mazars",
+      "ats": "greenhouse",
+      "token": "forvismazars",
+      "industry": "consulting",
+      "tags": [
+        "big-four"
+      ]
+    },
+    {
+      "company": "Frazier & Deeter",
+      "ats": "greenhouse",
+      "token": "frazierdeeter",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Frontier Economics",
+      "ats": "workday",
+      "tenant": "frontiereconomics",
+      "wd": "wd3",
+      "site": "Frontier_Economics_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Galaxy Digital",
+      "ats": "greenhouse",
+      "token": "galaxy",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Gartner",
+      "ats": "workday",
+      "tenant": "gartner",
+      "wd": "wd5",
+      "site": "EXT",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "GCM Grosvenor",
+      "ats": "greenhouse",
+      "token": "gcmgrosvenor",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Gearset",
+      "ats": "ashby",
+      "token": "gearset",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Gemini",
+      "ats": "greenhouse",
+      "token": "gemini",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "General Atlantic",
+      "ats": "greenhouse",
+      "token": "general",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "General Electric",
+      "ats": "greenhouse",
+      "token": "general",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Genesis Quant Capital",
+      "ats": "lever",
+      "token": "genesis",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Geneva Trading",
+      "ats": "greenhouse",
+      "token": "genevatrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "GetYourGuide",
+      "ats": "greenhouse",
+      "token": "getyourguide",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "GitLab",
+      "ats": "greenhouse",
+      "token": "gitlab",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Global Atlantic",
+      "ats": "workday",
+      "tenant": "global",
+      "wd": "wd1",
+      "site": "globalpartnerscareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Global Gate",
+      "ats": "workday",
+      "tenant": "global",
+      "wd": "wd1",
+      "site": "globalpartnerscareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Global Infrastructure Advisors",
+      "ats": "workday",
+      "tenant": "global",
+      "wd": "wd1",
+      "site": "globalpartnerscareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "GoCardless",
+      "ats": "greenhouse",
+      "token": "gocardless",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Grafana Labs",
+      "ats": "greenhouse",
+      "token": "grafanalabs",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Greystar",
+      "ats": "workday",
+      "tenant": "greystar",
+      "wd": "wd1",
+      "site": "External",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Grosvenor",
+      "ats": "workday",
+      "tenant": "grosvenor",
+      "wd": "wd3",
+      "site": "External_careers_site_Grosvenor",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "GSA Capital",
+      "ats": "greenhouse",
+      "token": "gsacapital",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Guggenheim Partners",
+      "ats": "workday",
+      "tenant": "guggenheim",
+      "wd": "wd1",
+      "site": "Guggenheim_Careers_Campus",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Guidehouse",
+      "ats": "workday",
+      "tenant": "guidehouse",
+      "wd": "wd1",
+      "site": "External",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "Guidepoint",
+      "ats": "greenhouse",
+      "token": "guidepoint",
+      "industry": "consulting",
+      "tags": [
+        "expert-network"
+      ]
+    },
+    {
+      "company": "Gunvor",
+      "ats": "workday",
+      "tenant": "gunvor",
+      "wd": "wd3",
+      "site": "Gunvor_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Gusto",
+      "ats": "greenhouse",
+      "token": "gusto",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "HarbourVest",
+      "ats": "workday",
+      "tenant": "harbourvest",
+      "wd": "wd5",
+      "site": "HVP",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Harris Associates",
+      "ats": "greenhouse",
+      "token": "harrisassociates",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Harvey",
+      "ats": "ashby",
+      "token": "harvey",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Headlands Technologies",
+      "ats": "greenhouse",
+      "token": "headlandstechnologiesllc",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "HelloFresh",
+      "ats": "greenhouse",
+      "token": "hellofresh",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Helsing",
+      "ats": "greenhouse",
+      "token": "helsing",
+      "industry": "tech",
+      "tags": [
+        "ai",
+        "defense"
+      ]
+    },
+    {
+      "company": "Hiscox",
+      "ats": "workday",
+      "tenant": "hiscox",
+      "wd": "wd3",
+      "site": "Hiscox_External_Site",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Honeycomb",
+      "ats": "greenhouse",
+      "token": "honeycomb",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Houlihan Lokey",
+      "ats": "workday",
+      "tenant": "hl",
+      "wd": "wd1",
+      "site": "External",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Hudson River Trading",
+      "ats": "greenhouse",
+      "token": "hrttalentcommunity",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant",
+        "prop"
+      ]
+    },
+    {
+      "company": "IMC Trading",
+      "ats": "greenhouse",
+      "token": "imc",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Instacart",
+      "ats": "greenhouse",
+      "token": "instacart",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Intercom",
+      "ats": "greenhouse",
+      "token": "intercom",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Interpath Advisory",
+      "ats": "greenhouse",
+      "token": "interpath",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "Invesco",
+      "ats": "workday",
+      "tenant": "invesco",
+      "wd": "wd1",
+      "site": "IVZ",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Jane Street",
+      "ats": "greenhouse",
+      "token": "janestreet",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "JetBrains",
+      "ats": "greenhouse",
+      "token": "jetbrains",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Julius Baer",
+      "ats": "workday",
+      "tenant": "juliusbaer",
+      "wd": "wd3",
+      "site": "External",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Jump Trading",
+      "ats": "greenhouse",
+      "token": "jumptrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Just",
+      "ats": "workday",
+      "tenant": "just",
+      "wd": "wd3",
+      "site": "JUST_External",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Justworks",
+      "ats": "greenhouse",
+      "token": "justworks",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "KeyBank",
+      "ats": "workday",
+      "tenant": "keybank",
+      "wd": "wd5",
+      "site": "External_Career_Site",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Keyrock",
+      "ats": "ashby",
+      "token": "keyrock",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Khan Academy",
+      "ats": "greenhouse",
+      "token": "khanacademy",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Knight Frank",
+      "ats": "workday",
+      "tenant": "knightfrank",
+      "wd": "wd103",
+      "site": "KF",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Lambda Labs",
+      "ats": "ashby",
+      "token": "lambda",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "LangChain",
+      "ats": "ashby",
+      "token": "langchain",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Ledger",
+      "ats": "ashby",
+      "token": "ledger",
+      "industry": "tech",
+      "tags": [
+        "crypto",
+        "france"
+      ]
+    },
+    {
+      "company": "Leerink Partners",
+      "ats": "workday",
+      "tenant": "leerink",
+      "wd": "wd5",
+      "site": "leerinkpartners",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Level Equity",
+      "ats": "greenhouse",
+      "token": "levelequity",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Liberty Global",
+      "ats": "workday",
+      "tenant": "libertyglobal",
+      "wd": "wd3",
+      "site": "Liberty_Global_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Lincoln International",
+      "ats": "greenhouse",
+      "token": "lincolninternational",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Linear",
+      "ats": "ashby",
+      "token": "linear",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "LionTree",
+      "ats": "greenhouse",
+      "token": "liontree",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Lithic",
+      "ats": "greenhouse",
+      "token": "lithic",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "LlamaIndex",
+      "ats": "ashby",
+      "token": "llamaindex",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Lloyds Banking Group",
+      "ats": "workday",
+      "tenant": "lloyds",
+      "wd": "wd3",
+      "site": "Lloyds-of-London",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Lombard Odier IM",
+      "ats": "workday",
+      "tenant": "lombardodier",
+      "wd": "wd3",
+      "site": "Lombard_Odier_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Lovable",
+      "ats": "ashby",
+      "token": "lovable",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "LSEG",
+      "ats": "workday",
+      "tenant": "lseg",
+      "wd": "wd3",
+      "site": "Graduate_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Luma AI",
+      "ats": "ashby",
+      "token": "lumaai",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Lyft",
+      "ats": "greenhouse",
+      "token": "lyft",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Mako",
+      "ats": "greenhouse",
+      "token": "mako",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Man Group",
+      "ats": "greenhouse",
+      "token": "manGroup",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "asset-management"
+      ]
+    },
+    {
+      "company": "Marqeta",
+      "ats": "greenhouse",
+      "token": "marqeta",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Marshmallow",
+      "ats": "ashby",
+      "token": "marshmallow",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Mastercard",
+      "ats": "workday",
+      "tenant": "mastercard",
+      "wd": "wd1",
+      "site": "Campus",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Match Group",
+      "ats": "lever",
+      "token": "matchgroup",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Maxwell Locke & Ritter",
+      "ats": "greenhouse",
+      "token": "maxwell",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "MBDA",
+      "ats": "workday",
+      "tenant": "mbda",
+      "wd": "wd3",
+      "site": "MBDA-UK",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Mercor",
+      "ats": "ashby",
+      "token": "mercor",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Mercury",
+      "ats": "greenhouse",
+      "token": "mercury",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Mirakl",
+      "ats": "greenhouse",
+      "token": "mirakl",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Miro",
+      "ats": "ashby",
+      "token": "miro",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Mizuho",
+      "ats": "workday",
+      "tenant": "mizuho",
+      "wd": "wd1",
+      "site": "mizuhoamericas",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Modal",
+      "ats": "ashby",
+      "token": "modal",
+      "industry": "tech",
+      "tags": [
+        "infra"
+      ]
+    },
+    {
+      "company": "Modern Treasury",
+      "ats": "ashby",
+      "token": "moderntreasury",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Moelis & Company",
+      "ats": "workday",
+      "tenant": "moelis",
+      "wd": "wd1",
+      "site": "Experienced-Hires",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "elite-boutique"
+      ]
+    },
+    {
+      "company": "Mollie",
+      "ats": "ashby",
+      "token": "mollie",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Moloco",
+      "ats": "greenhouse",
+      "token": "moloco",
+      "industry": "tech",
+      "tags": [
+        "adtech"
+      ]
+    },
+    {
+      "company": "MongoDB",
+      "ats": "greenhouse",
+      "token": "mongodb",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Monzo",
+      "ats": "greenhouse",
+      "token": "monzo",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Moore Colson",
+      "ats": "lever",
+      "token": "moorecolson",
+      "industry": "consulting",
+      "tags": [
+        "audit"
+      ]
+    },
+    {
+      "company": "Motive",
+      "ats": "greenhouse",
+      "token": "motive",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Motorola Solutions",
+      "ats": "workday",
+      "tenant": "motorolasolutions",
+      "wd": "wd5",
+      "site": "Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "N26",
+      "ats": "greenhouse",
+      "token": "n26",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "NASDAQ",
+      "ats": "workday",
+      "tenant": "nasdaq",
+      "wd": "wd1",
+      "site": "Global_External_Site",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "National Bank of Canada",
+      "ats": "greenhouse",
+      "token": "national",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "National Gas",
+      "ats": "greenhouse",
+      "token": "national",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Nationwide",
+      "ats": "workday",
+      "tenant": "nationwide",
+      "wd": "wd1",
+      "site": "Nationwide_Career",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "NCR Atleos",
+      "ats": "workday",
+      "tenant": "ncratleos",
+      "wd": "wd1",
+      "site": "ext_intern",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Netcraft",
+      "ats": "greenhouse",
+      "token": "netcraft",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Netlify",
+      "ats": "greenhouse",
+      "token": "netlify",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "New Relic",
+      "ats": "greenhouse",
+      "token": "newrelic",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Newton",
+      "ats": "lever",
+      "token": "newton",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Nordic Semiconductor",
+      "ats": "workday",
+      "tenant": "nordic",
+      "wd": "wd1",
+      "site": "Nordic",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Northwestern Mutual",
+      "ats": "workday",
+      "tenant": "northwesternmutual",
+      "wd": "wd5",
+      "site": "CORPORATE-CAREERS",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Notion",
+      "ats": "ashby",
+      "token": "notion",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Nubank",
+      "ats": "ashby",
+      "token": "nubank",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Nuro",
+      "ats": "greenhouse",
+      "token": "nuro",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Oak Hill Advisors",
+      "ats": "greenhouse",
+      "token": "oakhilladvisors",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "OakNorth",
+      "ats": "ashby",
+      "token": "oaknorth",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Okta",
+      "ats": "greenhouse",
+      "token": "okta",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "company": "OKX",
+      "ats": "greenhouse",
+      "token": "okx",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Old Mission Capital",
+      "ats": "greenhouse",
+      "token": "oldmissioncapital",
+      "industry": "finance",
+      "tags": [
+        "trading"
+      ]
+    },
+    {
+      "company": "Oliver Wyman",
+      "ats": "lever",
+      "token": "oliverwyman",
+      "industry": "consulting",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "ats": "ashby",
+      "token": "openai",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Optiver",
+      "ats": "greenhouse",
+      "token": "optiverus",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Orion Group",
+      "ats": "greenhouse",
+      "token": "oriongroup",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Oxford Nanopore Technologies",
+      "ats": "workday",
+      "tenant": "oxford",
+      "wd": "wd5",
+      "site": "TheBeaufortBonnetCompany",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Oxford Properties Group",
+      "ats": "workday",
+      "tenant": "oxford",
+      "wd": "wd5",
+      "site": "TheBeaufortBonnetCompany",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Oyster",
+      "ats": "ashby",
+      "token": "oyster",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "PagerDuty",
+      "ats": "greenhouse",
+      "token": "pagerduty",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Palantir",
+      "ats": "lever",
+      "token": "palantir",
+      "industry": "tech",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "company": "Paxos",
+      "ats": "ashby",
+      "token": "paxos",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "PDT Partners",
+      "ats": "greenhouse",
+      "token": "pdtpartners",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Pennylane",
+      "ats": "ashby",
+      "token": "pennylane",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "france"
+      ]
+    },
+    {
+      "company": "Perplexity",
+      "ats": "ashby",
+      "token": "perplexity",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Pharo Management",
+      "ats": "greenhouse",
+      "token": "pharomanagement",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Pika",
+      "ats": "ashby",
+      "token": "pika",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Pinecone",
+      "ats": "ashby",
+      "token": "pinecone",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Pinterest",
+      "ats": "greenhouse",
+      "token": "pinterest",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "PJT Partners",
+      "ats": "workday",
+      "tenant": "pjtpartners",
+      "wd": "wd1",
+      "site": "Careers",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "elite-boutique"
+      ]
+    },
+    {
+      "company": "Plaid",
+      "ats": "ashby",
+      "token": "plaid",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Point B",
+      "ats": "lever",
+      "token": "pointb",
+      "industry": "consulting",
+      "tags": [
+        "tech-consulting"
+      ]
+    },
+    {
+      "company": "Point72",
+      "ats": "greenhouse",
+      "token": "point72",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "PQShield",
+      "ats": "greenhouse",
+      "token": "pqshield",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "project44",
+      "ats": "greenhouse",
+      "token": "project44",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Proxima",
+      "ats": "ashby",
+      "token": "proxima",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "PSG Equity",
+      "ats": "workday",
+      "tenant": "psgequity",
+      "wd": "wd5",
+      "site": "PSG_External_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Public",
+      "ats": "greenhouse",
+      "token": "public",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Putnam Associates",
+      "ats": "greenhouse",
+      "token": "putnamassociatesllc",
+      "industry": "consulting",
+      "tags": [
+        "life-sciences"
+      ]
+    },
+    {
+      "company": "Qonto",
+      "ats": "ashby",
+      "token": "qonto",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "france"
+      ]
+    },
+    {
+      "company": "Quadrature Capital",
+      "ats": "greenhouse",
+      "token": "quadraturecapital",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Qualcomm",
+      "ats": "workday",
+      "tenant": "qualcomm",
+      "wd": "wd12",
+      "site": "External",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Quantbot Technologies",
+      "ats": "greenhouse",
+      "token": "quantbot-technologies",
+      "industry": "finance",
+      "tags": [
+        "quant",
+        "trading"
+      ]
+    },
+    {
+      "company": "Quilter",
+      "ats": "ashby",
+      "token": "quilter",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Quizlet",
+      "ats": "ashby",
+      "token": "quizlet-inc",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Quora",
+      "ats": "ashby",
+      "token": "quora",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Railway",
+      "ats": "ashby",
+      "token": "railway",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Raisin",
+      "ats": "greenhouse",
+      "token": "raisin",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Ramp",
+      "ats": "ashby",
+      "token": "ramp",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Raymond James",
+      "ats": "workday",
+      "tenant": "raymondjames",
+      "wd": "wd1",
+      "site": "RaymondJamesEarlyCareers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Readystate",
+      "ats": "greenhouse",
+      "token": "readystate",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Reddit",
+      "ats": "greenhouse",
+      "token": "reddit",
+      "industry": "tech",
+      "tags": [
+        "consumer"
+      ]
+    },
+    {
+      "company": "Remote",
+      "ats": "greenhouse",
+      "token": "remote",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Render",
+      "ats": "ashby",
+      "token": "render",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Replit",
+      "ats": "ashby",
+      "token": "replit",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Retail Insights",
+      "ats": "greenhouse",
+      "token": "retailinsights",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Riot Games",
+      "ats": "greenhouse",
+      "token": "riotgames",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Ripple",
+      "ats": "greenhouse",
+      "token": "ripple",
+      "industry": "finance",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "company": "Riverlane",
+      "ats": "greenhouse",
+      "token": "riverlane",
+      "industry": "tech",
+      "tags": [
+        "quantum-computing"
+      ]
+    },
+    {
+      "company": "Roark Capital Group",
+      "ats": "greenhouse",
+      "token": "roarkcapitalgroup",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Robeco",
+      "ats": "workday",
+      "tenant": "robeco",
+      "wd": "wd3",
+      "site": "robecoexternalcareers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Robinhood",
+      "ats": "greenhouse",
+      "token": "robinhood",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Roblox",
+      "ats": "greenhouse",
+      "token": "roblox",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Roku",
+      "ats": "greenhouse",
+      "token": "roku",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Rothschild & Co",
+      "ats": "sitemap",
+      "token": "https://www.rothschildandco.com/sitemap.xml",
+      "pattern": "/en/careers/students-and-graduates/opportunities/",
+      "locationFrom": "Location[s]?\\s*:?\\s*([A-Za-z ,'-]{3,40})",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "m-and-a"
+      ]
+    },
+    {
+      "company": "Runna",
+      "ats": "ashby",
+      "token": "runna",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Runway",
+      "ats": "ashby",
+      "token": "runway",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Ryan",
+      "ats": "workday",
+      "tenant": "ryan",
+      "wd": "wd1",
+      "site": "RyanCareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Ryan Specialty",
+      "ats": "workday",
+      "tenant": "ryan",
+      "wd": "wd1",
+      "site": "RyanCareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Samsara",
+      "ats": "greenhouse",
+      "token": "samsara",
+      "industry": "tech",
+      "tags": [
+        "iot"
+      ]
+    },
+    {
+      "company": "Sands Capital",
+      "ats": "workday",
+      "tenant": "sands",
+      "wd": "wd1",
+      "site": "sands_careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Santander",
+      "ats": "workday",
+      "tenant": "santander",
+      "wd": "wd3",
+      "site": "SantanderCareers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Sardine",
+      "ats": "ashby",
+      "token": "sardine",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Scale AI",
+      "ats": "greenhouse",
+      "token": "scaleai",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Schneider Downs",
+      "ats": "greenhouse",
+      "token": "schneiderdowns",
+      "industry": "consulting",
+      "tags": [
+        "audit"
+      ]
+    },
+    {
+      "company": "Schonfeld",
+      "ats": "greenhouse",
+      "token": "schonfeld",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund"
+      ]
+    },
+    {
+      "company": "Sculptor Capital Management",
+      "ats": "workday",
+      "tenant": "sculptor",
+      "wd": "wd12",
+      "site": "Sculptor_External_Career_Site",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Secureframe",
+      "ats": "ashby",
+      "token": "secureframe",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "company": "Sentry",
+      "ats": "ashby",
+      "token": "sentry",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Shea & Company",
+      "ats": "greenhouse",
+      "token": "sheacompany",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Shield AI",
+      "ats": "ashby",
+      "token": "shield-ai",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Sierra",
+      "ats": "ashby",
+      "token": "sierra",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Simplex Trading",
+      "ats": "greenhouse",
+      "token": "simplextrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Sixth Street",
+      "ats": "greenhouse",
+      "token": "sixthstreet",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Snowflake",
+      "ats": "ashby",
+      "token": "snowflake",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "SoFi",
+      "ats": "greenhouse",
+      "token": "sofi",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Sorare",
+      "ats": "ashby",
+      "token": "sorare",
+      "industry": "tech",
+      "tags": [
+        "crypto",
+        "france"
+      ]
+    },
+    {
+      "company": "SouthState Bank",
+      "ats": "workday",
+      "tenant": "southstatebank",
+      "wd": "wd5",
+      "site": "External",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "SpaceX",
+      "ats": "greenhouse",
+      "token": "spacex",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Spotify",
+      "ats": "lever",
+      "token": "spotify",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Squarepoint Capital",
+      "ats": "greenhouse",
+      "token": "squarepointcapital",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Squarespace",
+      "ats": "greenhouse",
+      "token": "squarespace",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Standard Chartered",
+      "ats": "workday",
+      "tenant": "standard",
+      "wd": "wd1",
+      "site": "Search",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "State Street",
+      "ats": "workday",
+      "tenant": "statestreet",
+      "wd": "wd1",
+      "site": "Global",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "StepStone Group",
+      "ats": "greenhouse",
+      "token": "stepstone",
+      "industry": "finance",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "company": "Stout",
+      "ats": "workday",
+      "tenant": "stout",
+      "wd": "wd5",
+      "site": "Stout-Careers-URL",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "Stripe",
+      "ats": "greenhouse",
+      "token": "stripe",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Sumo Logic",
+      "ats": "greenhouse",
+      "token": "sumologic",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Suno",
+      "ats": "ashby",
+      "token": "suno",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Supabase",
+      "ats": "ashby",
+      "token": "supabase",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Sweeney Conrad",
+      "ats": "greenhouse",
+      "token": "sweeneyconrad",
+      "industry": "consulting",
+      "tags": []
+    },
+    {
+      "company": "Swile",
+      "ats": "lever",
+      "token": "swile",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "france"
+      ]
+    },
+    {
+      "company": "Symphony",
+      "ats": "greenhouse",
+      "token": "symphony",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Synthesia",
+      "ats": "ashby",
+      "token": "synthesia",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "T. Rowe Price",
+      "ats": "workday",
+      "tenant": "troweprice",
+      "wd": "wd5",
+      "site": "TRowePrice",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Tailscale",
+      "ats": "greenhouse",
+      "token": "tailscale",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "company": "Tencent",
+      "ats": "workday",
+      "tenant": "tencent",
+      "wd": "wd1",
+      "site": "Tencent_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Teneo",
+      "ats": "greenhouse",
+      "token": "teneo",
+      "industry": "consulting",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "company": "Texas Capital Bank",
+      "ats": "workday",
+      "tenant": "texascapitalbank",
+      "wd": "wd12",
+      "site": "College_Career",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Teza Technologies",
+      "ats": "ashby",
+      "token": "teza-technologies",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "The Raine Group",
+      "ats": "lever",
+      "token": "raine",
+      "industry": "finance",
+      "tags": [
+        "investment-banking",
+        "elite-boutique"
+      ]
+    },
+    {
+      "company": "The Riverside Company",
+      "ats": "greenhouse",
+      "token": "theriversidecompany",
+      "industry": "finance",
+      "tags": [
+        "private-equity"
+      ]
+    },
+    {
+      "company": "The Trade Desk",
+      "ats": "greenhouse",
+      "token": "thetradedesk",
+      "industry": "tech",
+      "tags": [
+        "adtech"
+      ]
+    },
+    {
+      "company": "Third Bridge",
+      "ats": "greenhouse",
+      "token": "thirdbridge",
+      "industry": "consulting",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "company": "Thought Machine",
+      "ats": "ashby",
+      "token": "thought-machine",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Thoughtworks",
+      "ats": "greenhouse",
+      "token": "thoughtworks",
+      "industry": "consulting",
+      "tags": [
+        "tech-consulting"
+      ]
+    },
+    {
+      "company": "Together AI",
+      "ats": "greenhouse",
+      "token": "togetherai",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Tokio Marine Kiln",
+      "ats": "workday",
+      "tenant": "tokiomarinekiln",
+      "wd": "wd3",
+      "site": "TMK_Careers",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Tower Research Capital",
+      "ats": "greenhouse",
+      "token": "towerresearchcapital",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Trade Republic",
+      "ats": "greenhouse",
+      "token": "traderepublic",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Trainline",
+      "ats": "ashby",
+      "token": "trainline",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Transmarket Group",
+      "ats": "greenhouse",
+      "token": "transmarketgroup",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Treefera",
+      "ats": "ashby",
+      "token": "treefera",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Triton Partners",
+      "ats": "workday",
+      "tenant": "tritonpartners",
+      "wd": "wd3",
+      "site": "External",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Twilio",
+      "ats": "greenhouse",
+      "token": "twilio",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Twitch",
+      "ats": "greenhouse",
+      "token": "twitch",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "U.S. Bank",
+      "ats": "workday",
+      "tenant": "usbank",
+      "wd": "wd1",
+      "site": "Elavon_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Udemy",
+      "ats": "greenhouse",
+      "token": "udemy",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "UiPath",
+      "ats": "ashby",
+      "token": "uipath",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Unit",
+      "ats": "ashby",
+      "token": "unit",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "UnlikelyAI",
+      "ats": "ashby",
+      "token": "unlikelyai",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "UserTesting",
+      "ats": "workday",
+      "tenant": "usertesting",
+      "wd": "wd12",
+      "site": "UserTesting",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "UVIMCO",
+      "ats": "greenhouse",
+      "token": "uvimco",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Valkyrie Trading",
+      "ats": "lever",
+      "token": "valkyrietrading",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "prop"
+      ]
+    },
+    {
+      "company": "Vanta",
+      "ats": "ashby",
+      "token": "vanta",
+      "industry": "tech",
+      "tags": [
+        "saas"
+      ]
+    },
+    {
+      "company": "Vatic Labs",
+      "ats": "greenhouse",
+      "token": "vaticlabs",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Veepee",
+      "ats": "lever",
+      "token": "veepee",
+      "industry": "tech",
+      "tags": [
+        "france"
+      ]
+    },
+    {
+      "company": "Vercel",
+      "ats": "greenhouse",
+      "token": "vercel",
+      "industry": "tech",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "company": "Verkada",
+      "ats": "greenhouse",
+      "token": "verkada",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Virtu Financial",
+      "ats": "greenhouse",
+      "token": "virtu",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Visa",
+      "ats": "workday",
+      "tenant": "visa",
+      "wd": "wd5",
+      "site": "Visa_Early_Careers",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "Voleon",
+      "ats": "ashby",
+      "token": "voleon",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Voloridge Investment Management",
+      "ats": "greenhouse",
+      "token": "voloridgeinvestmentmanagement",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Waterfall Asset Management",
+      "ats": "lever",
+      "token": "waterfall",
+      "industry": "finance",
+      "tags": [
+        "asset-management"
+      ]
+    },
+    {
+      "company": "Waymo",
+      "ats": "greenhouse",
+      "token": "waymo",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Wealthfront",
+      "ats": "lever",
+      "token": "wealthfront",
+      "industry": "finance",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Weaviate",
+      "ats": "ashby",
+      "token": "weaviate",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Weiss Asset Management",
+      "ats": "greenhouse",
+      "token": "weissassetmanagement",
+      "industry": "finance",
+      "tags": []
+    },
+    {
+      "company": "William Blair",
+      "ats": "greenhouse",
+      "token": "williamblair",
+      "industry": "finance",
+      "tags": [
+        "investment-banking"
+      ]
+    },
+    {
+      "company": "Wincent",
+      "ats": "ashby",
+      "token": "wincent",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant",
+        "crypto"
+      ]
+    },
+    {
+      "company": "Winton",
+      "ats": "greenhouse",
+      "token": "winton",
+      "industry": "finance",
+      "tags": [
+        "hedge-fund",
+        "quant"
+      ]
+    },
+    {
+      "company": "Wise",
+      "ats": "greenhouse",
+      "token": "wise",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "Wiz",
+      "ats": "greenhouse",
+      "token": "wizinc",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "company": "Writer",
+      "ats": "ashby",
+      "token": "writer",
+      "industry": "tech",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "company": "Xantium",
+      "ats": "greenhouse",
+      "token": "xantium",
+      "industry": "tech",
+      "tags": []
+    },
+    {
+      "company": "XTX Markets",
+      "ats": "greenhouse",
+      "token": "xtxmarketstechnologies",
+      "industry": "finance",
+      "tags": [
+        "trading",
+        "quant"
+      ]
+    },
+    {
+      "company": "Younited",
+      "ats": "lever",
+      "token": "younited",
+      "industry": "tech",
+      "tags": [
+        "fintech",
+        "france"
+      ]
+    },
+    {
+      "company": "Zoox",
+      "ats": "lever",
+      "token": "zoox",
+      "industry": "tech",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "company": "Zopa",
+      "ats": "lever",
+      "token": "zopa",
+      "industry": "tech",
+      "tags": [
+        "fintech"
+      ]
+    },
+    {
+      "company": "Zscaler",
+      "ats": "greenhouse",
+      "token": "zscaler",
+      "industry": "tech",
+      "tags": [
+        "security"
+      ]
+    }
   ]
 }

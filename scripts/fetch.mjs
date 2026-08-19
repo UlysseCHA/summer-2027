@@ -15,7 +15,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml, workdayBase, regionsOf } from '../assets/classify.js';
+import { TARGET, listUrl, detailUrl, parseJobs, buildOffer, stripHtml, workdayBase, regionsOf, isCandidate } from '../assets/classify.js';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'summer-internships-board/1.0 (aggregator; public job board APIs)';
@@ -170,12 +170,97 @@ async function fetchWorkday(board) {
 }
 
 /**
+ * Employeurs sans API mais dont le sitemap liste les annonces.
+ *
+ * Rothschild & Co n'a ni Greenhouse ni Workday : ses offres etudiantes vivent
+ * uniquement sur son site, en pages statiques. Son sitemap les recense pourtant
+ * toutes, ce qui suffit a les collecter sans navigateur ni identifiants.
+ *
+ * Le board declare le sitemap et le motif d'URL a retenir ; le reste est
+ * generique et resservira au prochain employeur dans le meme cas.
+ */
+async function fetchSitemap(board) {
+  const UA = { 'user-agent': 'Mozilla/5.0 (compatible; summer-2027-index/1.0)' };
+  const lire = async (u) => {
+    const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(25000) });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.text();
+  };
+
+  // Un sitemap peut en indexer d'autres : on descend d'un niveau, pas plus.
+  const racine = await lire(board.token);
+  const locs = [...new Set([...racine.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].trim()))];
+  const sous = locs.filter(u => /\.xml(\?|$)/i.test(u)).slice(0, 20);
+  const pages = new Set(locs.filter(u => !/\.xml(\?|$)/i.test(u)));
+  for (const s of sous) {
+    try {
+      const t = await lire(s);
+      for (const m of t.matchAll(/<loc>([^<]+)<\/loc>/g)) pages.add(m[1].trim());
+    } catch { /* un sous-sitemap illisible n'annule pas les autres */ }
+  }
+
+  const motif = new RegExp(board.pattern, 'i');
+  const retenues = [...pages].filter(u => motif.test(u)).slice(0, 300);
+
+  /*
+   * Le titre vient de la page elle-meme, pas du slug : « ga-stage-transaction-r-co »
+   * n'est pas un intitule presentable. On ne garde que les annonces early-career,
+   * comme pour les autres sources.
+   */
+  /*
+   * Le titre vient de la page, pas du slug : « ga-stage-transaction-r-co » n'est
+   * pas un intitule presentable. Il passe par stripHtml pour decoder les entites,
+   * faute de quoi « M&A » s'affiche « M&amp;A ».
+   *
+   * Le lieu n'existe nulle part ailleurs que dans ce titre : ces pages n'ont ni
+   * donnees structurees ni champ dedie. On prend le segment de fin, ou celui de
+   * debut s'il ressemble davantage a un lieu ; le premier essai lisait le mot
+   * « Location » d'un bandeau de cookies et rangeait toutes les offres a
+   * « Open Architecture Closed ».
+   */
+  const estLieu = (s) => s && s.length <= 28 && !/\d/.test(s) && s.split(/\s+/).length <= 3;
+
+  const offres = await pool(retenues, async (u) => {
+    try {
+      const html = await lire(u);
+      const brut = (html.match(/<title[^>]*>([^<]+)<\/title>/i) || [])[1] || '';
+      const titre = stripHtml(brut).replace(/\s+/g, ' ').trim();
+      if (!titre || !isCandidate(titre)) return null;
+
+      const segments = titre.split(/\s+[-\u2013\u2014]\s+/).map(s => s.trim());
+      const lieu = [segments.at(-1), segments[0]].find(estLieu) || '';
+
+      return {
+        id: `sm-${board.token.replace(/\W+/g, '')}-${u.split('/').filter(Boolean).pop()}`.slice(0, 120),
+        externalId: u,
+        title: titre,
+        location: lieu,
+        url: u,
+        postedAt: null,
+        description: stripHtml(html).replace(/\s+/g, ' ').slice(0, 4000),
+        department: '',
+      };
+    } catch { return null; }
+  }, 6);
+  return offres.filter(Boolean).map(r => {
+    const offre = buildOffer(board, r);
+    // Sans lieu exploitable, l'intitule porte souvent le pays ou la ville.
+    if (offre.regions.length === 1 && offre.regions[0] === 'other') {
+      const mieux = regionsOf(r.title);
+      if (!(mieux.length === 1 && mieux[0] === 'other')) offre.regions = mieux;
+    }
+    return offre;
+  });
+}
+
+/**
  * Recupere les annonces early-career d'un board.
  * Greenhouse n'expose pas la description dans la liste : on la charge poste par poste,
  * mais uniquement pour les titres deja retenus (l'annee du programme y est souvent).
  */
 async function fetchBoard(board) {
   if (board.ats === 'workday') return fetchWorkday(board);
+  if (board.ats === 'sitemap') return fetchSitemap(board);
 
   const payload = await getJson(listUrl(board.ats, board.token));
   const raw = parseJobs(board.ats, payload, board);
@@ -263,6 +348,23 @@ if (manuelles.length) log(`\n  + ${manuelles.length} offre(s) ajoutee(s) a la ma
 
 // Dedoublonnage par URL (certaines boites republient la meme annonce).
 const seen = new Set();
+/*
+ * Avec --only, on ne reinterroge qu'une poignee de boards. Ecrire le resultat tel
+ * quel remplacerait tout le fichier par ces seules offres : un essai sur un board
+ * a fait passer data/offers.json de 1579 offres a 2. Les offres des boards non
+ * interroges sont donc reprises telles qu'elles etaient.
+ */
+if (ONLY) {
+  const interroges = new Set(targets.map(b => b.company));
+  let anciennes = [];
+  try {
+    const avant = JSON.parse(await readFile(resolve(ROOT, 'data/offers.json'), 'utf8'));
+    anciennes = (avant.offers || []).filter(o => !interroges.has(o.company) && !o.manual);
+  } catch { /* premier passage : rien a conserver */ }
+  offers.push(...anciennes);
+  log(`  ${anciennes.length} offre(s) des autres boards conservees (--only)\n`);
+}
+
 const unique = offers.filter(o => (seen.has(o.url) ? false : seen.add(o.url)));
 
 unique.sort((a, b) => {

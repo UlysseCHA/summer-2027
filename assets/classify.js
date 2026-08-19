@@ -47,7 +47,7 @@ const TRACKS = [
 
 const REGIONS = [
   ['us',     /\b(united states|usa|u\.s\.|new york|nyc|san francisco|bay area|chicago|austin|boston|seattle|los angeles|palo alto|menlo park|mountain view|sunnyvale|san jose|washington|d\.c\.|miami|dallas|houston|atlanta|denver|philadelphia|charlotte|jersey city|stamford|greenwich|princeton|pittsburgh|nashville|phoenix|portland|san diego|minneapolis|detroit|salt lake|baltimore|la jolla|milwaukee|remote - us|,\s*(ny|ca|il|tx|ma|wa|fl|ct|nj|pa|ga|co|nc|va|md|mi|mn|az|or|ut|oh|dc)\b)/i],
-  ['uk',     /\b(united kingdom|london|bristol|edinburgh|manchester|glasgow|leeds|belfast|oxford|cambridge, uk|birmingham|dundee|cardiff|aberdeen|newcastle|sheffield|nottingham|liverpool|gbr)\b/i],
+  ['uk',     /\b(united kingdom|london|bristol|edinburgh|manchester|glasgow|leeds|belfast|oxford|cambridge, uk|birmingham|dundee|cardiff|aberdeen|newcastle|sheffield|nottingham|liverpool|gbr|uk)\b/i],
 
   /*
    * Europe au sens large : Union, Espace economique europeen et Suisse. La liste
