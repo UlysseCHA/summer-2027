@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T20:58:04.433Z",
+ "generatedAt": "2026-09-03T04:05:58.016Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,34 +7,34 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1850,
+  "total": 1840,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 6,
-   "2026": 203,
-   "2027": 741,
+   "2026": 202,
+   "2027": 721,
    "2028": 43,
-   "non precisee": 853
+   "non precisee": 864
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 6,
-   "2026": 203,
-   "2027": 1304,
+   "2026": 202,
+   "2027": 1290,
    "2028": 43,
-   "non precisee": 290
+   "non precisee": 295
   },
   "byIndustry": {
-   "finance": 925,
-   "tech": 780,
-   "consulting": 145
+   "finance": 911,
+   "tech": 783,
+   "consulting": 146
   },
   "byKind": {
-   "internship": 1397,
-   "graduate": 319,
-   "early-career": 134
+   "internship": 1376,
+   "graduate": 329,
+   "early-career": 135
   }
  },
  "sources": [
@@ -193,6 +193,12 @@
    "ok": true
   },
   {
+   "company": "Invesco",
+   "ats": "workday",
+   "found": 19,
+   "ok": true
+  },
+  {
    "company": "Third Bridge",
    "token": "thirdbridge",
    "ats": "greenhouse",
@@ -200,15 +206,15 @@
    "ok": true
   },
   {
-   "company": "Applied Intuition",
-   "token": "applied",
-   "ats": "ashby",
-   "found": 17,
+   "company": "Nationwide",
+   "ats": "workday",
+   "found": 18,
    "ok": true
   },
   {
-   "company": "Nationwide",
-   "ats": "workday",
+   "company": "Applied Intuition",
+   "token": "applied",
+   "ats": "ashby",
    "found": 17,
    "ok": true
   },
@@ -226,14 +232,15 @@
    "ok": true
   },
   {
-   "company": "Houlihan Lokey",
-   "ats": "workday",
+   "company": "StepStone Group",
+   "token": "stepstone",
+   "ats": "greenhouse",
    "found": 16,
    "ok": true
   },
   {
-   "company": "StepStone Group",
-   "token": "stepstone",
+   "company": "Stripe",
+   "token": "stripe",
    "ats": "greenhouse",
    "found": 16,
    "ok": true
@@ -253,20 +260,7 @@
    "ok": true
   },
   {
-   "company": "Stripe",
-   "token": "stripe",
-   "ats": "greenhouse",
-   "found": 15,
-   "ok": true
-  },
-  {
    "company": "SouthState Bank",
-   "ats": "workday",
-   "found": 15,
-   "ok": true
-  },
-  {
-   "company": "PJT Partners",
    "ats": "workday",
    "found": 15,
    "ok": true
@@ -286,13 +280,13 @@
    "ok": true
   },
   {
-   "company": "Invesco",
+   "company": "LSEG",
    "ats": "workday",
    "found": 13,
    "ok": true
   },
   {
-   "company": "LSEG",
+   "company": "Raymond James",
    "ats": "workday",
    "found": 13,
    "ok": true
@@ -384,6 +378,13 @@
    "ok": true
   },
   {
+   "company": "Squarepoint Capital",
+   "token": "squarepointcapital",
+   "ats": "greenhouse",
+   "found": 9,
+   "ok": true
+  },
+  {
    "company": "Roblox",
    "token": "roblox",
    "ats": "greenhouse",
@@ -391,8 +392,8 @@
    "ok": true
   },
   {
-   "company": "Squarepoint Capital",
-   "token": "squarepointcapital",
+   "company": "Verkada",
+   "token": "verkada",
    "ats": "greenhouse",
    "found": 9,
    "ok": true
@@ -401,13 +402,6 @@
    "company": "Veepee",
    "token": "veepee",
    "ats": "lever",
-   "found": 9,
-   "ok": true
-  },
-  {
-   "company": "Verkada",
-   "token": "verkada",
-   "ats": "greenhouse",
    "found": 9,
    "ok": true
   },
@@ -453,12 +447,6 @@
    "ok": true
   },
   {
-   "company": "Centrica",
-   "ats": "workday",
-   "found": 6,
-   "ok": true
-  },
-  {
    "company": "Charles River Associates",
    "token": "charlesriverassociates",
    "ats": "greenhouse",
@@ -466,8 +454,21 @@
    "ok": true
   },
   {
+   "company": "Centrica",
+   "ats": "workday",
+   "found": 6,
+   "ok": true
+  },
+  {
    "company": "Flexport",
    "token": "flexport",
+   "ats": "greenhouse",
+   "found": 6,
+   "ok": true
+  },
+  {
+   "company": "Guidepoint",
+   "token": "guidepoint",
    "ats": "greenhouse",
    "found": 6,
    "ok": true
@@ -533,13 +534,6 @@
    "ok": true
   },
   {
-   "company": "Guidepoint",
-   "token": "guidepoint",
-   "ats": "greenhouse",
-   "found": 5,
-   "ok": true
-  },
-  {
    "company": "Lombard Odier IM",
    "ats": "workday",
    "found": 5,
@@ -594,8 +588,8 @@
    "ok": true
   },
   {
-   "company": "Deliveroo",
-   "token": "deliveroo",
+   "company": "Cohere",
+   "token": "cohere",
    "ats": "ashby",
    "found": 4,
    "ok": true
@@ -604,6 +598,13 @@
    "company": "Databricks",
    "token": "databricks",
    "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
+   "company": "Deliveroo",
+   "token": "deliveroo",
+   "ats": "ashby",
    "found": 4,
    "ok": true
   },
@@ -629,15 +630,15 @@
    "ok": true
   },
   {
-   "company": "Sierra",
-   "token": "sierra",
+   "company": "Shield AI",
+   "token": "shield-ai",
    "ats": "ashby",
    "found": 4,
    "ok": true
   },
   {
-   "company": "Shield AI",
-   "token": "shield-ai",
+   "company": "Sierra",
+   "token": "sierra",
    "ats": "ashby",
    "found": 4,
    "ok": true
@@ -690,15 +691,20 @@
    "ok": true
   },
   {
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "found": 3,
+   "ok": true
+  },
+  {
    "company": "Cascadia Capital",
    "ats": "workday",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Cohere",
-   "token": "cohere",
-   "ats": "ashby",
+   "company": "Brown Gibbons Lang & Company",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
@@ -743,12 +749,6 @@
    "ok": true
   },
   {
-   "company": "Raymond James",
-   "ats": "workday",
-   "found": 3,
-   "ok": true
-  },
-  {
    "company": "Santander",
    "ats": "workday",
    "found": 3,
@@ -769,15 +769,15 @@
    "ok": true
   },
   {
-   "company": "Voleon",
-   "token": "voleon",
-   "ats": "ashby",
+   "company": "Triton Partners",
+   "ats": "workday",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Triton Partners",
-   "ats": "workday",
+   "company": "Voleon",
+   "token": "voleon",
+   "ats": "ashby",
    "found": 3,
    "ok": true
   },
@@ -824,18 +824,6 @@
   },
   {
    "company": "BlackRock",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Brown Edwards",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 2,
    "ok": true
@@ -897,8 +885,9 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
+   "company": "PDT Partners",
+   "token": "pdtpartners",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -917,9 +906,8 @@
    "ok": true
   },
   {
-   "company": "PDT Partners",
-   "token": "pdtpartners",
-   "ats": "greenhouse",
+   "company": "NASDAQ",
+   "ats": "workday",
    "found": 2,
    "ok": true
   },
@@ -950,12 +938,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Texas Capital Bank",
    "ats": "workday",
    "found": 2,
@@ -976,6 +958,12 @@
    "ok": true
   },
   {
+   "company": "State Street",
+   "ats": "workday",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Amber Group",
    "token": "ambergroup",
    "ats": "lever",
@@ -983,15 +971,15 @@
    "ok": true
   },
   {
-   "company": "abrdn",
-   "ats": "workday",
+   "company": "Back Market",
+   "token": "backmarket",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Back Market",
-   "token": "backmarket",
-   "ats": "ashby",
+   "company": "abrdn",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1037,18 +1025,6 @@
    "ok": true
   },
   {
-   "company": "Colliers",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Crowdstrike",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Engineers Gate",
    "token": "engineersgate",
    "ats": "greenhouse",
@@ -1063,7 +1039,13 @@
    "ok": true
   },
   {
-   "company": "Dow Jones",
+   "company": "Colliers",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Crowdstrike",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1077,6 +1059,12 @@
   },
   {
    "company": "Frontier Economics",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 1,
    "ok": true
@@ -1124,15 +1112,15 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
-   "ats": "workday",
+   "company": "LionTree",
+   "token": "liontree",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "LionTree",
-   "token": "liontree",
-   "ats": "greenhouse",
+   "company": "Knight Frank",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1158,6 +1146,12 @@
    "ok": true
   },
   {
+   "company": "Julius Baer",
+   "ats": "workday",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Moloco",
    "token": "moloco",
    "ats": "greenhouse",
@@ -1172,21 +1166,15 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
-   "ats": "workday",
+   "company": "Netcraft",
+   "token": "netcraft",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
    "company": "Mizuho",
    "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Netcraft",
-   "token": "netcraft",
-   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1275,16 +1263,16 @@
    "ok": true
   },
   {
-   "company": "Wincent",
-   "token": "wincent",
-   "ats": "ashby",
+   "company": "William Blair",
+   "token": "williamblair",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "William Blair",
-   "token": "williamblair",
-   "ats": "greenhouse",
+   "company": "Wincent",
+   "token": "wincent",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
@@ -1296,15 +1284,15 @@
    "ok": true
   },
   {
-   "company": "Zopa",
-   "token": "zopa",
+   "company": "Younited",
+   "token": "younited",
    "ats": "lever",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Younited",
-   "token": "younited",
+   "company": "Zopa",
+   "token": "zopa",
    "ats": "lever",
    "found": 1,
    "ok": true
@@ -1324,15 +1312,15 @@
    "ok": true
   },
   {
-   "company": "Adyen",
-   "token": "adyen",
+   "company": "Affirm",
+   "token": "affirm",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Affirm",
-   "token": "affirm",
+   "company": "Adyen",
+   "token": "adyen",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1352,16 +1340,16 @@
    "ok": true
   },
   {
-   "company": "Alpha FMC",
-   "token": "alphafmc",
+   "company": "Algolia",
+   "token": "algolia",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
+   "company": "Alpha FMC",
+   "token": "alphafmc",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1387,13 +1375,6 @@
    "ok": true
   },
   {
-   "company": "Algolia",
-   "token": "algolia",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Ardea Partners",
    "token": "ardea-partners",
    "ats": "ashby",
@@ -1401,8 +1382,9 @@
    "ok": true
   },
   {
-   "company": "Ankura",
-   "ats": "workday",
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1417,6 +1399,12 @@
    "company": "ATLAS SP Partners",
    "token": "atlassp",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Ankura",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1455,7 +1443,7 @@
    "ok": true
   },
   {
-   "company": "Baillie Gifford",
+   "company": "Bank of America",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1482,6 +1470,18 @@
    "ok": true
   },
   {
+   "company": "Barings",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Baillie Gifford",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Bracebridge Capital",
    "token": "bracebridgecapital",
    "ats": "greenhouse",
@@ -1496,7 +1496,7 @@
    "ok": true
   },
   {
-   "company": "Bank of America",
+   "company": "Blue Owl Capital",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1509,13 +1509,7 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Barings",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1524,12 +1518,6 @@
    "company": "Capstone Investment",
    "token": "capstoneinvestmentadvisors",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Cambridge Associates",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1589,22 +1577,8 @@
    "ok": true
   },
   {
-   "company": "Contentsquare",
-   "token": "contentsquare",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Copper.co",
    "token": "copperco",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Coursera",
-   "token": "coursera",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1617,9 +1591,16 @@
    "ok": true
   },
   {
-   "company": "Cursor (Anysphere)",
-   "token": "cursor",
-   "ats": "ashby",
+   "company": "Coursera",
+   "token": "coursera",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Contentsquare",
+   "token": "contentsquare",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1627,6 +1608,13 @@
    "company": "Crypto com",
    "token": "crypto",
    "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Cursor (Anysphere)",
+   "token": "cursor",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1654,6 +1642,13 @@
   {
    "company": "Discord",
    "token": "discord",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Dojo",
+   "token": "dojo",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1687,13 +1682,6 @@
    "ok": true
   },
   {
-   "company": "Dojo",
-   "token": "dojo",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Elastic",
    "token": "elastic",
    "ats": "greenhouse",
@@ -1704,12 +1692,6 @@
    "company": "ElevenLabs",
    "token": "elevenlabs",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "eBay",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1742,9 +1724,8 @@
    "ok": true
   },
   {
-   "company": "Fireworks AI",
-   "token": "fireworks",
-   "ats": "ashby",
+   "company": "eBay",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1752,6 +1733,13 @@
    "company": "Fireblocks",
    "token": "fireblocks",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Fireworks AI",
+   "token": "fireworks",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1784,6 +1772,13 @@
    "ok": true
   },
   {
+   "company": "General Atlantic",
+   "token": "general",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "General Electric",
    "token": "general",
    "ats": "greenhouse",
@@ -1791,9 +1786,9 @@
    "ok": true
   },
   {
-   "company": "General Atlantic",
-   "token": "general",
-   "ats": "greenhouse",
+   "company": "Genesis Quant Capital",
+   "token": "genesis",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1812,9 +1807,8 @@
    "ok": true
   },
   {
-   "company": "Genesis Quant Capital",
-   "token": "genesis",
-   "ats": "lever",
+   "company": "Global Atlantic",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1833,19 +1827,19 @@
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Global Gate",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Global Atlantic",
+   "company": "Global Infrastructure Advisors",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1858,7 +1852,7 @@
    "ok": true
   },
   {
-   "company": "Grosvenor",
+   "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1871,14 +1865,15 @@
    "ok": true
   },
   {
-   "company": "HarbourVest",
-   "ats": "workday",
+   "company": "Instacart",
+   "token": "instacart",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Instacart",
-   "token": "instacart",
+   "company": "Intercom",
+   "token": "intercom",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1898,15 +1893,15 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
+   "company": "Justworks",
+   "token": "justworks",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Justworks",
-   "token": "justworks",
-   "ats": "greenhouse",
+   "company": "Hiscox",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1918,8 +1913,8 @@
    "ok": true
   },
   {
-   "company": "Intercom",
-   "token": "intercom",
+   "company": "Khan Academy",
+   "token": "khanacademy",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1933,13 +1928,6 @@
   {
    "company": "Level Equity",
    "token": "levelequity",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Khan Academy",
-   "token": "khanacademy",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1970,6 +1958,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Houlihan Lokey",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Lovable",
@@ -2021,6 +2016,12 @@
    "ok": true
   },
   {
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Mercor",
    "token": "mercor",
    "ats": "ashby",
@@ -2055,12 +2056,6 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "MongoDB",
    "token": "mongodb",
    "ats": "greenhouse",
@@ -2071,12 +2066,6 @@
    "company": "Monzo",
    "token": "monzo",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "MBDA",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2098,6 +2087,12 @@
    "company": "National Gas",
    "token": "national",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "MBDA",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2157,8 +2152,9 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
+   "company": "OpenAI",
+   "token": "openai",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2177,9 +2173,8 @@
    "ok": true
   },
   {
-   "company": "OpenAI",
-   "token": "openai",
-   "ats": "ashby",
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2233,6 +2228,13 @@
    "ok": true
   },
   {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 500"
+  },
+  {
    "company": "Plaid",
    "token": "plaid",
    "ats": "ashby",
@@ -2245,13 +2247,6 @@
    "ats": "lever",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
   },
   {
    "company": "PQShield",
@@ -2282,12 +2277,6 @@
    "ok": true
   },
   {
-   "company": "PSG Equity",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Quilter",
    "token": "quilter",
    "ats": "ashby",
@@ -2309,12 +2298,6 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Reddit",
    "token": "reddit",
    "ats": "greenhouse",
@@ -2329,13 +2312,6 @@
    "ok": true
   },
   {
-   "company": "Replit",
-   "token": "replit",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Render",
    "token": "render",
    "ats": "ashby",
@@ -2343,15 +2319,21 @@
    "ok": true
   },
   {
-   "company": "Ripple",
-   "token": "ripple",
-   "ats": "greenhouse",
+   "company": "Replit",
+   "token": "replit",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Roark Capital Group",
-   "token": "roarkcapitalgroup",
+   "company": "PSG Equity",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Ripple",
+   "token": "ripple",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2364,11 +2346,24 @@
    "ok": true
   },
   {
-   "company": "Roku",
-   "token": "roku",
+   "company": "Roark Capital Group",
+   "token": "roarkcapitalgroup",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "PJT Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Runna",
@@ -2391,6 +2386,13 @@
    "ok": true
   },
   {
+   "company": "Roku",
+   "token": "roku",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Sardine",
    "token": "sardine",
    "ats": "ashby",
@@ -2401,6 +2403,12 @@
    "company": "Scale AI",
    "token": "scaleai",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Sands Capital",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2448,12 +2456,6 @@
   },
   {
    "company": "Sculptor Capital Management",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Sands Capital",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2529,12 +2531,6 @@
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Teneo",
    "token": "teneo",
    "ats": "greenhouse",
@@ -2566,6 +2562,12 @@
    "company": "Together AI",
    "token": "togetherai",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Standard Chartered",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2633,6 +2635,12 @@
    "ok": true
   },
   {
+   "company": "Tokio Marine Kiln",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "UVIMCO",
    "token": "uvimco",
    "ats": "greenhouse",
@@ -2661,13 +2669,7 @@
    "ok": true
   },
   {
-   "company": "Tokio Marine Kiln",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "T. Rowe Price",
+   "company": "UserTesting",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2676,12 +2678,6 @@
    "company": "Weaviate",
    "token": "weaviate",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "UserTesting",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2700,8 +2696,8 @@
    "ok": true
   },
   {
-   "company": "Wise",
-   "token": "wise",
+   "company": "Wiz",
+   "token": "wizinc",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2714,9 +2710,21 @@
    "ok": true
   },
   {
-   "company": "Wiz",
-   "token": "wizinc",
+   "company": "Wise",
+   "token": "wise",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "U.S. Bank",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2724,12 +2732,6 @@
    "company": "Wealthfront",
    "token": "wealthfront",
    "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "U.S. Bank",
-   "ats": "workday",
    "found": 0,
    "ok": true
   }
@@ -2758,6 +2760,84 @@
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "ab-cohere-80d4af6c-202e-4132-83a4-fd698b3602d4",
+   "company": "Cohere",
+   "ats": "ashby",
+   "title": "Early Careers & Interns Specialist",
+   "location": "United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://jobs.ashbyhq.com/cohere/80d4af6c-202e-4132-83a4-fd698b3602d4",
+   "postedAt": "2026-09-02T23:40:53.319+00:00",
+   "department": "People Operations",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "ai"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Who are we? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instru",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-stripe-8160776",
+   "company": "Stripe",
+   "ats": "greenhouse",
+   "title": "Software Engineer, New Grad",
+   "location": "Singapore",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://stripe.com/jobs/search?gh_jid=8160776",
+   "postedAt": "2026-09-02T23:28:52-04:00",
+   "department": "5112 General University",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "fintech"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-guidepoint-8743982002",
+   "company": "Guidepoint",
+   "ats": "greenhouse",
+   "title": "Client Service Intern",
+   "location": "Sydney, New South Wales, Australia",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://job-boards.greenhouse.io/guidepoint/jobs/8743982002",
+   "postedAt": "2026-09-02T22:40:32-04:00",
+   "department": "Client Service",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "consulting",
+   "tags": [
+    "expert-network"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<p><span style= font-size: 12pt; ><strong>Overview:</strong></span></p> <p><span style= font-size: 12pt; >Our Sydney office is seeking an Intern to join our Client Service team. This is a fantastic opportunity to join a dynamic, fast-paced start-up environment to work on projects within multiple industry sectors.</span",
+   "hasDeadlineHint": true
   },
   {
    "id": "ab-applied-a561fff8-aa38-4a5d-8b29-66c191f7328e",
@@ -3349,6 +3429,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-centrica-R0084450",
+   "company": "Centrica",
+   "ats": "workday",
+   "title": "Apprentice Heating Installation Engineer",
+   "location": "UK - Field Based (Engineers)",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Apprentice-Heating-Installation-Engineer_R0084450",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00342918",
    "company": "Accenture",
    "ats": "workday",
@@ -3398,30 +3502,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Lavora al cuore del cambiamento Perché assistere al cambiamento, quando puoi guidarlo? In Accenture, potrai crescere in un ambiente inclusivo e rispettoso della tua unicità e valori, sviluppando le tue abilità con programmi di training continuativi ed esperienziali. Unisciti al motore che alimenta Accenture, crea valor",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-centrica-R0084450",
-   "company": "Centrica",
-   "ats": "workday",
-   "title": "Apprentice Heating Installation Engineer",
-   "location": "UK - Field Based (Engineers)",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Apprentice-Heating-Installation-Engineer_R0084450",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
    "hasDeadlineHint": false
   },
   {
@@ -3661,6 +3741,150 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-invesco-R-15355",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Corporate Services, Travel and Events",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Corporate-Services--Travel-and-Events_R-15355",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15349",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Procurement",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Procurement_R-15349-1",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15353",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Accounting",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZearlycareers/job/Atlanta-Georgia/Early-Career-Intern---Accounting_R-15353",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15355",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Corporate Services, Travel and Events",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Corporate-Services--Travel-and-Events_R-15355-1",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15349",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Procurement",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Procurement_R-15349-2",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-15353",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "Early Career Intern - Accounting",
+   "location": "Atlanta, Georgia",
+   "regions": [
+    "us"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Accounting_R-15353-1",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Invesco As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around t",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-greystar-R0199979",
    "company": "Greystar",
    "ats": "workday",
@@ -3754,6 +3978,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Connecticut - Avon, 30 Tower Lane",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Surety Underwriting Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Connecticut---Avon-30-Tower-Lane/Summer-2027-Surety-Underwriting-Intern_100043",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
@@ -4042,33 +4290,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/Cambridge-University-Exclusive-Dinner_R0003521",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "Cambridge University Exclusive Dinner",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/Cambridge-University-Exclusive-Dinner_R0003521",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -5482,6 +5703,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-centrica-R0088945",
+   "company": "Centrica",
+   "ats": "workday",
+   "title": "Trainee Kitchen Appliance Engineer",
+   "location": "Flexible",
+   "regions": [
+    "other"
+   ],
+   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/Flexible/Trainee-Kitchen-Appliance-Engineer_R0088945",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "graduate",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "spring",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ciena-R031608",
+   "company": "Ciena",
+   "ats": "workday",
+   "title": "WaveLogic Software Developer - New Grad",
+   "location": "Atlanta",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "As the global leader in high-speed connectivity, Ciena builds the critical infrastructure powering the AI era. We’re a technology company shaping the future of networking, guided by innovation, integrity, and collaboration. Through development opportunities, meaningful work, and flexibility, Ciena supports growth and w",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00353592",
    "company": "Accenture",
    "ats": "workday",
@@ -5531,54 +5800,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Liker du å skrive eller teste kode som faktisk brukes – og ønsker å starte karrieren som utvikler, tester eller infrastrukturkonsulent i et miljø der du får bygge, teste og videreutvikle teknologi i reelle kundeprosjekter? Som Graduate i Accenture blir du en del av tverrfaglige team med erfarne utviklere, testere, arki",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-centrica-R0088945",
-   "company": "Centrica",
-   "ats": "workday",
-   "title": "Trainee Kitchen Appliance Engineer",
-   "location": "Flexible",
-   "regions": [
-    "other"
-   ],
-   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/Flexible/Trainee-Kitchen-Appliance-Engineer_R0088945",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "spring",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ciena-R031608",
-   "company": "Ciena",
-   "ats": "workday",
-   "title": "WaveLogic Software Developer - New Grad",
-   "location": "Atlanta",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "As the global leader in high-speed connectivity, Ciena builds the critical infrastructure powering the AI era. We’re a technology company shaping the future of networking, guided by innovation, integrity, and collaboration. Through development opportunities, meaningful work, and flexibility, Ciena supports growth and w",
    "hasDeadlineHint": false
   },
   {
@@ -5777,30 +5998,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0199752",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Housekeeper - Aspire at West Campus (Student Living)",
-   "location": "Aspire at West Campus, Iowa City, IA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Aspire-at-West-Campus-Iowa-City-IA/Housekeeper---Aspire-at-West-Campus--Student-Living-_R0199752",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0199478",
    "company": "Greystar",
    "ats": "workday",
@@ -5810,30 +6007,6 @@
     "other"
    ],
    "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Residential-Learning-Community-Laredo-TX/Event-Specialist---Residential-Learning-Community--Student-Living-_R0199478",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-greystar-R0193516",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Assistant - Union on Alley (Student Living)",
-   "location": "Union on Alley, Fort Collins, CO",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-on-Alley-Fort-Collins-CO/Community-Assistant---Union-on-Alley--Student-Living-_R0193516",
    "postedAt": "2026-09-01",
    "department": "",
    "kind": "early-career",
@@ -5993,109 +6166,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3535",
-   "company": "Houlihan Lokey",
+   "id": "wd-keybank-R-41950",
+   "company": "KeyBank",
    "ats": "workday",
-   "title": "Summer 2027 Research Intern, Portfolio Valuation, New York",
-   "location": "New York, NY, USA",
+   "title": "APDP Trainee",
+   "location": "Mishawaka, IN",
    "regions": [
-    "us"
+    "other"
    ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535",
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Mishawaka-IN/APDP-Trainee_R-41950",
    "postedAt": "2026-09-01",
    "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Financial And Valuation Advisory Industry: Portfolio Valuation&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expe",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3541",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Q2 2027 Off-Cycle Internship - Corporate Finance (Technology)",
-   "location": "Frankfurt, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Frankfurt-Germany/Q2-2027-Off-Cycle-Internship---Corporate-Finance--Technology-_R3541",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Corporate Finance Industry: Technology&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad internation",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3542",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Q2 2027 Off-Cycle Internship - Corporate Finance (IT Services)",
-   "location": "Frankfurt, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Frankfurt-Germany/Q2-2027-Off-Cycle-Internship---Corporate-Finance--IT-Services-_R3542",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Corporate Finance Industry: Business Services&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad inte",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3540",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Data Science Intern",
-   "location": "Gurugram, India",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Lateral/job/Gurugram-India/Data-Science-Intern_R3540",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
+   "kind": "graduate",
    "year": null,
    "yearSource": null,
-   "season": "summer",
+   "season": null,
    "track": "banking",
    "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
+   "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "Business Unit: Financial And Valuation Advisory Industry: Transaction Advisory Services&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep ind",
+   "excerpt": "Location: 525 W Cleveland - Mishawaka, Indiana 46545 Job Summary Key Investment Services' (KIS) Advisor Professional Development Program (APDP) is an exclusive 22-month phased program focused on the launch and development of a career in advice-based wealth management. The program enables novice advisors to develop both",
    "hasDeadlineHint": false
   },
   {
@@ -6147,30 +6238,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-keybank-R-41950",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "APDP Trainee",
-   "location": "Mishawaka, IN",
-   "regions": [
-    "other"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Mishawaka-IN/APDP-Trainee_R-41950",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Location: 525 W Cleveland - Mishawaka, Indiana 46545 Job Summary Key Investment Services' (KIS) Advisor Professional Development Program (APDP) is an exclusive 22-month phased program focused on the launch and development of a career in advice-based wealth management. The program enables novice advisors to develop both",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-nationwide-Ohio - Columbus, Three Nationwide Plaza",
    "company": "Nationwide",
    "ats": "workday",
@@ -6192,6 +6259,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "If you’re passionate about being part of a dynamic organization that enables a Fortune 100 company with nearly $70 billion in annual sales to drive innovation and adopt new technologies that deliver business results, then Nationwide’s Technology team could be the place for you! At Nationwide®, “on your side” goes beyon",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-santander-Req1531825",
+   "company": "Santander",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst - New York",
+   "location": "Madison Ave Corp",
+   "regions": [
+    "us"
+   ],
+   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Investment-Banking-Summer-Analyst---New-York_Req1531825",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "2027 Investment Banking Summer Analyst - New York Country: United States of America It Starts Here: Santander is a global leader and innovator in the financial services industry and is evolving from a high-impact brand into a technology-driven organization. Our people are at the heart of this journey and together, we a",
    "hasDeadlineHint": false
   },
   {
@@ -6264,356 +6355,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-santander-Req1531825",
-   "company": "Santander",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst - New York",
-   "location": "Madison Ave Corp",
-   "regions": [
-    "us"
-   ],
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Investment-Banking-Summer-Analyst---New-York_Req1531825",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "2027 Investment Banking Summer Analyst - New York Country: United States of America It Starts Here: Santander is a global leader and innovator in the financial services industry and is evolving from a high-impact brand into a technology-driven organization. Our people are at the heart of this journey and together, we a",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--Corporate-Rotational--London_R0003512",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Corporate Rotational) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--Corporate-Rotational--London_R0003512",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Strategic Advisory & Restructuring) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Hong-Kong/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003501",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Strategic Advisory & Restructuring) Hong Kong",
-   "location": "Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Hong-Kong/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003501",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--London_R0003508",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--London_R0003508",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Munich/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Munich_R0003502",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Munich",
-   "location": "Munich",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Munich/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Munich_R0003502",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Dubai/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Dubai_R0003504",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Dubai",
-   "location": "Dubai",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Dubai/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Dubai_R0003504",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Stockholm/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Stockholm_R0003505",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Stockholm",
-   "location": "Stockholm",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Stockholm/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Stockholm_R0003505",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Milan/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Milan_R0003506",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Milan",
-   "location": "Milan",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Milan/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Milan_R0003506",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Madrid/XMLNAME-2027-July-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Madrid_R0003507",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 July Off-Cycle Analyst (Strategic Advisory & Restructuring) Madrid",
-   "location": "Madrid",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Madrid/XMLNAME-2027-July-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Madrid_R0003507",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Hong-Kong/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003503",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Hong Kong",
-   "location": "Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Hong-Kong/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003503",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (PJT Park Hill - Private Capital Solutions) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003509",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (PJT Park Hill - Private Capital Solutions) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003509",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -7618,32 +7359,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-accenture-R00353462",
-   "company": "Accenture",
-   "ats": "workday",
-   "title": "Apprenticeship as IT Specialist EFZ, Application Development (all genders)",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Zurich-Sihlstrasse-34/Apprenticeship-as-IT-Specialist-EFZ--Application-Development--all-genders-_R00353462",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [
-    "tech-consulting"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Why an IT apprenticeship at Accenture could be the perfect fit for you? Because you’ll be working in a cool, open-minded team—at one of the world’s leading consulting and technology companies! At Accenture, you’ll find countless opportunities to develop your skills and move step by step toward your career goals. During",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ciena-R031577",
    "company": "Ciena",
    "ats": "workday",
@@ -7689,6 +7404,32 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "As the global leader in high-speed connectivity, Ciena builds the critical infrastructure powering the AI era. We’re a technology company shaping the future of networking, guided by innovation, integrity, and collaboration. Through development opportunities, meaningful work, and flexibility, Ciena supports growth and w",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-accenture-R00353462",
+   "company": "Accenture",
+   "ats": "workday",
+   "title": "Apprenticeship as IT Specialist EFZ, Application Development (all genders)",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Zurich-Sihlstrasse-34/Apprenticeship-as-IT-Specialist-EFZ--Application-Development--all-genders-_R00353462",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [
+    "tech-consulting"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Why an IT apprenticeship at Accenture could be the perfect fit for you? Because you’ll be working in a cool, open-minded team—at one of the world’s leading consulting and technology companies! At Accenture, you’ll find countless opportunities to develop your skills and move step by step toward your career goals. During",
    "hasDeadlineHint": false
   },
   {
@@ -7983,28 +7724,28 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0199619",
-   "company": "Greystar",
+   "id": "wd-keybank-R-37708",
+   "company": "KeyBank",
    "ats": "workday",
-   "title": "Leasing & Marketing Manager - Accolade on Samson (Student Living)",
-   "location": "Accolade on Sansom, Philadelphia, PA",
+   "title": "2027 Equity Research Summer Analyst - Portland, OR",
+   "location": "Portland, OR",
    "regions": [
     "us"
    ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Accolade-on-Sansom-Philadelphia-PA/Leasing---Marketing-Manager---Accolade-on-Samson--Student-Living-_R0199619",
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Portland-OR/XMLNAME-2027-Equity-Research-Summer-Analyst---Portland--OR_R-37708",
    "postedAt": "2026-08-31",
    "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
+   "cycleSource": "title",
+   "excerpt": "Location: 1211 SW Fifth Avenue, Portland Oregon Application Deadline February 25, 2026 KeyBanc Capital Markets KeyBanc Capital Markets (KBCM) is a leading corporate and investment bank providing capital markets and advisory solutions to dynamic companies capitalizing on opportunities in changing industries. Our deep in",
+   "hasDeadlineHint": true
   },
   {
    "id": "wd-motorolasolutions-Plantation, FL (FL08)",
@@ -8029,30 +7770,6 @@
    "cycleSource": "title",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-37708",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Equity Research Summer Analyst - Portland, OR",
-   "location": "Portland, OR",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Portland-OR/XMLNAME-2027-Equity-Research-Summer-Analyst---Portland--OR_R-37708",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 1211 SW Fifth Avenue, Portland Oregon Application Deadline February 25, 2026 KeyBanc Capital Markets KeyBanc Capital Markets (KBCM) is a leading corporate and investment bank providing capital markets and advisory solutions to dynamic companies capitalizing on opportunities in changing industries. Our deep in",
-   "hasDeadlineHint": true
   },
   {
    "id": "wd-lseg-R0122578",
@@ -8199,54 +7916,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-raymondjames-Saint Petersburg, Florida - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst Mergers & Acquisitions St. Petersburg, FL",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Saint-Petersburg-Florida---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Mergers---Acquisitions-St-Petersburg--FL_R-0012144",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-raymondjames-New York, New York - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst Private Credit New York, NY",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/New-York-New-York---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Private-Credit-New-York--NY_R-0012174",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-southstatebank-R-05808",
    "company": "SouthState Bank",
    "ats": "workday",
@@ -8340,6 +8009,54 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Saint Petersburg, Florida - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst Mergers & Acquisitions St. Petersburg, FL",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Saint-Petersburg-Florida---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Mergers---Acquisitions-St-Petersburg--FL_R-0012144",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-New York, New York - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst Private Credit New York, NY",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/New-York-New-York---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Private-Credit-New-York--NY_R-0012174",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
    "hasDeadlineHint": false
   },
   {
@@ -9015,30 +8732,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Mechanical Engineer (Fresh Graduate)",
-   "location": "Penang, Malaysia",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Mechanical-Engineer--Fresh-Graduate-_R68236",
-   "postedAt": "2026-08-28",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-keybank-R-41554",
    "company": "KeyBank",
    "ats": "workday",
@@ -9108,6 +8801,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Location: 1301 Avenue of the Americas, New York New York If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. Program Duration: MAY 26, 2027 ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Penang, Malaysia (ZMY33)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Mechanical Engineer (Fresh Graduate)",
+   "location": "Penang, Malaysia",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Mechanical-Engineer--Fresh-Graduate-_R68236",
+   "postedAt": "2026-08-28",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -9830,30 +9547,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0199436",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Assistant - The Marshall (Student Living)",
-   "location": "The Marshall, Minneapolis, MN",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Marshall-Minneapolis-MN/Community-Assistant---The-Marshall--Student-Living-_R0199436",
-   "postedAt": "2026-08-27",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-lombardodier-R0007283",
    "company": "Lombard Odier IM",
    "ats": "workday",
@@ -9923,6 +9616,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A career at Lombard Odier means working for a renowned global wealth and asset manager, with a strong focus on sustainable investing. An innovative bank of choice for private and institutional clients, our independently owned Firm is one of the best-capitalised banking groups in the world, managing close to CHF 300 bil",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199436",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - The Marshall (Student Living)",
+   "location": "The Marshall, Minneapolis, MN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Marshall-Minneapolis-MN/Community-Assistant---The-Marshall--Student-Living-_R0199436",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -10115,6 +9832,31 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Vienna, Virginia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP Financial Advisor Trainee - Vienna, VA",
+   "location": "Non précisé",
+   "regions": [
+    "us",
+    "europe"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Vienna-Virginia---United-States/AMP-Financial-Advisor-Trainee---Vienna--VA_R-0012407",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -10446,6 +10188,56 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-blackstone-45106",
+   "company": "Blackstone",
+   "ats": "workday",
+   "title": "2027 Blackstone Private Equity Off Cycle Internship",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Off-Cycle-Internship_45106",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [
+    "private-equity"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-centrica-R0080920",
+   "company": "Centrica",
+   "ats": "workday",
+   "title": "Metering Apprentice",
+   "location": "UK - Field Based (Engineers)",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Metering-Apprentice_R0080920",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00327505",
    "company": "Accenture",
    "ats": "workday",
@@ -10498,56 +10290,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-centrica-R0080920",
-   "company": "Centrica",
-   "ats": "workday",
-   "title": "Metering Apprentice",
-   "location": "UK - Field Based (Engineers)",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/UK---Field-Based-Engineers/Metering-Apprentice_R0080920",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that's energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels whilst living our powerful comm",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-blackstone-45106",
-   "company": "Blackstone",
-   "ats": "workday",
-   "title": "2027 Blackstone Private Equity Off Cycle Internship",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Off-Cycle-Internship_45106",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "private-equity"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-citi-25926650",
    "company": "Citi",
    "ats": "workday",
@@ -10572,33 +10314,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The CB Intern Analyst NE is an intermediate level position responsible for leading the planning of investment strategies and solutions for major market clients in coordination with the Institutional Banking team. The overall objective of this role is to drive revenue by cross selling the Citi platform while efficiently",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-citi-26973462",
-   "company": "Citi",
-   "ats": "workday",
-   "title": "Banking - Investment Banking, Part-time Intern, Tokyo-JPN, 2027",
-   "location": "Chiyoda-ku Tokyo Japan",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Chiyoda-ku-Tokyo-Japan/Banking---Investment-Banking--Part-time-Intern--Tokyo-JPN--2027_26973462",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "bulge-bracket"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "The Intern Analyst is an entry level position responsible for contributing to the services of the overall team with a focus on raising funds in the capital markets and providing strategic advisory services in coordination with the Institutional Banking team. The overall objective is to formulate investment strategies a",
    "hasDeadlineHint": false
   },
   {
@@ -10726,30 +10441,75 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3217",
-   "company": "Houlihan Lokey",
+   "id": "wd-keybank-R-41394",
+   "company": "KeyBank",
    "ats": "workday",
-   "title": "6 month Internship -  Sovereign Advisory, Financial Restructuring Group, January 2027",
-   "location": "Paris, France",
+   "title": "2027 Summer Commercial Bank Internship - Buffalo (Credit)",
+   "location": "Buffalo, NY",
    "regions": [
-    "europe",
-    "paris"
+    "us"
    ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Paris-France/XMLNAME-6-month-Internship----Sovereign-Advisory--Financial-Restructuring-Group_R3217-1",
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Buffalo-NY/XMLNAME-2027-Summer-Commercial-Bank-Internship---Buffalo--Credit-_R-41394",
    "postedAt": "2026-08-26",
    "department": "",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
    "season": "summer",
-   "track": "consulting",
+   "track": "banking",
    "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
+   "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Business Unit: Financial Restructuring Group Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broa",
+   "excerpt": "Location: 726 Exchange Street, Buffalo New York If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will prov",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-keybank-R-41393",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 Summer Commercial Bank Internship - Cleveland",
+   "location": "Cleveland, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland_R-41393-1",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 127 Public Square, Cleveland Ohio If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-keybank-R-41396",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 Summer Commercial Bank Internship - Cleveland (Credit)",
+   "location": "Cleveland, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland--Credit-_R-41396",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 127 Public Square, Cleveland Ohio If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide ",
    "hasDeadlineHint": false
   },
   {
@@ -10873,78 +10633,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-keybank-R-41394",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Summer Commercial Bank Internship - Buffalo (Credit)",
-   "location": "Buffalo, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Buffalo-NY/XMLNAME-2027-Summer-Commercial-Bank-Internship---Buffalo--Credit-_R-41394",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 726 Exchange Street, Buffalo New York If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will prov",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-41393",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Summer Commercial Bank Internship - Cleveland",
-   "location": "Cleveland, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland_R-41393-1",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 127 Public Square, Cleveland Ohio If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-41396",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Summer Commercial Bank Internship - Cleveland (Credit)",
-   "location": "Cleveland, OH",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland--Credit-_R-41396",
-   "postedAt": "2026-08-26",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 127 Public Square, Cleveland Ohio If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
    "company": "Nationwide",
    "ats": "workday",
@@ -11014,6 +10702,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Woodland Hills, California - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Woodland Hills, CA)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Woodland-Hills-California---United-States/Financial-Advisor-Trainee--Woodland-Hills--CA-_R-0012724",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -11562,6 +11274,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guidehouse-43903",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Health and Human Services, Federal Health Advisory - Campus 2027",
+   "location": "US - VA, McLean",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Health-and-Human-Services--Federal-Health-Advisory---Campus-2027_43903",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Strategy & Transformation Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : To further the Department of Health and Human Services (HHS) mission and advance the health and well-being of all Americans, Guidehouse offers a powerful combination of in",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-fifththird-R71892",
    "company": "Fifth Third Bank",
    "ats": "workday",
@@ -11754,30 +11490,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-guidehouse-43903",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Health and Human Services, Federal Health Advisory - Campus 2027",
-   "location": "US - VA, McLean",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Health-and-Human-Services--Federal-Health-Advisory---Campus-2027_43903",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Strategy & Transformation Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : To further the Department of Health and Human Services (HHS) mission and advance the health and well-being of all Americans, Guidehouse offers a powerful combination of in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0199001",
    "company": "Greystar",
    "ats": "workday",
@@ -11898,54 +11610,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0197927",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Leasing Manager - Drake West Village (Student Living)",
-   "location": "Drake West Village, Des Moines, IA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Drake-West-Village-Des-Moines-IA/Leasing-Manager---Drake-West-Village--Student-Living-_R0197927-1",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-greystar-R0195240",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Manager - Fieldstone (Student Living)",
-   "location": "Fieldstone, Amherst, MA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Fieldstone-Amherst-MA/Community-Manager---Fieldstone--Student-Living-_R0195240",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0199077",
    "company": "Greystar",
    "ats": "workday",
@@ -11994,30 +11658,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-motorolasolutions-Chicago, IL (IL156)",
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "title": "Supply Chain Data Analyst Internship 2027",
-   "location": "Chicago, IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Supply-Chain-Data-Analyst-Internship-2027_R67489",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-keybank-R-41798",
    "company": "KeyBank",
    "ats": "workday",
@@ -12039,6 +11679,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Location: 127 Public Square, Cleveland Ohio KeyBanc Capital Markets KeyBanc Capital Markets (KBCM) is a leading corporate and investment bank providing capital markets and advisory solutions to dynamic companies capitalizing on opportunities in changing industries. Our deep industry expertise, broad capabilities and un",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-motorolasolutions-Chicago, IL (IL156)",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "title": "Supply Chain Data Analyst Internship 2027",
+   "location": "Chicago, IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Supply-Chain-Data-Analyst-Internship-2027_R67489",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
    "hasDeadlineHint": false
   },
   {
@@ -12087,34 +11751,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/University-College-Dublin---Trinity-College-Dublin-Company-Presentation---Exclusive-Dinner_R0003492",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "University College Dublin & Trinity College Dublin Company Presentation & Exclusive Dinner",
-   "location": "London",
-   "regions": [
-    "uk",
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/University-College-Dublin---Trinity-College-Dublin-Company-Presentation---Exclusive-Dinner_R0003492",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -12500,30 +12136,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R160038",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Graduate Field Specialist",
-   "location": "NL-SON EN BREUGEL-EKKERSRIJT 2052",
-   "regions": [
-    "other"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/NL-SON-EN-BREUGEL-EKKERSRIJT-2052/Field-Engineer-I---PPS-FLD-G_R160038",
-   "postedAt": "2026-08-24",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Graduate Field Specialist Are you an engineering graduate eager to start your career in a hands-on field environment? Do you enjoy solving technical challenges while working with industry-leading technologies and experienced field teams? Baker Hughes Pre-commissioning and Maintenance (P&M) supports the full lifecycle o",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-cadence-R55238",
    "company": "Cadence",
    "ats": "workday",
@@ -12546,6 +12158,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Internship in the Milan office for Engineering student Subject of the internship: Real Number Models ( RNMs ) are behavioral models of analog circuits that use real-valued variables instead of solving transisto",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R160038",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Graduate Field Specialist",
+   "location": "NL-SON EN BREUGEL-EKKERSRIJT 2052",
+   "regions": [
+    "other"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/NL-SON-EN-BREUGEL-EKKERSRIJT-2052/Field-Engineer-I---PPS-FLD-G_R160038",
+   "postedAt": "2026-08-24",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Graduate Field Specialist Are you an engineering graduate eager to start your career in a hands-on field environment? Do you enjoy solving technical challenges while working with industry-leading technologies and experienced field teams? Baker Hughes Pre-commissioning and Maintenance (P&M) supports the full lifecycle o",
    "hasDeadlineHint": false
   },
   {
@@ -12777,30 +12413,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0198850",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Maintenance Administrative Assistant- Residential Learning Community (Student Living)",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Residential-Learning-Community-Laredo-TX/Maintenance-Administrative-Assistant--Residential-Learning-Community--Student-Living-_R0198850",
-   "postedAt": "2026-08-24",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-greystar-R0198883",
    "company": "Greystar",
    "ats": "workday",
@@ -12991,33 +12603,6 @@
    "cycleSource": "title",
    "excerpt": "Job Description Summary Clark Capital Management Group is excited to announce our 2027 Summer Internship Program! This program centers around professional development by providing participants with an overview of Clark Capital Management Group and a high-level understanding of the firm’s operations, business strategies",
    "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/St-Gallen-University-Company-Presentation---Exclusive-Dinner_R0003490",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "St Gallen University Company Presentation & Exclusive Dinner",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/St-Gallen-University-Company-Presentation---Exclusive-Dinner_R0003490",
-   "postedAt": "2026-08-24",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
   },
   {
    "id": "gh-point72-8729717002",
@@ -13385,30 +12970,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-centrica-R0088633",
-   "company": "Centrica",
-   "ats": "workday",
-   "title": "Student Assistant - Origination",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/Copenhagen/Student-Assistant---Origination_R0088633",
-   "postedAt": "2026-08-21",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that’s energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels, whilst living our powerful com",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-blackstone-45022",
    "company": "Blackstone",
    "ats": "workday",
@@ -13588,6 +13149,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-centrica-R0088633",
+   "company": "Centrica",
+   "ats": "workday",
+   "title": "Student Assistant - Origination",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://centrica.wd3.myworkdayjobs.com/Centrica/job/Copenhagen/Student-Assistant---Origination_R0088633",
+   "postedAt": "2026-08-21",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Join us, be part of more. We’re so much more than an energy company. We’re a family of brands revolutionising how we power the planet. We're energisers. One team of 21,000 colleagues that’s energising a greener, fairer future by creating an energy system that doesn’t rely on fossil fuels, whilst living our powerful com",
    "hasDeadlineHint": false
   },
   {
@@ -15065,58 +14650,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3484",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Off-Cycle Intern, Financial Restructuring -  Singapore (Jan - Jun 2027)",
-   "location": "Singapore, Singapore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Singapore-Singapore/Off-Cycle-Intern--Financial-Restructuring----Singapore--Jan---Jun-2027-_R3484-1",
-   "postedAt": "2026-08-19",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Financial Restructuring Group Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3484",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Off-Cycle Intern, Financial Restructuring -  Singapore (Jan - Jun 2027)",
-   "location": "Singapore, Singapore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Lateral/job/Singapore-Singapore/Off-Cycle-Intern--Financial-Restructuring----Singapore--Jan---Jun-2027-_R3484",
-   "postedAt": "2026-08-19",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Financial Restructuring Group Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-motorolasolutions-Plantation, FL (FL08)",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -15186,6 +14719,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Carmel, Indiana - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP- Financial Advisor Trainee",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Carmel-Indiana---United-States/AMP--Financial-Advisor-Trainee_R-0012640-1",
+   "postedAt": "2026-08-19",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Job Description Job Summary Through distance learning, apprenticeship and training at the firm’s international headquarters, the Advisor Mastery Program (AMP) offers a comprehensive education for the next generation of Raymond James Financial Advisors. The program takes a holistic approach by in",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Atlanta, Georgia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Atlanta, GA)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Atlanta-Georgia---United-States/Financial-Advisor-Trainee--Atlanta--GA-_R-0012638",
+   "postedAt": "2026-08-19",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -17019,32 +16600,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-db-R0447332",
-   "company": "Deutsche Bank",
-   "ats": "workday",
-   "title": "Intern A&E Lending Lux",
-   "location": "Luxembourg 2 Blvd K. Adenauer",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Intern-A-E-Lending-Lux_R0447332",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Description: For over 150 years, our dedication to being the Global Hausbank for our clients has been driven by our people – in around 60 countries and across more than 150 nationalities. Their deep understanding, insights, expertise, and passion help our clients navigate an increasingly complex world – be it in ou",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-gunvor-JR102764",
    "company": "Gunvor",
    "ats": "workday",
@@ -17090,6 +16645,32 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Title: Graduate Program – Trading & Supply Chain Contract Type: Time Type: Job Description: Launch your career at the heart of global commodity markets. At Gunvor, one of the world's leading independent energy trading companies, we're looking for curious, ambitious and commercially minded graduates who want to buil",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-db-R0447332",
+   "company": "Deutsche Bank",
+   "ats": "workday",
+   "title": "Intern A&E Lending Lux",
+   "location": "Luxembourg 2 Blvd K. Adenauer",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Luxembourg-2-Blvd-K-Adenauer/Intern-A-E-Lending-Lux_R0447332",
+   "postedAt": "2026-08-17",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [
+    "investment-banking"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description: For over 150 years, our dedication to being the Global Hausbank for our clients has been driven by our people – in around 60 countries and across more than 150 nationalities. Their deep understanding, insights, expertise, and passion help our clients navigate an increasingly complex world – be it in ou",
    "hasDeadlineHint": false
   },
   {
@@ -17258,30 +16839,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Job Description: Guggenheim Securities Investment Banking unit is seeking candidates to join its Houston Energy, Power, and Energy Transition team for a 10-week Summer Associate Intern Program. Interns become important members of our deal teams and work as a junior associate on a variety of interesting strategic adviso",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guggenheim-14879",
-   "company": "Guggenheim Partners",
-   "ats": "workday",
-   "title": "2027 Guggenheim Securities Investment Banking Summer Associate – New York Capital Structure Advisory (Restructuring)",
-   "location": "New York City, NY – U.S.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/New-York-City-NY--US/XMLNAME-2027-Guggenheim-Securities-Investment-Banking-Summer-Associate---New-York-Capital-Structure-Advisory--Restructuring-_14879",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description: Guggenheim Securities’ Capital Structure Advisory Group is a leading advisor to companies, creditors, investors, shareholders, and other constituents, navigating complex financial situations and financial distress, including comprehensive balance sheet recapitalizations, liability management transactio",
    "hasDeadlineHint": false
   },
   {
@@ -20182,6 +19739,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-raymondjames-Charleston, South Carolina - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee-Charleston, SC",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Charleston-South-Carolina---United-States/Financial-Advisor-Trainee-Charleston--SC_R-0012337-1",
+   "postedAt": "2026-08-11",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-dvtrading-4719125005",
    "company": "DV Trading",
    "ats": "greenhouse",
@@ -20419,6 +20000,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-blackstone-43862",
+   "company": "Blackstone",
+   "ats": "workday",
+   "title": "2027 Blackstone Credit and Insurance, Infrastructure and Asset Based Credit Summer Analyst (London)",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [
+    "private-equity"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00350278",
    "company": "Accenture",
    "ats": "workday",
@@ -20468,32 +20075,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Would you like to know how a business operates and how you can play a role in strategic decisions? At Accenture, we’re offering an exciting opportunity to launch your career! Join a dynamic team where you’ll work on real projects that help clients transform their business. From problem-solving and data analysis to pres",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-blackstone-43862",
-   "company": "Blackstone",
-   "ats": "workday",
-   "title": "2027 Blackstone Credit and Insurance, Infrastructure and Asset Based Credit Summer Analyst (London)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "private-equity"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
    "hasDeadlineHint": false
   },
   {
@@ -20569,33 +20150,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3459",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "2027 4-Month Off-Cycle Internship (February, Munich)",
-   "location": "Munich, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Munich-Germany/XMLNAME-2027-4-Month-Off-Cycle-Internship--February--Munich-_R3459",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Corporate Finance Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ryan-R0019863",
    "company": "Ryan",
    "ats": "workday",
@@ -20617,6 +20171,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Why Ryan? Competitive Compensation and Benefits Business Connectivity Reimbursement (Phone/Internet) Gym Membership or Equipment Reimbursement LinkedIn Learning Subscription Flexible Work Environment Tuition Reimbursement After One Year of Service Accelerated Career Path Award-Winning Culture & Community Outreach Are y",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Griffin, Georgia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP Financial Advisor Trainee (Griffin, GA)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Griffin-Georgia---United-States/AMP-Financial-Advisor-Trainee--Griffin--GA-_R-0012498",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -21446,33 +21024,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3443",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Off-Cycle Intern - Capital Solutions, Debt Advisory (Q1, 2027)",
-   "location": "Frankfurt, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Frankfurt-Germany/Off-Cycle-Intern---Capital-Solutions--Debt-Advisory--Q1--2027-_R3443",
-   "postedAt": "2026-08-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Capital Solutions Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad internatio",
    "hasDeadlineHint": false
   },
   {
@@ -22756,6 +22307,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Location: 4900 Tiedeman Road, Brooklyn Ohio Program Duration: MAY 26, 2027 – AUGUST 6, 2027 Key Wealth Management Key Wealth Management \"KWM\" has a long history (over 150 years) of providing trust, custody, and investment management solutions to high-net-worth individuals, families, and institutional/non-profit clients",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Augusta, Georgia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Augusta, GA)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Augusta-Georgia---United-States/Financial-Advisor-Trainee--Augusta--GA-_R-0012368",
+   "postedAt": "2026-08-04",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -24568,32 +24143,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-accenture-R00319644",
-   "company": "Accenture",
-   "ats": "workday",
-   "title": "Fresh Graduate Analyst - Engineering",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur/Fresh-Graduate-Analyst---Engineering_R00319644",
-   "postedAt": "2026-07-29",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [
-    "tech-consulting"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Position Overview: We are seeking highly motivated and talented individuals to join our Strategy & Consulting Global Network team as an Analyst. This is an excellent opportunity for recent/ upcoming graduates who are passionate about strategy, problem-solving, and doing impactful work in the business world. As an Analy",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-blackstone-43192",
    "company": "Blackstone",
    "ats": "workday",
@@ -24618,6 +24167,32 @@
    "cycleSource": "title",
    "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
    "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-accenture-R00319644",
+   "company": "Accenture",
+   "ats": "workday",
+   "title": "Fresh Graduate Analyst - Engineering",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur/Fresh-Graduate-Analyst---Engineering_R00319644",
+   "postedAt": "2026-07-29",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [
+    "tech-consulting"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Position Overview: We are seeking highly motivated and talented individuals to join our Strategy & Consulting Global Network team as an Analyst. This is an excellent opportunity for recent/ upcoming graduates who are passionate about strategy, problem-solving, and doing impactful work in the business world. As an Analy",
+   "hasDeadlineHint": false
   },
   {
    "id": "wd-greystar-R0196424",
@@ -24869,30 +24444,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0193156",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Manager - Haven at M (Student Living)",
-   "location": "Haven at M, Huntsville, TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Haven-at-M-Huntsville-TX/Community-Manager---Haven-at-M--Student-Living-_R0193156",
-   "postedAt": "2026-07-28",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-lombardodier-R0007399",
    "company": "Lombard Odier IM",
    "ats": "workday",
@@ -24914,6 +24465,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A career at Lombard Odier means working for a renowned global wealth and asset manager, with a strong focus on sustainable investing. An innovative bank of choice for private and institutional clients, our independently owned Firm is one of the best-capitalised banking groups in the world, managing close to CHF 300 bil",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0193156",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - Haven at M (Student Living)",
+   "location": "Haven at M, Huntsville, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Haven-at-M-Huntsville-TX/Community-Manager---Haven-at-M--Student-Living-_R0193156",
+   "postedAt": "2026-07-28",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -25508,30 +25083,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0195333",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Assistant - Varsity Ann Arbor (Student Living)",
-   "location": "The Varsity (MI), Ann Arbor, MI",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Varsity-MI-Ann-Arbor-MI/Community-Assistant---Varsity-Ann-Arbor--Student-Living-_R0195333-1",
-   "postedAt": "2026-07-24",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-lombardodier-R0007258",
    "company": "Lombard Odier IM",
    "ats": "workday",
@@ -25553,6 +25104,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A career at Lombard Odier means working for a renowned global wealth and asset manager, with a strong focus on sustainable investing. An innovative bank of choice for private and institutional clients, our independently owned Firm is one of the best-capitalised banking groups in the world, managing close to CHF 300 bil",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0195333",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Varsity Ann Arbor (Student Living)",
+   "location": "The Varsity (MI), Ann Arbor, MI",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Varsity-MI-Ann-Arbor-MI/Community-Assistant---Varsity-Ann-Arbor--Student-Living-_R0195333-1",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -25601,6 +25176,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Title : Graduate Mechanical Design Engine",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107847",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Global Recruitment Intern",
+   "location": "Netherlands-Amsterdam",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Global-Recruitment-Intern_R107847",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
    "hasDeadlineHint": false
   },
   {
@@ -25834,32 +25433,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-accenture-R00235221",
-   "company": "Accenture",
-   "ats": "workday",
-   "title": "Graduate Analyst - Talent Advancement Program",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Singapore/Graduate-Technology-Analyst---Talent-Advancement-Program-2025_R00235221",
-   "postedAt": "2026-07-22",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [
-    "tech-consulting"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Accenture Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Interactive, Technology and Operations services—all powered by the world’s",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-blackstone-40628",
    "company": "Blackstone",
    "ats": "workday",
@@ -25935,6 +25508,32 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-accenture-R00235221",
+   "company": "Accenture",
+   "ats": "workday",
+   "title": "Graduate Analyst - Talent Advancement Program",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Singapore/Graduate-Technology-Analyst---Talent-Advancement-Program-2025_R00235221",
+   "postedAt": "2026-07-22",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [
+    "tech-consulting"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Accenture Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Interactive, Technology and Operations services—all powered by the world’s",
    "hasDeadlineHint": false
   },
   {
@@ -26297,6 +25896,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Purpose of the Position To support ATM se",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Winter Park, Florida - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Winter Park, FL)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Winter-Park-Florida---United-States/Financial-Advisor-Trainee--Winter-Park--FL-_R-0012129",
+   "postedAt": "2026-07-21",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": "winter",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -26836,32 +26459,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3096",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Off-Cycle Intern, Financial and Valuation Advisory (Hong Kong)",
-   "location": "Hong Kong, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Hong-Kong-China/Off-Cycle-Intern--Financial-and-Valuation-Advisory--Hong-Kong-_R3096",
-   "postedAt": "2026-07-15",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit: Financial And Valuation Advisory Industry: Portfolio Valuation&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expe",
    "hasDeadlineHint": false
   },
   {
@@ -28504,32 +28101,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-accenture-R00342806",
-   "company": "Accenture",
-   "ats": "workday",
-   "title": "Accenture Internship Program - Jan to Jun 2027",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Singapore/Accenture-Internship-Program---Jan-to-Jun-2027_R00342806",
-   "postedAt": "2026-07-13",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "consulting",
-   "tags": [
-    "tech-consulting"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "About Accenture Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song—all powered by the w",
-   "hasDeadlineHint": true
-  },
-  {
    "id": "wd-blackstone-43819",
    "company": "Blackstone",
    "ats": "workday",
@@ -28709,6 +28280,32 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Blackstone is the world’s largest alternative asset manager. Blackstone seeks to deliver compelling returns for institutional and individual investors by strengthening the companies in which the firm invests. Blackstone’s over $1.3 trillion in assets under management include global investment strategies focused on real",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-accenture-R00342806",
+   "company": "Accenture",
+   "ats": "workday",
+   "title": "Accenture Internship Program - Jan to Jun 2027",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Singapore/Accenture-Internship-Program---Jan-to-Jun-2027_R00342806",
+   "postedAt": "2026-07-13",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "consulting",
+   "tags": [
+    "tech-consulting"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "About Accenture Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song—all powered by the w",
    "hasDeadlineHint": true
   },
   {
@@ -30023,32 +29620,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3390",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Financial Analyst, Portfolio Valuation and Fund Advisory Services (Structured Products), 2026 Graduate - London",
-   "location": "London, UK",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/London-UK/Financial-Analyst--Portfolio-Valuation-and-Fund-Advisory-Services--Structured-Products---2026-Graduate---London_R3390",
-   "postedAt": "2026-07-06",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit: Financial And Valuation Advisory Industry: Portfolio Valuation&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expe",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-towerresearchcapital-8024128",
    "company": "Tower Research Capital",
    "ats": "greenhouse",
@@ -30389,55 +29960,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R3354",
-   "company": "Houlihan Lokey",
+   "id": "wd-greystar-R0193519",
+   "company": "Greystar",
    "ats": "workday",
-   "title": "Corporate Development Intern (Summer 2027)",
-   "location": "2 Locations",
+   "title": "Assistant Community Manager - Haven at M (Student Living)",
+   "location": "Haven at M, Huntsville, TX",
    "regions": [
-    "other"
+    "us"
    ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Los-Angeles-CA-USA/Corporate-Development-Intern--Summer-2027-_R3354",
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Haven-at-M-Huntsville-TX/Assistant-Community-Manager---Haven-at-M--Student-Living-_R0193519",
    "postedAt": "2026-07-02",
    "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
    "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Accounting Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international rea",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3354",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "Corporate Development Intern (Summer 2027)",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Corporate/job/Los-Angeles-CA-USA/Corporate-Development-Intern--Summer-2027-_R3354-1",
-   "postedAt": "2026-07-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Accounting Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international rea",
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
    "hasDeadlineHint": false
   },
   {
@@ -31918,6 +31461,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Controlling Internship | Santander Renting Country: Italy Ti appassionano i numeri, l’analisi dei dati e ti piacerebbe capire da vicino come le informazioni economico-finanziarie supportano le decisioni di business? In Santander Renting stiamo cercando una persona da inserire in stage nel team Controllo di Gestione . S",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Louisville, Kentucky - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP Financial Advisor Trainee",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Louisville-Kentucky---United-States/AMP-Financial-Advisor-Trainee_R-0011694-1",
+   "postedAt": "2026-06-24",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Job Description Job Summary Through distance learning, apprenticeship and training at the firm’s international headquarters, the Advisor Mastery Program (AMP) offers a comprehensive education for the next generation of Raymond James Financial Advisors. The program takes a holistic approach by in",
    "hasDeadlineHint": false
   },
   {
@@ -35002,6 +34569,85 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guggenheim-14879",
+   "company": "Guggenheim Partners",
+   "ats": "workday",
+   "title": "2027 Guggenheim Securities Investment Banking Summer Associate – New York Capital Structure Advisory (Restructuring)",
+   "location": "New York City, NY – U.S.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/New-York-City-NY--US/XMLNAME-2027-Guggenheim-Securities-Investment-Banking-Summer-Associate---New-York-Capital-Structure-Advisory--Restructuring-_14879",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "sm-httpswwwrothschildandcocomsitemapxml-ga-paris-rothschild-co-global-advisory-investment-banking-graduate-positions-202",
+   "company": "Rothschild & Co",
+   "ats": "sitemap",
+   "title": "Paris - Rothschild & Co Global Advisory – Investment Banking Graduate positions 2027",
+   "location": "Paris",
+   "regions": [
+    "paris",
+    "europe"
+   ],
+   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ga-paris-rothschild-co-global-advisory-investment-banking-graduate-positions-2027/",
+   "postedAt": null,
+   "department": "",
+   "kind": "graduate",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "banking",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "m-and-a"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Paris - Rothschild & Co Global Advisory – Investment Banking Graduate positions 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "sm-httpswwwrothschildandcocomsitemapxml-ga-long-term-esg-internship-global-advisory-janvier-2027",
+   "company": "Rothschild & Co",
+   "ats": "sitemap",
+   "title": "Long Term ESG Internship - Global Advisory – Janvier 2027",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ga-long-term-esg-internship-global-advisory-janvier-2027/",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "m-and-a"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Long Term ESG Internship - Global Advisory – Janvier 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Global Advi",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "sm-httpswwwrothschildandcocomsitemapxml-ga-stage-transaction-r-co-global-advisory-janviermars-2027",
    "company": "Rothschild & Co",
    "ats": "sitemap",
@@ -35080,61 +34726,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Alternance - M&A Small & Mid Cap - Transaction R & Co – Janvier 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "sm-httpswwwrothschildandcocomsitemapxml-ga-paris-rothschild-co-global-advisory-investment-banking-graduate-positions-202",
-   "company": "Rothschild & Co",
-   "ats": "sitemap",
-   "title": "Paris - Rothschild & Co Global Advisory – Investment Banking Graduate positions 2027",
-   "location": "Paris",
-   "regions": [
-    "paris",
-    "europe"
-   ],
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ga-paris-rothschild-co-global-advisory-investment-banking-graduate-positions-2027/",
-   "postedAt": null,
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "m-and-a"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Paris - Rothschild & Co Global Advisory – Investment Banking Graduate positions 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "sm-httpswwwrothschildandcocomsitemapxml-ga-long-term-esg-internship-global-advisory-janvier-2027",
-   "company": "Rothschild & Co",
-   "ats": "sitemap",
-   "title": "Long Term ESG Internship - Global Advisory – Janvier 2027",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/ga-long-term-esg-internship-global-advisory-janvier-2027/",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "m-and-a"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Long Term ESG Internship - Global Advisory – Janvier 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Global Advi",
    "hasDeadlineHint": false
   },
   {
@@ -35218,6 +34809,34 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Germany - Frankfurt - M&A and Strategic Advisory - Summer Internship 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Disc",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "sm-httpswwwrothschildandcocomsitemapxml-germany-frankfurt-debt-advisory-restructuring-summer-internship-2027",
+   "company": "Rothschild & Co",
+   "ats": "sitemap",
+   "title": "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Summer Internship 2027",
+   "location": "Germany",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/germany-frankfurt-debt-advisory-restructuring-summer-internship-2027/",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "m-and-a"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Summer Internship 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory E",
    "hasDeadlineHint": false
   },
   {
@@ -35437,61 +35056,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "sm-httpswwwrothschildandcocomsitemapxml-2027-uk-global-advisory-summer-analyst-programme-london",
-   "company": "Rothschild & Co",
-   "ats": "sitemap",
-   "title": "2027 UK Global Advisory Summer Analyst Programme - London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/2027-uk-global-advisory-summer-analyst-programme-london/",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "m-and-a"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "2027 UK Global Advisory Summer Analyst Programme - London Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Global Advi",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "sm-httpswwwrothschildandcocomsitemapxml-germany-frankfurt-debt-advisory-restructuring-summer-internship-2027",
-   "company": "Rothschild & Co",
-   "ats": "sitemap",
-   "title": "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Summer Internship 2027",
-   "location": "Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/germany-frankfurt-debt-advisory-restructuring-summer-internship-2027/",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "m-and-a"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Germany - Frankfurt - Global Financing Solutions and Restructuring & Liability Management - Summer Internship 2027 Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory E",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "sm-httpswwwrothschildandcocomsitemapxml-ga2027-uk-global-advisory-womens-horizon-insight-programme-london",
    "company": "Rothschild & Co",
    "ats": "sitemap",
@@ -35516,6 +35080,33 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "2027 UK Global Advisory Women’s Horizon Insight Programme - London Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Gl",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "sm-httpswwwrothschildandcocomsitemapxml-2027-uk-global-advisory-summer-analyst-programme-london",
+   "company": "Rothschild & Co",
+   "ats": "sitemap",
+   "title": "2027 UK Global Advisory Summer Analyst Programme - London",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/2027-uk-global-advisory-summer-analyst-programme-london/",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "m-and-a"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "2027 UK Global Advisory Summer Analyst Programme - London Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Global Advi",
    "hasDeadlineHint": true
   },
   {
@@ -36033,6 +35624,30 @@
    "manual": true
   },
   {
+   "id": "wd-brown-REQ211071",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Manager of Campus Physical Security",
+   "location": "75 Charlesfield Street",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/75-Charlesfield-Street/Manager-of-Campus-Physical-Security_REQ211071",
+   "postedAt": "2026-09-03",
+   "department": "",
+   "kind": "early-career",
+   "year": 2026,
+   "yearSource": "description",
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "description",
+   "excerpt": "Job Description: The Manager of Campus Physical Security serves as the university's subject matter expert on the physical security of campus buildings and grounds, including access control, video surveillance, intrusion detection, and related door and perimeter hardware. This role evaluates existing facilities and new ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-applied-31140958-d768-452c-8498-0b1c7f403943",
    "company": "Applied Intuition",
    "ats": "ashby",
@@ -36158,56 +35773,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R158468",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern - Services - Florence, Italy - 2026 (M/F/D)",
-   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Services-Intern-2026-Opportunities--Florence-_R158468",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a bachelor’s or master’s degree or recently graduated to gain hands-on work experience as the ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-bakerhughes-R158417",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern – Finance – Florence, Italy – 2026 (M/F/D)",
-   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Finance-2026-Opportunities--Florence-_R158417-1",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-blackrock-R266225",
    "company": "BlackRock",
    "ats": "workday",
@@ -36257,6 +35822,56 @@
    "cycle": 2026,
    "cycleSource": "description",
    "excerpt": "About this role BlackRock's paid six-month programme offers service leavers and professional athletes the opportunity to develop their professional skills, enhance their understanding of asset management and the world of financial services and prepare for future careers in the industry. BlackRock are offering diverse r",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R158468",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern - Services - Florence, Italy - 2026 (M/F/D)",
+   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Services-Intern-2026-Opportunities--Florence-_R158468",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a bachelor’s or master’s degree or recently graduated to gain hands-on work experience as the ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R158417",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern – Finance – Florence, Italy – 2026 (M/F/D)",
+   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Finance-2026-Opportunities--Florence-_R158417-1",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
    "hasDeadlineHint": false
   },
   {
@@ -36414,59 +36029,6 @@
    "cycle": 2026,
    "cycleSource": "description",
    "excerpt": "Job Description: Da oltre 150 anni, la nostra dedizione a essere la Global Hausbank è guidata dalle nostre persone – presenti in circa 60 Paesi e con oltre 150 nazionalità diverse. La loro profonda comprensione, le competenze, le intuizioni e la passione si esprimono ogni giorno nelle nostre diverse divisioni – Corpora",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3550",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "6-Month Off-Cycle Internship - Corporate Finance",
-   "location": "Milan, Italy",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Milan-Italy/XMLNAME-6-Month-Off-Cycle-Internship---Corporate-Finance_R3550",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2026,
-   "cycleSource": "description",
-   "excerpt": "Business Unit: Corporate Finance Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-hl-R3549",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "3 Month Off-Cycle Internship - Corporate Finance",
-   "location": "Amsterdam, Netherlands",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Amsterdam-Netherlands/XMLNAME-3-Month-Off-Cycle-Internship---Corporate-Finance_R3549",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2026,
-   "cycleSource": "description",
-   "excerpt": "Business Unit: Corporate Finance Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international ",
    "hasDeadlineHint": false
   },
   {
@@ -36668,30 +36230,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R154616",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern Finance & Accounting (Malaysia) 2026 Opportunities",
-   "location": "MY-KUL-KUALA LUMPUR-21ST FLOOR MENARA TAN & TAN",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-21ST-FLOOR-MENARA-TAN--TAN/University-Internship---Finance---Accounting-2026-Opportunities--Malaysia-_R154616",
-   "postedAt": "2026-08-28",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors or Masters degree to gain hands-on work experience as the foundation of their profes",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-cadence-R56108",
    "company": "Cadence",
    "ats": "workday",
@@ -36713,6 +36251,30 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. This is an on-site internship role in San Jose, California, within the Cadence DDR IP group for a Post-Silicon Validation Engineering Intern. (local candidates will be considered) Intern will be responsible for",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R154616",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern Finance & Accounting (Malaysia) 2026 Opportunities",
+   "location": "MY-KUL-KUALA LUMPUR-21ST FLOOR MENARA TAN & TAN",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-21ST-FLOOR-MENARA-TAN--TAN/University-Internship---Finance---Accounting-2026-Opportunities--Malaysia-_R154616",
+   "postedAt": "2026-08-28",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors or Masters degree to gain hands-on work experience as the foundation of their profes",
    "hasDeadlineHint": false
   },
   {
@@ -37961,33 +37523,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-hl-R2889",
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "title": "3 Month Internship -  Financial Restructuring (Q4 2026)",
-   "location": "Frankfurt, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Frankfurt-Germany/XMLNAME-3-Month-Internship----Financial-Restructuring--Q2-Q3--2026-_R2889",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking"
-   ],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Business Unit: Financial Restructuring Group Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broa",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-juliusbaer-r-19514",
    "company": "Julius Baer",
    "ats": "workday",
@@ -38135,30 +37670,6 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "You’re the brains behind our work. You're ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you need to ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guggenheim-14896",
-   "company": "Guggenheim Partners",
-   "ats": "workday",
-   "title": "2026 Investment Banking Analyst Intern – Healthcare (London), September - February",
-   "location": "London – U.K.",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/London--UK/XMLNAME-2026-Investment-Banking-Analyst-Intern---Healthcare--London---September---February_14896",
-   "postedAt": "2026-08-24",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Job Description: Headquartered in New York, Guggenheim offers a premier Investment Banking advisory practice to clients from offices across New York, London, Chicago, Boston, Atlanta, San Francisco, and Houston. Our internship program is designed for students and recent graduates interested in pursuing a career in Inve",
    "hasDeadlineHint": false
   },
   {
@@ -40397,6 +39908,33 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-citi-26947868",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Internship, Penang, Malaysia – APAC, 2026",
+   "location": "Penang Pulau Pinang (penang) Malaysia",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Penang-Pulau-Pinang-penang-Malaysia/Internship--Penang--Malaysia---APAC--2026_26947868",
+   "postedAt": "2026-07-14",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "You're the brains behind our work. You're ready to apply your academic knowledge in a professional setting, and Citi aims to facilitate this growth. Our internship program is designed to provide you with foundational exposure and training, enabling you to contribute to our work and explore potential career paths. Citi ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "wd-ardian-/job/London/Investor-Relations-Coordination-Intern---September-2026---London_JR1002171",
    "company": "Ardian",
    "ats": "workday",
@@ -41295,6 +40833,30 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "<p><strong>The Role</strong></p> <p>We are seeking exceptional MSc or PhD candidates to join our Quantitative Research and strat teams in Sao Paulo where they will work with other researchers and developers on various research projects, including the design of novel predictive signals, enhancement of our algorithms for",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Mandeville, Louisiana - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Mandeville, LA)",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Mandeville-Louisiana---United-States/Financial-Advisor-Trainee--Mandeville--LA-_R-0011297",
+   "postedAt": "2026-05-21",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -49717,6 +49279,150 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guggenheim-14896",
+   "company": "Guggenheim Partners",
+   "ats": "workday",
+   "title": "2026 Investment Banking Analyst Intern – Healthcare (London), September - February",
+   "location": "London – U.K.",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/London--UK/XMLNAME-2026-Investment-Banking-Analyst-Intern---Healthcare--London---September---February_14896",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0197927",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - Drake West Village (Student Living)",
+   "location": "Drake West Village, Des Moines, IA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Drake-West-Village-Des-Moines-IA/Leasing-Manager---Drake-West-Village--Student-Living-_R0197927-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199619",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing & Marketing Manager - Accolade on Samson (Student Living)",
+   "location": "Accolade on Sansom, Philadelphia, PA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Accolade-on-Sansom-Philadelphia-PA/Leasing---Marketing-Manager---Accolade-on-Samson--Student-Living-_R0199619",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0195240",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - Fieldstone (Student Living)",
+   "location": "Fieldstone, Amherst, MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Fieldstone-Amherst-MA/Community-Manager---Fieldstone--Student-Living-_R0195240",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199752",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Housekeeper - Aspire at West Campus (Student Living)",
+   "location": "Aspire at West Campus, Iowa City, IA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Aspire-at-West-Campus-Iowa-City-IA/Housekeeper---Aspire-at-West-Campus--Student-Living-_R0199752",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0198850",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Maintenance Administrative Assistant- Residential Learning Community (Student Living)",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Residential-Learning-Community-Laredo-TX/Maintenance-Administrative-Assistant--Residential-Learning-Community--Student-Living-_R0198850",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "sm-httpswwwrothschildandcocomsitemapxml-2026-five-arrows-direct-lending-long-term-internship-london",
    "company": "Rothschild & Co",
    "ats": "sitemap",
@@ -49903,30 +49609,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "Find Student & Graduate Opportunities - Rothschild & Co Skip to main content Logo Label Search Search Close Search Global Advisory Wealth and Asset Management Five Arrows About us Careers Newsroom Contact us en Search Open menu Close menu Back Global Advisory Expert M&A and capital markets advice Discover Global Adviso",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107847",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Global Recruitment Intern",
-   "location": "Netherlands-Amsterdam",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Netherlands-Amsterdam/Global-Recruitment-Intern_R107847",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
    "hasDeadlineHint": false
   }
  ]
