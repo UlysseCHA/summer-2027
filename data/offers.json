@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T04:13:40.722Z",
+ "generatedAt": "2026-09-06T10:46:45.607Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,34 +7,34 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1921,
+  "total": 1902,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 5,
    "2026": 185,
-   "2027": 804,
+   "2027": 774,
    "2028": 46,
-   "non precisee": 877
+   "non precisee": 888
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 5,
    "2026": 185,
-   "2027": 1396,
+   "2027": 1374,
    "2028": 46,
-   "non precisee": 285
+   "non precisee": 288
   },
   "byIndustry": {
+   "finance": 941,
    "consulting": 148,
-   "finance": 975,
-   "tech": 798
+   "tech": 813
   },
   "byKind": {
+   "internship": 1435,
    "early-career": 136,
-   "internship": 1446,
-   "graduate": 339
+   "graduate": 331
   }
  },
  "sources": [
@@ -70,6 +70,12 @@
    "ok": true
   },
   {
+   "company": "Tencent",
+   "ats": "workday",
+   "found": 61,
+   "ok": true
+  },
+  {
    "company": "Retail Insights",
    "token": "retailinsights",
    "ats": "greenhouse",
@@ -87,12 +93,6 @@
    "company": "Baker Hughes",
    "ats": "workday",
    "found": 50,
-   "ok": true
-  },
-  {
-   "company": "Tencent",
-   "ats": "workday",
-   "found": 48,
    "ok": true
   },
   {
@@ -118,12 +118,6 @@
    "company": "Rothschild & Co",
    "token": "https://www.rothschildandco.com/sitemap.xml",
    "ats": "sitemap",
-   "found": 45,
-   "ok": true
-  },
-  {
-   "company": "Mastercard",
-   "ats": "workday",
    "found": 45,
    "ok": true
   },
@@ -170,6 +164,12 @@
    "company": "Fifth Third Bank",
    "ats": "workday",
    "found": 29,
+   "ok": true
+  },
+  {
+   "company": "Nationwide",
+   "ats": "workday",
+   "found": 25,
    "ok": true
   },
   {
@@ -260,12 +260,6 @@
    "ok": true
   },
   {
-   "company": "SouthState Bank",
-   "ats": "workday",
-   "found": 15,
-   "ok": true
-  },
-  {
    "company": "StepStone Group",
    "token": "stepstone",
    "ats": "greenhouse",
@@ -273,7 +267,7 @@
    "ok": true
   },
   {
-   "company": "PJT Partners",
+   "company": "SouthState Bank",
    "ats": "workday",
    "found": 15,
    "ok": true
@@ -351,6 +345,12 @@
    "ok": true
   },
   {
+   "company": "Visa",
+   "ats": "workday",
+   "found": 11,
+   "ok": true
+  },
+  {
    "company": "Alantra",
    "ats": "workday",
    "found": 10,
@@ -374,12 +374,6 @@
    "company": "Symphony",
    "token": "symphony",
    "ats": "greenhouse",
-   "found": 10,
-   "ok": true
-  },
-  {
-   "company": "Visa",
-   "ats": "workday",
    "found": 10,
    "ok": true
   },
@@ -425,16 +419,16 @@
    "ok": true
   },
   {
-   "company": "Akuna Capital",
-   "token": "akunacapital",
-   "ats": "greenhouse",
+   "company": "Alan",
+   "token": "alan",
+   "ats": "ashby",
    "found": 8,
    "ok": true
   },
   {
-   "company": "Alan",
-   "token": "alan",
-   "ats": "ashby",
+   "company": "Akuna Capital",
+   "token": "akunacapital",
+   "ats": "greenhouse",
    "found": 8,
    "ok": true
   },
@@ -547,16 +541,16 @@
    "ok": true
   },
   {
-   "company": "D.A. Davidson",
-   "token": "dadavidson",
-   "ats": "lever",
+   "company": "Deliveroo",
+   "token": "deliveroo",
+   "ats": "ashby",
    "found": 5,
    "ok": true
   },
   {
-   "company": "Deliveroo",
-   "token": "deliveroo",
-   "ats": "ashby",
+   "company": "D.A. Davidson",
+   "token": "dadavidson",
+   "ats": "lever",
    "found": 5,
    "ok": true
   },
@@ -588,12 +582,6 @@
   },
   {
    "company": "Ryan",
-   "ats": "workday",
-   "found": 5,
-   "ok": true
-  },
-  {
-   "company": "Ryan Specialty",
    "ats": "workday",
    "found": 5,
    "ok": true
@@ -795,6 +783,12 @@
    "ok": true
   },
   {
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 3,
+   "ok": true
+  },
+  {
    "company": "The Raine Group",
    "token": "raine",
    "ats": "lever",
@@ -802,16 +796,16 @@
    "ok": true
   },
   {
-   "company": "Voleon",
-   "token": "voleon",
-   "ats": "ashby",
+   "company": "The Riverside Company",
+   "token": "theriversidecompany",
+   "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "The Riverside Company",
-   "token": "theriversidecompany",
-   "ats": "greenhouse",
+   "company": "Voleon",
+   "token": "voleon",
+   "ats": "ashby",
    "found": 3,
    "ok": true
   },
@@ -863,13 +857,13 @@
    "ok": true
   },
   {
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
+   "company": "Brown Edwards",
    "ats": "workday",
    "found": 2,
    "ok": true
@@ -917,6 +911,12 @@
    "ok": true
   },
   {
+   "company": "NASDAQ",
+   "ats": "workday",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Nuro",
    "token": "nuro",
    "ats": "greenhouse",
@@ -931,19 +931,6 @@
    "ok": true
   },
   {
-   "company": "Robinhood",
-   "token": "robinhood",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "NASDAQ",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Scale AI",
    "token": "scaleai",
    "ats": "greenhouse",
@@ -953,6 +940,13 @@
   {
    "company": "Schneider Downs",
    "token": "schneiderdowns",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "Robinhood",
+   "token": "robinhood",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -974,6 +968,12 @@
    "company": "Voloridge Investment Management",
    "token": "voloridgeinvestmentmanagement",
    "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "State Street",
+   "ats": "workday",
    "found": 2,
    "ok": true
   },
@@ -1018,15 +1018,15 @@
    "ok": true
   },
   {
-   "company": "BTG Pactual",
-   "token": "btgpactual",
-   "ats": "greenhouse",
+   "company": "Bank of America",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Bank of America",
-   "ats": "workday",
+   "company": "BTG Pactual",
+   "token": "btgpactual",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1192,15 +1192,15 @@
    "ok": true
   },
   {
-   "company": "Mizuho",
-   "ats": "workday",
+   "company": "Netcraft",
+   "token": "netcraft",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Netcraft",
-   "token": "netcraft",
-   "ats": "greenhouse",
+   "company": "Mizuho",
+   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -1282,13 +1282,6 @@
    "ok": true
   },
   {
-   "company": "Waterfall Asset Management",
-   "token": "waterfall",
-   "ats": "lever",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "William Blair",
    "token": "williamblair",
    "ats": "greenhouse",
@@ -1324,6 +1317,13 @@
    "ok": true
   },
   {
+   "company": "Waterfall Asset Management",
+   "token": "waterfall",
+   "ats": "lever",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Adams Street Partners",
    "token": "adamsstreetpartners",
    "ats": "greenhouse",
@@ -1338,16 +1338,16 @@
    "ok": true
   },
   {
-   "company": "Abridge",
-   "token": "abridge",
-   "ats": "ashby",
+   "company": "Affirm",
+   "token": "affirm",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Affirm",
-   "token": "affirm",
-   "ats": "greenhouse",
+   "company": "Abridge",
+   "token": "abridge",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1380,9 +1380,9 @@
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
+   "company": "Ankorstore",
+   "token": "ankorstore",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1394,6 +1394,13 @@
    "ok": true
   },
   {
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "AQ Technology Partners",
    "token": "aqtechnologypartners",
    "ats": "greenhouse",
@@ -1401,16 +1408,15 @@
    "ok": true
   },
   {
-   "company": "Ankorstore",
-   "token": "ankorstore",
+   "company": "Ardea Partners",
+   "token": "ardea-partners",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Ardea Partners",
-   "token": "ardea-partners",
-   "ats": "ashby",
+   "company": "Ankura",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1425,12 +1431,6 @@
    "company": "ATLAS SP Partners",
    "token": "atlassp",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Ankura",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1483,6 +1483,12 @@
    "ok": true
   },
   {
+   "company": "BBVA",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Barings",
    "ats": "workday",
    "found": 0,
@@ -1499,12 +1505,6 @@
    "company": "Brex",
    "token": "brex",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "BBVA",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1626,16 +1626,16 @@
    "ok": true
   },
   {
-   "company": "Decagon",
-   "token": "decagon",
-   "ats": "ashby",
+   "company": "Dataiku",
+   "token": "dataiku",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Dataiku",
-   "token": "dataiku",
-   "ats": "greenhouse",
+   "company": "Decagon",
+   "token": "decagon",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1738,12 +1738,6 @@
    "ok": true
   },
   {
-   "company": "eBay",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Fireworks AI",
    "token": "fireworks",
    "ats": "ashby",
@@ -1761,6 +1755,12 @@
    "company": "Galaxy Digital",
    "token": "galaxy",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "eBay",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -1840,13 +1840,13 @@
    "ok": true
   },
   {
-   "company": "Grosvenor",
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -1900,15 +1900,15 @@
    "ok": true
   },
   {
-   "company": "Justworks",
-   "token": "justworks",
-   "ats": "greenhouse",
+   "company": "Hiscox",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
+   "company": "Justworks",
+   "token": "justworks",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2002,6 +2002,12 @@
    "ok": true
   },
   {
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Maxwell Locke & Ritter",
    "token": "maxwell",
    "ats": "greenhouse",
@@ -2009,9 +2015,8 @@
    "ok": true
   },
   {
-   "company": "Match Group",
-   "token": "matchgroup",
-   "ats": "lever",
+   "company": "Liberty Global",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2019,12 +2024,6 @@
    "company": "Mercor",
    "token": "mercor",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2050,8 +2049,9 @@
    "ok": true
   },
   {
-   "company": "Liberty Global",
-   "ats": "workday",
+   "company": "Match Group",
+   "token": "matchgroup",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2077,6 +2077,12 @@
    "ok": true
   },
   {
+   "company": "MBDA",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "National Bank of Canada",
    "token": "national",
    "ats": "greenhouse",
@@ -2087,12 +2093,6 @@
    "company": "National Gas",
    "token": "national",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "MBDA",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2118,6 +2118,13 @@
    "ok": true
   },
   {
+   "company": "Mastercard",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Nubank",
    "token": "nubank",
    "ats": "ashby",
@@ -2137,13 +2144,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Nationwide",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Oliver Wyman",
@@ -2194,16 +2194,16 @@
    "ok": true
   },
   {
-   "company": "Pennylane",
-   "token": "pennylane",
-   "ats": "ashby",
+   "company": "Pharo Management",
+   "token": "pharomanagement",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Pharo Management",
-   "token": "pharomanagement",
-   "ats": "greenhouse",
+   "company": "Pennylane",
+   "token": "pennylane",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2222,11 +2222,11 @@
    "ok": true
   },
   {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true
   },
   {
    "company": "Plaid",
@@ -2236,22 +2236,21 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
-  },
-  {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "PQShield",
+   "token": "pqshield",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "PQShield",
-   "token": "pqshield",
+   "company": "NCR Atleos",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Public",
+   "token": "public",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2264,11 +2263,11 @@
    "ok": true
   },
   {
-   "company": "Public",
-   "token": "public",
-   "ats": "greenhouse",
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "company": "Quilter",
@@ -2276,6 +2275,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Oxford Properties Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "company": "Quizlet",
@@ -2299,12 +2305,6 @@
    "ok": true
   },
   {
-   "company": "PSG Equity",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Reddit",
    "token": "reddit",
    "ats": "greenhouse",
@@ -2319,13 +2319,6 @@
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Replit",
    "token": "replit",
    "ats": "ashby",
@@ -2333,8 +2326,9 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
-   "ats": "workday",
+   "company": "Render",
+   "token": "render",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2360,15 +2354,21 @@
    "ok": true
   },
   {
-   "company": "Roku",
-   "token": "roku",
-   "ats": "greenhouse",
+   "company": "Qualcomm",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
+   "company": "PSG Equity",
    "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Roku",
+   "token": "roku",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2387,17 +2387,22 @@
    "ok": true
   },
   {
-   "company": "Robeco",
+   "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "NCR Atleos",
+   "company": "PJT Partners",
    "ats": "workday",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
+  },
+  {
+   "company": "Robeco",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Sardine",
@@ -2489,6 +2494,13 @@
    "ok": true
   },
   {
+   "company": "Sweeney Conrad",
+   "token": "sweeneyconrad",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Supabase",
    "token": "supabase",
    "ats": "ashby",
@@ -2496,9 +2508,9 @@
    "ok": true
   },
   {
-   "company": "Sweeney Conrad",
-   "token": "sweeneyconrad",
-   "ats": "greenhouse",
+   "company": "Synthesia",
+   "token": "synthesia",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2510,23 +2522,9 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Tailscale",
    "token": "tailscale",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Synthesia",
-   "token": "synthesia",
-   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2614,6 +2612,12 @@
    "ok": true
   },
   {
+   "company": "Tokio Marine Kiln",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Udemy",
    "token": "udemy",
    "ats": "greenhouse",
@@ -2638,12 +2642,6 @@
    "company": "UnlikelyAI",
    "token": "unlikelyai",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "UserTesting",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2725,7 +2723,7 @@
    "ok": true
   },
   {
-   "company": "Tokio Marine Kiln",
+   "company": "UserTesting",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2738,6 +2736,30 @@
   }
  ],
  "offers": [
+  {
+   "id": "wd-visa-REF086773W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "COOP Trainee (For current students - second semester COOP, starting in January 2027)",
+   "location": "SA - Riyadh, Saudi Arabia",
+   "regions": [
+    "mena"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/SA---Riyadh-Saudi-Arabia/COOP-Trainee--For-current-students---second-semester-COOP--starting-in-January-2027-_REF086773W",
+   "postedAt": "2026-09-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
   {
    "id": "wd-gartner-114070",
    "company": "Gartner",
@@ -5006,30 +5028,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mizuho-R7278",
-   "company": "Mizuho",
-   "ats": "workday",
-   "title": "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
-   "location": "Sweden - Stockholm",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/Sweden---Stockholm/Mizuho---Greenhill---Investment-Banking-Internship-2027--Stockholm-_R7278-1",
-   "postedAt": "2026-09-04",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Mizuho/Greenhill: an overview Greenhill, acquired by Mizuho in 2023, is a part of Mizuho America’s Corporate and Investment Bank (CIB). Mizuho І Greenhill provides clients with strategic advice on significant mergers, acquisitions, restructurings, and private capital advisory strategies across major global industries. ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-motorolasolutions-Greater Chicago Area",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -5102,6 +5100,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-mizuho-R7278",
+   "company": "Mizuho",
+   "ats": "workday",
+   "title": "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
+   "location": "Sweden - Stockholm",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/Sweden---Stockholm/Mizuho---Greenhill---Investment-Banking-Internship-2027--Stockholm-_R7278-1",
+   "postedAt": "2026-09-04",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Mizuho/Greenhill: an overview Greenhill, acquired by Mizuho in 2023, is a part of Mizuho America’s Corporate and Investment Bank (CIB). Mizuho І Greenhill provides clients with strategic advice on significant mergers, acquisitions, restructurings, and private capital advisory strategies across major global industries. ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-hl-R3560",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -5128,15 +5150,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287605",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Sales Analyst Intern, Summer 2027 - New York, US",
-   "location": "2 Locations",
+   "title": "Summer 2027 External Affairs Internship",
+   "location": "Non précisé",
    "regions": [
-    "us"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/New-York-City-New-York/Sales-Analyst-Intern--Summer-2027---New-York--US_R-287605",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-External-Affairs-Internship_100224",
    "postedAt": "2026-09-04",
    "department": "",
    "kind": "internship",
@@ -5148,43 +5170,43 @@
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "If you're passionate about being part of a diverse organization that enables a Fortune 100 company with nearly $70 billion in annual sales to deliver innovative business solutions with excellence, then Nationwide's Legal team could be the place for you! At Nationwide®, “on your side” goes beyond just words. Our custome",
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-284627",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Associate Specialist, Implementation - Launch Graduate Program 2027",
-   "location": "Singapore",
+   "title": "Summer 2027 Generative AI Internship",
+   "location": "Non précisé",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Associate-Specialist--Implementation---Launch-Graduate-Program-2027_R-284627",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Generative-AI-Internship_100231",
    "postedAt": "2026-09-04",
    "department": "",
-   "kind": "graduate",
+   "kind": "internship",
    "year": 2027,
    "yearSource": "title",
-   "season": null,
-   "track": "business",
+   "season": "summer",
+   "track": "ai-ml",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287574",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Software Engineer Intern, Summer 2027 - Singapore",
-   "location": "Singapore",
+   "title": "Summer 2027 Feature Engineer Internship",
+   "location": "Non précisé",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Software-Engineer-Intern--Summer-2027---Singapore_R-287574",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Feature-Engineer-Internship_100233",
    "postedAt": "2026-09-04",
    "department": "",
    "kind": "internship",
@@ -5196,43 +5218,19 @@
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287573",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Iowa - Des Moines, 1100 Locust Street",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Product Management Intern, Summer 2027 - Singapore",
-   "location": "Singapore",
+   "title": "Summer 2027 Personal Lines Underwriting Intern",
+   "location": "Non précisé",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Product-Management-Intern--Summer-2027---Singapore_R-287573",
-   "postedAt": "2026-09-04",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "product",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287605",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Sales Analyst Intern, Summer 2027 - New York, US",
-   "location": "2 Locations",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/New-York-City-New-York/Sales-Analyst-Intern--Summer-2027---New-York--US_R-287605-1",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-Personal-Lines-Underwriting-Intern_100044",
    "postedAt": "2026-09-04",
    "department": "",
    "kind": "internship",
@@ -5244,7 +5242,55 @@
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Analytic Consulting Advisor Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Analytic-Consulting-Advisor-Internship_100235",
+   "postedAt": "2026-09-04",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Personal Lines Sales Business Analyst Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-Personal-Lines-Sales-Business-Analyst-Intern_100038",
+   "postedAt": "2026-09-04",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
@@ -6873,87 +6919,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287654",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Arizona - Scottsdale",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Site Reliability Engineering Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
+   "title": "Summer 2027 E&S Wholesale Underwriting Intern",
+   "location": "Non précisé",
    "regions": [
     "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
-   "postedAt": "2026-09-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284859",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Technical Program Management Intern, Summer 2027 – New York City, NY, US",
-   "location": "New York City, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/New-York-City-New-York/Technical-Program-Management-Intern--Summer-2027---New-York-City--NY--US_R-284859",
-   "postedAt": "2026-09-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "product",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287652",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Technical Program Management Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Technical-Program-Management-Intern--Summer-2027---St-Louis--MO--US_R-287652",
-   "postedAt": "2026-09-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "product",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287581",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Intern, Associate Consultants Summer Program 2027 - Malaysia",
-   "location": "Kuala Lumpur, Malaysia",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Kuala-Lumpur-Malaysia/Intern--Associate-Consultants-Summer-Program-2027---Malaysia_R-287581",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Arizona---Scottsdale/Summer-2027-E-S-Wholesale-Underwriting-Intern_100045",
    "postedAt": "2026-09-03",
    "department": "",
    "kind": "internship",
@@ -6965,19 +6939,19 @@
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
    "id": "wd-ryan-R0015214",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
    "location": "Houston TX",
    "regions": [
     "us"
    ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214-2",
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214",
    "postedAt": "2026-09-03",
    "department": "",
    "kind": "internship",
@@ -7001,7 +6975,7 @@
    "regions": [
     "us"
    ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214",
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214-2",
    "postedAt": "2026-09-03",
    "department": "",
    "kind": "internship",
@@ -8154,6 +8128,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-nationwide-Connecticut - Avon, 30 Tower Lane",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Surety Underwriting Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Connecticut---Avon-30-Tower-Lane/Summer-2027-Surety-Underwriting-Intern_100043",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020477",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Tax Consulting Intern - Plano, TX",
+   "location": "Plano TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Tax-Consulting-Intern---Plano--TX_R0020477",
+   "postedAt": "2026-09-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "​ Why Ryan? Competitively Paid Internship Award-Winning Culture Paid Holidays Mentorship Opportunities and Hands-On Training Networking with Industry Leaders All-Expense-Paid Trip to Ryan Headquarters in Dallas, TX (Summer Interns Only) We are looking for interns interested in state, local, federal, and international t",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-southstatebank-R-05805",
    "company": "SouthState Bank",
    "ats": "workday",
@@ -8343,129 +8365,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284877",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284711",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Product Management – Technical Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "product",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-280889",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Data Centre Infrastructure Apprentice",
-   "location": "Dunstable, England (Vocalink)",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Dunstable-England-Vocalink/Data-Centre-Infrastructure-Apprentice_R-280889",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/Cambridge-University-Exclusive-Dinner_R0003521",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "Cambridge University Exclusive Dinner",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/Cambridge-University-Exclusive-Dinner_R0003521",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020477",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Summer 2027 Tax Consulting Intern - Plano, TX",
-   "location": "Plano TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Tax-Consulting-Intern---Plano--TX_R0020477",
-   "postedAt": "2026-09-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "​ Why Ryan? Competitively Paid Internship Award-Winning Culture Paid Holidays Mentorship Opportunities and Hands-On Training Networking with Industry Leaders All-Expense-Paid Trip to Ryan Headquarters in Dallas, TX (Summer Interns Only) We are looking for interns interested in state, local, federal, and international t",
    "hasDeadlineHint": false
   },
   {
@@ -10422,6 +10321,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-nationwide-Ohio - Columbus, Three Nationwide Plaza",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Technology Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Three-Nationwide-Plaza/Summer-2027-Technology-Internship_100105",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about being part of a dynamic organization that enables a Fortune 100 company with nearly $70 billion in annual sales to drive innovation and adopt new technologies that deliver business results, then Nationwide’s Technology team could be the place for you! At Nationwide®, “on your side” goes beyon",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-santander-Req1531825",
    "company": "Santander",
    "ats": "workday",
@@ -10443,380 +10366,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "2027 Investment Banking Summer Analyst - New York Country: United States of America It Starts Here: Santander is a global leader and innovator in the financial services industry and is evolving from a high-impact brand into a technology-driven organization. Our people are at the heart of this journey and together, we a",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284873",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284868",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--Corporate-Rotational--London_R0003512",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Corporate Rotational) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--Corporate-Rotational--London_R0003512",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Strategic Advisory & Restructuring) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Hong-Kong/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003501",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (Strategic Advisory & Restructuring) Hong Kong",
-   "location": "Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Hong-Kong/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003501",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--London_R0003508",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--London_R0003508",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Munich/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Munich_R0003502",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Munich",
-   "location": "Munich",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Munich/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Munich_R0003502",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Dubai/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Dubai_R0003504",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Dubai",
-   "location": "Dubai",
-   "regions": [
-    "mena"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Dubai/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Dubai_R0003504",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Stockholm/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Stockholm_R0003505",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Stockholm",
-   "location": "Stockholm",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Stockholm/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Stockholm_R0003505",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Milan/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Milan_R0003506",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Milan",
-   "location": "Milan",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Milan/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Milan_R0003506",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "wd-pjtpartners-/job/Madrid/XMLNAME-2027-July-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Madrid_R0003507",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 July Off-Cycle Analyst (Strategic Advisory & Restructuring) Madrid",
-   "location": "Madrid",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Madrid/XMLNAME-2027-July-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Madrid_R0003507",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/Hong-Kong/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003503",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Hong Kong",
-   "location": "Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/Hong-Kong/XMLNAME-2027-January-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Hong-Kong_R0003503",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 Summer Analyst (PJT Park Hill - Private Capital Solutions) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003511",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003509",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "2027 January Off-Cycle Analyst (PJT Park Hill - Private Capital Solutions) London",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-January-Off-Cycle-Analyst--PJT-Park-Hill---Private-Capital-Solutions--London_R0003509",
-   "postedAt": "2026-09-01",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -10913,6 +10462,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Business Unit What the Role Entails About The Company Tencent is a leading global technology company focused on connecting people and developing innovative products and services that improve the quality of life of people around the world. Founded in 1998 and publicly traded on the Hong Kong Stock Exchange since 2004, T",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R108039",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "AI Business Analyst Intern",
+   "location": "US-California-Palo Alto",
+   "regions": [
+    "us"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit What the Role Entails Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experi",
    "hasDeadlineHint": false
   },
   {
@@ -12354,126 +11927,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-284875",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284901",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Data Engineering Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284901",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284872",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Enterprise Operations Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Enterprise-Operations-Intern--Summer-2027---St-Louis--MO--US_R-284872",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284869",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-284879",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Data Scientist Intern, Summer 2027 – St. Louis, MO, US",
-   "location": "O'Fallon, Missouri",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879",
-   "postedAt": "2026-08-31",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-raymondjames-Saint Petersburg, Florida - United States",
    "company": "Raymond James",
    "ats": "workday",
@@ -13290,6 +12743,78 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Economics Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Economics-Internship_100099",
+   "postedAt": "2026-08-28",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Internal Audit Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Internal-Audit-Internship_100098",
+   "postedAt": "2026-08-28",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Internal Audit at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Enterprise Risk Management Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Enterprise-Risk-Management-Internship_100097",
+   "postedAt": "2026-08-28",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-robinhood-8163432",
    "company": "Robinhood",
    "ats": "greenhouse",
@@ -13937,30 +13462,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-greystar-R0199436",
-   "company": "Greystar",
-   "ats": "workday",
-   "title": "Community Assistant - The Marshall (Student Living)",
-   "location": "The Marshall, Minneapolis, MN",
-   "regions": [
-    "us"
-   ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Marshall-Minneapolis-MN/Community-Assistant---The-Marshall--Student-Living-_R0199436",
-   "postedAt": "2026-08-27",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-motorolasolutions-Chicago, IL (IL156)",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -13982,6 +13483,126 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Financial Services Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Financial-Services-Internship_100076",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Are you passionate about being part of a team at a Fortune 100 company with nearly $70 billion in annual sales that delivers extraordinary care to help individuals and businesses prepare for and protect their future? If so, then Nationwide Financial could be the place for you! At Nationwide®, “on your side” goes beyond",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Iowa - Des Moines, 1100 Locust Street",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Surety Claims Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-Surety-Claims-Intern_100052",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Iowa - Des Moines, 1100 Locust Street",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "2027 Agribusiness Commercial Casualty Claims Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/XMLNAME-2027-Agribusiness-Commercial-Casualty-Claims-Intern_099540",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Iowa - Des Moines, 1100 Locust Street",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "2027 Agribusiness Commercial Property Claims Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/XMLNAME-2027-Agribusiness-Commercial-Property-Claims-Intern_099539",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Personal Lines Claims Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-Personal-Lines-Claims-Intern_100001",
+   "postedAt": "2026-08-27",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
@@ -14785,27 +14406,51 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287580",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027 - Hong Kong SAR",
-   "location": "Wanchai, Hong Kong",
+   "title": "Summer 2027 Commercial Lines Portfolio Management Intern",
+   "location": "Non précisé",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Wanchai-Hong-Kong/Associate-Consultant-Intern--Summer-2027---Hong-Kong-SAR_R-287580",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-Commercial-Lines-Portfolio-Management-Intern_099989",
    "postedAt": "2026-08-26",
    "department": "",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
    "season": "summer",
-   "track": "consulting",
+   "track": "banking",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 Commercial Lines Underwriting Intern (Small Commercial)",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-Commercial-Lines-Underwriting-Intern--Small-Commercial-_099990",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
@@ -15354,30 +14999,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-guidehouse-43903",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Health and Human Services, Federal Health Advisory - Campus 2027",
-   "location": "US - VA, McLean",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Health-and-Human-Services--Federal-Health-Advisory---Campus-2027_43903",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Strategy & Transformation Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : To further the Department of Health and Human Services (HHS) mission and advance the health and well-being of all Americans, Guidehouse offers a powerful combination of in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-fifththird-R71892",
    "company": "Fifth Third Bank",
    "ats": "workday",
@@ -15567,6 +15188,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth Third Bank. GENERAL FUNCTION: The Fifth Third Bank Leadership Program (LP) Internship is designed to provide students with exposure to a variety of banking discip",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-43903",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Health and Human Services, Federal Health Advisory - Campus 2027",
+   "location": "US - VA, McLean",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Health-and-Human-Services--Federal-Health-Advisory---Campus-2027_43903",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Strategy & Transformation Consulting Travel Required : Up to 10% Clearance Required : Ability to Obtain Public Trust What You Will Do : To further the Department of Health and Human Services (HHS) mission and advance the health and well-being of all Americans, Guidehouse offers a powerful combination of in",
    "hasDeadlineHint": false
   },
   {
@@ -15831,34 +15476,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/London/University-College-Dublin---Trinity-College-Dublin-Company-Presentation---Exclusive-Dinner_R0003492",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "University College Dublin & Trinity College Dublin Company Presentation & Exclusive Dinner",
-   "location": "London",
-   "regions": [
-    "uk",
-    "europe"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/University-College-Dublin---Trinity-College-Dublin-Company-Presentation---Exclusive-Dinner_R0003492",
-   "postedAt": "2026-08-25",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -16617,31 +16234,76 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-pjtpartners-/job/London/St-Gallen-University-Company-Presentation---Exclusive-Dinner_R0003490",
-   "company": "PJT Partners",
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "St Gallen University Company Presentation & Exclusive Dinner",
-   "location": "London",
+   "title": "Summer 2027 Controllership Internship",
+   "location": "Non précisé",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/London/St-Gallen-University-Company-Presentation---Exclusive-Dinner_R0003490",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Controllership-Internship_099980",
    "postedAt": "2026-08-24",
    "department": "",
    "kind": "internship",
-   "year": null,
-   "yearSource": null,
+   "year": 2027,
+   "yearSource": "title",
    "season": "summer",
-   "track": "banking",
+   "track": "business",
    "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
+   "tags": [],
    "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "2027 Controllership Winter/Spring Co-op",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/XMLNAME-2027-Controllership-Winter-Spring-Co-op_099978",
+   "postedAt": "2026-08-24",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "2027 Corporate Tax Winter-Spring Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/XMLNAME-2027-Corporate-Tax-Winter-Spring-Internship_099981",
+   "postedAt": "2026-08-24",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": true
   },
   {
    "id": "wd-raymondjames-PA - Philadelphia - 1650 Market Street Floor 53",
@@ -16931,30 +16593,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-capitalone-R249010",
-   "company": "Capital One",
-   "ats": "workday",
-   "title": "Intern, Full Stack Software Engineer - Team Sprout - Winter 2027",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Integrated-Sprout---Winter-2027_R249010",
-   "postedAt": "2026-08-21",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Full Stack Software Engineer - Team Sprout - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-barclays-JR-0000123983",
    "company": "Barclays",
    "ats": "workday",
@@ -17004,6 +16642,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Job Description Purpose of the role To participate in the day-to-day activities of the Investment Banking division. Gain broad exposure to different types of clients, transactions and focus on specialist areas. Accountabilities Collaboration on live deals, client pitches, support the team with advising on a broad range",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-capitalone-R249010",
+   "company": "Capital One",
+   "ats": "workday",
+   "title": "Intern, Full Stack Software Engineer - Team Sprout - Winter 2027",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Integrated-Sprout---Winter-2027_R249010",
+   "postedAt": "2026-08-21",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "winter",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Full Stack Software Engineer - Team Sprout - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve ",
    "hasDeadlineHint": false
   },
   {
@@ -17286,99 +16948,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287570",
-   "company": "Mastercard",
+   "id": "wd-nationwide-Ohio - Columbus, One Nationwide Plaza",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Associate Consultant, Launch Graduate Program 2027 - Hong Kong SAR",
-   "location": "Wanchai, Hong Kong",
+   "title": "Summer 2027 State Product Analyst Intern - Personal Lines",
+   "location": "Non précisé",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Wanchai-Hong-Kong/Associate-Consultant--Launch-Graduate-Program-2027---Hong-Kong-SAR_R-287570",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794",
    "postedAt": "2026-08-21",
    "department": "",
-   "kind": "graduate",
+   "kind": "internship",
    "year": 2027,
    "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288691",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Analyst, Business Development, Launch Graduate Program 2027 – Hong Kong SAR",
-   "location": "Wanchai, Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Wanchai-Hong-Kong/Associate-Analyst--Business-Development--Launch-Graduate-Program-2027---Hong-Kong-SAR_R-288691",
-   "postedAt": "2026-08-21",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
+   "season": "summer",
    "track": "business",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288689",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Analyst, Account Management, Launch Graduate Program 2027 – Hong Kong SAR",
-   "location": "Wanchai, Hong Kong",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Wanchai-Hong-Kong/Associate-Analyst--Account-Management--Launch-Graduate-Program-2027---Hong-Kong-SAR_R-288689",
-   "postedAt": "2026-08-21",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288685",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Analyst, Account Management, Launch Graduate Program 2027 – Beijing, China",
-   "location": "Beijing, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Beijing-China/Associate-Analyst--Account-Management--Launch-Graduate-Program-2027---Beijing--China_R-288685",
-   "postedAt": "2026-08-21",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "excerpt": "If you’re passionate about helping people protect what matters most to them at a Fortune 100 company with nearly $70 billion in annual sales, as well as innovating and simplifying processes and operations to provide the best customer value, then Nationwide’s Property and Casualty team could be the place for you! At Nat",
    "hasDeadlineHint": false
   },
   {
@@ -18757,6 +18347,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107926",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Brand Marketing Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Los-Angeles/Brand-Marketing-Intern_R107926",
+   "postedAt": "2026-08-19",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About the Hiring Team What the Role Entails ABOUT LEVEL INFINITE Level Infinite is Tencent Games' global publishing label, bringing world-class gaming experiences to players across more than 200 countries and regions. We work across a diverse portfolio of games — from action RPGs to casual mobile titles — and are build",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-putnamassociatesllc-7967058",
    "company": "Putnam Associates",
    "ats": "greenhouse",
@@ -19194,51 +18808,51 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287616",
-   "company": "Mastercard",
+   "id": "wd-visa-REF086803W",
+   "company": "Visa",
    "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027 - Vancouver, Canada",
-   "location": "Vancouver, Canada",
+   "title": "Marketing Services Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "MA - Casablanca, Morocco",
    "regions": [
-    "canada"
+    "other"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Vancouver-Canada/Associate-Consultant-Intern--Summer-2027---Vancouver--Canada_R-287616",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/Marketing-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086803W",
    "postedAt": "2026-08-18",
    "department": "",
    "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
+   "year": null,
+   "yearSource": null,
    "season": "summer",
-   "track": "consulting",
+   "track": "business",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-287615",
-   "company": "Mastercard",
+   "id": "wd-visa-REF086805W",
+   "company": "Visa",
    "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027 - Toronto, Canada",
-   "location": "Toronto, Canada",
+   "title": "Marketing Services Intern - Students Graduating Summer 2028 or December 2027",
+   "location": "UA - Kyiv, Ukraine",
    "regions": [
-    "canada"
+    "europe"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Toronto-Canada/Associate-Consultant-Intern--Summer-2027---Toronto--Canada_R-287615",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/UA---Kyiv-Ukraine/Marketing-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086805W",
    "postedAt": "2026-08-18",
    "department": "",
    "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
+   "year": null,
+   "yearSource": null,
    "season": "summer",
-   "track": "consulting",
+   "track": "business",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -19431,54 +19045,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Business Unit The S3 HR and Management Line follows a \"User-Focused and Employee-Oriented\" philosophy and employs a three-pillar HR organization model. By offering \"productized services and marketized management,\" the S3 HR and Management Line provides comprehensive support for developing Tencent's organization, talent",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086803W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Marketing Services Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "MA - Casablanca, Morocco",
-   "regions": [
-    "other"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/MA---Casablanca-Morocco/Marketing-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086803W",
-   "postedAt": "2026-08-18",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086805W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Marketing Services Intern - Students Graduating Summer 2028 or December 2027",
-   "location": "UA - Kyiv, Ukraine",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/UA---Kyiv-Ukraine/Marketing-Services-Intern---Students-Graduating-Summer-2028-or-December-2027_REF086805W",
-   "postedAt": "2026-08-18",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -20162,102 +19728,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-capitalone-R243855",
-   "company": "Capital One",
-   "ats": "workday",
-   "title": "Intern, Strategy Analyst - Summer 2027",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Strategy-Analyst---Summer-2027_R243855-1",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Strategy Analyst - Summer 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve been on a mission to change banking for go",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-capitalone-R249022",
-   "company": "Capital One",
-   "ats": "workday",
-   "title": "Intern, Backend Software Engineer - Team Interstellar - Winter 2027",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Backend-Software-Engineer---Team-Interstellar---Winter-2027_R249022",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Backend Software Engineer - Team Interstellar - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-capitalone-R249015",
-   "company": "Capital One",
-   "ats": "workday",
-   "title": "Intern, Mobile Software Engineer - Team Gringotts North - Winter 2027",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Mobile-Software-Engineer---Team-Gringotts-North---Winter-2027_R249015",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Mobile Software Engineer - Team Gringotts North - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, w",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-capitalone-R249013",
-   "company": "Capital One",
-   "ats": "workday",
-   "title": "Intern, Full Stack Software Engineer - Team Pickle - Winter 2027",
-   "location": "Toronto, ON",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Pickle---Winter-2027_R249013",
-   "postedAt": "2026-08-17",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Full Stack Software Engineer - Team Pickle - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-barclays-JR-0000128135",
    "company": "Barclays",
    "ats": "workday",
@@ -20359,6 +19829,102 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Job Description Purpose of the role To participate in the day-to-day activities of the markets division providing insights and expertise that help senior colleagues make informed decisions, develop new products and services, and identify new market opportunities. Accountabilities Execution of small research projects, r",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-capitalone-R243855",
+   "company": "Capital One",
+   "ats": "workday",
+   "title": "Intern, Strategy Analyst - Summer 2027",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Strategy-Analyst---Summer-2027_R243855-1",
+   "postedAt": "2026-08-17",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Strategy Analyst - Summer 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve been on a mission to change banking for go",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-capitalone-R249022",
+   "company": "Capital One",
+   "ats": "workday",
+   "title": "Intern, Backend Software Engineer - Team Interstellar - Winter 2027",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Backend-Software-Engineer---Team-Interstellar---Winter-2027_R249022",
+   "postedAt": "2026-08-17",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "winter",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Backend Software Engineer - Team Interstellar - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-capitalone-R249015",
+   "company": "Capital One",
+   "ats": "workday",
+   "title": "Intern, Mobile Software Engineer - Team Gringotts North - Winter 2027",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Mobile-Software-Engineer---Team-Gringotts-North---Winter-2027_R249015",
+   "postedAt": "2026-08-17",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "winter",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Mobile Software Engineer - Team Gringotts North - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, w",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-capitalone-R249013",
+   "company": "Capital One",
+   "ats": "workday",
+   "title": "Intern, Full Stack Software Engineer - Team Pickle - Winter 2027",
+   "location": "Toronto, ON",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Pickle---Winter-2027_R249013",
+   "postedAt": "2026-08-17",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "winter",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Full Stack Software Engineer - Team Pickle - Winter 2027 MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION UNDER RESUME/CV WHEN YOU CREATE YOUR PROFILE TO APPLY. About Capital One Canada For 30 years, we’ve ",
    "hasDeadlineHint": false
   },
   {
@@ -21980,30 +21546,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R107835",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Tencent Cloud - Business Development Interns (Malaysia)",
-   "location": "Malaysia-Kuala Lumpur",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Malaysia-Kuala-Lumpur/Tencent-Cloud---Business-Development-Interns--Malaysia-_R107835",
-   "postedAt": "2026-08-13",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-visa-REF086764W",
    "company": "Visa",
    "ats": "workday",
@@ -22049,6 +21591,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107835",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Tencent Cloud - Business Development Interns (Malaysia)",
+   "location": "Malaysia-Kuala Lumpur",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Malaysia-Kuala-Lumpur/Tencent-Cloud---Business-Development-Interns--Malaysia-_R107835",
+   "postedAt": "2026-08-13",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
    "hasDeadlineHint": false
   },
   {
@@ -22982,462 +22548,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-288250",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Business Experimentation, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Business-Experimentation--Internship-Program-2027---San-Jose--Costa-Rica_R-288250",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287273",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Performance Analytics, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Performance-Analytics--Internship-Program-2027---San-Jose--Costa-Rica_R-287273-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "data",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288231",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Strategy & Transformation, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Strategy---Transformation--Internship-Program-2027---San-Jose--Costa-Rica_R-288231",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287576",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Sales Analyst Intern, Summer 2027 - Beijing, China",
-   "location": "Beijing, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Beijing-China/Sales-Analyst-Intern--Summer-2027---Beijing--China_R-287576",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287575",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Sales Analyst Intern, Summer 2027 - Shanghai, China",
-   "location": "Shanghai, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Shanghai-China/Sales-Analyst-Intern--Summer-2027---Shanghai--China_R-287575",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288238",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Internship Program, Americas, 2027 – Dominican Republic",
-   "location": "Santo Domingo, Dominican Republic",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Santo-Domingo-Dominican-Republic/Internship-Program--Americas--2027---Dominican-Republic_R-288238",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-286204",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027",
-   "location": "3 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Arlington-Virginia/Associate-Consultant-Intern_R-286204",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288304",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Analyst, Account Management, Launch Graduate Program 2027 – Shanghai, China",
-   "location": "Shanghai, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Shanghai-China/Associate-Analyst--Account-Management--Launch-Graduate-Program-2027---Shanghai--China_R-288304",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287568",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant, Launch Graduate Program 2027 - Beijing, China",
-   "location": "Beijing, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Beijing-China/Associate-Consultant--Launch-Graduate-Program-2027---Beijing--China_R-287568",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287567",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant, Launch Graduate Program 2027 - Shanghai, China",
-   "location": "Shanghai, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Shanghai-China/Associate-Consultant--Launch-Graduate-Program-2027---Shanghai--China_R-287567",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287271",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Marketing Services, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Marketing-Services--Internship-Program-2027---San-Jose--Costa-Rica_R-287271",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287578",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027 - Beijing, China",
-   "location": "Beijing, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Beijing-China/Associate-Consultant-Intern--Summer-2027---Beijing--China_R-287578",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287577",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Summer 2027 - Shanghai, China",
-   "location": "Shanghai, China",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Shanghai-China/Associate-Consultant-Intern--Summer-2027---Shanghai--China_R-287577",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288250",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Business Experimentation, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Business-Experimentation--Internship-Program-2027---San-Jose--Costa-Rica_R-288250-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287273",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Performance Analytics, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Performance-Analytics--Internship-Program-2027---San-Jose--Costa-Rica_R-287273",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "data",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288231",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Strategy & Transformation, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Strategy---Transformation--Internship-Program-2027---San-Jose--Costa-Rica_R-288231-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287271",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Associate Consultant Intern, Marketing Services, Internship Program 2027 - San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Jose-Costa-Rica/Associate-Consultant-Intern--Marketing-Services--Internship-Program-2027---San-Jose--Costa-Rica_R-287271-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-287270",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Internship Program, Americas, 2027 – San Jose, Costa Rica",
-   "location": "San Jose, Costa Rica",
-   "regions": [
-    "us"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/San-Jose-Costa-Rica/Internship-Program--Americas--2027---San-Jose--Costa-Rica_R-287270-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-mastercard-R-288238",
-   "company": "Mastercard",
-   "ats": "workday",
-   "title": "Internship Program, Americas, 2027 – Dominican Republic",
-   "location": "Santo Domingo, Dominican Republic",
-   "regions": [
-    "other"
-   ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Santo-Domingo-Dominican-Republic/Internship-Program--Americas--2027---Dominican-Republic_R-288238-1",
-   "postedAt": "2026-08-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-dvtrading-4719125005",
    "company": "DV Trading",
    "ats": "greenhouse",
@@ -23828,6 +22938,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ryan-R0019863",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Graduate Business Development Executive",
+   "location": "MediaCity UK - Manchester",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Media-City/Graduate-Business-Development-Executive_R0019863-1",
+   "postedAt": "2026-08-10",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Why Ryan? Competitive Compensation and Benefits Business Connectivity Reimbursement (Phone/Internet) Gym Membership or Equipment Reimbursement LinkedIn Learning Subscription Flexible Work Environment Tuition Reimbursement After One Year of Service Accelerated Career Path Award-Winning Culture & Community Outreach Are y",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-raymondjames-Griffin, Georgia - United States",
    "company": "Raymond James",
    "ats": "workday",
@@ -23876,27 +23010,51 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ryan-R0019863",
-   "company": "Ryan",
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
    "ats": "workday",
-   "title": "Graduate Business Development Executive",
-   "location": "MediaCity UK - Manchester",
+   "title": "Summer 2027 Nationwide Financial Actuarial Internship",
+   "location": "Non précisé",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Media-City/Graduate-Business-Development-Executive_R0019863-1",
-   "postedAt": "2026-08-10",
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Nationwide-Financial-Actuarial-Internship_099735",
+   "postedAt": "2026-08-09",
    "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
    "track": "business",
-   "industry": "tech",
+   "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Why Ryan? Competitive Compensation and Benefits Business Connectivity Reimbursement (Phone/Internet) Gym Membership or Equipment Reimbursement LinkedIn Learning Subscription Flexible Work Environment Tuition Reimbursement After One Year of Service Accelerated Career Path Award-Winning Culture & Community Outreach Are y",
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-nationwide-Ohio - Columbus Metro",
+   "company": "Nationwide",
+   "ats": "workday",
+   "title": "Summer 2027 P&C Actuarial Internship",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-P-C-Actuarial-Internship_099736",
+   "postedAt": "2026-08-09",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associ",
    "hasDeadlineHint": false
   },
   {
@@ -24323,6 +23481,56 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description: Job Title: HR Apprentice Location: Bangalore, India About the programme: This 12-month apprenticeship , under India's National Apprenticeship Training Scheme, provides valuable on-the-job training; Please note, there is no obligation for permanent employment with Deutsche Bank Group upon completion of ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-795614",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Working Student – Chief Administration Office (m/w/d))",
+   "location": "Munich, Germany",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
+   "postedAt": "2026-08-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Who we are looking for We are looking for a Working Student to join the Chief Administration Office (CAO) of State Street Bank International GmbH (SSBI). Reporting to the Executive Business Manager for SSBI CAO, Executive Management Board Member, you will gain exposure to senior leadership, governance processes, regula",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-statestreet-R-795614",
+   "company": "State Street",
+   "ats": "workday",
+   "title": "Working Student – Chief Administration Office (m/w/d))",
+   "location": "Munich, Germany",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://statestreet.wd1.myworkdayjobs.com/eQuest/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614",
+   "postedAt": "2026-08-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Who we are looking for We are looking for a Working Student to join the Chief Administration Office (CAO) of State Street Bank International GmbH (SSBI). Reporting to the Executive Business Manager for SSBI CAO, Executive Management Board Member, you will gain exposure to senior leadership, governance processes, regula",
    "hasDeadlineHint": false
   },
   {
@@ -25505,6 +24713,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Hva skjer når en stor virksomhet skal endre seg? Noen må forstå problemet, strukturere løsningen og hjelpe organisasjonen med å komme seg fra A til B. Det er det konsulenter gjør , og det er det du får prøve deg på denne sommeren. Som Summer Intern hos Accenture jobber du på et ekte prosjekt hos en av våre kunder. Du a",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-invesco-R-14978",
+   "company": "Invesco",
+   "ats": "workday",
+   "title": "NATA Trainee",
+   "location": "Hyderabad, Telangana",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Hyderabad-Telangana/NATA-Trainee_R-14978",
+   "postedAt": "2026-08-04",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "As one of the world’s leading independent global investment firms, Invesco is dedicated to rethinking possibilities for our clients. By delivering the combined power of our distinctive investment management capabilities, we provide a wide range of investment strategies and vehicles to our clients around the world. If y",
    "hasDeadlineHint": false
   },
   {
@@ -28735,6 +27967,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107793",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "PUBG Mobile Marketing Team Intern",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/PUBG-Mobile-Marketing-Team-Intern_R107793",
+   "postedAt": "2026-07-22",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-virtu-8624408002",
    "company": "Virtu Financial",
    "ats": "greenhouse",
@@ -29487,6 +28743,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business prioritie",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0194753",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Fieldstone, UMass Amherst (Student Living)",
+   "location": "Fieldstone, Amherst, MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Fieldstone-Amherst-MA/Community-Assistant---Fieldstone--UMass-Amherst--Student-Living-_R0194753",
+   "postedAt": "2026-07-15",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
    "hasDeadlineHint": false
   },
   {
@@ -31470,6 +30750,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107173",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Product Manager Intern, Game Performance Optimization",
+   "location": "Netherlands-Amsterdam",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Netherlands-Amsterdam/Product-Manager-Intern--gaming_R107173",
+   "postedAt": "2026-07-10",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "product",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-snowflake-a4753822-7581-4cf3-8fcc-856f54d684b0",
    "company": "Snowflake",
    "ats": "ashby",
@@ -33065,6 +32369,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107051",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
+   "location": "US-California-Palo Alto",
+   "regions": [
+    "us"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051-1",
+   "postedAt": "2026-07-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R106650",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Hunyuan Multimodal Algorithm Researcher Intern(Omni-Modal)​​",
+   "location": "US-California-Palo Alto",
+   "regions": [
+    "us"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-intern-Omni-Modal---_R106650-2",
+   "postedAt": "2026-07-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit Technology Engineering Group (TEG) is responsible for supporting the company and its business groups on technology and operational platforms, as well as the construction and operation of R&D management and data centers, TEG provides users with a full range of customer services. As the operator of the larg",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "lv-palantir-9e40d77f-b07c-437b-98e7-def9b0184d89",
    "company": "Palantir",
    "ats": "lever",
@@ -34629,6 +33981,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107644",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Data Product Intern",
+   "location": "United Kingdom-London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/Data-Product-Intern_R107644",
+   "postedAt": "2026-06-22",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-alan-207a6ec4-1831-44a3-af4e-4ec42e7b7528",
    "company": "Alan",
    "ats": "ashby",
@@ -34886,6 +34262,31 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description: For over 150 years, our dedication to being the Global Hausbank for our clients has been driven by our people – in around 60 countries and across more than 150 nationalities. Their deep understanding, insights, expertise, and passion help our clients navigate an increasingly complex world. If you are m",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107493",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "PUBG MOBILE Marketing and Communication Assistant Intern",
+   "location": "France-Paris",
+   "regions": [
+    "europe",
+    "paris"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/France-Paris/Marketing-and-Communication-Assistant-Intern_R107493",
+   "postedAt": "2026-06-17",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has developed and operated over 140 games. We provide cross-platform interactive entertainment experience for more than 800",
    "hasDeadlineHint": false
   },
   {
@@ -35199,7 +34600,7 @@
   },
   {
    "id": "wd-brown-REQ209800",
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "title": "Campus Police Officer",
    "location": "75 Charlesfield Street",
@@ -35753,6 +35154,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107621",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "AI Product Engineer Intern — Game Development",
+   "location": "Netherlands-Amsterdam",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Netherlands-Amsterdam/AI-Product-Engineer-Intern---Game-Development_R107621",
+   "postedAt": "2026-06-03",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
    "hasDeadlineHint": false
   },
   {
@@ -38593,7 +38018,7 @@
   },
   {
    "id": "wd-brown-REQ211071",
-   "company": "Brown Edwards",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "title": "Manager of Campus Physical Security",
    "location": "75 Charlesfield Street",
@@ -43891,6 +43316,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107259",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Data Science Intern",
+   "location": "Singapore-CapitaSky",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Data-Science-Intern_R107259-1",
+   "postedAt": "2026-05-07",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "lv-palantir-1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a",
    "company": "Palantir",
    "ats": "lever",
@@ -44303,6 +43752,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-tencent-R107361",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Data Science Intern",
+   "location": "Singapore-CapitaSky",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Data-Science-Intern_R107361",
+   "postedAt": "2026-04-23",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-spacex-8516568002",
    "company": "SpaceX",
    "ats": "greenhouse",
@@ -44656,6 +44129,30 @@
    "yearSource": null,
    "season": "summer",
    "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107258",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Game ML Researcher Intern",
+   "location": "Singapore-CapitaSky",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/Game-ML-Researcher-Intern_R107258",
+   "postedAt": "2026-04-02",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [],
    "cycle": null,
@@ -45999,6 +45496,30 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "Position Overview Apollo is a high-growth, global alternative asset manager. In our asset management business, we seek to provide our clients excess return at every point along the risk-reward spectrum from investment grade to private equity with a focus on three investing strategies: yield, hybrid, and equity. For mor",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R106758",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "NLP Research Intern",
+   "location": "United Kingdom-London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/NLP-Research-Intern_R106758",
+   "postedAt": "2026-01-19",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "Business Unit LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced technology. We are focused on bringing next generation experiences to gamers who want to enjoy them anywhere, anytime, across multiple genres and device",
    "hasDeadlineHint": false
   },
   {
@@ -51560,39 +51081,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-invesco-R-14978",
-   "company": "Invesco",
-   "ats": "workday",
-   "title": "NATA Trainee",
-   "location": "Hyderabad, Telangana",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Hyderabad-Telangana/NATA-Trainee_R-14978",
-   "postedAt": null,
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-greystar-R0194753",
+   "id": "wd-greystar-R0199436",
    "company": "Greystar",
    "ats": "workday",
-   "title": "Community Assistant - Fieldstone, UMass Amherst (Student Living)",
-   "location": "Fieldstone, Amherst, MA",
+   "title": "Community Assistant - The Marshall (Student Living)",
+   "location": "The Marshall, Minneapolis, MN",
    "regions": [
     "us"
    ],
-   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/Fieldstone-Amherst-MA/Community-Assistant---Fieldstone--UMass-Amherst--Student-Living-_R0194753",
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/The-Marshall-Minneapolis-MN/Community-Assistant---The-Marshall--Student-Living-_R0199436",
    "postedAt": null,
    "department": "",
    "kind": "early-career",
