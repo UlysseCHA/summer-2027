@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T10:32:13.872Z",
+ "generatedAt": "2026-10-17T15:26:45.918Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,36 +7,36 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 2828,
+  "total": 2888,
   "byYear": {
    "2021": 2,
    "2022": 2,
    "2025": 14,
-   "2026": 105,
+   "2026": 104,
    "2027": 1535,
    "2028": 40,
    "2029": 2,
-   "non precisee": 1128
+   "non precisee": 1189
   },
   "byCycle": {
    "2021": 2,
    "2022": 2,
    "2025": 14,
-   "2026": 105,
-   "2027": 2409,
+   "2026": 104,
+   "2027": 2465,
    "2028": 40,
    "2029": 2,
-   "non precisee": 254
+   "non precisee": 259
   },
   "byIndustry": {
-   "finance": 1136,
-   "tech": 1466,
+   "finance": 1137,
+   "tech": 1525,
    "consulting": 226
   },
   "byKind": {
-   "internship": 2260,
+   "internship": 2283,
    "graduate": 471,
-   "early-career": 97
+   "early-career": 134
   }
  },
  "sources": [
@@ -49,7 +49,13 @@
   {
    "company": "Citi",
    "ats": "workday",
-   "found": 101,
+   "found": 103,
+   "ok": true
+  },
+  {
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 98,
    "ok": true
   },
   {
@@ -80,13 +86,19 @@
   {
    "company": "Tencent",
    "ats": "workday",
-   "found": 78,
+   "found": 77,
    "ok": true
   },
   {
    "company": "MBDA",
    "ats": "workday",
    "found": 68,
+   "ok": true
+  },
+  {
+   "company": "Greystar",
+   "ats": "workday",
+   "found": 61,
    "ok": true
   },
   {
@@ -397,12 +409,6 @@
    "ok": true
   },
   {
-   "company": "Raymond James",
-   "ats": "workday",
-   "found": 13,
-   "ok": true
-  },
-  {
    "company": "AlixPartners",
    "token": "alixpartners",
    "ats": "greenhouse",
@@ -426,6 +432,12 @@
    "company": "StepStone Group",
    "token": "stepstone",
    "ats": "greenhouse",
+   "found": 12,
+   "ok": true
+  },
+  {
+   "company": "Raymond James",
+   "ats": "workday",
    "found": 12,
    "ok": true
   },
@@ -611,15 +623,15 @@
    "ok": true
   },
   {
-   "company": "AVEVA",
-   "ats": "workday",
+   "company": "Celonis",
+   "token": "celonis",
+   "ats": "greenhouse",
    "found": 7,
    "ok": true
   },
   {
-   "company": "Celonis",
-   "token": "celonis",
-   "ats": "greenhouse",
+   "company": "AVEVA",
+   "ats": "workday",
    "found": 7,
    "ok": true
   },
@@ -685,12 +697,6 @@
    "ok": true
   },
   {
-   "company": "Gartner",
-   "ats": "workday",
-   "found": 6,
-   "ok": true
-  },
-  {
    "company": "Audax Group",
    "token": "audaxgroup",
    "ats": "greenhouse",
@@ -698,7 +704,19 @@
    "ok": true
   },
   {
+   "company": "Gartner",
+   "ats": "workday",
+   "found": 6,
+   "ok": true
+  },
+  {
    "company": "Brown Edwards",
+   "ats": "workday",
+   "found": 6,
+   "ok": true
+  },
+  {
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 6,
    "ok": true
@@ -714,12 +732,6 @@
    "company": "Frazier & Deeter",
    "token": "frazierdeeter",
    "ats": "greenhouse",
-   "found": 6,
-   "ok": true
-  },
-  {
-   "company": "Brown Gibbons Lang & Company",
-   "ats": "workday",
    "found": 6,
    "ok": true
   },
@@ -861,15 +873,15 @@
    "ok": true
   },
   {
-   "company": "Triton Partners",
-   "ats": "workday",
+   "company": "Voleon",
+   "token": "voleon",
+   "ats": "ashby",
    "found": 4,
    "ok": true
   },
   {
-   "company": "Voleon",
-   "token": "voleon",
-   "ats": "ashby",
+   "company": "Triton Partners",
+   "ats": "workday",
    "found": 4,
    "ok": true
   },
@@ -880,15 +892,15 @@
    "ok": true
   },
   {
-   "company": "AgWest Farm Credit",
-   "token": "agwestfarmcredit",
+   "company": "3Red Partners",
+   "token": "3redpartners",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "3Red Partners",
-   "token": "3redpartners",
+   "company": "AgWest Farm Credit",
+   "token": "agwestfarmcredit",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -983,15 +995,15 @@
    "ok": true
   },
   {
-   "company": "HelloFresh",
-   "token": "hellofresh",
+   "company": "Helsing",
+   "token": "helsing",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Helsing",
-   "token": "helsing",
+   "company": "HelloFresh",
+   "token": "hellofresh",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -1056,6 +1068,12 @@
    "ok": true
   },
   {
+   "company": "Texas Capital Bank",
+   "ats": "workday",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "William Blair",
    "token": "williamblair",
    "ats": "greenhouse",
@@ -1071,12 +1089,6 @@
   },
   {
    "company": "U.S. Bank",
-   "ats": "workday",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Texas Capital Bank",
    "ats": "workday",
    "found": 2,
    "ok": true
@@ -1136,15 +1148,15 @@
    "ok": true
   },
   {
-   "company": "LionTree",
-   "token": "liontree",
-   "ats": "greenhouse",
+   "company": "Leerink Partners",
+   "ats": "workday",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Leerink Partners",
-   "ats": "workday",
+   "company": "LionTree",
+   "token": "liontree",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -1443,12 +1455,6 @@
    "ok": true
   },
   {
-   "company": "Mizuho",
-   "ats": "workday",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Netcraft",
    "token": "netcraft",
    "ats": "greenhouse",
@@ -1463,16 +1469,16 @@
    "ok": true
   },
   {
-   "company": "project44",
-   "token": "project44",
-   "ats": "greenhouse",
+   "company": "Proxima",
+   "token": "proxima",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Proxima",
-   "token": "proxima",
-   "ats": "ashby",
+   "company": "project44",
+   "token": "project44",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1561,15 +1567,15 @@
    "ok": true
   },
   {
-   "company": "BTG Pactual",
-   "token": "btgpactual",
-   "ats": "greenhouse",
+   "company": "abrdn",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "abrdn",
-   "ats": "workday",
+   "company": "BTG Pactual",
+   "token": "btgpactual",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1834,13 +1840,6 @@
    "ok": true
   },
   {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "BCG",
    "token": "bcg",
    "ats": "greenhouse",
@@ -1858,6 +1857,13 @@
    "company": "Cornerstone Research",
    "token": "cornerstone",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1883,13 +1889,6 @@
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Putnam Associates",
    "token": "putnamassociatesllc",
    "ats": "greenhouse",
@@ -1900,6 +1899,13 @@
    "company": "Sweeney Conrad",
    "token": "sweeneyconrad",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2044,16 +2050,16 @@
    "ok": true
   },
   {
-   "company": "Deliveroo",
-   "token": "deliveroo",
-   "ats": "ashby",
+   "company": "Discord",
+   "token": "discord",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Discord",
-   "token": "discord",
-   "ats": "greenhouse",
+   "company": "Deliveroo",
+   "token": "deliveroo",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2155,12 +2161,6 @@
    "ok": true
   },
   {
-   "company": "Global Atlantic",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Frontier Economics",
    "ats": "workday",
    "found": 0,
@@ -2182,6 +2182,18 @@
   },
   {
    "company": "Global Gate",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Global Atlantic",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2215,7 +2227,7 @@
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
    "ok": true
@@ -2231,18 +2243,6 @@
    "company": "Khan Academy",
    "token": "khanacademy",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "HarbourVest",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Hiscox",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2281,9 +2281,8 @@
    "ok": true
   },
   {
-   "company": "Marshmallow",
-   "token": "marshmallow",
-   "ats": "ashby",
+   "company": "Hiscox",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2295,16 +2294,16 @@
    "ok": true
   },
   {
-   "company": "Maxwell Locke & Ritter",
-   "token": "maxwell",
-   "ats": "greenhouse",
+   "company": "Marshmallow",
+   "token": "marshmallow",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Miro",
-   "token": "miro",
-   "ats": "ashby",
+   "company": "Maxwell Locke & Ritter",
+   "token": "maxwell",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2316,18 +2315,18 @@
    "ok": true
   },
   {
+   "company": "Miro",
+   "token": "miro",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Motive",
    "token": "motive",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Greystar",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "N26",
@@ -2379,6 +2378,13 @@
    "ok": true
   },
   {
+   "company": "Orion Group",
+   "token": "oriongroup",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "OpenAI",
    "token": "openai",
    "ats": "ashby",
@@ -2386,8 +2392,15 @@
    "ok": true
   },
   {
-   "company": "Orion Group",
-   "token": "oriongroup",
+   "company": "Mizuho",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "PagerDuty",
+   "token": "pagerduty",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2396,13 +2409,6 @@
    "company": "Oyster",
    "token": "oyster",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "PagerDuty",
-   "token": "pagerduty",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2477,15 +2483,15 @@
    "ok": true
   },
   {
-   "company": "Runway",
-   "token": "runway",
+   "company": "Runna",
+   "token": "runna",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Runna",
-   "token": "runna",
+   "company": "Runway",
+   "token": "runway",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2496,6 +2502,19 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 500"
+  },
+  {
+   "company": "Oxford Properties Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 500"
+  },
+  {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Sardine",
@@ -2540,12 +2559,6 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Spotify",
    "token": "spotify",
    "ats": "lever",
@@ -2560,11 +2573,10 @@
    "ok": true
   },
   {
-   "company": "Oxford Properties Group",
+   "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true
   },
   {
    "company": "Sumo Logic",
@@ -2588,22 +2600,16 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Synthesia",
    "token": "synthesia",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2643,22 +2649,8 @@
    "ok": true
   },
   {
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Twilio",
    "token": "twilio",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Udemy",
-   "token": "udemy",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2671,9 +2663,9 @@
    "ok": true
   },
   {
-   "company": "UnlikelyAI",
-   "token": "unlikelyai",
-   "ats": "ashby",
+   "company": "Udemy",
+   "token": "udemy",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2681,6 +2673,19 @@
    "company": "UiPath",
    "token": "uipath",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "UnlikelyAI",
+   "token": "unlikelyai",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "State Street",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2695,6 +2700,12 @@
    "company": "Vanta",
    "token": "vanta",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Tokio Marine Kiln",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2720,19 +2731,6 @@
    "ok": true
   },
   {
-   "company": "Tokio Marine Kiln",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Zscaler",
-   "token": "zscaler",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Younited",
    "token": "younited",
    "ats": "lever",
@@ -2740,8 +2738,9 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
+   "company": "Zscaler",
+   "token": "zscaler",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2777,6 +2776,60 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Position Overview Team Overview Apollo Global Engineering is seeking Summer Analysts to contribute and impact tomorrow’s Technology. Our products and tech-driven solutions are how we move faster, cut through complexity and fuel growth. We start with the problem and solve it with experience and tech know-how. Our skille",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-citi-26989505",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Young Apprentice - C00 - MUMBAI",
+   "location": "Mumbai Maharashtra India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Mumbai-Maharashtra-India/Young-Apprentice---C00---MUMBAI_26989505",
+   "postedAt": "2026-10-17",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "The Young Apprentice performs most basic, routine tasks/assignments. Works under direct supervision with detailed procedures. May service a very limited number of products/services. Applies knowledge of routine work area procedures. Completes standardized activities. Exchanges basic information with other co-workers. R",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-citi-26989490",
+   "company": "Citi",
+   "ats": "workday",
+   "title": "Young Apprentice - C00 - MUMBAI",
+   "location": "Mumbai Maharashtra India",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Mumbai-Maharashtra-India/Young-Apprentice---C00---MUMBAI_26989490",
+   "postedAt": "2026-10-17",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "bulge-bracket"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "The Young Apprentice performs most basic, routine tasks/assignments. Works under direct supervision with detailed procedures. May service a very limited number of products/services. Applies knowledge of routine work area procedures. Completes standardized activities. Exchanges basic information with other co-workers. R",
    "hasDeadlineHint": false
   },
   {
@@ -3835,6 +3888,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-gunvor-JR102851",
+   "company": "Gunvor",
+   "ats": "workday",
+   "title": "Centalion 2027 US Internship Program",
+   "location": "Houston",
+   "regions": [
+    "us"
+   ],
+   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/Houston/Centalion-2027-US-Internship-Program_JR102851-1",
+   "postedAt": "2026-10-16",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "quant",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Title: Centalion 2027 US Internship Program Contract Type: Time Type: Job Description: Centalion | U.S. Summer Internship Program: Houston, Texas | Trading Operations & Commercial Support Every day, energy moves across continents, connecting global supply with demand. Behind that movement is a complex network of tr",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00355951",
    "company": "Accenture",
    "ats": "workday",
@@ -3910,30 +3987,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "HET WERK Onze Resources Industry Group is als onderdeel van Accenture gefocusts op de combinatie van de nieuwste technologieën en de Resources Industrie (Utilities, Energy en Chemie). De Resources Industry is een van de snelst veranderende industrieën in Nederland en daarom een super interessante casus voor de nieuwste",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-gunvor-JR102851",
-   "company": "Gunvor",
-   "ats": "workday",
-   "title": "Centalion 2027 US Internship Program",
-   "location": "Houston",
-   "regions": [
-    "us"
-   ],
-   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/Houston/Centalion-2027-US-Internship-Program_JR102851-1",
-   "postedAt": "2026-10-16",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Title: Centalion 2027 US Internship Program Contract Type: Time Type: Job Description: Centalion | U.S. Summer Internship Program: Houston, Texas | Trading Operations & Commercial Support Every day, energy moves across continents, connecting global supply with demand. Behind that movement is a complex network of tr",
    "hasDeadlineHint": false
   },
   {
@@ -4034,7 +4087,7 @@
   },
   {
    "id": "wd-ryan-R0020843",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Software Engineering",
    "location": "Plano TX",
@@ -4058,7 +4111,7 @@
   },
   {
    "id": "wd-ryan-R0020820",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Application Development",
    "location": "Plano TX",
@@ -4082,7 +4135,7 @@
   },
   {
    "id": "wd-ryan-R0020822",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Software Development",
    "location": "Plano TX",
@@ -4106,7 +4159,7 @@
   },
   {
    "id": "wd-ryan-R0020843",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Software Engineering",
    "location": "Plano TX",
@@ -4130,7 +4183,7 @@
   },
   {
    "id": "wd-ryan-R0020820",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Application Development",
    "location": "Plano TX",
@@ -4154,7 +4207,7 @@
   },
   {
    "id": "wd-ryan-R0020822",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Software Development",
    "location": "Plano TX",
@@ -4908,30 +4961,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-raymondjames-Mc Lean, Virginia - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2027 Investment Banking Summer Analyst Diversified Industrials McLean, VA",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Mc-Lean-Virginia---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Diversified-Industrials-McLean--VA_R-0012139",
-   "postedAt": "2026-10-15",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-pjtpartners-/job/New-York/XMLNAME-2027-Summer-Associate---Restructuring---Special-Situations_R0003570",
    "company": "PJT Partners",
    "ats": "workday",
@@ -4980,6 +5009,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Mc Lean, Virginia - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "2027 Investment Banking Summer Analyst Diversified Industrials McLean, VA",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Mc-Lean-Virginia---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Diversified-Industrials-McLean--VA_R-0012139",
+   "postedAt": "2026-10-15",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description Summary An individual contributor with recognized skills in a specialized role in the field of Investment Banking. Job Description Capital Markets & Advisory (CMA) Summer Analyst R aymond James Overview One of the largest independent financial services firms in the country could be the place you build a",
    "hasDeadlineHint": false
   },
   {
@@ -5052,6 +5105,55 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R170762",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern – HSE – 2027 (M/F/D)",
+   "location": "IT-MS-MASSA- VIA DORSALE, 3",
+   "regions": [
+    "other"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-MS-MASSA--VIA-DORSALE-3/Intern---HSE---2027--M-F-D-_R170762",
+   "postedAt": "2026-10-15",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-bakerhughes-R170763",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern – Sourcing Specialist – 2027 (M/F/D)",
+   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Intern---Sourcing-Specialist---2027--M-F-D-_R170763",
+   "postedAt": "2026-10-15",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
    "hasDeadlineHint": false
   },
   {
@@ -5367,55 +5469,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R170762",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern – HSE – 2027 (M/F/D)",
-   "location": "IT-MS-MASSA- VIA DORSALE, 3",
-   "regions": [
-    "other"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-MS-MASSA--VIA-DORSALE-3/Intern---HSE---2027--M-F-D-_R170762",
-   "postedAt": "2026-10-15",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-bakerhughes-R170763",
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "title": "Intern – Sourcing Specialist – 2027 (M/F/D)",
-   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
-   "regions": [
-    "europe",
-    "italy"
-   ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Intern---Sourcing-Specialist---2027--M-F-D-_R170763",
-   "postedAt": "2026-10-15",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ciena-R031890",
    "company": "Ciena",
    "ats": "workday",
@@ -5611,6 +5664,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203482",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - The Cloud on Fifth (Student Living)",
+   "location": "The Cloud on Fifth, St. Cloud, MN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Cloud-on-Fifth-St-Cloud-MN/Leasing-Manager---The-Cloud-on-5th--Student-Living-_R0203482",
+   "postedAt": "2026-10-15",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203474",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - The Cloud on Fifth (Student Living)",
+   "location": "The Cloud on Fifth, St. Cloud, MN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Cloud-on-Fifth-St-Cloud-MN/Community-Manager---The-Cloud-on-5th--Student-Living-_R0203474",
+   "postedAt": "2026-10-15",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -7084,6 +7185,30 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-mastercard-R-291972",
+   "company": "Mastercard",
+   "ats": "workday",
+   "title": "Global Markets, Rotational Graduate Launch Program 2027 - (Sales & Product) - Cairo, Egypt",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Global-Markets--Graduate-Launch-Program-2027---Cairo--Egypt_R-291972-2",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "graduate",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-bakertilly-JR108362",
    "company": "Baker Tilly",
    "ats": "workday",
@@ -7156,27 +7281,99 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mastercard-R-291972",
-   "company": "Mastercard",
+   "id": "wd-visa-REF086121W",
+   "company": "Visa",
    "ats": "workday",
-   "title": "Global Markets, Rotational Graduate Launch Program 2027 - (Sales & Product) - Cairo, Egypt",
-   "location": "Non précisé",
+   "title": "VCA Intern (IDS)",
+   "location": "GB - London, United Kingdom",
    "regions": [
-    "other"
+    "uk"
    ],
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Global-Markets--Graduate-Launch-Program-2027---Cairo--Egypt_R-291972-2",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/VCA-Intern--IDS-_REF086121W",
    "postedAt": "2026-10-14",
    "department": "",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "banking",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
    "industry": "finance",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Our Purpose Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our t",
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF089498W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Data Science Graduate",
+   "location": "GB - London, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Data-Science-Graduate_REF089498W",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF086121W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "VCA Intern (IDS)",
+   "location": "GB - London, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/VCA-Intern--IDS-_REF086121W-1",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-visa-REF089498W",
+   "company": "Visa",
+   "ats": "workday",
+   "title": "Data Science Graduate",
+   "location": "GB - London, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/Data-Science-Graduate_REF089498W-1",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
    "hasDeadlineHint": false
   },
   {
@@ -7300,126 +7497,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-visa-REF086121W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern (IDS)",
-   "location": "GB - London, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/VCA-Intern--IDS-_REF086121W",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF089498W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Data Science Graduate",
-   "location": "GB - London, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/GB---London-United-Kingdom/Data-Science-Graduate_REF089498W",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF086121W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "VCA Intern (IDS)",
-   "location": "GB - London, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/VCA-Intern--IDS-_REF086121W-1",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-visa-REF089498W",
-   "company": "Visa",
-   "ats": "workday",
-   "title": "Data Science Graduate",
-   "location": "GB - London, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/Data-Science-Graduate_REF089498W-1",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-cadence-R56800",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "CST Application Engineer Intern - Systems ATX",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Systems-ATX_R56800-1",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in an engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Systems Division Sales Team of Cadence Design Syste",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-cboe-R-4738",
    "company": "Cboe Global Markets",
    "ats": "workday",
@@ -7489,6 +7566,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "University Internships: Engineering and Technology – 2027 opportunities Start Date: January 2027 Duration: 24 weeks Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable stu",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R56800",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "CST Application Engineer Intern - Systems ATX",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Systems-ATX_R56800-1",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in an engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Systems Division Sales Team of Cadence Design Syste",
    "hasDeadlineHint": false
   },
   {
@@ -8578,6 +8679,174 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0203647",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Marketing Operations Internship",
+   "location": "5 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-South-Carolina-Remote-South-Carolina-SC/Customer-Insights-and-Satisfaction-Intern_R0203647",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203826",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - The 505 (Student Living)",
+   "location": "The 505 (MO), Springfield, MO",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-505-MO-Springfield-MO/Leasing-Manager---The-505--Student-Living-_R0203826",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203827",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - Union on Alley (Student Living)",
+   "location": "Union on Alley, Fort Collins, CO",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-on-Alley-Fort-Collins-CO/Leasing-Manager---Union-on-Alley--Student-Living-_R0203827",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203863",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant-Treehaus (student living)",
+   "location": "Treehaus Clemson, Seneca, SC",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Treehaus-Clemson-Seneca-SC/Community-Assistant-Treehaus--student-living-_R0203863",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203876",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Gateway at Tempe (Student Living)",
+   "location": "Gateway at Tempe, Tempe, AZ",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Gateway-at-Tempe-Tempe-AZ/Community-Assistant---Gateway-at-Tempe--Student-Living-_R0203876",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0202781",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - The 505 (Student Living)",
+   "location": "The 505 (MO), Springfield, MO",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-505-MO-Springfield-MO/Community-Manager---The-505--Student-Living-_R0202781",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203227",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - The Province (Student Living)",
+   "location": "The Province, Louisville, KY",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Province-Louisville-KY/Community-Manager---The-Province--Student-Living-_R0203227-1",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-nasdaq-R0027113",
    "company": "NASDAQ",
    "ats": "workday",
@@ -8650,32 +8919,8 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R108250",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "LLM Agent Research Intern",
-   "location": "United Kingdom-London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/United-Kingdom-London/LLM-Agent-Research-Intern_R108250",
-   "postedAt": "2026-10-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world. We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wher",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ryan-R0020724",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transfer Pricing",
    "location": "Denver CO",
@@ -8699,7 +8944,7 @@
   },
   {
    "id": "wd-ryan-R0020724",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transfer Pricing",
    "location": "Denver CO",
@@ -9871,6 +10116,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203733",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - Drake West Village (Student Living)",
+   "location": "Drake West Village, Des Moines, IA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Drake-West-Village-Des-Moines-IA/Leasing-Manager---Drake-West-Village--Student-Living-_R0203733",
+   "postedAt": "2026-10-13",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0202805",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - The 505 (Student Living)",
+   "location": "The 505 (MO), Springfield, MO",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-505-MO-Springfield-MO/Community-Assistant---The-505--Student-Living-_R0202805-1",
+   "postedAt": "2026-10-13",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -11096,6 +11389,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0203550",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Marketing Operations Intern",
+   "location": "5 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-South-Carolina-Remote-South-Carolina-SC/Marketing-Operations-Intern_R0203550-1",
+   "postedAt": "2026-10-12",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203438",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Operations Assistant - University Flats (Student Living)",
+   "location": "University Flats, Lexington, KY",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/University-Flats-Lexington-KY/Operations-Assistant---University-Flats--Student-Living-_R0203438",
+   "postedAt": "2026-10-12",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R108173",
    "company": "Tencent",
    "ats": "workday",
@@ -11194,7 +11535,7 @@
   },
   {
    "id": "wd-ryan-R0020746",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Sacramento CA",
@@ -11218,7 +11559,7 @@
   },
   {
    "id": "wd-ryan-R0020746",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Sacramento CA",
@@ -12734,6 +13075,78 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0203186",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Block 75 (Student Living)",
+   "location": "Block 75, Albany, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Block-75-Albany-NY/Community-Assistant---Block-75--Student-Living-_R0203186",
+   "postedAt": "2026-10-09",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203159",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Union on 6th - Student Living",
+   "location": "Union on 6th, Tucson, AZ",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-on-6th-Tucson-AZ/Community-Assistant---Union-on-6th---Student-Living_R0203159",
+   "postedAt": "2026-10-09",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0196524",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - Hornet Place (Student Living)",
+   "location": "Hornet Place, Sacramento, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Hornet-Place-Sacramento-CA/Community-Manager---Hornet-Place--Student-Living-_R0196524",
+   "postedAt": "2026-10-09",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R108212",
    "company": "Tencent",
    "ats": "workday",
@@ -13624,54 +14037,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-guidehouse-45252",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consultant - Life Sciences Advisory, Health Segment - Campus 2027",
-   "location": "4 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---NY-New-York/Consultant---Life-Sciences-Advisory--Health-Segment---Campus-2027_45252",
-   "postedAt": "2026-10-08",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting, Strategy & Transformation Consulting Travel Required : Up to 25% Clearance Required : None What You Will Do : Guidehouse Life Sciences is an engine of innovation, helping pharmaceutical, biotech, medical device, and diagnostic companies develop custom solutions that tackle today’s ch",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-guidehouse-45253",
-   "company": "Guidehouse",
-   "ats": "workday",
-   "title": "Consulting Analyst - Life Sciences Advisory, Health Segment - Campus 2027",
-   "location": "4 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---NY-New-York/Consulting-Analyst---Life-Sciences-Advisory--Health-Segment---Campus-2027_45253",
-   "postedAt": "2026-10-08",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "consulting",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Family : Management Consulting, Strategy & Transformation Consulting Travel Required : Up to 25% Clearance Required : None What You Will Do : Guidehouse Life Sciences is an engine of innovation, helping pharmaceutical, biotech, medical device, and diagnostic companies develop custom solutions that tackle today’s ch",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-visa-REF086155W",
    "company": "Visa",
    "ats": "workday",
@@ -13720,6 +14085,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guidehouse-45252",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consultant - Life Sciences Advisory, Health Segment - Campus 2027",
+   "location": "4 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---NY-New-York/Consultant---Life-Sciences-Advisory--Health-Segment---Campus-2027_45252",
+   "postedAt": "2026-10-08",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting, Strategy & Transformation Consulting Travel Required : Up to 25% Clearance Required : None What You Will Do : Guidehouse Life Sciences is an engine of innovation, helping pharmaceutical, biotech, medical device, and diagnostic companies develop custom solutions that tackle today’s ch",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-guidehouse-45253",
+   "company": "Guidehouse",
+   "ats": "workday",
+   "title": "Consulting Analyst - Life Sciences Advisory, Health Segment - Campus 2027",
+   "location": "4 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---NY-New-York/Consulting-Analyst---Life-Sciences-Advisory--Health-Segment---Campus-2027_45253",
+   "postedAt": "2026-10-08",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Family : Management Consulting, Strategy & Transformation Consulting Travel Required : Up to 25% Clearance Required : None What You Will Do : Guidehouse Life Sciences is an engine of innovation, helping pharmaceutical, biotech, medical device, and diagnostic companies develop custom solutions that tackle today’s ch",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-bbva-JR00116970",
    "company": "BBVA",
    "ats": "workday",
@@ -13745,30 +14158,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cadence-R56702",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "CST Application Engineer Intern - Physical Systems",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Physical-Systems_R56702",
-   "postedAt": "2026-10-08",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in an engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Cadence Design Systems Physical System Design and A",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-bakerhughes-R170441",
    "company": "Baker Hughes",
    "ats": "workday",
@@ -13791,6 +14180,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R56702",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "CST Application Engineer Intern - Physical Systems",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Physical-Systems_R56702",
+   "postedAt": "2026-10-08",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in an engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Cadence Design Systems Physical System Design and A",
    "hasDeadlineHint": false
   },
   {
@@ -13945,6 +14358,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-troweprice-83986",
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "title": "2027 Corporate Governance Internship Program",
+   "location": "Baltimore, MD",
+   "regions": [
+    "us"
+   ],
+   "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Corporate-Governance-Internship-Program_83986",
+   "postedAt": "2026-10-08",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "At T. Rowe Price, we identify and actively invest in opportunities to help people thrive in an evolving world. As a premier global asset management organization with more than 85 years of experience, we provide investment solutions and a broad range of equity, fixed income, and multi-asset capabilities to individuals, ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-ncratleos-R1154945",
    "company": "NCR Atleos",
    "ats": "workday",
@@ -14086,30 +14523,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About NCR Atleos NCR Atleos, headquartered in Atlanta, is a leader in expanding financial access. Our dedicated 20,000 employees optimize the branch, improve operational efficiency and maximize self-service availability for financial institutions and retailers across the globe. Software Support Internship Location Dund",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-troweprice-83986",
-   "company": "T. Rowe Price",
-   "ats": "workday",
-   "title": "2027 Corporate Governance Internship Program",
-   "location": "Baltimore, MD",
-   "regions": [
-    "us"
-   ],
-   "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Baltimore-MD/XMLNAME-2027-Corporate-Governance-Internship-Program_83986",
-   "postedAt": "2026-10-08",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "At T. Rowe Price, we identify and actively invest in opportunities to help people thrive in an evolving world. As a premier global asset management organization with more than 85 years of experience, we provide investment solutions and a broad range of equity, fixed income, and multi-asset capabilities to individuals, ",
    "hasDeadlineHint": false
   },
   {
@@ -15146,7 +15559,7 @@
   },
   {
    "id": "wd-ryan-R0020778",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Property Tax",
    "location": "Fairfax VA",
@@ -15170,7 +15583,7 @@
   },
   {
    "id": "wd-ryan-R0020778",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Property Tax",
    "location": "Fairfax VA",
@@ -16046,30 +16459,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-cadence-R56655",
-   "company": "Cadence",
-   "ats": "workday",
-   "title": "CST Application Engineer Intern - Silicon",
-   "location": "SAN JOSE",
-   "regions": [
-    "us"
-   ],
-   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-3",
-   "postedAt": "2026-10-06",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in a STEM, electrical engineering, or computer engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Cadence De",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-bakerhughes-R170038",
    "company": "Baker Hughes",
    "ats": "workday",
@@ -16092,6 +16481,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-cadence-R56655",
+   "company": "Cadence",
+   "ats": "workday",
+   "title": "CST Application Engineer Intern - Silicon",
+   "location": "SAN JOSE",
+   "regions": [
+    "us"
+   ],
+   "url": "https://cadence.wd1.myworkdayjobs.com/University_CST/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-3",
+   "postedAt": "2026-10-06",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology. Are you currently enrolled in a STEM, electrical engineering, or computer engineering program and seeking an exciting summer 2027 internship with a leading Silicon Valley technology company? Join the Cadence De",
    "hasDeadlineHint": false
   },
   {
@@ -16316,6 +16729,78 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203085",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Asset Management Internship",
+   "location": "City Office San Francisco, San Francisco, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-San-Francisco-San-Francisco-CA/Asset-Management-Internship_R0203085",
+   "postedAt": "2026-10-06",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203094",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing and Marketing Manager - The Vanguard (Student Living)",
+   "location": "Vanguard, Cincinnati, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Vanguard-Cincinnati-OH/Leasing-and-Marketing-Manager---The-Vanguard--Student-Living-_R0203094",
+   "postedAt": "2026-10-06",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0203128",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager- Meta Christy House (Student Living)",
+   "location": "Meta Christy House, Philadelphia, PA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Meta-Christy-House-Philadelphia-PA/Leasing-Manager--Meta-Christy-House--Student-Living-_R0203128",
+   "postedAt": "2026-10-06",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -17626,6 +18111,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0203012",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Hillside Commons (Student Living)",
+   "location": "Hillside Commons, Oneonta, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Hillside-Commons-Oneonta-NY/Community-Assistant---Hillside-Commons--Student-Living-_R0203012",
+   "postedAt": "2026-10-05",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-nasdaq-R0027078",
    "company": "NASDAQ",
    "ats": "workday",
@@ -17747,7 +18256,7 @@
   },
   {
    "id": "wd-ryan-R0020613",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Tax Consulting Intern - Canada",
    "location": "5 Locations",
@@ -17770,32 +18279,8 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ryan-R0020779",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "El Paso TX",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/El-Paso/Summer-2027-Intern--Real-Property-Tax_R0020779",
-   "postedAt": "2026-10-05",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "​ Why Ryan? Competitively Paid Internship Award-Winning Culture Paid Holidays Mentorship Opportunities and Hands-On Training Networking with Industry Leaders All-Expense-Paid Trip to Ryan Headquarters in Dallas, TX (Summer Interns Only) We are looking for interns interested in state, local, federal, and international t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ryan-R0020613",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Tax Consulting Intern - Canada",
    "location": "5 Locations",
@@ -17819,7 +18304,7 @@
   },
   {
    "id": "wd-ryan-R0020779",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "El Paso TX",
@@ -18846,6 +19331,33 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-pjtpartners-/job/San-Francisco/Coffee-Chats---2027-Summer-Associate---Strategic-Advisory--San-Francisco-_R0003539-1",
+   "company": "PJT Partners",
+   "ats": "workday",
+   "title": "Coffee Chats - 2027 Summer Associate - Strategic Advisory (San Francisco)",
+   "location": "San Francisco",
+   "regions": [
+    "us"
+   ],
+   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/San-Francisco/Coffee-Chats---2027-Summer-Associate---Strategic-Advisory--San-Francisco-_R0003539-1",
+   "postedAt": "2026-10-02",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "finance",
+   "tags": [
+    "investment-banking",
+    "elite-boutique"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-raymondjames-Greenville, South Carolina - United States",
    "company": "Raymond James",
    "ats": "workday",
@@ -18891,33 +19403,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-pjtpartners-/job/San-Francisco/Coffee-Chats---2027-Summer-Associate---Strategic-Advisory--San-Francisco-_R0003539-1",
-   "company": "PJT Partners",
-   "ats": "workday",
-   "title": "Coffee Chats - 2027 Summer Associate - Strategic Advisory (San Francisco)",
-   "location": "San Francisco",
-   "regions": [
-    "us"
-   ],
-   "url": "https://pjtpartners.wd1.myworkdayjobs.com/Studentevents/job/San-Francisco/Coffee-Chats---2027-Summer-Associate---Strategic-Advisory--San-Francisco-_R0003539-1",
-   "postedAt": "2026-10-02",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "finance",
-   "tags": [
-    "investment-banking",
-    "elite-boutique"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
    "hasDeadlineHint": false
   },
   {
@@ -21180,8 +21665,56 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-greystar-R0202743",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - Co/Relate West Adams (Student Livng)",
+   "location": "Co/Relate West Adams, Los Angeles, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/CoRelate-West-Adams-Los-Angeles-CA/Leasing-Manager---Co-Relate-West-Adams--Student-Livng-_R0202743",
+   "postedAt": "2026-10-01",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0202742",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - Co/Relate West Adams (Student Living)",
+   "location": "Co/Relate West Adams, Los Angeles, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/CoRelate-West-Adams-Los-Angeles-CA/Community-Manager---Co-Relate-West-Adams--Student-Living-_R0202742",
+   "postedAt": "2026-10-01",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-ryan-R0020370",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "New Orleans LA",
@@ -21205,7 +21738,7 @@
   },
   {
    "id": "wd-ryan-R0020370",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "New Orleans LA",
@@ -21923,31 +22456,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tritonpartners-R1123",
-   "company": "Triton Partners",
-   "ats": "workday",
-   "title": "Private Equity Internship - Frankfurt TMM (July - September 2027)",
-   "location": "Frankfurt",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://tritonpartners.wd3.myworkdayjobs.com/External/job/Frankfurt/PE-Intern-FFM-TMM-Q3-2027_R1123",
-   "postedAt": "2026-09-30",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Working in partnership to build better businesses. Triton is an investment firm that believes in engaging with boards, managers and employees to build better businesses. We are entrepreneurs who invest capital where we can see an opportunity to create long-term value. We believe Triton is a great place to work and we w",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-southstatebank-R-06300",
    "company": "SouthState Bank",
    "ats": "workday",
@@ -22017,6 +22525,31 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tritonpartners-R1123",
+   "company": "Triton Partners",
+   "ats": "workday",
+   "title": "Private Equity Internship - Frankfurt TMM (July - September 2027)",
+   "location": "Frankfurt",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://tritonpartners.wd3.myworkdayjobs.com/External/job/Frankfurt/PE-Intern-FFM-TMM-Q3-2027_R1123",
+   "postedAt": "2026-09-30",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Working in partnership to build better businesses. Triton is an investment firm that believes in engaging with boards, managers and employees to build better businesses. We are entrepreneurs who invest capital where we can see an opportunity to create long-term value. We believe Triton is a great place to work and we w",
    "hasDeadlineHint": false
   },
   {
@@ -22214,8 +22747,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0202641",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Assistant Community Manager - Union Baseline and Union 9Seventy (Student Living)",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-Baseline-Boulder-CO/Assistant-Community-Manager---Union-Baseline-and-Union-9Seventy--Student-Living-_R0202641",
+   "postedAt": "2026-09-30",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-ryan-R0020743",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "San Diego CA",
@@ -22239,7 +22796,7 @@
   },
   {
    "id": "wd-ryan-R0020742",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Denver CO",
@@ -22263,7 +22820,7 @@
   },
   {
    "id": "wd-ryan-R0020744",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Irvine CA",
@@ -22287,7 +22844,7 @@
   },
   {
    "id": "wd-ryan-R0020745",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Glendale CA",
@@ -22311,7 +22868,7 @@
   },
   {
    "id": "wd-ryan-R0020747",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22335,7 +22892,7 @@
   },
   {
    "id": "wd-ryan-R0020749",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22359,7 +22916,7 @@
   },
   {
    "id": "wd-ryan-R0020750",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Cleveland OH",
@@ -22383,7 +22940,7 @@
   },
   {
    "id": "wd-ryan-R0020748",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22407,7 +22964,7 @@
   },
   {
    "id": "wd-ryan-R0020751",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Minneapolis MN",
@@ -22431,7 +22988,7 @@
   },
   {
    "id": "wd-ryan-R0020796",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transaction Tax Compliance",
    "location": "Downers Grove IL",
@@ -22455,7 +23012,7 @@
   },
   {
    "id": "wd-ryan-R0020795",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transaction Tax Compliance",
    "location": "Downers Grove IL",
@@ -22478,32 +23035,8 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ryan-R0020802",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Sales and Use Tax",
-   "location": "Sacramento CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Sacramento/Summer-2027-Intern--Sales-and-Use-Tax_R0020802",
-   "postedAt": "2026-09-30",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "​ Why Ryan? Competitively Paid Internship Award-Winning Culture Paid Holidays Mentorship Opportunities and Hands-On Training Networking with Industry Leaders All-Expense-Paid Trip to Ryan Headquarters in Dallas, TX (Summer Interns Only) We are looking for interns interested in state, local, federal, and international t",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ryan-R0020730",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, State Income/Franchise Tax",
    "location": "Sacramento CA",
@@ -22527,7 +23060,7 @@
   },
   {
    "id": "wd-ryan-R0020743",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "San Diego CA",
@@ -22551,7 +23084,7 @@
   },
   {
    "id": "wd-ryan-R0020742",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Denver CO",
@@ -22575,7 +23108,7 @@
   },
   {
    "id": "wd-ryan-R0020744",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Irvine CA",
@@ -22599,7 +23132,7 @@
   },
   {
    "id": "wd-ryan-R0020745",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Glendale CA",
@@ -22623,7 +23156,7 @@
   },
   {
    "id": "wd-ryan-R0020748",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22647,7 +23180,7 @@
   },
   {
    "id": "wd-ryan-R0020747",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22671,7 +23204,7 @@
   },
   {
    "id": "wd-ryan-R0020749",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Chicago IL",
@@ -22695,7 +23228,7 @@
   },
   {
    "id": "wd-ryan-R0020750",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Cleveland OH",
@@ -22719,7 +23252,7 @@
   },
   {
    "id": "wd-ryan-R0020751",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Minneapolis MN",
@@ -22743,7 +23276,7 @@
   },
   {
    "id": "wd-ryan-R0020796",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transaction Tax Compliance",
    "location": "Downers Grove IL",
@@ -22767,7 +23300,7 @@
   },
   {
    "id": "wd-ryan-R0020795",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transaction Tax Compliance",
    "location": "Downers Grove IL",
@@ -22791,7 +23324,7 @@
   },
   {
    "id": "wd-ryan-R0020802",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Sales and Use Tax",
    "location": "Sacramento CA",
@@ -22815,7 +23348,7 @@
   },
   {
    "id": "wd-ryan-R0020730",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, State Income/Franchise Tax",
    "location": "Sacramento CA",
@@ -23523,6 +24056,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0202566",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - The Letterman (Student Living)",
+   "location": "The Letterman, Chicago, IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Letterman-Chicago-IL/Community-Assistant---The-Letterman--Student-Living-_R0202566",
+   "postedAt": "2026-09-29",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R108097",
    "company": "Tencent",
    "ats": "workday",
@@ -23572,7 +24129,7 @@
   },
   {
    "id": "wd-ryan-R0020719",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern,  Asset Recovery",
    "location": "Minneapolis MN",
@@ -23596,7 +24153,7 @@
   },
   {
    "id": "wd-ryan-R0020735",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, National Tax",
    "location": "New York NY",
@@ -23620,7 +24177,7 @@
   },
   {
    "id": "wd-ryan-R0020725",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transfer Pricing",
    "location": "Washington DC",
@@ -23644,7 +24201,7 @@
   },
   {
    "id": "wd-ryan-R0020722",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Employment Tax",
    "location": "Austin TX",
@@ -23668,7 +24225,7 @@
   },
   {
    "id": "wd-ryan-R0020731",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, International Income Tax",
    "location": "Atlanta GA",
@@ -23692,7 +24249,7 @@
   },
   {
    "id": "wd-ryan-R0020740",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Plano TX",
@@ -23716,7 +24273,7 @@
   },
   {
    "id": "wd-ryan-R0020736",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Atlanta GA",
@@ -23740,7 +24297,7 @@
   },
   {
    "id": "wd-ryan-R0020762",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Personal Property Tax",
    "location": "Plano TX",
@@ -23764,7 +24321,7 @@
   },
   {
    "id": "wd-ryan-R0020757",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "King of Prussia PA",
@@ -23788,7 +24345,7 @@
   },
   {
    "id": "wd-ryan-R0020754",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Boston MA",
@@ -23812,7 +24369,7 @@
   },
   {
    "id": "wd-ryan-R0020761",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Personal Property Tax",
    "location": "Hunt Valley MD",
@@ -23836,7 +24393,7 @@
   },
   {
    "id": "wd-ryan-R0020737",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Orlando FL",
@@ -23860,7 +24417,7 @@
   },
   {
    "id": "wd-ryan-R0020758",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "New York NY",
@@ -23884,7 +24441,7 @@
   },
   {
    "id": "wd-ryan-R0020756",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Washington DC",
@@ -23908,7 +24465,7 @@
   },
   {
    "id": "wd-ryan-R0020764",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Complex Property Tax",
    "location": "Austin TX",
@@ -23932,7 +24489,7 @@
   },
   {
    "id": "wd-ryan-R0020763",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Complex Property Tax",
    "location": "Houston TX",
@@ -23956,7 +24513,7 @@
   },
   {
    "id": "wd-ryan-R0020739",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Austin TX",
@@ -23980,7 +24537,7 @@
   },
   {
    "id": "wd-ryan-R0020726",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, International Income Tax",
    "location": "Houston TX",
@@ -24004,7 +24561,7 @@
   },
   {
    "id": "wd-ryan-R0020738",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "San Antonio TX",
@@ -24027,32 +24584,8 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ryan-R0020727",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, R&E Tax Credits",
-   "location": "Washington DC",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Washington/Summer-2027-Intern--R-E-Tax-Credits_R0020727",
-   "postedAt": "2026-09-29",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Why Ryan? Hybrid Work Options Award-Winning Culture Generous Personal Time Off (PTO) Benefits 14-Weeks of 100% Paid Leave for New Parents (Adoption Included) Monthly Gym Membership Reimbursement OR Gym Equipment Reimbursement Benefits Eligibility Effective Day One 401K with Employer Match Tuition Reimbursement After On",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-ryan-R0020718",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
    "location": "Boston MA",
@@ -24076,7 +24609,7 @@
   },
   {
    "id": "wd-ryan-R0020715",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
    "location": "Plano TX",
@@ -24100,7 +24633,7 @@
   },
   {
    "id": "wd-ryan-R0020801",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Sales and Use Tax",
    "location": "Plano TX",
@@ -24124,7 +24657,7 @@
   },
   {
    "id": "wd-ryan-R0020797",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Sales and Use Tax",
    "location": "Nashville TN",
@@ -24148,7 +24681,7 @@
   },
   {
    "id": "wd-ryan-R0020714",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Compliance",
    "location": "King of Prussia PA",
@@ -24172,7 +24705,7 @@
   },
   {
    "id": "wd-ryan-R0020719",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern,  Asset Recovery",
    "location": "Minneapolis MN",
@@ -24196,7 +24729,7 @@
   },
   {
    "id": "wd-ryan-R0020735",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, National Tax",
    "location": "New York NY",
@@ -24220,7 +24753,7 @@
   },
   {
    "id": "wd-ryan-R0020725",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Transfer Pricing",
    "location": "Washington DC",
@@ -24244,7 +24777,7 @@
   },
   {
    "id": "wd-ryan-R0020722",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Employment Tax",
    "location": "Austin TX",
@@ -24268,7 +24801,7 @@
   },
   {
    "id": "wd-ryan-R0020731",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, International Income Tax",
    "location": "Atlanta GA",
@@ -24292,7 +24825,7 @@
   },
   {
    "id": "wd-ryan-R0020740",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Plano TX",
@@ -24316,7 +24849,7 @@
   },
   {
    "id": "wd-ryan-R0020736",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Atlanta GA",
@@ -24340,7 +24873,7 @@
   },
   {
    "id": "wd-ryan-R0020762",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Personal Property Tax",
    "location": "Plano TX",
@@ -24364,7 +24897,7 @@
   },
   {
    "id": "wd-ryan-R0020757",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "King of Prussia PA",
@@ -24388,7 +24921,7 @@
   },
   {
    "id": "wd-ryan-R0020754",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Boston MA",
@@ -24412,7 +24945,7 @@
   },
   {
    "id": "wd-ryan-R0020737",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Orlando FL",
@@ -24436,7 +24969,7 @@
   },
   {
    "id": "wd-ryan-R0020761",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Personal Property Tax",
    "location": "Hunt Valley MD",
@@ -24460,7 +24993,7 @@
   },
   {
    "id": "wd-ryan-R0020758",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "New York NY",
@@ -24484,7 +25017,7 @@
   },
   {
    "id": "wd-ryan-R0020756",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Washington DC",
@@ -24508,7 +25041,7 @@
   },
   {
    "id": "wd-ryan-R0020764",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Complex Property Tax",
    "location": "Austin TX",
@@ -24532,7 +25065,7 @@
   },
   {
    "id": "wd-ryan-R0020763",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Complex Property Tax",
    "location": "Houston TX",
@@ -24556,7 +25089,7 @@
   },
   {
    "id": "wd-ryan-R0020739",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "Austin TX",
@@ -24580,7 +25113,7 @@
   },
   {
    "id": "wd-ryan-R0020726",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, International Income Tax",
    "location": "Houston TX",
@@ -24604,7 +25137,7 @@
   },
   {
    "id": "wd-ryan-R0020738",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Real Property Tax",
    "location": "San Antonio TX",
@@ -24628,7 +25161,7 @@
   },
   {
    "id": "wd-ryan-R0020727",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, R&E Tax Credits",
    "location": "Washington DC",
@@ -24652,7 +25185,7 @@
   },
   {
    "id": "wd-ryan-R0020718",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
    "location": "Boston MA",
@@ -24676,7 +25209,7 @@
   },
   {
    "id": "wd-ryan-R0020715",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
    "location": "Plano TX",
@@ -24700,7 +25233,7 @@
   },
   {
    "id": "wd-ryan-R0020801",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Sales and Use Tax",
    "location": "Plano TX",
@@ -24724,7 +25257,7 @@
   },
   {
    "id": "wd-ryan-R0020797",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Sales and Use Tax",
    "location": "Nashville TN",
@@ -24748,7 +25281,7 @@
   },
   {
    "id": "wd-ryan-R0020714",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Compliance",
    "location": "King of Prussia PA",
@@ -26068,6 +26601,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0202473",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - The Ridge at Clear Creek (Student Living)",
+   "location": "The Ridge at Clear Creek, Flagstaff, AZ",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Ridge-at-Clear-Creek-Flagstaff-AZ/Leasing-Manager---The-Ridge-at-Clear-Creek--Student-Living-_R0202473",
+   "postedAt": "2026-09-28",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -28464,6 +29021,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0202317",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Camber Villas (Student Living)",
+   "location": "Camber Villas, Bryan, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Camber-Villas-Bryan-TX/Community-Assistant---Camber-Villas--Student-Living-_R0202317",
+   "postedAt": "2026-09-25",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R107344",
    "company": "Tencent",
    "ats": "workday",
@@ -29535,30 +30116,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-raymondjames-Frisco, Texas - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "Financial Advisor Trainee (Frisco, TX)",
-   "location": "Non précisé",
-   "regions": [
-    "us"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Frisco-Texas---United-States/Financial-Advisor-Trainee--Frisco--TX-_R-0013174",
-   "postedAt": "2026-09-24",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-pjtpartners-/job/Madrid/XMLNAME-2027-July-Off-Cycle-Analyst--Strategic-Advisory---Restructuring--Madrid_R0003507",
    "company": "PJT Partners",
    "ats": "workday",
@@ -29583,6 +30140,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "PJT Partners is a global advisory-focused investment bank. Our team of senior professionals delivers a wide array of strategic advisory, shareholder advisory, restructuring and special situations and private fund advisory and placement services to corporations, financial sponsors, institutional investors and government",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Frisco, Texas - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "Financial Advisor Trainee (Frisco, TX)",
+   "location": "Non précisé",
+   "regions": [
+    "us"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Frisco-Texas---United-States/Financial-Advisor-Trainee--Frisco--TX-_R-0013174",
+   "postedAt": "2026-09-24",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary Through ",
    "hasDeadlineHint": false
   },
   {
@@ -30287,6 +30868,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0202160",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Business Systems Intern",
+   "location": "5 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-South-Carolina-Remote-South-Carolina-SC/Business-Systems-Intern_R0202160",
+   "postedAt": "2026-09-24",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0201729",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Accolade Auburn (Student Living)",
+   "location": "Accolade Auburn, Auburn, AL",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Accolade-Auburn-Auburn-AL/Community-Assistant---Accolade-Auburn--Student-Living-_R0201729",
+   "postedAt": "2026-09-24",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -31016,6 +31645,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-southstatebank-R-06261",
+   "company": "SouthState Bank",
+   "ats": "workday",
+   "title": "Summer 2027 Marketing and Communications Banking Intern (Remote)",
+   "location": "Remote Opportunity - VA, NC, SC, GA,  FL, AL, TX, & CO",
+   "regions": [
+    "us"
+   ],
+   "url": "https://southstatebank.wd5.myworkdayjobs.com/External/job/Remote-Opportunity---VA-NC-SC-GA--FL-AL-TX--CO/Summer-2027-Marketing-and-Communications-Banking-Intern--Remote-_R-06261",
+   "postedAt": "2026-09-23",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-raymondjames-FL - Saint Petersburg - 880 Carillon Pkwy",
    "company": "Raymond James",
    "ats": "workday",
@@ -31061,30 +31714,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Job Description Summary Fulfills varying tasks and assignments and completes rotations in a range of areas related to financial services, under varying levels of supervision. Develops skills and capabilities that equips the incumbent to move into a specific role in the organization. Job Description Job Summary: Through",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-southstatebank-R-06261",
-   "company": "SouthState Bank",
-   "ats": "workday",
-   "title": "Summer 2027 Marketing and Communications Banking Intern (Remote)",
-   "location": "Remote Opportunity - VA, NC, SC, GA,  FL, AL, TX, & CO",
-   "regions": [
-    "us"
-   ],
-   "url": "https://southstatebank.wd5.myworkdayjobs.com/External/job/Remote-Opportunity---VA-NC-SC-GA--FL-AL-TX--CO/Summer-2027-Marketing-and-Communications-Banking-Intern--Remote-_R-06261",
-   "postedAt": "2026-09-23",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
    "hasDeadlineHint": false
   },
   {
@@ -32708,30 +33337,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-tencent-R108176",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "IT Operations Intern",
-   "location": "US-California-Palo Alto",
-   "regions": [
-    "us"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/US-California-Palo-Alto/IT-Operations-Intern_R108176-1",
-   "postedAt": "2026-09-22",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About the Hiring Team What the Role Entails We are looking for a proactive and detail-oriented IT Operations Intern to join Tencent’s IT team in the PA office, United States. You will work closely with our IT Operations, Infrastructure, and Service Support teams to support daily IT operations, project delivery, data an",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-tencent-R108158",
    "company": "Tencent",
    "ats": "workday",
@@ -33296,6 +33901,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-keybank-R-42276",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 Summer Real Estate Capital Internship - Dallas",
+   "location": "Dallas, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Dallas-TX/XMLNAME-2027-Summer-Real-Estate-Capital-Internship---Dallas_R-42276",
+   "postedAt": "2026-09-21",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 8117 Preston Road, Suite 400, Dallas Texas Program Duration: MAY 26, 2027 – AUGUST 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that wil",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-hl-R2889",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -33347,30 +33976,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Business Unit: Financial Restructuring Group Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broa",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-42276",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Summer Real Estate Capital Internship - Dallas",
-   "location": "Dallas, TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Dallas-TX/XMLNAME-2027-Summer-Real-Estate-Capital-Internship---Dallas_R-42276",
-   "postedAt": "2026-09-21",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 8117 Preston Road, Suite 400, Dallas Texas Program Duration: MAY 26, 2027 – AUGUST 6, 2027 What does our Internship Program offer? Key’s Enterprise Internship is a 10.5-week program that provides meaningful work that matters, offers feedback and coaching, and creates engaging events and conversations that wil",
    "hasDeadlineHint": false
   },
   {
@@ -33644,6 +34249,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Who are we Founded in 1896, Knight Frank was registered as Knight Frank LLP a Limited Liability Partnership, on 3 November 2003, registered in England & Wales at 55 Baker Street, London, W1U 8AN with the registered number of OC305934. Headquartered in London, UK, Knight Frank is one of the world's leading independent r",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0201285",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Union Knoxville (Student Living)",
+   "location": "Union Knoxville, Knoxville, TN",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-Knoxville-Knoxville-TN/Community-Assistant---Union-Knoxville--Student-Living-_R0201285",
+   "postedAt": "2026-09-21",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -37144,6 +37773,30 @@
    "hasDeadlineHint": true
   },
   {
+   "id": "wd-gunvor-JR102817",
+   "company": "Gunvor",
+   "ats": "workday",
+   "title": "Shipping Operations Intern",
+   "location": "Singapore",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/Singapore/Shipping-Operations-Intern_JR102817-1",
+   "postedAt": "2026-09-16",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Title: Shipping Operations Intern Contract Type: Time Type: Full time Job Description: Overview of Role This internship offers a valuable opportunity to gain hands-on experience and insight into the workings of the commodity trading industry, with a strong focus on Shipping and Cargo Operations. Interns will be exp",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00349345",
    "company": "Accenture",
    "ats": "workday",
@@ -37170,15 +37823,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-gunvor-JR102817",
-   "company": "Gunvor",
+   "id": "wd-greystar-R0201263",
+   "company": "Greystar",
    "ats": "workday",
-   "title": "Shipping Operations Intern",
-   "location": "Singapore",
+   "title": "Tax & Accounting Internship",
+   "location": "City Office Charleston, Charleston, SC",
    "regions": [
-    "apac"
+    "other"
    ],
-   "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/Singapore/Shipping-Operations-Intern_JR102817-1",
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Charleston-Charleston-SC/Tax---Accounting-Internship_R0201263",
    "postedAt": "2026-09-16",
    "department": "",
    "kind": "internship",
@@ -37190,7 +37843,55 @@
    "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "Job Title: Shipping Operations Intern Contract Type: Time Type: Full time Job Description: Overview of Role This internship offers a valuable opportunity to gain hands-on experience and insight into the workings of the commodity trading industry, with a strong focus on Shipping and Cargo Operations. Interns will be exp",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0201258",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Analytics Engineering Intern",
+   "location": "4 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-Texas-Remote-Texas-TX/Analytics-Engineering-Intern_R0201258",
+   "postedAt": "2026-09-16",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0201036",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Union on 6th - Student Living",
+   "location": "Union on 6th, Tucson, AZ",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-on-6th-Tucson-AZ/Community-Assistant---Union-on-6th---Student-Living_R0201036",
+   "postedAt": "2026-09-16",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -40402,6 +41103,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0200240",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Data Engineering Intern",
+   "location": "7 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/Remote-Michigan-Remote-Michigan-MI/Data-Engineering-Intern_R0200240",
+   "postedAt": "2026-09-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R108140",
    "company": "Tencent",
    "ats": "workday",
@@ -41592,30 +42317,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-gartner-114070",
-   "company": "Gartner",
-   "ats": "workday",
-   "title": "Client Success Associate - French/English Bilingual Speakers (2027 University Graduates)",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Client-Success-Associate---French-English-Bilingual-Speakers--2027-University-Graduates--_114070",
-   "postedAt": "2026-09-11",
-   "department": "",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "other",
-   "industry": "consulting",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "What makes Gartner a great place to work? We're recognized worldwide as a great place to work year after year. We've been recognized by Fortune as one of the World’s Most Admired Companies, named a Best Place to Work for LGBTQ Equality by the Human Rights Campaign Corporate Equality Index and a Best Place to Work for D",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-visa-REF088379W",
    "company": "Visa",
    "ats": "workday",
@@ -41637,6 +42338,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the op",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-gartner-114070",
+   "company": "Gartner",
+   "ats": "workday",
+   "title": "Client Success Associate - French/English Bilingual Speakers (2027 University Graduates)",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Client-Success-Associate---French-English-Bilingual-Speakers--2027-University-Graduates--_114070",
+   "postedAt": "2026-09-11",
+   "department": "",
+   "kind": "early-career",
+   "year": 2027,
+   "yearSource": "title",
+   "season": null,
+   "track": "other",
+   "industry": "consulting",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "What makes Gartner a great place to work? We're recognized worldwide as a great place to work year after year. We've been recognized by Fortune as one of the World’s Most Admired Companies, named a Best Place to Work for LGBTQ Equality by the Human Rights Campaign Corporate Equality Index and a Best Place to Work for D",
    "hasDeadlineHint": false
   },
   {
@@ -41881,6 +42606,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0200630",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Manager - University Station (Student Living)",
+   "location": "University Station, Norwood, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/University-Station-Norwood-OH/Community-Manager---University-Station--Student-Living-_R0200630",
+   "postedAt": "2026-09-11",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -42272,30 +43021,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-raymondjames-Louisville, Kentucky - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "AMP Financial Advisor Trainee",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Louisville-Kentucky---United-States/AMP-Financial-Advisor-Trainee_R-0012865",
-   "postedAt": "2026-09-10",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Job Description Summary Job Description Job Summary Through distance learning, apprenticeship and training at the firm’s international headquarters, the Advisor Mastery Program (AMP) offers a comprehensive education for the next generation of Raymond James Financial Advisors. The program takes a holistic approach by in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-southstatebank-R-06156",
    "company": "SouthState Bank",
    "ats": "workday",
@@ -42317,6 +43042,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "The SouthState story is one of steady growth, deep community roots, and an unwavering commitment to helping our customers move forward. Since our beginnings in the 1930s to becoming a trusted financial partner across the South and beyond - we are known for combining personal relationships with forward-thinking solution",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-raymondjames-Louisville, Kentucky - United States",
+   "company": "Raymond James",
+   "ats": "workday",
+   "title": "AMP Financial Advisor Trainee",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Louisville-Kentucky---United-States/AMP-Financial-Advisor-Trainee_R-0012865",
+   "postedAt": "2026-09-10",
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description Summary Job Description Job Summary Through distance learning, apprenticeship and training at the firm’s international headquarters, the Advisor Mastery Program (AMP) offers a comprehensive education for the next generation of Raymond James Financial Advisors. The program takes a holistic approach by in",
    "hasDeadlineHint": false
   },
   {
@@ -44717,30 +45466,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-mizuho-R7278",
-   "company": "Mizuho",
-   "ats": "workday",
-   "title": "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
-   "location": "Sweden - Stockholm",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/Sweden---Stockholm/Mizuho---Greenhill---Investment-Banking-Internship-2027--Stockholm-_R7278-1",
-   "postedAt": "2026-09-08",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Mizuho/Greenhill: an overview Greenhill, acquired by Mizuho in 2023, is a part of Mizuho America’s Corporate and Investment Bank (CIB). Mizuho І Greenhill provides clients with strategic advice on significant mergers, acquisitions, restructurings, and private capital advisory strategies across major global industries. ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "wd-motorolasolutions-Chicago, IL (IL156)",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -44786,6 +45511,102 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199979",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Corporate Accounting Intern",
+   "location": "City Office Tampa, Tampa, FL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Tampa-Tampa-FL/Corporate-Accounting-Intern_R0199979",
+   "postedAt": "2026-09-08",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199969",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Corporate Accounting Intern",
+   "location": "City Office Charleston, Charleston, SC",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Charleston-Charleston-SC/Corporate-Accounting-Intern_R0199969",
+   "postedAt": "2026-09-08",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0200270",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Breakpointe Coronado (Student Living)",
+   "location": "Breakpointe Coronado, Isla Vista, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Breakpointe-Coronado-Isla-Vista-CA/Community-Assistant---Breakpointe-Coronado--Student-Living-_R0200270",
+   "postedAt": "2026-09-08",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0200290",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Union Tempe (Student Living)",
+   "location": "Union Tempe, Tempe, AZ",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-Tempe-Tempe-AZ/Community-Assistant---Union-Tempe--Student-Living-_R0200290",
+   "postedAt": "2026-09-08",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -45950,6 +46771,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-keybank-R-42011",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "Surveillance Intern",
+   "location": "Overland Park, KS",
+   "regions": [
+    "other"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Overland-Park-KS/Surveillance-Intern_R-42011",
+   "postedAt": "2026-09-04",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Location: 11501 Outlook Street, Overland Park Kansas JOB DESCRIPTION As a KeyBank intern, you will gain hands-on experience working on various projects and networking with management and other professionals in selected areas during your 10-week program. Upon successful completion of the internship program, you will hav",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-hl-R3560",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -45973,30 +46818,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Business Unit: Corporate Finance Industry: General&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-42011",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "Surveillance Intern",
-   "location": "Overland Park, KS",
-   "regions": [
-    "other"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Overland-Park-KS/Surveillance-Intern_R-42011",
-   "postedAt": "2026-09-04",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Location: 11501 Outlook Street, Overland Park Kansas JOB DESCRIPTION As a KeyBank intern, you will gain hands-on experience working on various projects and networking with management and other professionals in selected areas during your 10-week program. Upon successful completion of the internship program, you will hav",
    "hasDeadlineHint": false
   },
   {
@@ -46769,6 +47590,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-keybank-R-41397",
+   "company": "KeyBank",
+   "ats": "workday",
+   "title": "2027 Summer Commercial Bank Internship - Denver (Credit)",
+   "location": "Denver, CO",
+   "regions": [
+    "us"
+   ],
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Denver-CO/XMLNAME-2027-Summer-Commercial-Bank-Internship---Denver--Credit-_R-41397",
+   "postedAt": "2026-09-03",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Location: 1675 Broadway, Denver Colorado If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide an ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-hl-R3526",
    "company": "Houlihan Lokey",
    "ats": "workday",
@@ -46792,30 +47637,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Business Unit: Financial Restructuring Group Industry: No Industry&#xa;&#xa; Overview Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broa",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-keybank-R-41397",
-   "company": "KeyBank",
-   "ats": "workday",
-   "title": "2027 Summer Commercial Bank Internship - Denver (Credit)",
-   "location": "Denver, CO",
-   "regions": [
-    "us"
-   ],
-   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Denver-CO/XMLNAME-2027-Summer-Commercial-Bank-Internship---Denver--Credit-_R-41397",
-   "postedAt": "2026-09-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Location: 1675 Broadway, Denver Colorado If you are interested in more than one KeyBank Internship opportunity, please consider applying for your top 3 internship roles within 12 months to ensure you are not duplicating efforts and obtaining the best candidate experience. The Commercial Bank internship will provide an ",
    "hasDeadlineHint": false
   },
   {
@@ -46892,31 +47713,7 @@
   },
   {
    "id": "wd-ryan-R0015214",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
-   "location": "Houston TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214-2",
-   "postedAt": "2026-09-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "​ Why Ryan? Competitively Paid Internship Award-Winning Culture Paid Holidays Mentorship Opportunities and Hands-On Training Networking with Industry Leaders All-Expense-Paid Trip to Ryan Headquarters in Dallas, TX (Summer Interns Only) We are looking for interns interested in state, local, federal, and international t",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0015214",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
    "location": "Houston TX",
@@ -48328,6 +49125,78 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0199750",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Austin, Austin, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Austin-Austin-TX/Construction-Internship_R0199750",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199442",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Maplewood (Student Living)",
+   "location": "Maplewood, Ithaca, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Maplewood-Ithaca-NY/Community-Assistant---Maplewood--Student-Living-_R0199442",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199615",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant- Union on Frank (Student Living)",
+   "location": "Union on Frank, Tuscaloosa, AL",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Union-on-Frank-Tuscaloosa-AL/Community-Assistant--Union-on-Frank--Student-Living-_R0199615-1",
+   "postedAt": "2026-09-01",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-tencent-R108037",
    "company": "Tencent",
    "ats": "workday",
@@ -49202,6 +50071,150 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0199554",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Property Accounting Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Phoenix-Phoenix-AZ/Property-Accounting-Intern_R0199554",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199549",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Property Accounting Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Dallas-Old-Parkland-Dallas-TX/Property-Accounting-Intern_R0199549",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199528",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Property Accounting Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Charleston-Charleston-SC/Property-Accounting-Intern_R0199528",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199553",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Property Accounting Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Houston-Houston-TX/Property-Accounting-Intern_R0199553",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199551",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Property Accounting Intern",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Tampa-Tampa-FL/Property-Accounting-Intern_R0199551",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199652",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Seattle, Seattle, WA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Seattle-Seattle-WA/Construction-Internship_R0199652",
+   "postedAt": "2026-08-31",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-autodesk-26WD100400",
    "company": "Autodesk",
    "ats": "workday",
@@ -50062,6 +51075,54 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0199259",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Charleston, Charleston, SC",
+   "regions": [
+    "other"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Charleston-Charleston-SC/Construction-Internship_R0199259",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199256",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office San Diego, Solana Beach, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-San-Diego-Solana-Beach-CA/Construction-Internship_R0199256",
+   "postedAt": "2026-08-26",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-epicgames-6147156004",
    "company": "Epic Games",
    "ats": "greenhouse",
@@ -50558,6 +51619,102 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0199149",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Boston, Boston, MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Boston-Boston-MA/Construction-Internship_R0199149",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199148",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office South Florida, Ft. Lauderdale, FL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-South-Florida-Ft-Lauderdale-FL/Construction-Internship_R0199148",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199147",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Orlando, Orlando, FL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Orlando-Orlando-FL/Construction-Internship_R0199147",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0199145",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Construction Internship",
+   "location": "City Office Tampa, Tampa, FL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/Campus/job/City-Office-Tampa-Tampa-FL/Construction-Internship_R0199145",
+   "postedAt": "2026-08-25",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-imc-4956547101",
    "company": "IMC Trading",
    "ats": "greenhouse",
@@ -50997,6 +52154,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-guggenheim-14893",
+   "company": "Guggenheim Partners",
+   "ats": "workday",
+   "title": "2027 Investment Banking Analyst Intern – Digital Infrastructure (London), September - December",
+   "location": "London – U.K.",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/London--UK/XMLNAME-2027-Investment-Banking-Analyst-Intern---Digital-Infrastructure--London---September---December_14893",
+   "postedAt": "2026-08-24",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Job Description: Headquartered in New York, Guggenheim offers a premier investment banking advisory practice to clients from offices across New York, London, Chicago, Boston, Atlanta, and Houston. Our internship program is designed for students interested in pursuing a career in investment banking and who are looking t",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-motorolasolutions-Chicago, IL (IL156)",
    "company": "Motorola Solutions",
    "ats": "workday",
@@ -51021,27 +52202,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-guggenheim-14893",
-   "company": "Guggenheim Partners",
+   "id": "wd-greystar-R0198850",
+   "company": "Greystar",
    "ats": "workday",
-   "title": "2027 Investment Banking Analyst Intern – Digital Infrastructure (London), September - December",
-   "location": "London – U.K.",
+   "title": "Maintenance Administrative Assistant- Residential Learning Community (Student Living)",
+   "location": "2 Locations",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus/job/London--UK/XMLNAME-2027-Investment-Banking-Analyst-Intern---Digital-Infrastructure--London---September---December_14893",
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Residential-Learning-Community-Laredo-TX/Maintenance-Administrative-Assistant--Residential-Learning-Community--Student-Living-_R0198850",
    "postedAt": "2026-08-24",
    "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
    "track": "engineering",
    "industry": "tech",
    "tags": [],
    "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Description: Headquartered in New York, Guggenheim offers a premier investment banking advisory practice to clients from offices across New York, London, Chicago, Boston, Atlanta, and Houston. Our internship program is designed for students interested in pursuing a career in investment banking and who are looking t",
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -52162,30 +53343,6 @@
    "yearSource": null,
    "season": "summer",
    "track": "product",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Corporate Development Group (CDG) as the platform for the company's new business incubation and new business exploration, CDG is responsible for promoting development and innovation for important areas such as financial technology and advertising, as well as marketing services, including payment and finan",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107947",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Product Operations Intern (Monetization)",
-   "location": "Singapore-CapitaSky",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Product-Operations-Intern--Monetization-_R107947",
-   "postedAt": "2026-08-18",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
    "industry": "tech",
    "tags": [],
    "cycle": 2027,
@@ -53735,6 +54892,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0191351",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Intern Property Operations",
+   "location": "OurCampus Amsterdam Diemen, Diemen, NL",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/OurCampus-Amsterdam-Diemen-Diemen-NL/Intern-Property-Operations_R0191351",
+   "postedAt": "2026-08-14",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-eclipsetrading-8703556002",
    "company": "Eclipse Trading",
    "ats": "greenhouse",
@@ -54735,31 +55916,7 @@
   },
   {
    "id": "wd-ryan-R0019863",
-   "company": "Ryan",
-   "ats": "workday",
-   "title": "Graduate Business Development Executive",
-   "location": "MediaCity UK - Manchester",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Media-City/Graduate-Business-Development-Executive_R0019863",
-   "postedAt": "2026-08-10",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Why Ryan? Competitive Compensation and Benefits Business Connectivity Reimbursement (Phone/Internet) Gym Membership or Equipment Reimbursement LinkedIn Learning Subscription Flexible Work Environment Tuition Reimbursement After One Year of Service Accelerated Career Path Award-Winning Culture & Community Outreach Are y",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0019863",
-   "company": "Ryan",
+   "company": "Ryan Specialty",
    "ats": "workday",
    "title": "Graduate Business Development Executive",
    "location": "MediaCity UK - Manchester",
@@ -55213,6 +56370,30 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places. Our solutions foster the collaboration tha",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0194743",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - The Edge (Student Living)",
+   "location": "The Edge (OH), Cleveland, OH",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Edge-OH-Cleveland-OH/Community-Assistant---The-Edge--Student-Living-_R0194743",
+   "postedAt": "2026-08-06",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -57096,6 +58277,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-greystar-R0195333",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Varsity Ann Arbor (Student Living)",
+   "location": "The Varsity (MI), Ann Arbor, MI",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/The-Varsity-MI-Ann-Arbor-MI/Community-Assistant---Varsity-Ann-Arbor--Student-Living-_R0195333-1",
+   "postedAt": "2026-07-24",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-citi-26978591",
    "company": "Citi",
    "ats": "workday",
@@ -57174,6 +58379,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "You're the brains behind our work. You’re ready to bring your knowledge from the classroom to the workplace, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success comes with growth. Our program equips you with the knowledge and training you need to play a v",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0195763",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Community Assistant - Nordheim Court (Student Living)",
+   "location": "Nordheim Court, Seattle, WA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Nordheim-Court-Seattle-WA/Community-Assistant---Nordheim-Court--Student-Living-_R0195763-1",
+   "postedAt": "2026-07-23",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $350 billio",
    "hasDeadlineHint": false
   },
   {
@@ -58049,30 +59278,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div>Virtu is an industry-leading financial technology firm that operates both proprietary trading and client-facing businesses in the global financial marketplace. Our cutting edge, proprietary technology is core to everything we do. We trade in over 35 countries, across 235 financial exchanges and over 25% of retail ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107790",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "TCI KR_Business Development Intern",
-   "location": "S.Korea-Seoul",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/TCI-KR-Business-Development-Intern_R107790",
-   "postedAt": "2026-07-14",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Business Unit Cloud & Smart Industries Group (CSIG) is responsible for promoting the company's cloud and industry Internet strategy. CSIG explores the interactions between users and industries to create innovative solutions for smart industries via technological advancements such as cloud, AI, and network security. Whi",
    "hasDeadlineHint": false
   },
   {
@@ -60497,6 +61702,54 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "In Accenture, potrai portare la tua visione innovativa per reinventare interi settori di mercato, lavorando con le aziende più importanti a livello mondiale. Modella il futuro del business e della tecnologia sviluppando soluzioni all'avanguardia in grado di generare nuovo valore. All'interno del Reinvention Partner Dig",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0193518",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Leasing Manager - Haven at M (Student Living)",
+   "location": "Haven at M, Huntsville, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Haven-at-M-Huntsville-TX/Leasing-Manager---Haven-at-M--Student-Living-_R0193518",
+   "postedAt": "2026-07-02",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-greystar-R0193519",
+   "company": "Greystar",
+   "ats": "workday",
+   "title": "Assistant Community Manager - Haven at M (Student Living)",
+   "location": "Haven at M, Huntsville, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://greystar.wd1.myworkdayjobs.com/External/job/Haven-at-M-Huntsville-TX/Assistant-Community-Manager---Haven-at-M--Student-Living-_R0193519",
+   "postedAt": "2026-07-02",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT GREYSTAR Greystar is a leading, fully integrated global real estate platform offering expertise in property management, investment management, development, and construction services in institutional-quality rental housing. Headquartered in Charleston, South Carolina, Greystar manages and operates over $300 billio",
    "hasDeadlineHint": false
   },
   {
@@ -63866,6 +65119,102 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ryan-R0020779",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "El Paso TX",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/El-Paso/Summer-2027-Intern--Real-Property-Tax_R0020779",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020727",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, R&E Tax Credits",
+   "location": "Washington DC",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Washington/Summer-2027-Intern--R-E-Tax-Credits_R0020727",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0015214",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
+   "location": "Houston TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214-2",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020802",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Sales and Use Tax",
+   "location": "Sacramento CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Sacramento/Summer-2027-Intern--Sales-and-Use-Tax_R0020802",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "manual-0-ch-jobs/jobs/businessanalystintern-15275",
    "company": "McKinsey & Company",
    "ats": "manual",
@@ -64649,6 +65998,31 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-bakerhughes-R165549",
+   "company": "Baker Hughes",
+   "ats": "workday",
+   "title": "Intern - Sales and Operations Planning Outages - 2026 (M/F/D)",
+   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Sales-and-Operations-Planning-Outages-Intern-2026-Opportunities--Florence---M-F-D-_R165549",
+   "postedAt": "2026-10-07",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "title",
+   "excerpt": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program The Baker Hughes Internship is designed to enable students either pursuing a Bachelors’ or Masters’ degree or recently graduated to gain hands-on work experience as the ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "wd-accenture-R00349956",
    "company": "Accenture",
    "ats": "workday",
@@ -64800,30 +66174,6 @@
    "cycle": 2029,
    "cycleSource": "description",
    "excerpt": "<div class= ace-line > <div class= ace-line data-node-type= line > <div class= page data-page-number= 1 data-loaded= true > <div class= textLayer > <p data-pm-slice= 1 1 [] ><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel co",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-raymondjames-Saint Petersburg, Florida - United States",
-   "company": "Raymond James",
-   "ats": "workday",
-   "title": "2026 Fall Virtual Sophomore Program: Investment Banking Bootcamp for 2028 Summer Analyst Opportunities",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Saint-Petersburg-Florida---United-States/XMLNAME-2026-Fall-Virtual-Sophomore-Program--Investment-Banking-Bootcamp-for-2028-Summer-Analyst-Opportunities_R-0013018",
-   "postedAt": "2026-10-05",
-   "department": "",
-   "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
-   "season": "fall",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
-   "excerpt": "Job Description One of the largest independent financial services firms in the country could be the place you build a career beyond your expectations. Headquartered in St. Petersburg, FL, Raymond James Financial (NYSE: RJF) is a broadly diversified financial services firm engaged in investment and financial planning, c",
    "hasDeadlineHint": false
   },
   {
@@ -68737,30 +70087,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role Palantir ha",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-tencent-R107024",
-   "company": "Tencent",
-   "ats": "workday",
-   "title": "Game Research & Development Intern, Engine Research",
-   "location": "Japan-Tokyo-Business Tower",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Research---Development-Intern--Engine-Research_R107024",
-   "postedAt": "2026-03-09",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "部署紹介/Business Unit LIGHTSPEED STUDIOS は、物語性の高いストーリー、没入感のあるゲームプレイ、最先端のテクノロジーを駆使し、ゲーム開発をアートとサイエンスの融合として追求し続けています。世界中のプレイヤー、そしてあらゆるデバイスに次世代のゲームエクスペリエンスを提供することを使命としています。 LIGHTSPEED STUDIOS is made up of passionate players who advance the art & science of game development through great stories, great gameplay, and advanced ",
    "hasDeadlineHint": false
   },
   {
@@ -74528,27 +75854,146 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-bakerhughes-R165549",
-   "company": "Baker Hughes",
+   "id": "wd-greystar-R0199263",
+   "company": "Greystar",
    "ats": "workday",
-   "title": "Intern - Sales and Operations Planning Outages - 2026 (M/F/D)",
-   "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+   "title": "Construction Internship",
+   "location": "City Office Charlotte, Charlotte, NC",
    "regions": [
-    "europe",
-    "italy"
+    "us"
    ],
-   "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Sales-and-Operations-Planning-Outages-Intern-2026-Opportunities--Florence---M-F-D-_R165549",
+   "url": "https://greystar.wd1.myworkdayjobs.com/International_Career_Site/job/City-Office-Charlotte-Charlotte-NC/Construction-Internship_R0199263",
    "postedAt": null,
    "department": "",
    "kind": "internship",
-   "year": 2026,
-   "yearSource": "title",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107790",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "TCI KR_Business Development Intern",
+   "location": "S.Korea-Seoul",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/SKorea-Seoul/TCI-KR-Business-Development-Intern_R107790",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R107024",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "Game Research & Development Intern, Engine Research",
+   "location": "Japan-Tokyo-Business Tower",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Japan-Tokyo-Business-Tower/Game-Research---Development-Intern--Engine-Research_R107024",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R108250",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "LLM Agent Research Intern",
+   "location": "United Kingdom-London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/United-Kingdom-London/LLM-Agent-Research-Intern_R108250",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-tencent-R108176",
+   "company": "Tencent",
+   "ats": "workday",
+   "title": "IT Operations Intern",
+   "location": "US-California-Palo Alto",
+   "regions": [
+    "us"
+   ],
+   "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Operations-Intern_R108176-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
    "season": "summer",
    "track": "business",
    "industry": "tech",
    "tags": [],
-   "cycle": 2026,
-   "cycleSource": "title",
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0019863",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Graduate Business Development Executive",
+   "location": "MediaCity UK - Manchester",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Media-City/Graduate-Business-Development-Executive_R0019863",
+   "postedAt": null,
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
    "excerpt": "",
    "hasDeadlineHint": false
   }
