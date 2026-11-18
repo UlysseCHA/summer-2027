@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T00:53:06.056Z",
+ "generatedAt": "2026-11-18T15:30:57.162Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,30 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1191,
+  "total": 1189,
   "byYear": {
-   "2026": 18,
-   "2027": 612,
-   "2028": 26,
-   "non precisee": 535
+   "2026": 22,
+   "2027": 605,
+   "2028": 27,
+   "2029": 1,
+   "non precisee": 534
   },
   "byCycle": {
-   "2026": 18,
-   "2027": 963,
-   "2028": 26,
-   "non precisee": 184
+   "2026": 22,
+   "2027": 956,
+   "2028": 27,
+   "2029": 1,
+   "non precisee": 183
   },
   "byIndustry": {
-   "finance": 355,
-   "tech": 763,
-   "consulting": 73
+   "tech": 766,
+   "finance": 351,
+   "consulting": 72
   },
   "byKind": {
-   "internship": 891,
-   "early-career": 55,
-   "graduate": 245
+   "internship": 884,
+   "early-career": 59,
+   "graduate": 246
   }
  },
  "sources": [
@@ -40,15 +42,15 @@
    "ok": true
   },
   {
-   "company": "Waymo",
-   "token": "waymo",
+   "company": "Retail Insights",
+   "token": "retailinsights",
    "ats": "greenhouse",
-   "found": 57,
+   "found": 56,
    "ok": true
   },
   {
-   "company": "Retail Insights",
-   "token": "retailinsights",
+   "company": "Waymo",
+   "token": "waymo",
    "ats": "greenhouse",
    "found": 56,
    "ok": true
@@ -85,7 +87,7 @@
    "company": "IMC Trading",
    "token": "imc",
    "ats": "greenhouse",
-   "found": 27,
+   "found": 28,
    "ok": true
   },
   {
@@ -99,19 +101,19 @@
    "company": "DV Trading",
    "token": "dvtrading",
    "ats": "greenhouse",
-   "found": 25,
-   "ok": true
-  },
-  {
-   "company": "Third Bridge",
-   "token": "thirdbridge",
-   "ats": "greenhouse",
-   "found": 25,
+   "found": 24,
    "ok": true
   },
   {
    "company": "Point72",
    "token": "point72",
+   "ats": "greenhouse",
+   "found": 24,
+   "ok": true
+  },
+  {
+   "company": "Third Bridge",
+   "token": "thirdbridge",
    "ats": "greenhouse",
    "found": 24,
    "ok": true
@@ -278,13 +280,6 @@
    "ok": true
   },
   {
-   "company": "DRW",
-   "token": "drweng",
-   "ats": "greenhouse",
-   "found": 9,
-   "ok": true
-  },
-  {
    "company": "Alan",
    "token": "alan",
    "ats": "ashby",
@@ -296,6 +291,13 @@
    "token": "gcmgrosvenor",
    "ats": "greenhouse",
    "found": 9,
+   "ok": true
+  },
+  {
+   "company": "DRW",
+   "token": "drweng",
+   "ats": "greenhouse",
+   "found": 8,
    "ok": true
   },
   {
@@ -362,13 +364,6 @@
    "ok": true
   },
   {
-   "company": "Mirakl",
-   "token": "mirakl",
-   "ats": "greenhouse",
-   "found": 7,
-   "ok": true
-  },
-  {
    "company": "Ramp",
    "token": "ramp",
    "ats": "ashby",
@@ -379,13 +374,6 @@
    "company": "Snowflake",
    "token": "snowflake",
    "ats": "ashby",
-   "found": 7,
-   "ok": true
-  },
-  {
-   "company": "Symphony",
-   "token": "symphony",
-   "ats": "greenhouse",
    "found": 7,
    "ok": true
   },
@@ -418,15 +406,15 @@
    "ok": true
   },
   {
-   "company": "Affirm",
-   "token": "affirm",
+   "company": "Airbnb",
+   "token": "airbnb",
    "ats": "greenhouse",
    "found": 6,
    "ok": true
   },
   {
-   "company": "Airbnb",
-   "token": "airbnb",
+   "company": "Affirm",
+   "token": "affirm",
    "ats": "greenhouse",
    "found": 6,
    "ok": true
@@ -495,6 +483,19 @@
    "ok": true
   },
   {
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "found": 5,
+   "ok": true
+  },
+  {
+   "company": "Mirakl",
+   "token": "mirakl",
+   "ats": "greenhouse",
+   "found": 5,
+   "ok": true
+  },
+  {
    "company": "Perplexity",
    "token": "perplexity",
    "ats": "ashby",
@@ -505,12 +506,6 @@
    "company": "Aquatic Capital Management",
    "token": "aquaticcapitalmanagement",
    "ats": "greenhouse",
-   "found": 4,
-   "ok": true
-  },
-  {
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
    "found": 4,
    "ok": true
   },
@@ -543,6 +538,13 @@
    "ok": true
   },
   {
+   "company": "Symphony",
+   "token": "symphony",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
    "company": "Bitpanda",
    "token": "bitpanda",
    "ats": "greenhouse",
@@ -557,6 +559,13 @@
    "ok": true
   },
   {
+   "company": "ExodusPoint",
+   "token": "exoduspoint",
+   "ats": "greenhouse",
+   "found": 3,
+   "ok": true
+  },
+  {
    "company": "PDT Partners",
    "token": "pdtpartners",
    "ats": "greenhouse",
@@ -566,6 +575,13 @@
   {
    "company": "Quantbot Technologies",
    "token": "quantbot-technologies",
+   "ats": "greenhouse",
+   "found": 3,
+   "ok": true
+  },
+  {
+   "company": "Raisin",
+   "token": "raisin",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -662,13 +678,6 @@
    "ok": true
   },
   {
-   "company": "ExodusPoint",
-   "token": "exoduspoint",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
    "company": "Engineers Gate",
    "token": "engineersgate",
    "ats": "greenhouse",
@@ -678,13 +687,6 @@
   {
    "company": "Headlands Technologies",
    "token": "headlandstechnologiesllc",
-   "ats": "greenhouse",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Raisin",
-   "token": "raisin",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -753,6 +755,13 @@
    "ok": true
   },
   {
+   "company": "OakNorth",
+   "token": "oaknorth",
+   "ats": "ashby",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Sentry",
    "token": "sentry",
    "ats": "ashby",
@@ -791,12 +800,6 @@
    "company": "BTG Pactual",
    "token": "btgpactual",
    "ats": "greenhouse",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Apollo Global",
-   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -850,13 +853,6 @@
    "ok": true
   },
   {
-   "company": "Waterfall Asset Management",
-   "token": "waterfall",
-   "ats": "lever",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Weiss Asset Management",
    "token": "weissassetmanagement",
    "ats": "greenhouse",
@@ -878,9 +874,23 @@
    "ok": true
   },
   {
+   "company": "Waterfall Asset Management",
+   "token": "waterfall",
+   "ats": "lever",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Ardea Partners",
    "token": "ardea-partners",
    "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Box",
+   "token": "boxinc",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -892,9 +902,9 @@
    "ok": true
   },
   {
-   "company": "D.A. Davidson",
-   "token": "dadavidson",
-   "ats": "lever",
+   "company": "Decagon",
+   "token": "decagon",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
@@ -906,9 +916,9 @@
    "ok": true
   },
   {
-   "company": "Decagon",
-   "token": "decagon",
-   "ats": "ashby",
+   "company": "D.A. Davidson",
+   "token": "dadavidson",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -922,13 +932,6 @@
   {
    "company": "Gusto",
    "token": "gusto",
-   "ats": "greenhouse",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "JetBrains",
-   "token": "jetbrains",
    "ats": "greenhouse",
    "found": 1,
    "ok": true
@@ -955,8 +958,8 @@
    "ok": true
   },
   {
-   "company": "OakNorth",
-   "token": "oaknorth",
+   "company": "Pennylane",
+   "token": "pennylane",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -969,15 +972,15 @@
    "ok": true
   },
   {
-   "company": "Pennylane",
-   "token": "pennylane",
+   "company": "Proxima",
+   "token": "proxima",
    "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Proxima",
-   "token": "proxima",
+   "company": "Qonto",
+   "token": "qonto",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -990,9 +993,23 @@
    "ok": true
   },
   {
+   "company": "Trainline",
+   "token": "trainline",
+   "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "UiPath",
    "token": "uipath",
    "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "UVIMCO",
+   "token": "uvimco",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1032,7 +1049,7 @@
    "ok": true
   },
   {
-   "company": "Bank of America",
+   "company": "Apollo Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1046,11 +1063,25 @@
    "ok": true
   },
   {
+   "company": "Arrowstreet Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Betterment",
    "token": "betterment",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Bank of America",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "BlackEdge Capital",
@@ -1060,25 +1091,11 @@
    "ok": true
   },
   {
-   "company": "Barclays",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Blockchain com",
    "token": "blockchain",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "abrdn",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Barings",
@@ -1088,7 +1105,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Ardian",
+   "company": "abrdn",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1102,6 +1119,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Ardian",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Chicago Trading Company",
    "token": "chicagotrading",
    "ats": "greenhouse",
@@ -1109,7 +1133,14 @@
    "ok": true
   },
   {
-   "company": "BlackRock",
+   "company": "Barclays",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Blackstone",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1123,25 +1154,18 @@
    "ok": true
   },
   {
+   "company": "BlackRock",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Compound Equity Group",
    "token": "compound",
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Crypto com",
-   "token": "crypto",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Blackstone",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Blue Owl Capital",
@@ -1158,14 +1182,14 @@
    "ok": true
   },
   {
-   "company": "Cambridge Associates",
-   "ats": "workday",
+   "company": "Crypto com",
+   "token": "crypto",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
-   "company": "Capital One",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1186,6 +1210,13 @@
    "ok": true
   },
   {
+   "company": "Capital One",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Galaxy Digital",
    "token": "galaxy",
    "ats": "greenhouse",
@@ -1196,20 +1227,6 @@
    "company": "Genesis Quant Capital",
    "token": "genesis",
    "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Insight Investment",
-   "token": "insight",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Jane Street",
-   "token": "janestreet",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1228,6 +1245,20 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Insight Investment",
+   "token": "insight",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Jane Street",
+   "token": "janestreet",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Level Equity",
    "token": "levelequity",
    "ats": "greenhouse",
@@ -1242,14 +1273,14 @@
    "ok": true
   },
   {
-   "company": "Fifth Third Bank",
+   "company": "CIBC",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "CIBC",
+   "company": "Fifth Third Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1263,25 +1294,18 @@
    "ok": true
   },
   {
+   "company": "Invesco",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Houlihan Lokey",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Deutsche Bank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Mercury",
-   "token": "mercury",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Modern Treasury",
@@ -1291,7 +1315,14 @@
    "ok": true
   },
   {
-   "company": "Invesco",
+   "company": "Mercury",
+   "token": "mercury",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "KeyBank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1305,7 +1336,7 @@
    "ok": true
   },
   {
-   "company": "KeyBank",
+   "company": "Deutsche Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1340,20 +1371,6 @@
    "ok": true
   },
   {
-   "company": "Mastercard",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Plaid",
-   "token": "plaid",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Lloyds Banking Group",
    "ats": "workday",
    "found": 0,
@@ -1368,6 +1385,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Plaid",
+   "token": "plaid",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Public",
    "token": "public",
    "ats": "greenhouse",
@@ -1375,7 +1399,7 @@
    "ok": true
   },
   {
-   "company": "Moelis & Company",
+   "company": "LSEG",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1389,6 +1413,13 @@
    "ok": true
   },
   {
+   "company": "Mastercard",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Nationwide",
    "ats": "workday",
    "found": 0,
@@ -1396,14 +1427,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Northwestern Mutual",
+   "company": "Moelis & Company",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "LSEG",
+   "company": "Northwestern Mutual",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1459,6 +1490,20 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Unit",
+   "token": "unit",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "SouthState Bank",
    "ats": "workday",
    "found": 0,
@@ -1466,7 +1511,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Sculptor Capital Management",
+   "company": "Vatic Labs",
+   "token": "vaticlabs",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Robeco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1480,43 +1532,8 @@
    "ok": true
   },
   {
-   "company": "Vatic Labs",
-   "token": "vaticlabs",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Unit",
-   "token": "unit",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Robeco",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "William Blair",
    "token": "williamblair",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "XTX Markets",
-   "token": "xtxmarketstechnologies",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1529,9 +1546,23 @@
    "error": "HTTP 429"
   },
   {
+   "company": "XTX Markets",
+   "token": "xtxmarketstechnologies",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "BCG",
    "token": "bcg",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1557,13 +1588,6 @@
    "ok": true
   },
   {
-   "company": "Visa",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "U.S. Bank",
    "ats": "workday",
    "found": 0,
@@ -1576,13 +1600,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Triton Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Oliver Wyman",
@@ -1613,6 +1630,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Gartner",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Sweeney Conrad",
    "token": "sweeneyconrad",
    "ats": "greenhouse",
@@ -1627,16 +1651,16 @@
    "ok": true
   },
   {
-   "company": "Adams Street Partners",
-   "token": "adamsstreetpartners",
-   "ats": "greenhouse",
+   "company": "Abridge",
+   "token": "abridge",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Abridge",
-   "token": "abridge",
-   "ats": "ashby",
+   "company": "Adams Street Partners",
+   "token": "adamsstreetpartners",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1646,6 +1670,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Triton Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Agicap",
@@ -1676,23 +1707,23 @@
    "ok": true
   },
   {
-   "company": "Gartner",
+   "company": "Visa",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Anthropic",
-   "token": "anthropic",
-   "ats": "greenhouse",
+   "company": "Ankorstore",
+   "token": "ankorstore",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Ankorstore",
-   "token": "ankorstore",
-   "ats": "ashby",
+   "company": "Anthropic",
+   "token": "anthropic",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1711,15 +1742,15 @@
    "ok": true
   },
   {
-   "company": "ATLAS SP Partners",
-   "token": "atlassp",
+   "company": "ATKG",
+   "token": "atkgcareers",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "ATKG",
-   "token": "atkgcareers",
+   "company": "ATLAS SP Partners",
+   "token": "atlassp",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1732,14 +1763,14 @@
    "ok": true
   },
   {
-   "company": "Guidehouse",
+   "company": "Accenture",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Accenture",
+   "company": "Guidehouse",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1758,6 +1789,20 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Autodesk",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Ankura",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Stout",
@@ -1781,46 +1826,11 @@
    "ok": true
   },
   {
-   "company": "Box",
-   "token": "boxinc",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Ankura",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Autodesk",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Browserbase",
    "token": "browserbase",
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "AVEVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Baillie Gifford",
@@ -1830,23 +1840,23 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Brown Edwards",
+   "company": "Baker Hughes",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Chime",
-   "token": "chime",
-   "ats": "greenhouse",
+   "company": "Rothschild & Co",
+   "token": "https://www.rothschildandco.com/sitemap.xml",
+   "ats": "sitemap",
    "found": 0,
    "ok": true
   },
   {
-   "company": "ClickUp",
-   "token": "clickup",
-   "ats": "ashby",
+   "company": "Chime",
+   "token": "chime",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1858,7 +1868,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Cadence",
+   "company": "ClickUp",
+   "token": "clickup",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "AVEVA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1872,7 +1889,7 @@
    "ok": true
   },
   {
-   "company": "Cboe Global Markets",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1886,13 +1903,6 @@
    "ok": true
   },
   {
-   "company": "Cursor (Anysphere)",
-   "token": "cursor",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Coursera",
    "token": "coursera",
    "ats": "greenhouse",
@@ -1900,18 +1910,25 @@
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
+   "company": "Cursor (Anysphere)",
+   "token": "cursor",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Cadence",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Discord",
-   "token": "discord",
-   "ats": "greenhouse",
+   "company": "Cboe Global Markets",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Deliveroo",
@@ -1923,6 +1940,13 @@
   {
    "company": "Doctolib",
    "token": "doctolib",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Discord",
+   "token": "discord",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1977,18 +2001,18 @@
    "ok": true
   },
   {
+   "company": "Centrica",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Fastly",
    "token": "fastly",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Ciena",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Fleek",
@@ -2019,6 +2043,13 @@
    "ok": true
   },
   {
+   "company": "Crowdstrike",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "GetYourGuide",
    "token": "getyourguide",
    "ats": "greenhouse",
@@ -2040,14 +2071,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Centrica",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Crowdstrike",
+   "company": "Colliers",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2068,14 +2092,14 @@
    "ok": true
   },
   {
-   "company": "Colliers",
+   "company": "eBay",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "eBay",
+   "company": "Ciena",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2089,14 +2113,21 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Global Gate",
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "Greystar",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Frontier Economics",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2110,25 +2141,11 @@
    "ok": true
   },
   {
-   "company": "Greystar",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Harvey",
    "token": "harvey",
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Frontier Economics",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Honeycomb",
@@ -2152,22 +2169,8 @@
    "ok": true
   },
   {
-   "company": "Rothschild & Co",
-   "token": "https://www.rothschildandco.com/sitemap.xml",
-   "ats": "sitemap",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Justworks",
-   "token": "justworks",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Khan Academy",
-   "token": "khanacademy",
+   "company": "JetBrains",
+   "token": "jetbrains",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2187,7 +2190,35 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Justworks",
+   "token": "justworks",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Khan Academy",
+   "token": "khanacademy",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Global Gate",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "HarbourVest",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Gunvor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2236,7 +2267,7 @@
    "ok": true
   },
   {
-   "company": "Gunvor",
+   "company": "Hiscox",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2250,7 +2281,7 @@
    "ok": true
   },
   {
-   "company": "Leerink Partners",
+   "company": "Julius Baer",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2264,7 +2295,7 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
+   "company": "Just",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2285,18 +2316,18 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "N26",
    "token": "n26",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Knight Frank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "National Gas",
@@ -2306,7 +2337,7 @@
    "ok": true
   },
   {
-   "company": "Just",
+   "company": "Leerink Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2341,13 +2372,6 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Okta",
    "token": "okta",
    "ats": "greenhouse",
@@ -2362,6 +2386,13 @@
    "ok": true
   },
   {
+   "company": "Liberty Global",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Orion Group",
    "token": "oriongroup",
    "ats": "greenhouse",
@@ -2370,13 +2401,6 @@
   },
   {
    "company": "Mizuho",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Liberty Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2397,13 +2421,6 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Motorola Solutions",
    "ats": "workday",
    "found": 0,
@@ -2411,7 +2428,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "NCR Atleos",
+   "company": "NASDAQ",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2439,11 +2456,11 @@
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
-   "ats": "ashby",
+   "company": "MBDA",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Quilter",
@@ -2453,15 +2470,15 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Quizlet",
    "token": "quizlet-inc",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Railway",
+   "token": "railway",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2481,25 +2498,11 @@
    "ok": true
   },
   {
-   "company": "MBDA",
+   "company": "NCR Atleos",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Remote",
-   "token": "remote",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Railway",
-   "token": "railway",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Render",
@@ -2509,8 +2512,29 @@
    "ok": true
   },
   {
+   "company": "Remote",
+   "token": "remote",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Replit",
    "token": "replit",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Runna",
+   "token": "runna",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2523,30 +2547,9 @@
    "ok": true
   },
   {
-   "company": "Runna",
-   "token": "runna",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Sardine",
    "token": "sardine",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Shea & Company",
-   "token": "sheacompany",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2558,16 +2561,16 @@
    "ok": true
   },
   {
-   "company": "Shield AI",
-   "token": "shield-ai",
-   "ats": "ashby",
+   "company": "Shea & Company",
+   "token": "sheacompany",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Sixth Street",
-   "token": "sixthstreet",
-   "ats": "greenhouse",
+   "company": "Shield AI",
+   "token": "shield-ai",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2577,6 +2580,20 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Sixth Street",
+   "token": "sixthstreet",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Sorare",
@@ -2600,6 +2617,13 @@
    "ok": true
   },
   {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Sumo Logic",
    "token": "sumologic",
    "ats": "greenhouse",
@@ -2621,11 +2645,18 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "Synthesia",
+   "token": "synthesia",
+   "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Ryan",
@@ -2633,13 +2664,6 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Synthesia",
-   "token": "synthesia",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Tailscale",
@@ -2656,13 +2680,6 @@
    "ok": true
   },
   {
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Thought Machine",
    "token": "thought-machine",
    "ats": "ashby",
@@ -2670,11 +2687,11 @@
    "ok": true
   },
   {
-   "company": "Trainline",
-   "token": "trainline",
-   "ats": "ashby",
+   "company": "Standard Chartered",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Treefera",
@@ -2698,22 +2715,16 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
+   "company": "State Street",
    "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "UnlikelyAI",
    "token": "unlikelyai",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "UVIMCO",
-   "token": "uvimco",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2725,14 +2736,7 @@
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "State Street",
+   "company": "Santander",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2774,18 +2778,11 @@
    "ok": true
   },
   {
-   "company": "Santander",
+   "company": "T. Rowe Price",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Zscaler",
-   "token": "zscaler",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Tencent",
@@ -2795,9 +2792,9 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Zopa",
-   "token": "zopa",
-   "ats": "lever",
+   "company": "Zscaler",
+   "token": "zscaler",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2816,21 +2813,133 @@
    "error": "HTTP 429"
   },
   {
-   "company": "T. Rowe Price",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Younited",
    "token": "younited",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Zopa",
+   "token": "zopa",
    "ats": "lever",
    "found": 0,
    "ok": true
   }
  ],
  "offers": [
+  {
+   "id": "ab-qonto-5d3877a3-6bf9-430d-84d7-62807e41af29",
+   "company": "Qonto",
+   "ats": "ashby",
+   "title": "Anti Financial Crime Internship - French Speaker 🇫🇷",
+   "location": "Paris, France",
+   "regions": [
+    "europe",
+    "paris"
+   ],
+   "url": "https://jobs.ashbyhq.com/qonto/5d3877a3-6bf9-430d-84d7-62807e41af29",
+   "postedAt": "2026-11-18T14:54:17.610+00:00",
+   "department": "Finance, Legal, Risk & Compliance, People & Strat",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "fintech",
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "ab-oaknorth-9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "company": "OakNorth",
+   "ats": "ashby",
+   "title": "Intern - Gen AI",
+   "location": "Gurugram",
+   "regions": [
+    "other"
+   ],
+   "url": "https://jobs.ashbyhq.com/oaknorth/9bb335d1-9f05-4034-aee9-e62a9b3dcf97",
+   "postedAt": "2026-11-18T07:46:43.311+00:00",
+   "department": "Management Support",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "ABOUT US At OakNorth, we're on a mission to empower ambitious businesses and the communities they serve. Since 2015, we've lent over $21 billion across the UK and US, helped create more than 58,000 new homes and 36,000 new jobs, and supported hundreds of thousands of personal savers — all while driving economic growth ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-raisin-5032531101",
+   "company": "Raisin",
+   "ats": "greenhouse",
+   "title": "Working Student Software Engineer (m/f/d)",
+   "location": "Berlin, Berlin, Germany",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/5032531101",
+   "postedAt": "2026-11-18T05:08:53-05:00",
+   "department": "Engineering ",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "engineering",
+   "industry": "finance",
+   "tags": [
+    "fintech"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p class= sc-gEkIjz cjtSrT MuiTypography-root MuiTypography-body1 sc-hoLEA >Raisin is the world’s leading platform for savings and investment products. Founded in 2012, the <strong>FinTech</strong> connects consumers with banks in the EU, the UK and the US. This gives consumers <strong>better",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-airbnb-8360478",
+   "company": "Airbnb",
+   "ats": "greenhouse",
+   "title": "Software Engineering Intern (BS/MS)",
+   "location": "San Francisco, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.airbnb.com/positions/8360478?gh_jid=8360478",
+   "postedAt": "2026-11-18T00:00:14-05:00",
+   "department": "Intern",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "consumer"
+   ],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<div class= content-intro ><p><span style= font-family: helvetica, arial, sans-serif; font-size: 12pt; >Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the",
+   "hasDeadlineHint": false
+  },
   {
    "id": "gh-theriversidecompany-8949043002",
    "company": "The Riverside Company",
@@ -3219,6 +3328,33 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href= https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048 target= _blank >An estimated $124 trillion of assets</a> will be inherite",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-exoduspoint-8943351002",
+   "company": "ExodusPoint",
+   "ats": "greenhouse",
+   "title": "Quantitative Internship – Hong Kong",
+   "location": "Hong Kong",
+   "regions": [
+    "apac"
+   ],
+   "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
+   "postedAt": "2026-11-13T16:13:38-05:00",
+   "department": "Fixed Income PM Teams",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "quant",
+   "industry": "finance",
+   "tags": [
+    "hedge-fund",
+    "quant"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<p style= text-align: center; ><strong>ABOUT EXODUSPOINT</strong></p> <p><strong>ExodusPoint Capital</strong>, founded in 2017 by Michael Gelband, began managing investor capital in 2018. The firm employs a global multi-strategy investment approach, seeking to deliver compelling asymmetric returns by combining compleme",
    "hasDeadlineHint": false
   },
   {
@@ -3808,32 +3944,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Zoox Zoox is an autonomous ridehailing company building the world's first purpose-built robotaxi — fully electric, bidirectional, with no steering wheel or driver's seat. Backed by Amazon and founded to make transportation safer, cleaner, and more accessible, Zoox designs its vehicles entirely around the rider. W",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-airbnb-8380007",
-   "company": "Airbnb",
-   "ats": "greenhouse",
-   "title": "Advanced Analytics Intern",
-   "location": "United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.airbnb.com/positions/8380007?gh_jid=8380007",
-   "postedAt": "2026-11-11T16:35:28-05:00",
-   "department": "Intern",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "data",
-   "industry": "tech",
-   "tags": [
-    "consumer"
-   ],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p><span style= font-family: helvetica, arial, sans-serif; font-size: 12pt; >Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the",
    "hasDeadlineHint": false
   },
   {
@@ -4441,30 +4551,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p><span style= font-family: helvetica, arial, sans-serif; font-size: 12pt; >Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-arrowstreetcapital-R1506",
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "title": "Quantitative Developer Intern, Summer 2027",
-   "location": "Boston",
-   "regions": [
-    "us"
-   ],
-   "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2027_R1506",
-   "postedAt": "2026-11-11",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Overview We are looking for Quantitative Developer Interns to join our Research team. We are a collaborative, data-driven, intellectually rigorous group responsible for proposing investment ideas, codifying these ideas into signals, and back-testing these signals to produce return, risk and trading cost forecasts t",
    "hasDeadlineHint": false
   },
   {
@@ -6123,32 +6209,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-athene-R255176",
-   "company": "Apollo Global",
-   "ats": "workday",
-   "title": "Intern, Japan ICG Sales (6-months, LoA)",
-   "location": "2 Locations",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://athene.wd5.myworkdayjobs.com/Apollo_Careers/job/Hong-Kong/Intern--ICG-Sales--6-months--LoA-_R255176",
-   "postedAt": "2026-11-05",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "finance",
-   "tags": [
-    "private-equity"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Position Overview At Apollo, we’re a global team of alternative investment managers passionate about delivering uncommon value to our investors and shareholders. With over 35 years of proven expertise across Private Equity, Credit and Real Estate, regions, and industries, we’re known for our integrated businesses, our ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-spacex-8930094002",
    "company": "SpaceX",
    "ats": "greenhouse",
@@ -6886,30 +6946,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p><strong>The role: What's in the Box</strong></p> <p>Our Product Operations team sits at the very heart of what HelloFresh does — making sure the most attractive menus and the right ingredients reach the right customers, week after week. </p> <p>As a Menu Planning Ingredients Intern, you will work across two closely ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-arrowstreetcapital-R1561",
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "title": "Software Engineer Intern, Summer 2027",
-   "location": "Boston",
-   "regions": [
-    "us"
-   ],
-   "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Software-Engineer-Intern--Summer-2027_R1561",
-   "postedAt": "2026-11-03",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Overview We are seeking highly motivated Software Engineering Interns to join our dynamic engineering team. At Arrowstreet, proprietary systems enable our investment research and power our portfolio construction, trade execution and account management functions. Our investment process is systematic and relies on co",
    "hasDeadlineHint": false
   },
   {
@@ -8369,30 +8405,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><p>Third Bridge is a leading global research firm established in 2007, with a team of over 1,500 employees worldwide dedicated to <strong>fueling decisions with expert insights</strong>. We accelerate and enhance decision-making for investors and business leaders by unearthing unique expert i",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-arrowstreetcapital-R1557",
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "title": "Investment Processes Intern, Summer 2027",
-   "location": "Boston",
-   "regions": [
-    "us"
-   ],
-   "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Investment-Processes-Intern--Summer-2027_R1557",
-   "postedAt": "2026-10-27",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Overview We are looking for an intern to join our Investment Processes group. Our Investment Processes group is responsible for the automated processes used in investment decision-making and trading. We are a quantitatively skilled and collaborative group of investment professionals, working at the intersection of ",
    "hasDeadlineHint": false
   },
   {
@@ -9933,7 +9945,7 @@
    "id": "gh-towerresearchcapital-7077280",
    "company": "Tower Research Capital",
    "ats": "greenhouse",
-   "title": "Machine Learning Intern",
+   "title": "Stagiaire en machine learning / Machine Learning Intern",
    "location": "Montreal",
    "regions": [
     "canada"
@@ -10512,7 +10524,7 @@
    "id": "gh-bitpanda-4987398101",
    "company": "Bitpanda",
    "ats": "greenhouse",
-   "title": "Intern, Java Engineer",
+   "title": "Intern, Engineering",
    "location": "Vienna, Vienna, Austria",
    "regions": [
     "europe"
@@ -10538,7 +10550,7 @@
    "id": "gh-bitpanda-4999438101",
    "company": "Bitpanda",
    "ats": "greenhouse",
-   "title": "Intern, Data Engineer",
+   "title": "Intern, Data Engineering",
    "location": "Barcelona, Spain",
    "regions": [
     "europe"
@@ -11936,60 +11948,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.</p></div>Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-dvtrading-4741016005",
-   "company": "DV Trading",
-   "ats": "greenhouse",
-   "title": "Database Engineer Intern - Summer 2027",
-   "location": "Chicago",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4741016005",
-   "postedAt": "2026-10-06T14:01:57-04:00",
-   "department": "Technology",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "prop"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p data-renderer-start-pos= 1 data-local-id= 5d6d5c6caa36 ><span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; ><strong data-renderer-mark= true >About Us</strong>:</span><br><span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; >Founded 20 years ago and headquartered in Chicago,",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-mirakl-6218264004",
-   "company": "Mirakl",
-   "ats": "greenhouse",
-   "title": "Sales Excellence Project Intern",
-   "location": "Paris, France",
-   "regions": [
-    "europe",
-    "paris"
-   ],
-   "url": "https://job-boards.greenhouse.io/mirakl/jobs/6218264004",
-   "postedAt": "2026-10-06T11:56:45-04:00",
-   "department": "Sales",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><p><strong>About Mirakl:</strong></p> <p>Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy.<br><br>Today, Mirakl’s operating system combines an enterprise marketplace solution (Mirakl Platform) that enable",
    "hasDeadlineHint": false
   },
   {
@@ -13614,32 +13572,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p> </p> <p>Ready to accelerate your growth in one of the most fascinating and dynamic industries?</p> <p>Our<strong> Market Risk Summer Internship program</strong> is the perfect opportunity for you to explore the critical role that risk management plays in the world of market making.</p> <p>Kickstart your learning in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-thirdbridge-4986203101",
-   "company": "Third Bridge",
-   "ats": "greenhouse",
-   "title": "Associate Intern, Client Services - 2027 Winter",
-   "location": "Shanghai",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/4986203101?gh_jid=4986203101",
-   "postedAt": "2026-09-28T22:27:33-04:00",
-   "department": "Client Services Asia",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "other",
-   "industry": "consulting",
-   "tags": [
-    "research"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><p>Third Bridge is a leading global research firm established in 2007, with a team of over 1,500 employees worldwide dedicated to <strong>fueling decisions with expert insights</strong>. We accelerate and enhance decision-making for investors and business leaders by unearthing unique expert i",
    "hasDeadlineHint": false
   },
   {
@@ -15274,32 +15206,6 @@
    ],
    "url": "https://careers.withwaymo.com/jobs?gh_jid=8203191",
    "postedAt": "2026-09-18T14:42:26-04:00",
-   "department": "Pipeline (N/A)",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "gh-waymo-8199365",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, MS/PhD, Product Data Science",
-   "location": "San Francisco, California, United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8199365",
-   "postedAt": "2026-09-18T13:54:04-04:00",
    "department": "Pipeline (N/A)",
    "kind": "internship",
    "year": 2027,
@@ -18722,78 +18628,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-symphony-8121110",
-   "company": "Symphony",
-   "ats": "greenhouse",
-   "title": "Intern, Development Operations DevOps",
-   "location": "Sophia Antipolis",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://symphony.com/company/apply?gh_jid=8121110",
-   "postedAt": "2026-09-03T11:36:18-04:00",
-   "department": "Engineering",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><strong>About us @Symphony</strong></p> <p><strong>Reliable. Interlinked. Sophisticated.</strong></p> <p>Symphony stands as an AI-driven leader in communication and technology, powered by a synergy of interlinked platforms: messaging, voice, directory, and data analytics.</p> <p>Our advanced encryption technologies ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-symphony-8121111",
-   "company": "Symphony",
-   "ats": "greenhouse",
-   "title": "Intern, Software Developer",
-   "location": "Sophia Antipolis",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://symphony.com/company/apply?gh_jid=8121111",
-   "postedAt": "2026-09-03T11:36:18-04:00",
-   "department": "Engineering",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<p><strong>About us @Symphony</strong></p> <p><strong>Reliable. Interlinked. Sophisticated.</strong></p> <p>Symphony stands as an AI-driven leader in communication and technology, powered by a synergy of interlinked platforms: messaging, voice, directory, and data analytics.</p> <p>Our advanced encryption technologies ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-symphony-8125847",
-   "company": "Symphony",
-   "ats": "greenhouse",
-   "title": "Intern, Customer Success",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://symphony.com/company/apply?gh_jid=8125847",
-   "postedAt": "2026-09-03T11:02:08-04:00",
-   "department": "Customer Experience ",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><strong>About us @Symphony</strong></p> <p><strong>Reliable. Interlinked. Sophisticated.</strong></p> <p>Symphony stands as an AI-driven leader in communication and technology, powered by a synergy of interlinked platforms: messaging, voice, directory, and data analytics.</p> <p>Our advanced encryption technologies ",
    "hasDeadlineHint": false
   },
   {
@@ -22385,30 +22219,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-arrowstreetcapital-R1505",
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "title": "Quantitative Researcher Intern, Summer 2027",
-   "location": "Boston",
-   "regions": [
-    "us"
-   ],
-   "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505",
-   "postedAt": "2026-08-07",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Job Overview We are looking for Quantitative Researcher Interns to join our Research group. We are a collaborative, data-driven, intellectually rigorous team responsible for coming up with investment ideas, codifying those ideas into signals, back-testing the signals, and producing return, risk and trading cost forecas",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-spacex-8685947002",
    "company": "SpaceX",
    "ats": "greenhouse",
@@ -23348,6 +23158,33 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role The Palanti",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-imc-4939821101",
+   "company": "IMC Trading",
+   "ats": "greenhouse",
+   "title": "Graduate Quantitative Researcher",
+   "location": "Amsterdam, Netherlands",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939821101",
+   "postedAt": "2026-07-31T11:25:57-04:00",
+   "department": "Quantitative Research",
+   "kind": "graduate",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "quant",
+   "industry": "finance",
+   "tags": [
+    "trading",
+    "quant"
+   ],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<p>Your IMC journey as a Graduate Quantitative Researcher begins with a six-week Global Trainee Programme led by our seasoned engineers and traders alongside graduates from all three IMC regions: Europe, the United States, and Asia-Pacific. During this traineeship, you will deepen your knowledge about trading and finan",
    "hasDeadlineHint": false
   },
   {
@@ -24312,33 +24149,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p>Our formula for success is to hire exceptional people, encourage their ideas and reward their results.</p> <p>As a <strong>Quantitative Research Intern</strong> you will have an opportunity to solve challenging problems arising in a trading environment while utilizing the latest statistical scientific algorithms, ma",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-drweng-7992936",
-   "company": "DRW",
-   "ats": "greenhouse",
-   "title": "Software Developer Intern",
-   "location": "Chicago",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7992936",
-   "postedAt": "2026-07-13T10:09:04-04:00",
-   "department": "Campus",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><span data-contrast= auto >Our formula for success is to hire exceptional people, encourage their ideas and reward their results.</span><span data-ccp-props= { 201341983 :0, 335559739 :0, 335559740 :240} > </span></p> <p><span data-contrast= auto ><span data-ccp-parastyle= No Spacing >As a </span></span><strong><spa",
    "hasDeadlineHint": false
   },
   {
@@ -26395,6 +26205,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-brown-REQ209800",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Campus Police Officer",
+   "location": "75 Charlesfield Street",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/75-Charlesfield-Street/Campus-Police-Officer_REQ209800",
+   "postedAt": "2026-06-12",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Job Description: Special Requirements: • Must pass or be a graduate of the Rhode Island Municipal Police Training Academy, Rhode Island State Police Academy, Providence Police Academy, or Warwick Police Academy. • Must be eligible for licensing as a Special Police Office by the Superintendent of the Rhode Island State ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-gusto-8001931",
    "company": "Gusto",
    "ats": "greenhouse",
@@ -28019,6 +27853,54 @@
    "manual": true
   },
   {
+   "id": "ab-trainline-b0174860-8a94-4bd3-a307-373eeab586dd",
+   "company": "Trainline",
+   "ats": "ashby",
+   "title": "Intern Engineer",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://jobs.ashbyhq.com/trainline/b0174860-8a94-4bd3-a307-373eeab586dd",
+   "postedAt": "2026-11-18T11:48:10.269+00:00",
+   "department": "Technology",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "description",
+   "excerpt": "About us At Trainline, our purpose is to empower greener travel choices, connecting people and places. Trainline enables millions of travellers to find and book the best value tickets across carriers, fares, and journey options through our highly rated mobile app, website, and B2B partner channels. Great journeys start",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-uvimco-5486467008",
+   "company": "UVIMCO",
+   "ats": "greenhouse",
+   "title": "2028 Summer Investment Intern",
+   "location": "Charlottesville, Virginia, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/uvimco/jobs/5486467008",
+   "postedAt": "2026-11-18T09:16:59-05:00",
+   "department": "Investment Interns",
+   "kind": "internship",
+   "year": 2028,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2028,
+   "cycleSource": "title",
+   "excerpt": "<p><strong>Investment Intern (Summer 2028) – Charlottesville, VA</strong></p> <p>University of Virginia Investment Management Company (UVIMCO) provides investment management services to UVA and its associated organizations. We are responsible for evaluating, selecting, and monitoring investment strategies for a $18 bil",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-keyrock-99a38fdd-4250-42b9-a92b-5c0f48d563fd",
    "company": "Keyrock",
    "ats": "ashby",
@@ -28491,6 +28373,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-brown-REQ211875",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Medical Assistant, Student Health Services",
+   "location": "Sternlicht Commons",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Sternlicht-Commons/Medical-Assistant--Student-Health-Services_REQ211875-1",
+   "postedAt": "2026-10-22",
+   "department": "",
+   "kind": "early-career",
+   "year": 2026,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "description",
+   "excerpt": "Job Description: The Medical Assistant is an integral part of the health care team at Health Services that serves the diverse student population at Brown. The MA is responsible for the intake and preparation of patients, assisting medical providers, performing waived tests, stocking, cleaning (per infection control pro",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-point72-8876354002",
    "company": "Point72",
    "ats": "greenhouse",
@@ -28568,6 +28474,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-brown-REQ210854",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Medical Assistant, Student Health Services",
+   "location": "Sternlicht Commons",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Sternlicht-Commons/Medical-Assistant_REQ210854",
+   "postedAt": "2026-10-14",
+   "department": "",
+   "kind": "early-career",
+   "year": 2026,
+   "yearSource": "description",
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "description",
+   "excerpt": "Job Description: The Medical Assistant is an integral part of the health care team at Health Services that serves the diverse student population at Brown. The MA is responsible for the intake and preparation of patients, assisting medical providers, performing waived tests, stocking, cleaning (per infection control pro",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-liontree-5250586007",
    "company": "LionTree",
    "ats": "greenhouse",
@@ -28613,6 +28543,30 @@
    "cycle": 2028,
    "cycleSource": "title",
    "excerpt": "<p> </p> <p><strong><em><u>About LionTree</u></em></strong><strong><em>:</em></strong></p> <p></p> <p><em>LionTree is a differentiated global investment and merchant banking firm focused on companies in the technology, media, telecom and consumer-related industries. LionTree was founded in 2012 and has offices in New Y",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-boxinc-8226113",
+   "company": "Box",
+   "ats": "greenhouse",
+   "title": "Product Support, Placement Student",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/boxinc/jobs/8226113",
+   "postedAt": "2026-10-05T09:55:05-04:00",
+   "department": "Product Support",
+   "kind": "internship",
+   "year": 2029,
+   "yearSource": "description",
+   "season": "fall",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2029,
+   "cycleSource": "description",
+   "excerpt": "<div class= ace-line > <div class= ace-line data-node-type= line > <div class= page data-page-number= 1 data-loaded= true > <div class= textLayer > <p data-pm-slice= 1 1 [] ><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel co",
    "hasDeadlineHint": false
   },
   {
@@ -28663,6 +28617,30 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><p><span data-teams= true ><span class= ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak >We are global private markets specialists delivering tailored investment solutions, advisory services, and impactful, data driven insights to the world’s investo",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-brown-REQ211454",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Athletics Ticketing, Sales, & Creative Intern",
+   "location": "Pizzitola",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Pizzitola/Athletics-Ticketing--Sales----Creative-Intern_REQ211454-1",
+   "postedAt": "2026-09-21",
+   "department": "",
+   "kind": "internship",
+   "year": 2026,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2026,
+   "cycleSource": "description",
+   "excerpt": "Job Description: The Athletics Ticketing, Sales & Creative Intern will assist the Athletics Ticket Manager and Ticketing & Group Sales Coordinator with increasing the overall visibility of Brown University Athletics through ticket sales efforts. This position will assist with day-to-day and game-day ticket operations a",
    "hasDeadlineHint": false
   },
   {
@@ -28996,15 +28974,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-6138134004",
+   "id": "gh-epicgames-5708589004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "BLANK,BLANK,Multiple Locations",
+   "location": "London,England,United Kingdom",
    "regions": [
-    "other"
+    "uk"
    ],
-   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -29020,15 +28998,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-5708589004",
+   "id": "gh-epicgames-6138134004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "London,England,United Kingdom",
+   "location": "BLANK,BLANK,Multiple Locations",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
+   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -30291,32 +30269,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-jetbrains-4696941101",
-   "company": "JetBrains",
-   "ats": "greenhouse",
-   "title": "Campus Ambassador (Universities in Europe)",
-   "location": "Remote",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4696941101",
-   "postedAt": "2025-10-30T14:30:59-04:00",
-   "department": "University Relations",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "devtools"
-   ],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "<p data-pos= 0 >Would you like to get hands-on experience with the latest technologies and gain insight into industry-changing software development tools? Are you keen to diversify your skill set and expand your professional network? Join our team and become a JetBrains Campus Ambassador!</p> <p data-pos= 275 >At JetBr",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-palantir-5a28f3a5-8655-47f2-ab19-a79b8a319da8",
    "company": "Palantir",
    "ats": "lever",
@@ -30525,33 +30477,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "<p><strong>Who We Are </strong></p> <p>Nuro believes self-driving vehicles are the most immediate and profound opportunity for AI to drive positive change in the physical world. Safer streets, more time for what matters, and easier access to the world around us, that’s why we’re building a universal autonomy platform: ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-mirakl-5676006004",
-   "company": "Mirakl",
-   "ats": "greenhouse",
-   "title": "Sales Enablement Project Intern",
-   "location": "Paris, France",
-   "regions": [
-    "europe",
-    "paris"
-   ],
-   "url": "https://job-boards.greenhouse.io/mirakl/jobs/5676006004",
-   "postedAt": "2025-10-10T12:02:05-04:00",
-   "department": "Sales",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "<div class= content-intro ><p><strong>About Mirakl:</strong></p> <p>Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy.<br><br>Today, Mirakl’s operating system combines an enterprise marketplace solution (Mirakl Platform) that enable",
    "hasDeadlineHint": false
   },
   {
@@ -33878,6 +33803,30 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Forward Deployed",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-brown-REQ211071",
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "title": "Manager of Campus Physical Security",
+   "location": "75 Charlesfield Street",
+   "regions": [
+    "other"
+   ],
+   "url": "https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/75-Charlesfield-Street/Manager-of-Campus-Physical-Security_REQ211071",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
    "hasDeadlineHint": false
   }
  ]
