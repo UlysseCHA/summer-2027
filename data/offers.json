@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T23:55:46.628Z",
+ "generatedAt": "2026-11-21T06:47:17.726Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,30 +7,30 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1153,
+  "total": 1154,
   "byYear": {
    "2026": 19,
-   "2027": 583,
-   "2028": 26,
+   "2027": 582,
+   "2028": 27,
    "2029": 1,
-   "non precisee": 524
+   "non precisee": 525
   },
   "byCycle": {
    "2026": 19,
    "2027": 926,
-   "2028": 26,
+   "2028": 27,
    "2029": 1,
    "non precisee": 181
   },
   "byIndustry": {
-   "tech": 748,
-   "finance": 337,
+   "tech": 747,
+   "finance": 339,
    "consulting": 68
   },
   "byKind": {
-   "internship": 855,
-   "graduate": 244,
-   "early-career": 54
+   "graduate": 245,
+   "internship": 857,
+   "early-career": 52
   }
  },
  "sources": [
@@ -52,7 +52,7 @@
    "company": "SpaceX",
    "token": "spacex",
    "ats": "greenhouse",
-   "found": 52,
+   "found": 53,
    "ok": true
   },
   {
@@ -280,13 +280,6 @@
    "ok": true
   },
   {
-   "company": "Roblox",
-   "token": "roblox",
-   "ats": "greenhouse",
-   "found": 9,
-   "ok": true
-  },
-  {
    "company": "Charles River Associates",
    "token": "charlesriverassociates",
    "ats": "greenhouse",
@@ -374,6 +367,13 @@
    "company": "Ramp",
    "token": "ramp",
    "ats": "ashby",
+   "found": 7,
+   "ok": true
+  },
+  {
+   "company": "Roblox",
+   "token": "roblox",
+   "ats": "greenhouse",
    "found": 7,
    "ok": true
   },
@@ -700,6 +700,12 @@
    "ok": true
   },
   {
+   "company": "Texas Capital Bank",
+   "ats": "workday",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Gusto",
    "token": "gusto",
    "ats": "greenhouse",
@@ -854,13 +860,6 @@
    "ok": true
   },
   {
-   "company": "The Raine Group",
-   "token": "raine",
-   "ats": "lever",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Waterfall Asset Management",
    "token": "waterfall",
    "ats": "lever",
@@ -885,6 +884,13 @@
    "company": "Winton",
    "token": "winton",
    "ats": "greenhouse",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "The Raine Group",
+   "token": "raine",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -1029,13 +1035,6 @@
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "B2C2",
    "token": "b2c2",
    "ats": "greenhouse",
@@ -1043,63 +1042,14 @@
    "ok": true
   },
   {
-   "company": "Apollo Global",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Bastion Trading",
-   "token": "bastion",
-   "ats": "ashby",
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Betterment",
-   "token": "betterment",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Bank of America",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Barings",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "BlackEdge Capital",
-   "token": "blackedgecapital",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Blockchain com",
-   "token": "blockchain",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "abrdn",
+   "company": "Ardian",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1113,7 +1063,63 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Bastion Trading",
+   "token": "bastion",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "abrdn",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Betterment",
+   "token": "betterment",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "BlackEdge Capital",
+   "token": "blackedgecapital",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Barclays",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Blockchain com",
+   "token": "blockchain",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Barings",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Bank of America",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Arrowstreet Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1127,7 +1133,7 @@
    "ok": true
   },
   {
-   "company": "Blackstone",
+   "company": "Apollo Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1148,7 +1154,7 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
+   "company": "Blackstone",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1169,18 +1175,18 @@
    "ok": true
   },
   {
+   "company": "Blue Owl Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Dimensional Fund Advisors",
    "token": "dimensional",
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Capital One",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "FalconX",
@@ -1197,6 +1203,20 @@
    "ok": true
   },
   {
+   "company": "Cambridge Associates",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Capital One",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Galaxy Digital",
    "token": "galaxy",
    "ats": "greenhouse",
@@ -1204,14 +1224,7 @@
    "ok": true
   },
   {
-   "company": "Citi",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cambridge Associates",
+   "company": "Cascadia Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1225,18 +1238,18 @@
    "ok": true
   },
   {
+   "company": "Citi",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Insight Investment",
    "token": "insight",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Ardian",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Jane Street",
@@ -1246,15 +1259,15 @@
    "ok": true
   },
   {
-   "company": "Cascadia Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Level Equity",
    "token": "levelequity",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Lithic",
+   "token": "lithic",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1265,13 +1278,6 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Lithic",
-   "token": "lithic",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Fifth Third Bank",
@@ -1288,7 +1294,7 @@
    "ok": true
   },
   {
-   "company": "Deutsche Bank",
+   "company": "Houlihan Lokey",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1309,7 +1315,7 @@
    "ok": true
   },
   {
-   "company": "Houlihan Lokey",
+   "company": "Invesco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1323,14 +1329,14 @@
    "ok": true
   },
   {
-   "company": "Invesco",
+   "company": "KeyBank",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "KeyBank",
+   "company": "Deutsche Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1365,7 +1371,7 @@
    "ok": true
   },
   {
-   "company": "Mastercard",
+   "company": "Lloyds Banking Group",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1377,6 +1383,20 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Mastercard",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Lombard Odier IM",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Moelis & Company",
@@ -1393,21 +1413,7 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "LSEG",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Lombard Odier IM",
+   "company": "Northwestern Mutual",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1428,7 +1434,7 @@
    "ok": true
   },
   {
-   "company": "PJT Partners",
+   "company": "LSEG",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1442,7 +1448,7 @@
    "ok": true
   },
   {
-   "company": "Northwestern Mutual",
+   "company": "PJT Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1456,6 +1462,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Teza Technologies",
+   "token": "teza-technologies",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Sands Capital",
    "ats": "workday",
    "found": 0,
@@ -1463,11 +1476,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Teza Technologies",
-   "token": "teza-technologies",
-   "ats": "ashby",
+   "company": "PSG Equity",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Sculptor Capital Management",
@@ -1484,16 +1497,16 @@
    "ok": true
   },
   {
+   "company": "SouthState Bank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Unit",
    "token": "unit",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Valkyrie Trading",
-   "token": "valkyrietrading",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1505,18 +1518,11 @@
    "ok": true
   },
   {
-   "company": "PSG Equity",
-   "ats": "workday",
+   "company": "Valkyrie Trading",
+   "token": "valkyrietrading",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "SouthState Bank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Wealthfront",
@@ -1526,18 +1532,18 @@
    "ok": true
   },
   {
-   "company": "William Blair",
-   "token": "williamblair",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Robeco",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "William Blair",
+   "token": "williamblair",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "XTX Markets",
@@ -1575,14 +1581,14 @@
    "ok": true
   },
   {
-   "company": "Texas Capital Bank",
+   "company": "Visa",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "U.S. Bank",
+   "company": "Triton Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1603,11 +1609,11 @@
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "Baker Tilly",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Putnam Associates",
@@ -1617,7 +1623,7 @@
    "ok": true
   },
   {
-   "company": "Baker Tilly",
+   "company": "Gartner",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1631,7 +1637,7 @@
    "ok": true
   },
   {
-   "company": "Triton Partners",
+   "company": "Accenture",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1659,11 +1665,11 @@
    "ok": true
   },
   {
-   "company": "Visa",
-   "ats": "workday",
+   "company": "Agicap",
+   "token": "agicap",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Airtable",
@@ -1708,13 +1714,6 @@
    "ok": true
   },
   {
-   "company": "Gartner",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Asana",
    "token": "asana",
    "ats": "greenhouse",
@@ -1729,18 +1728,18 @@
    "ok": true
   },
   {
-   "company": "Accenture",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "ATLAS SP Partners",
    "token": "atlassp",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Stout",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Audax Group",
@@ -1750,7 +1749,14 @@
    "ok": true
   },
   {
-   "company": "Stout",
+   "company": "Point B",
+   "token": "pointb",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Ankura",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1778,7 +1784,7 @@
    "ok": true
   },
   {
-   "company": "Autodesk",
+   "company": "U.S. Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1792,13 +1798,6 @@
    "ok": true
   },
   {
-   "company": "Ankura",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "BlaBlaCar",
    "token": "blablacar",
    "ats": "lever",
@@ -1806,11 +1805,18 @@
    "ok": true
   },
   {
-   "company": "Agicap",
-   "token": "agicap",
-   "ats": "lever",
+   "company": "Autodesk",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "AVEVA",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Browserbase",
@@ -1827,42 +1833,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "AVEVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Baillie Gifford",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Chime",
-   "token": "chime",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Brown Edwards",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "ClickUp",
-   "token": "clickup",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Cboe Global Markets",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1876,9 +1847,44 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Chime",
+   "token": "chime",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Cboe Global Markets",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "ClickUp",
+   "token": "clickup",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "BBVA",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Confluent",
    "token": "confluent",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Rothschild & Co",
+   "token": "https://www.rothschildandco.com/sitemap.xml",
+   "ats": "sitemap",
    "found": 0,
    "ok": true
   },
@@ -1902,13 +1908,6 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Brown Gibbons Lang & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Deliveroo",
@@ -1946,6 +1945,13 @@
    "ok": true
   },
   {
+   "company": "Centrica",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Dropbox",
    "token": "dropbox",
    "ats": "greenhouse",
@@ -1958,13 +1964,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Ciena",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Elastic",
@@ -1995,6 +1994,13 @@
    "ok": true
   },
   {
+   "company": "Brown Gibbons Lang & Company",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Fleek",
    "token": "fleek",
    "ats": "ashby",
@@ -2002,21 +2008,7 @@
    "ok": true
   },
   {
-   "company": "BBVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Crowdstrike",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Centrica",
+   "company": "Ciena",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2035,6 +2027,20 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Crowdstrike",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "General Electric",
@@ -2058,13 +2064,6 @@
    "ok": true
   },
   {
-   "company": "eBay",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "GoCardless",
    "token": "gocardless",
    "ats": "greenhouse",
@@ -2086,21 +2085,21 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Rothschild & Co",
-   "token": "https://www.rothschildandco.com/sitemap.xml",
-   "ats": "sitemap",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Global Atlantic",
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Dow Jones",
+   "company": "eBay",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Global Atlantic",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2126,6 +2125,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Greystar",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Harvey",
@@ -2163,14 +2169,7 @@
    "ok": true
   },
   {
-   "company": "Greystar",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Frontier Economics",
+   "company": "Guggenheim Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2191,13 +2190,6 @@
    "ok": true
   },
   {
-   "company": "Guggenheim Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
@@ -2205,7 +2197,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Grosvenor",
+   "company": "Gunvor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Hiscox",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2219,11 +2218,25 @@
    "ok": true
   },
   {
+   "company": "Julius Baer",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "LlamaIndex",
    "token": "llamaindex",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Just",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Lovable",
@@ -2240,13 +2253,6 @@
    "ok": true
   },
   {
-   "company": "Marqeta",
-   "token": "marqeta",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Marshmallow",
    "token": "marshmallow",
    "ats": "ashby",
@@ -2254,11 +2260,11 @@
    "ok": true
   },
   {
-   "company": "Gunvor",
-   "ats": "workday",
+   "company": "Marqeta",
+   "token": "marqeta",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Maxwell Locke & Ritter",
@@ -2275,20 +2281,6 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Just",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Leerink Partners",
    "ats": "workday",
    "found": 0,
@@ -2301,6 +2293,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Frontier Economics",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Motive",
@@ -2324,7 +2323,7 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2352,14 +2351,28 @@
    "ok": true
   },
   {
-   "company": "Newton",
-   "token": "newton",
-   "ats": "lever",
+   "company": "Mizuho",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Liberty Global",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "NASDAQ",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2373,32 +2386,18 @@
    "ok": true
   },
   {
-   "company": "OpenAI",
-   "token": "openai",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Mizuho",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "NCR Atleos",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "OpenAI",
+   "token": "openai",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Oyster",
@@ -2422,7 +2421,7 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
+   "company": "MBDA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2443,25 +2442,11 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Quilter",
    "token": "quilter",
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "MBDA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Quizlet",
@@ -2471,16 +2456,16 @@
    "ok": true
   },
   {
-   "company": "Readystate",
-   "token": "readystate",
-   "ats": "greenhouse",
+   "company": "Railway",
+   "token": "railway",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Railway",
-   "token": "railway",
-   "ats": "ashby",
+   "company": "Readystate",
+   "token": "readystate",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2499,13 +2484,6 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Render",
    "token": "render",
    "ats": "ashby",
@@ -2520,15 +2498,43 @@
    "ok": true
   },
   {
-   "company": "Runna",
-   "token": "runna",
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Knight Frank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Runway",
+   "token": "runway",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Runway",
-   "token": "runway",
+   "company": "Oxford Properties Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Runna",
+   "token": "runna",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2569,13 +2575,6 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "SoFi",
    "token": "sofi",
    "ats": "greenhouse",
@@ -2583,23 +2582,9 @@
    "ok": true
   },
   {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Sorare",
    "token": "sorare",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Squarespace",
-   "token": "squarespace",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2611,16 +2596,30 @@
    "ok": true
   },
   {
-   "company": "Sumo Logic",
-   "token": "sumologic",
+   "company": "Squarespace",
+   "token": "squarespace",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Supabase",
-   "token": "supabase",
-   "ats": "ashby",
+   "company": "Ryan",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Sumo Logic",
+   "token": "sumologic",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2632,18 +2631,18 @@
    "ok": true
   },
   {
+   "company": "Supabase",
+   "token": "supabase",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Swile",
    "token": "swile",
    "ats": "lever",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Synthesia",
@@ -2660,18 +2659,18 @@
    "ok": true
   },
   {
+   "company": "Standard Chartered",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "The Trade Desk",
    "token": "thetradedesk",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Thought Machine",
@@ -2681,11 +2680,32 @@
    "ok": true
   },
   {
+   "company": "Santander",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "State Street",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Treefera",
    "token": "treefera",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Twilio",
@@ -2716,20 +2736,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Vanta",
    "token": "vanta",
    "ats": "ashby",
@@ -2742,6 +2748,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Weaviate",
@@ -2758,13 +2771,6 @@
    "ok": true
   },
   {
-   "company": "Santander",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Wiz",
    "token": "wizinc",
    "ats": "greenhouse",
@@ -2779,14 +2785,7 @@
    "ok": true
   },
   {
-   "company": "Younited",
-   "token": "younited",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "T. Rowe Price",
+   "company": "Tencent",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2800,6 +2799,13 @@
    "ok": true
   },
   {
+   "company": "Younited",
+   "token": "younited",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Zopa",
    "token": "zopa",
    "ats": "lever",
@@ -2807,25 +2813,18 @@
    "ok": true
   },
   {
-   "company": "Tencent",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Ryan",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "UserTesting",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Newton",
+   "token": "newton",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Tokio Marine Kiln",
@@ -2836,6 +2835,32 @@
   }
  ],
  "offers": [
+  {
+   "id": "gh-spacex-8957363002",
+   "company": "SpaceX",
+   "ats": "greenhouse",
+   "title": "New Graduate Engineer, Propulsion (Raptor)",
+   "location": "Hawthorne, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://boards.greenhouse.io/spacex/jobs/8957363002?gh_jid=8957363002",
+   "postedAt": "2026-11-20T20:06:04-05:00",
+   "department": "Raptor Combustion Devices - Engineering",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
+   "hasDeadlineHint": false
+  },
   {
    "id": "gh-gusto-8400148",
    "company": "Gusto",
@@ -4029,6 +4054,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "About Our Internship Program Zoox's internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry's brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond th",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-texascapitalbank-JR106385",
+   "company": "Texas Capital Bank",
+   "ats": "workday",
+   "title": "2027 Technology Intern",
+   "location": "Richardson, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://texascapitalbank.wd12.myworkdayjobs.com/College_Career/job/Richardson-TX/XMLNAME-2027-Technology-Intern_JR106385",
+   "postedAt": "2026-11-13",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "Texas Capital is built to help businesses and their leaders. Our depth of knowledge and expertise allows us to bring the best of the big firms at a scale that works for our clients, with highly experienced bankers who truly invest in people’s success — today and tomorrow. While we are rooted in core financial products,",
    "hasDeadlineHint": false
   },
   {
@@ -18299,54 +18348,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-roblox-8143976",
-   "company": "Roblox",
-   "ats": "greenhouse",
-   "title": "[2027] Associate Product Manager, Early Career",
-   "location": "San Mateo, CA, United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.roblox.com/jobs/8143976?gh_jid=8143976",
-   "postedAt": "2026-09-02T12:41:02-04:00",
-   "department": "Early Career Full-Time",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "product",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><p><span style= font-weight: 400; >Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. </span></p> <p><span style= font-weight: 400; ",
-   "hasDeadlineHint": true
-  },
-  {
-   "id": "gh-roblox-8143982",
-   "company": "Roblox",
-   "ats": "greenhouse",
-   "title": "[2027] Associate Product Designer, Early Career",
-   "location": "San Mateo, CA, United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.roblox.com/jobs/8143982?gh_jid=8143982",
-   "postedAt": "2026-09-02T12:40:55-04:00",
-   "department": "Early Career Full-Time",
-   "kind": "early-career",
-   "year": 2027,
-   "yearSource": "title",
-   "season": null,
-   "track": "design",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><p><span style= font-weight: 400; >Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. </span></p> <p><span style= font-weight: 400; ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-forvismazars-4966266101",
    "company": "Forvis Mazars",
    "ats": "greenhouse",
@@ -27203,6 +27204,30 @@
    "cycle": 2026,
    "cycleSource": "title",
    "excerpt": "<p class= leading-6 my-4 break-words ><strong>Point72 Academy Interest Form - Class of 2029, Japan</strong></p> <p class= leading-6 my-4 break-words >Curious what it is really like to work as an investor at one of the world’s leading global alternative investment firms? The Point72 Academy is where the next generation ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-texascapitalbank-JR106367",
+   "company": "Texas Capital Bank",
+   "ats": "workday",
+   "title": "2028 IB Summer Analyst (for class of 2029)",
+   "location": "Dallas, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://texascapitalbank.wd12.myworkdayjobs.com/College_Career/job/Dallas-TX/XMLNAME-2028-IB-Summer-Analyst--for-class-of-2029-_JR106367",
+   "postedAt": "2026-11-12",
+   "department": "",
+   "kind": "internship",
+   "year": 2028,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [],
+   "cycle": 2028,
+   "cycleSource": "title",
+   "excerpt": "Texas Capital is built to help businesses and their leaders. Our depth of knowledge and expertise allows us to bring the best of the big firms at a scale that works for our clients, with highly experienced bankers who truly invest in people’s success — today and tomorrow. While we are rooted in core financial products,",
    "hasDeadlineHint": false
   },
   {
