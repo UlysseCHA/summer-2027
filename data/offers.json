@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T09:33:01.340Z",
+ "generatedAt": "2026-11-24T22:16:35.110Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,28 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1087,
+  "total": 1127,
   "byYear": {
    "2026": 20,
-   "2027": 521,
+   "2027": 564,
    "2028": 26,
-   "non precisee": 520
+   "non precisee": 517
   },
   "byCycle": {
    "2026": 20,
-   "2027": 864,
+   "2027": 905,
    "2028": 26,
-   "non precisee": 177
+   "non precisee": 176
   },
   "byIndustry": {
-   "finance": 329,
-   "tech": 688,
+   "finance": 326,
+   "tech": 731,
    "consulting": 70
   },
   "byKind": {
-   "internship": 790,
-   "graduate": 248,
-   "early-career": 49
+   "internship": 835,
+   "graduate": 244,
+   "early-career": 48
   }
  },
  "sources": [
@@ -36,7 +36,7 @@
    "company": "Palantir",
    "token": "palantir",
    "ats": "lever",
-   "found": 82,
+   "found": 81,
    "ok": true
   },
   {
@@ -54,6 +54,13 @@
    "ok": true
   },
   {
+   "company": "Waymo",
+   "token": "waymo",
+   "ats": "greenhouse",
+   "found": 49,
+   "ok": true
+  },
+  {
    "company": "Jump Trading",
    "token": "jumptrading",
    "ats": "greenhouse",
@@ -64,7 +71,14 @@
    "company": "Stripe",
    "token": "stripe",
    "ats": "greenhouse",
-   "found": 35,
+   "found": 33,
+   "ok": true
+  },
+  {
+   "company": "Zoox",
+   "token": "zoox",
+   "ats": "lever",
+   "found": 28,
    "ok": true
   },
   {
@@ -75,24 +89,17 @@
    "ok": true
   },
   {
-   "company": "Zoox",
-   "token": "zoox",
-   "ats": "lever",
-   "found": 27,
+   "company": "Third Bridge",
+   "token": "thirdbridge",
+   "ats": "greenhouse",
+   "found": 25,
    "ok": true
   },
   {
    "company": "Point72",
    "token": "point72",
    "ats": "greenhouse",
-   "found": 25,
-   "ok": true
-  },
-  {
-   "company": "Third Bridge",
-   "token": "thirdbridge",
-   "ats": "greenhouse",
-   "found": 25,
+   "found": 24,
    "ok": true
   },
   {
@@ -138,13 +145,6 @@
    "ok": true
   },
   {
-   "company": "Celonis",
-   "token": "celonis",
-   "ats": "greenhouse",
-   "found": 20,
-   "ok": true
-  },
-  {
    "company": "Tower Research Capital",
    "token": "towerresearchcapital",
    "ats": "greenhouse",
@@ -166,17 +166,17 @@
    "ok": true
   },
   {
-   "company": "Samsara",
-   "token": "samsara",
+   "company": "Celonis",
+   "token": "celonis",
    "ats": "greenhouse",
    "found": 16,
    "ok": true
   },
   {
-   "company": "Epic Games",
-   "token": "epicgames",
+   "company": "Samsara",
+   "token": "samsara",
    "ats": "greenhouse",
-   "found": 15,
+   "found": 16,
    "ok": true
   },
   {
@@ -203,6 +203,13 @@
   {
    "company": "Virtu Financial",
    "token": "virtu",
+   "ats": "greenhouse",
+   "found": 13,
+   "ok": true
+  },
+  {
+   "company": "Epic Games",
+   "token": "epicgames",
    "ats": "greenhouse",
    "found": 13,
    "ok": true
@@ -397,13 +404,6 @@
    "ok": true
   },
   {
-   "company": "HelloFresh",
-   "token": "hellofresh",
-   "ats": "greenhouse",
-   "found": 6,
-   "ok": true
-  },
-  {
    "company": "Mirakl",
    "token": "mirakl",
    "ats": "greenhouse",
@@ -467,6 +467,13 @@
    "ok": true
   },
   {
+   "company": "HelloFresh",
+   "token": "hellofresh",
+   "ats": "greenhouse",
+   "found": 5,
+   "ok": true
+  },
+  {
    "company": "Mercor",
    "token": "mercor",
    "ats": "ashby",
@@ -478,13 +485,6 @@
    "token": "perplexity",
    "ats": "ashby",
    "found": 5,
-   "ok": true
-  },
-  {
-   "company": "Gemini",
-   "token": "gemini",
-   "ats": "greenhouse",
-   "found": 4,
    "ok": true
   },
   {
@@ -544,8 +544,8 @@
    "ok": true
   },
   {
-   "company": "The Riverside Company",
-   "token": "theriversidecompany",
+   "company": "Raisin",
+   "token": "raisin",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -642,6 +642,13 @@
    "ok": true
   },
   {
+   "company": "Gemini",
+   "token": "gemini",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Headlands Technologies",
    "token": "headlandstechnologiesllc",
    "ats": "greenhouse",
@@ -656,8 +663,8 @@
    "ok": true
   },
   {
-   "company": "Raisin",
-   "token": "raisin",
+   "company": "The Riverside Company",
+   "token": "theriversidecompany",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -761,16 +768,23 @@
    "ok": true
   },
   {
-   "company": "AgWest Farm Credit",
-   "token": "agwestfarmcredit",
+   "company": "Xantium",
+   "token": "xantium",
    "ats": "greenhouse",
-   "found": 1,
+   "found": 2,
    "ok": true
   },
   {
    "company": "Amber Group",
    "token": "ambergroup",
    "ats": "lever",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "AgWest Farm Credit",
+   "token": "agwestfarmcredit",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -936,13 +950,6 @@
    "ok": true
   },
   {
-   "company": "Pennylane",
-   "token": "pennylane",
-   "ats": "ashby",
-   "found": 1,
-   "ok": true
-  },
-  {
    "company": "Pika",
    "token": "pika",
    "ats": "ashby",
@@ -950,8 +957,22 @@
    "ok": true
   },
   {
+   "company": "Pennylane",
+   "token": "pennylane",
+   "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "Proxima",
    "token": "proxima",
+   "ats": "ashby",
+   "found": 1,
+   "ok": true
+  },
+  {
+   "company": "Qonto",
+   "token": "qonto",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -992,6 +1013,13 @@
    "ok": true
   },
   {
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Alpine Investors",
    "token": "alpine-investors",
    "ats": "ashby",
@@ -1006,13 +1034,6 @@
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Apollo Global",
    "ats": "workday",
    "found": 0,
@@ -1020,7 +1041,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Arrowstreet Capital",
+   "company": "Bank of America",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1032,6 +1053,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Barings",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Betterment",
@@ -1048,13 +1076,6 @@
    "ok": true
   },
   {
-   "company": "Bank of America",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Blockchain com",
    "token": "blockchain",
    "ats": "greenhouse",
@@ -1062,7 +1083,7 @@
    "ok": true
   },
   {
-   "company": "Barings",
+   "company": "Arrowstreet Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1074,13 +1095,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "abrdn",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Alantra",
@@ -1111,7 +1125,7 @@
    "ok": true
   },
   {
-   "company": "BlackRock",
+   "company": "abrdn",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1119,6 +1133,13 @@
   },
   {
    "company": "Blackstone",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "BlackRock",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1139,13 +1160,6 @@
    "ok": true
   },
   {
-   "company": "Crypto com",
-   "token": "crypto",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Blue Owl Capital",
    "ats": "workday",
    "found": 0,
@@ -1160,11 +1174,11 @@
    "ok": true
   },
   {
-   "company": "Cambridge Associates",
-   "ats": "workday",
+   "company": "Crypto com",
+   "token": "crypto",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "FalconX",
@@ -1188,6 +1202,13 @@
    "ok": true
   },
   {
+   "company": "Genesis Quant Capital",
+   "token": "genesis",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Capital One",
    "ats": "workday",
    "found": 0,
@@ -1195,14 +1216,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Citi",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cascadia Capital",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1216,11 +1230,25 @@
    "ok": true
   },
   {
+   "company": "Cascadia Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Jane Street",
    "token": "janestreet",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Citi",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Level Equity",
@@ -1244,21 +1272,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Houlihan Lokey",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Invesco",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Deutsche Bank",
+   "company": "CIBC",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1272,7 +1286,7 @@
    "ok": true
   },
   {
-   "company": "KeyBank",
+   "company": "Houlihan Lokey",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1293,6 +1307,13 @@
    "ok": true
   },
   {
+   "company": "Invesco",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "National Bank of Canada",
    "token": "national",
    "ats": "greenhouse",
@@ -1300,28 +1321,14 @@
    "ok": true
   },
   {
-   "company": "Mastercard",
+   "company": "KeyBank",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Moelis & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Lombard Odier IM",
+   "company": "Deutsche Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1349,18 +1356,25 @@
    "ok": true
   },
   {
-   "company": "Nationwide",
+   "company": "Pharo Management",
+   "token": "pharomanagement",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Mastercard",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Pharo Management",
-   "token": "pharomanagement",
-   "ats": "greenhouse",
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Plaid",
@@ -1370,6 +1384,13 @@
    "ok": true
   },
   {
+   "company": "Moelis & Company",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Public",
    "token": "public",
    "ats": "greenhouse",
@@ -1377,7 +1398,21 @@
    "ok": true
   },
   {
-   "company": "LSEG",
+   "company": "Lombard Odier IM",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Nationwide",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Northwestern Mutual",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1391,26 +1426,12 @@
    "ok": true
   },
   {
-   "company": "CIBC",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Rothschild & Co",
    "token": "https://www.rothschildandco.com/sitemap.xml",
    "ats": "sitemap",
    "found": 0,
    "ok": false,
    "error": "HTTP 403"
-  },
-  {
-   "company": "Northwestern Mutual",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Simplex Trading",
@@ -1420,7 +1441,7 @@
    "ok": true
   },
   {
-   "company": "PSG Equity",
+   "company": "LSEG",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1441,20 +1462,6 @@
    "ok": true
   },
   {
-   "company": "Raymond James",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Sands Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Trade Republic",
    "token": "traderepublic",
    "ats": "greenhouse",
@@ -1462,7 +1469,14 @@
    "ok": true
   },
   {
-   "company": "Sculptor Capital Management",
+   "company": "PSG Equity",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Raymond James",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1476,13 +1490,6 @@
    "ok": true
   },
   {
-   "company": "Vatic Labs",
-   "token": "vaticlabs",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Valkyrie Trading",
    "token": "valkyrietrading",
    "ats": "lever",
@@ -1490,11 +1497,18 @@
    "ok": true
   },
   {
-   "company": "Waterfall Asset Management",
-   "token": "waterfall",
-   "ats": "lever",
+   "company": "Vatic Labs",
+   "token": "vaticlabs",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "SouthState Bank",
@@ -1502,6 +1516,13 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Waterfall Asset Management",
+   "token": "waterfall",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Wealthfront",
@@ -1518,18 +1539,18 @@
    "ok": true
   },
   {
+   "company": "Sands Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "XTX Markets",
    "token": "xtxmarketstechnologies",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Robeco",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "BCG",
@@ -1567,7 +1588,7 @@
    "ok": true
   },
   {
-   "company": "U.S. Bank",
+   "company": "Robeco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1581,11 +1602,18 @@
    "ok": true
   },
   {
-   "company": "Visa",
+   "company": "U.S. Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Oliver Wyman",
+   "token": "oliverwyman",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Point B",
@@ -1602,25 +1630,18 @@
    "ok": true
   },
   {
-   "company": "Baker Tilly",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Triton Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Sweeney Conrad",
    "token": "sweeneyconrad",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Visa",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Thoughtworks",
@@ -1644,13 +1665,6 @@
    "ok": true
   },
   {
-   "company": "Gartner",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Agicap",
    "token": "agicap",
    "ats": "lever",
@@ -1663,6 +1677,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Baker Tilly",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Algolia",
@@ -1679,13 +1700,6 @@
    "ok": true
   },
   {
-   "company": "Ankorstore",
-   "token": "ankorstore",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Anthropic",
    "token": "anthropic",
    "ats": "greenhouse",
@@ -1693,18 +1707,11 @@
    "ok": true
   },
   {
-   "company": "Genesis Quant Capital",
-   "token": "genesis",
-   "ats": "lever",
+   "company": "Ankorstore",
+   "token": "ankorstore",
+   "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Guidehouse",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "AQ Technology Partners",
@@ -1712,6 +1719,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Triton Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Asana",
@@ -1742,7 +1756,14 @@
    "ok": true
   },
   {
-   "company": "Accenture",
+   "company": "Gartner",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Guidehouse",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1763,7 +1784,7 @@
    "ok": true
   },
   {
-   "company": "Stout",
+   "company": "Accenture",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1777,11 +1798,18 @@
    "ok": true
   },
   {
-   "company": "Autodesk",
+   "company": "Stout",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "BlaBlaCar",
+   "token": "blablacar",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Box",
@@ -1798,13 +1826,6 @@
    "error": "HTTP 429"
   },
   {
-   "company": "AVEVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Browserbase",
    "token": "browserbase",
    "ats": "ashby",
@@ -1812,14 +1833,14 @@
    "ok": true
   },
   {
-   "company": "Baillie Gifford",
+   "company": "Autodesk",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "BBVA",
+   "company": "Baker Hughes",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1833,25 +1854,18 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Brown Gibbons Lang & Company",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Chime",
    "token": "chime",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Cboe Global Markets",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cadence",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "ClickUp",
@@ -1861,11 +1875,18 @@
    "ok": true
   },
   {
-   "company": "Oliver Wyman",
-   "token": "oliverwyman",
-   "ats": "lever",
+   "company": "AVEVA",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Baillie Gifford",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Confluent",
@@ -1889,6 +1910,13 @@
    "ok": true
   },
   {
+   "company": "BBVA",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Cursor (Anysphere)",
    "token": "cursor",
    "ats": "ashby",
@@ -1896,14 +1924,14 @@
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
+   "company": "Cadence",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Ciena",
+   "company": "Cboe Global Markets",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1924,6 +1952,13 @@
    "ok": true
   },
   {
+   "company": "Dojo",
+   "token": "dojo",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Deliveroo",
    "token": "deliveroo",
    "ats": "ashby",
@@ -1931,8 +1966,8 @@
    "ok": true
   },
   {
-   "company": "Dojo",
-   "token": "dojo",
+   "company": "Ducera Partners",
+   "token": "ducerapartners",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1948,13 +1983,6 @@
    "company": "Drata",
    "token": "drata",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Ducera Partners",
-   "token": "ducerapartners",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1994,13 +2022,6 @@
    "ok": true
   },
   {
-   "company": "Centrica",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Gearset",
    "token": "gearset",
    "ats": "ashby",
@@ -2029,13 +2050,6 @@
    "ok": true
   },
   {
-   "company": "Crowdstrike",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "GitLab",
    "token": "gitlab",
    "ats": "greenhouse",
@@ -2043,14 +2057,21 @@
    "ok": true
   },
   {
-   "company": "Baker Hughes",
+   "company": "Ciena",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "eBay",
+   "company": "Crowdstrike",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Centrica",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2071,14 +2092,14 @@
    "ok": true
   },
   {
-   "company": "BlaBlaCar",
-   "token": "blablacar",
-   "ats": "lever",
+   "company": "eBay",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
-   "company": "Global Gate",
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2092,14 +2113,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Greystar",
+   "company": "Global Atlantic",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Frontier Economics",
+   "company": "Global Gate",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2120,14 +2141,7 @@
    "ok": true
   },
   {
-   "company": "Global Atlantic",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Dow Jones",
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2162,7 +2176,14 @@
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "Greystar",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Frontier Economics",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2190,14 +2211,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Gunvor",
+   "company": "HarbourVest",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Leerink Partners",
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2216,13 +2237,6 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Lovable",
@@ -2246,13 +2260,6 @@
    "ok": true
   },
   {
-   "company": "Just",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Marshmallow",
    "token": "marshmallow",
    "ats": "ashby",
@@ -2260,7 +2267,7 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
+   "company": "Gunvor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2274,7 +2281,7 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
+   "company": "Leerink Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2295,13 +2302,6 @@
    "ok": true
   },
   {
-   "company": "HarbourVest",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Motive",
    "token": "motive",
    "ats": "greenhouse",
@@ -2309,11 +2309,32 @@
    "ok": true
   },
   {
+   "company": "Hiscox",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "N26",
    "token": "n26",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Julius Baer",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Just",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "National Gas",
@@ -2344,18 +2365,18 @@
    "ok": true
   },
   {
+   "company": "Knight Frank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Newton",
    "token": "newton",
    "ats": "lever",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Grosvenor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Okta",
@@ -2372,14 +2393,14 @@
    "ok": true
   },
   {
-   "company": "Motorola Solutions",
+   "company": "Liberty Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Liberty Global",
+   "company": "Mizuho",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2400,14 +2421,7 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "MBDA",
+   "company": "Motorola Solutions",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2419,6 +2433,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "NASDAQ",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "PQShield",
@@ -2435,11 +2456,11 @@
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
-   "ats": "ashby",
+   "company": "NCR Atleos",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Quilter",
@@ -2484,11 +2505,11 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
+   "company": "Render",
+   "token": "render",
+   "ats": "ashby",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Replit",
@@ -2498,28 +2519,14 @@
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Mizuho",
+   "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "NCR Atleos",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Oxford Nanopore Technologies",
+   "company": "MBDA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2568,16 +2575,16 @@
    "ok": true
   },
   {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Sorare",
    "token": "sorare",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Spotify",
-   "token": "spotify",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2596,6 +2603,48 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Spotify",
+   "token": "spotify",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Sumo Logic",
+   "token": "sumologic",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Suno",
+   "token": "suno",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Supabase",
+   "token": "supabase",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Synthesia",
+   "token": "synthesia",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Ryan",
    "ats": "workday",
    "found": 0,
@@ -2610,53 +2659,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Sumo Logic",
-   "token": "sumologic",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Supabase",
-   "token": "supabase",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Suno",
-   "token": "suno",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Synthesia",
-   "token": "synthesia",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Tailscale",
    "token": "tailscale",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "The Trade Desk",
@@ -2673,16 +2680,30 @@
    "ok": true
   },
   {
-   "company": "Treefera",
-   "token": "treefera",
-   "ats": "ashby",
+   "company": "Standard Chartered",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "State Street",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Twilio",
    "token": "twilio",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Treefera",
+   "token": "treefera",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2701,13 +2722,6 @@
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "UnlikelyAI",
    "token": "unlikelyai",
    "ats": "ashby",
@@ -2722,13 +2736,6 @@
    "ok": true
   },
   {
-   "company": "Santander",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Vercel",
    "token": "vercel",
    "ats": "greenhouse",
@@ -2736,14 +2743,7 @@
    "ok": true
   },
   {
-   "company": "Tencent",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "T. Rowe Price",
+   "company": "Santander",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2757,6 +2757,20 @@
    "ok": true
   },
   {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Wise",
+   "token": "wise",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Writer",
    "token": "writer",
    "ats": "ashby",
@@ -2764,7 +2778,21 @@
    "ok": true
   },
   {
-   "company": "UserTesting",
+   "company": "Wiz",
+   "token": "wizinc",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Zscaler",
+   "token": "zscaler",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Tencent",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2778,11 +2806,11 @@
    "ok": true
   },
   {
-   "company": "Zopa",
-   "token": "zopa",
-   "ats": "lever",
+   "company": "UserTesting",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Tokio Marine Kiln",
@@ -2792,53 +2820,48 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Waymo",
-   "token": "waymo",
-   "ats": "greenhouse",
+   "company": "Zopa",
+   "token": "zopa",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
-   "company": "Wise",
-   "token": "wise",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Wiz",
-   "token": "wizinc",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Xantium",
-   "token": "xantium",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Zscaler",
-   "token": "zscaler",
-   "ats": "greenhouse",
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
    "found": 0,
    "ok": true
   }
  ],
  "offers": [
+  {
+   "id": "gh-raisin-5044829101",
+   "company": "Raisin",
+   "ats": "greenhouse",
+   "title": "Intern Communications & PR (m/f/d)",
+   "location": "Berlin, Berlin, Germany",
+   "regions": [
+    "europe",
+    "germany"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/5044829101",
+   "postedAt": "2026-11-24T07:24:19-05:00",
+   "department": "Communications and PR",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [
+    "fintech"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p class= sc-gEkIjz cjtSrT MuiTypography-root MuiTypography-body1 sc-hoLEA >Raisin is the world’s leading platform for savings and investment products. Founded in 2012, the <strong>FinTech</strong> connects consumers with banks in the EU, the UK and the US. This gives consumers <strong>better",
+   "hasDeadlineHint": false
+  },
   {
    "id": "gh-point72-8959709002",
    "company": "Point72",
@@ -2990,84 +3013,6 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-verkada-5233011007",
-   "company": "Verkada",
-   "ats": "greenhouse",
-   "title": "Technical Support Engineering Intern - Summer 2027",
-   "location": "San Mateo, CA United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5233011007",
-   "postedAt": "2026-11-23T12:58:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-verkada-4715534007",
-   "company": "Verkada",
-   "ats": "greenhouse",
-   "title": "Technical Support Engineer - University Graduate 2026",
-   "location": "San Mateo, CA United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/4715534007",
-   "postedAt": "2026-11-23T12:58:24-05:00",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-verkada-5121488007",
-   "company": "Verkada",
-   "ats": "greenhouse",
-   "title": "Technical Support Engineer - University Graduate 2027",
-   "location": "San Mateo, CA United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5121488007",
-   "postedAt": "2026-11-23T12:58:24-05:00",
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "",
    "hasDeadlineHint": false
   },
   {
@@ -3297,6 +3242,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8401116",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Agentic AI",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8401116",
+   "postedAt": "2026-11-19T18:05:23-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-affirm-8206173003",
    "company": "Affirm",
    "ats": "greenhouse",
@@ -3397,7 +3368,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "<p><strong><span data-contrast= auto >The Role</span></strong><span data-ccp-props= {} > </span></p> <p><span data-contrast= auto >We are seeking a detail-oriented and analytical intern to join our Operations division under the Middle Office team at Schonfeld in our New York office. You’ll spend ten weeks within our te",
+   "excerpt": "<p><strong><span data-contrast= auto >The Role</span></strong><span data-ccp-props= {} > </span></p> <p><span data-contrast= auto >We are seeking a detail-oriented and analytical intern to join our Operations division under the Middle Office team at Schonfeld in our Hong Kong office. You’ll spend ten weeks within our t",
    "hasDeadlineHint": false
   },
   {
@@ -4451,30 +4422,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-celonis-8202449003",
-   "company": "Celonis",
-   "ats": "greenhouse",
-   "title": "Associate Technology Consultant - Galaxy Graduate Program",
-   "location": "Raleigh, US, North Carolina",
-   "regions": [
-    "other"
-   ],
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8202449003?gh_jid=8202449003",
-   "postedAt": "2026-11-12T10:34:05-05:00",
-   "department": "Services",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "description",
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-hellofresh-8383114",
    "company": "HelloFresh",
    "ats": "greenhouse",
@@ -4497,30 +4444,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<h3><strong>Rejoins une superstar de la foodtech française</strong></h3> <p>Chez HelloFresh, nous bousculons les habitudes alimentaires des français grâce à nos Box à cuisiner ! </p> <p>Notre ambition ? Révolutionner le quotidien de nos abonnés, en promouvant une façon plus durable de cuisiner et en leur faisant découv",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-celonis-8202446003",
-   "company": "Celonis",
-   "ats": "greenhouse",
-   "title": "Associate Technology Consultant - Galaxy Graduate Program",
-   "location": "New York, US, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8202446003?gh_jid=8202446003",
-   "postedAt": "2026-11-12T10:32:43-05:00",
-   "department": "Services",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "description",
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
    "hasDeadlineHint": false
   },
   {
@@ -5102,30 +5025,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-hellofresh-8371654",
-   "company": "HelloFresh",
-   "ats": "greenhouse",
-   "title": "Logistics Operational Excellence Intern",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://careers.hellofresh.com/global/en/job/8371654?gh_jid=8371654",
-   "postedAt": "2026-11-11T10:51:31-05:00",
-   "department": "Special Operations",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><strong>The role: What's in the Box</strong></p> <p>You'll be joining our international Logistics Operational Excellence team, working across the Netherlands, Belgium, and France to support our Fleet Operations and keep our vehicles running efficiently and our operations scaling smoothly. </p> <p>Your focus will be ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-airbnb-8376005",
    "company": "Airbnb",
    "ats": "greenhouse",
@@ -5347,7 +5246,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -5355,7 +5254,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -5715,10 +5614,36 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "lv-zoox-0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
+   "company": "Zoox",
+   "ats": "lever",
+   "title": "AI Engineering Intern, Operational Safety [Summer 2027]",
+   "location": "Foster City, CA; Foster City, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
+   "postedAt": "2026-11-07T00:27:55.431Z",
+   "department": "Safety Policy and Strategy",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "About Our Internship Program Zoox's internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry's brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond th",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "lv-zoox-fbc2a7a6-b916-4f3f-b825-a4b3d5d60852",
    "company": "Zoox",
    "ats": "lever",
-   "title": "Process Improvement Intern [ Summer 2027]",
+   "title": "Process Improvement Intern (A) [ Summer 2027]",
    "location": "Foster City, CA; Foster City, CA",
    "regions": [
     "us"
@@ -6000,6 +5925,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8351210",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8351210",
+   "postedAt": "2026-11-06T15:59:41-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-ramp-fc971889-db1d-4a20-a25e-f282f9296936",
    "company": "Ramp",
    "ats": "ashby",
@@ -6024,6 +5975,32 @@
    "cycleSource": "posting-date",
    "excerpt": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are h",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8358262",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model)",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8358262",
+   "postedAt": "2026-11-06T15:50:56-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-pinterest-8334878",
@@ -6208,6 +6185,32 @@
    "cycleSource": "posting-date",
    "excerpt": "<p> </p> <p><strong>A Career with Point72’s fundamental equities team </strong></p> <p>Fundamental Equities is Point72’s core strategy and its success is dependent upon our sector-based investing teams. Using fundamental research, our research analysts inform the investment strategies of our portfolio managers. Through",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8350832",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, BS/MS, Software Engineer, Multiverse",
+   "location": "San Francisco, California, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8350832",
+   "postedAt": "2026-11-06T09:21:23-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-point72-8878966002",
@@ -6863,6 +6866,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8350687",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Depot Automation",
+   "location": "San Francisco, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8350687",
+   "postedAt": "2026-11-04T19:22:49-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-stepstone-8354259",
    "company": "StepStone Group",
    "ats": "greenhouse",
@@ -7446,32 +7475,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-theriversidecompany-8927819002",
-   "company": "The Riverside Company",
-   "ats": "greenhouse",
-   "title": "2027 Summer Internship, Global Talent Management",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/theriversidecompany/jobs/8927819002",
-   "postedAt": "2026-11-02T20:51:29-05:00",
-   "department": "Global Talent Management",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "private-equity"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p>The Riverside Company is a global investment firm focused on being one of the leading private equity and flexible capital options for business owners and portfolio company employees at the smaller end of the middle market by seeking to fuel transformative growth and create lasting value. Since its founding in 1988, ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-theriversidecompany-8927520002",
    "company": "The Riverside Company",
    "ats": "greenhouse",
@@ -7909,6 +7912,32 @@
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8337719",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist Intern",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8337719",
+   "postedAt": "2026-10-30T16:19:59-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "ab-backmarket-9c27f185-5f20-4676-a398-d2126ce26d99",
@@ -8513,6 +8542,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8319171",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8319171",
+   "postedAt": "2026-10-27T12:19:18-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-schonfeld-8311595",
    "company": "Schonfeld",
    "ats": "greenhouse",
@@ -8879,6 +8934,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8304574",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations",
+   "location": "San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8304574",
+   "postedAt": "2026-10-23T20:36:01-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-samsara-8319784",
    "company": "Samsara",
    "ats": "greenhouse",
@@ -8903,6 +8984,32 @@
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p><span style= font-family: arial, helvetica, sans-serif; ><strong>Who we are</strong></span></p> <p><span style= font-weight: 300; font-family: arial, helvetica, sans-serif; >Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organization",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8287385",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8287385",
+   "postedAt": "2026-10-23T15:55:17-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-epicgames-6232770004",
@@ -9082,6 +9189,84 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8306779",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, RSI for Autonomous Driving",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306779",
+   "postedAt": "2026-10-22T16:34:46-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8306867",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Multimodal Foundation Models",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306867",
+   "postedAt": "2026-10-22T16:33:13-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8306841",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, AI Foundations - Recipes",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306841",
+   "postedAt": "2026-10-22T16:30:33-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-twitch-8886605002",
    "company": "Twitch",
    "ats": "greenhouse",
@@ -9208,7 +9393,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -9549,6 +9734,58 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8301854",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8301854",
+   "postedAt": "2026-10-19T16:34:41-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8283558",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8283558",
+   "postedAt": "2026-10-19T16:24:47-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-scaleai-4735665005",
    "company": "Scale AI",
    "ats": "greenhouse",
@@ -9573,6 +9810,58 @@
    "cycleSource": "title",
    "excerpt": "<p>At <strong>Scale</strong>, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8292367",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist, Visual Reasoning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8292367",
+   "postedAt": "2026-10-19T11:58:23-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8289816",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Behavior Post-training",
+   "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8289816",
+   "postedAt": "2026-10-19T11:56:12-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-bracebridgecapital-4744999005",
@@ -9811,6 +10100,34 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "ab-qonto-92f42c49-04ae-460b-8c35-1654c950285d",
+   "company": "Qonto",
+   "ats": "ashby",
+   "title": "Growth Operations Apprentice",
+   "location": "Paris, France",
+   "regions": [
+    "europe",
+    "paris"
+   ],
+   "url": "https://jobs.ashbyhq.com/qonto/92f42c49-04ae-460b-8c35-1654c950285d",
+   "postedAt": "2026-10-15T15:06:34.261+00:00",
+   "department": "Growth",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "fintech",
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-towerresearchcapital-7077280",
    "company": "Tower Research Capital",
    "ats": "greenhouse",
@@ -9835,6 +10152,32 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p>Tower Research Capital est une société renommée de négociation quantitative fondée en 1998. Tower a fondé ses affaires en se basant sur une plateforme à haute performance et sur des équipes de négociation indépendantes. Nous avons plus de 25 ans d’expérience en innovation et une réputation de découvrir des occasions",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8244128",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Semantics",
+   "location": "Mountain View, California, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8244128",
+   "postedAt": "2026-10-15T12:20:24-04:00",
+   "department": "Driver Intelligence (7LT)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
    "hasDeadlineHint": false
   },
   {
@@ -9904,33 +10247,6 @@
    "url": "https://jobs.lever.co/veepee/7abf8a79-9c0a-48a9-8f1c-3755b0153440",
    "postedAt": "2026-10-14T13:47:13.130Z",
    "department": "Operational Marketing / E-Merchandising",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "lv-veepee-1bc51d05-157f-4c7e-8781-1d988e5ea0c3",
-   "company": "Veepee",
-   "ats": "lever",
-   "title": "Stage - Responsable de comptes  - Voyage H/F/X - Janvier 2027",
-   "location": "Saint-Denis; Saint-Denis",
-   "regions": [
-    "paris",
-    "europe"
-   ],
-   "url": "https://jobs.lever.co/veepee/1bc51d05-157f-4c7e-8781-1d988e5ea0c3",
-   "postedAt": "2026-10-14T13:39:40.416Z",
-   "department": "Business Development",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -10184,6 +10500,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8279620",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8279620",
+   "postedAt": "2026-10-13T17:16:06-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "lv-veepee-10dc39b5-dfa7-4a0f-8de4-5c0e650e49ae",
    "company": "Veepee",
    "ats": "lever",
@@ -10257,6 +10599,32 @@
    "cycleSource": "title",
    "excerpt": "<div><strong data-olk-copy-source= MessageBody >Launch Your Accounting Career with Frazier Deeter!</strong></div> <div><strong> </strong></div> <div>Frazier Deeter is one of the nation’s fastest growing accounting and advisory firms, with offices across the US and the UK. As an Assurance Intern, you will gain real‑worl",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8265868",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
+   "location": "London, England, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265868",
+   "postedAt": "2026-10-13T12:22:39-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-figma-6219995004",
@@ -10466,6 +10834,58 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8258070",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, AV Planning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8258070",
+   "postedAt": "2026-10-09T19:26:04-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8257006",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Post Training",
+   "location": "Mountain View, CA, USA: San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257006",
+   "postedAt": "2026-10-09T19:25:21-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-databricks-8843577002",
    "company": "Databricks",
    "ats": "greenhouse",
@@ -10593,7 +11013,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": true
   },
   {
@@ -10748,6 +11168,58 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8265173",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265173",
+   "postedAt": "2026-10-08T15:53:38-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8262154",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8262154",
+   "postedAt": "2026-10-08T14:41:58-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-imc-4962456101",
    "company": "IMC Trading",
    "ats": "greenhouse",
@@ -10870,6 +11342,33 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p>AlixPartners, we help businesses respond quickly, decisively, and successfully, when the stakes are high. Our people are empowered to excel and have a point of view, in an open and high-performance environment. Working collectively, we find the smartest route to the most effective outcome. We support you to shape th",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "lv-veepee-51a6f219-f1fa-45f8-9b10-4a443c7077fa",
+   "company": "Veepee",
+   "ats": "lever",
+   "title": "Stage - Chargé(e) de projet Média  H/F/X - Janvier 2027",
+   "location": "Saint-Denis; Saint-Denis",
+   "regions": [
+    "paris",
+    "europe"
+   ],
+   "url": "https://jobs.lever.co/veepee/51a6f219-f1fa-45f8-9b10-4a443c7077fa",
+   "postedAt": "2026-10-08T08:56:01.850Z",
+   "department": "Homepage / Trade Marketing",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
    "hasDeadlineHint": false
   },
   {
@@ -11136,6 +11635,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8227633",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Perception, Robotics",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8227633",
+   "postedAt": "2026-10-07T15:11:14-04:00",
+   "department": "Driver Intelligence (7LT)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "lv-veepee-8e393c5b-0f9a-4fe4-9912-67340b63e523",
    "company": "Veepee",
    "ats": "lever",
@@ -11240,6 +11765,32 @@
    "cycleSource": "posting-date",
    "excerpt": "<div>Who we are:<br><br>About Stripe<br>Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8257801",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD,  Research, Perception Foundation Models",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257801",
+   "postedAt": "2026-10-07T00:37:15-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-thirdbridge-4926968101",
@@ -11397,6 +11948,58 @@
    "cycleSource": "posting-date",
    "excerpt": "About Mercor Mercor’s mission is to organize human intelligence for the AI economy. We build the infrastructure that enables frontier AI labs and enterprises to train, evaluate, and improve AI on real-world professional work. More than five million experts have joined our network, and we pay out over $5 million daily f",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8257205",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, BS/MS/PhD, Software Engineer, Eval Data Infra",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257205",
+   "postedAt": "2026-10-05T15:44:22-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8257159",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257159",
+   "postedAt": "2026-10-05T15:41:27-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-figma-6207801004",
@@ -11582,32 +12185,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-gemini-8240204",
-   "company": "Gemini",
-   "ats": "greenhouse",
-   "title": "Prediction Markets Operations Intern (Winter 2027)",
-   "location": "New York, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8240204&gh_jid=8240204",
-   "postedAt": "2026-10-02T18:12:16-04:00",
-   "department": "Marketing",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "banking",
-   "industry": "finance",
-   "tags": [
-    "crypto"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p><strong>About the Company</strong></p> <p>Gemini is a global crypto and Web3 platform founded by Cameron and Tyler Winklevoss in 2014, offering a wide range of simple, reliable, and secure crypto products and services to individuals and institutions in over 70 countries. Our mission is to unlock the next era of fina",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-affirm-8011590003",
    "company": "Affirm",
    "ats": "greenhouse",
@@ -11684,6 +12261,32 @@
    "cycleSource": "title",
    "excerpt": "<p>At Lyft, our purpose is to serve and connect. Lyft Urban Solutions designs, builds, and operates bikeshare systems in more than 50 cities worldwide, including New York, Chicago, London, Barcelona, Mexico City, Rio de Janeiro, and Montréal. Our Longueuil facility is the birthplace of BIXI, North America's first autom",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8243732",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, World Action Model",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8243732",
+   "postedAt": "2026-10-02T15:28:49-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-databricks-8847738002",
@@ -12183,6 +12786,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8243556",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8243556",
+   "postedAt": "2026-10-01T11:38:02-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-stripe-8194287",
    "company": "Stripe",
    "ats": "greenhouse",
@@ -12394,6 +13023,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8240198",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer, Onboard Developer Platform",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8240198",
+   "postedAt": "2026-09-30T14:03:17-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-charlesriverassociates-8243522",
    "company": "Charles River Associates",
    "ats": "greenhouse",
@@ -12494,6 +13149,32 @@
    "cycleSource": "description",
    "excerpt": "<div class= content-intro ><h2>WHAT MAKES US EPIC?</h2> <p>At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stun",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8234876",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Planner Machine Learning",
+   "location": "San Francisco, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8234876",
+   "postedAt": "2026-09-29T12:36:53-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-raisin-4987560101",
@@ -12840,6 +13521,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8237997",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8237997",
+   "postedAt": "2026-09-28T17:05:14-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "ab-quora-cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
    "company": "Quora",
    "ats": "ashby",
@@ -12862,6 +13569,110 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "[ Quora is a privately held, \"remote-first\" company . This position can be performed remotely from anywhere in Canada or the United States. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.] About Quora: Quora’s mission is to grow the world's collective intellige",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8227411",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Perception, Machine Learning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8227411",
+   "postedAt": "2026-09-25T18:46:35-04:00",
+   "department": "Driver Intelligence (7LT)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8234161",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineering, Onboard Software Integrity",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8234161",
+   "postedAt": "2026-09-25T17:55:21-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8233746",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8233746",
+   "postedAt": "2026-09-25T17:01:50-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8231711",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Systems Engineer, Autonomous Vehicle Networks & Diagnostics",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8231711",
+   "postedAt": "2026-09-25T16:33:28-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
    "hasDeadlineHint": false
   },
   {
@@ -12995,6 +13806,32 @@
    "cycleSource": "title",
    "excerpt": "<p>At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.</p> <p>Content Systems is the heart of Lyft's language ecosystem. The team is made up of two distinct disciplines, Content Design and Learning Exper",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8227640",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist, Foundation Models",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8227640",
+   "postedAt": "2026-09-24T13:31:20-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-voloridgeinvestmentmanagement-4405530009",
@@ -13235,6 +14072,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8224729",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer",
+   "location": "Mountain View, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8224729",
+   "postedAt": "2026-09-23T15:28:59-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-scaleai-4736426005",
    "company": "Scale AI",
    "ats": "greenhouse",
@@ -13366,6 +14229,58 @@
    "cycleSource": "title",
    "excerpt": "<div data-block= true data-editor= coe4n data-offset-key= eo6uh-0-0 > <div class= public-DraftStyleDefault-block public-DraftStyleDefault-ltr data-offset-key= eo6uh-0-0 > <p><strong>About AQR Capital Management</strong></p> <p>Founded in 1998, AQR is a global systematic investment management firm. As quantitative inves",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8221956",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Data Science",
+   "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8221956",
+   "postedAt": "2026-09-22T18:02:12-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8223735",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Machine Learning Engineer",
+   "location": "San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8223735",
+   "postedAt": "2026-09-22T16:22:25-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-stripe-8186367",
@@ -13544,7 +14459,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -13552,7 +14467,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -13579,7 +14494,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -13604,6 +14519,58 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><h2>WHAT MAKES US EPIC?</h2> <p>At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stun",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8221851",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software/ML Engineer, Simulation",
+   "location": "Mountain View, California, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8221851",
+   "postedAt": "2026-09-21T17:40:43-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8221795",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model",
+   "location": "Mountain View, California, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8221795",
+   "postedAt": "2026-09-21T17:30:27-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
    "hasDeadlineHint": false
   },
   {
@@ -13764,6 +14731,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8214729",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, BS/MS, Software Engineer, RO Performance team, Release Evaluation (Simulation)",
+   "location": "Warsaw, Poland",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8214729",
+   "postedAt": "2026-09-18T18:07:50-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-point72-8811167002",
    "company": "Point72",
    "ats": "greenhouse",
@@ -13791,32 +14784,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-gemini-8214332",
-   "company": "Gemini",
-   "ats": "greenhouse",
-   "title": "Product Management Intern (Winter 2027)",
-   "location": "New York, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214332&gh_jid=8214332",
-   "postedAt": "2026-09-18T16:13:13-04:00",
-   "department": "Internships",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "product",
-   "industry": "finance",
-   "tags": [
-    "crypto"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p><strong>About the Company</strong></p> <p><span style= font-weight: 400; >Gemini is a global crypto and Web3 platform founded by Cameron and Tyler Winklevoss in 2014, offering a wide range of simple, reliable, and secure crypto products and services to individuals and institutions in over 70 countries. Our mission i",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-gemini-8214272",
    "company": "Gemini",
    "ats": "greenhouse",
@@ -13841,6 +14808,32 @@
    "cycleSource": "title",
    "excerpt": "<p><strong>About the Company</strong></p> <p><span style= font-weight: 400; >Gemini is a global crypto and Web3 platform founded by Cameron and Tyler Winklevoss in 2014, offering a wide range of simple, reliable, and secure crypto products and services to individuals and institutions in over 70 countries. Our mission i",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8203191",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
+   "location": "Mountain View, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8203191",
+   "postedAt": "2026-09-18T14:42:26-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-flowtraders-8213037",
@@ -13892,32 +14885,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<h2><strong>This role is for applicants actively looking to start before December 1, 2026.</strong></h2> <h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial i",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-stripe-8212508",
-   "company": "Stripe",
-   "ats": "greenhouse",
-   "title": "Software Engineer, Early Career — Immediate Start",
-   "location": "San Francisco, Seattle, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8212508",
-   "postedAt": "2026-09-17T19:22:32-04:00",
-   "department": "5112 General University",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "fintech"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<h2><strong>This role is for applicants actively looking to start by mid-January 2027.</strong></h2> <h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infra",
    "hasDeadlineHint": false
   },
   {
@@ -13973,6 +14940,32 @@
    "cycleSource": "description",
    "excerpt": "Health can’t wait . Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prev",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8210138",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MS/PhD, Conflict Behavior",
+   "location": "Mountain View, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8210138",
+   "postedAt": "2026-09-17T14:43:59-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-gcmgrosvenor-7992997003",
@@ -14241,6 +15234,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8198582",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MBA, Salesforce Product Owner",
+   "location": "Los Angeles, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8198582",
+   "postedAt": "2026-09-15T14:51:38-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-datadog-8203657",
    "company": "Datadog",
    "ats": "greenhouse",
@@ -14395,6 +15414,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8197014",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MBA, Strategic Finance",
+   "location": "San Francisco, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197014",
+   "postedAt": "2026-09-14T18:08:49-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-fiveringsllc-5414190008",
    "company": "Five Rings",
    "ats": "greenhouse",
@@ -14420,6 +15465,32 @@
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p id= isPasted ><span style= font-family: verdana, geneva, sans-serif; ><strong>About Five Rings</strong></span></p> <p id= isPasted ><span style= font-family: verdana, geneva, sans-serif; >Five Rings is a proprietary trading firm founded with a vision of combining strategy, innovation and t",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8197899",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197899",
+   "postedAt": "2026-09-14T15:03:20-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "data",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-figma-6152695004",
@@ -15644,7 +16715,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15663,7 +16734,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -15671,7 +16742,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15690,7 +16761,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -15698,7 +16769,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15725,7 +16796,59 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-verkada-5121488007",
+   "company": "Verkada",
+   "ats": "greenhouse",
+   "title": "Technical Support Engineer - University Graduate 2027",
+   "location": "San Mateo, CA United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5121488007",
+   "postedAt": "2026-09-08T19:51:01-04:00",
+   "department": "Technical Support Engineering",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><h3><strong>Who We Are</strong></h3> <p>Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor managemen",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-verkada-5233011007",
+   "company": "Verkada",
+   "ats": "greenhouse",
+   "title": "Technical Support Engineering Intern - Summer 2027",
+   "location": "San Mateo, CA United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5233011007",
+   "postedAt": "2026-09-08T19:46:09-04:00",
+   "department": "Technical Support Engineering",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><h3><strong>Who We Are</strong></h3> <p>Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor managemen",
    "hasDeadlineHint": false
   },
   {
@@ -15752,7 +16875,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15779,7 +16902,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15806,7 +16929,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15825,7 +16948,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -15833,7 +16956,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15852,7 +16975,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -15860,7 +16983,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15887,7 +17010,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15906,7 +17029,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -15914,7 +17037,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15941,7 +17064,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15968,7 +17091,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -15995,7 +17118,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -16014,7 +17137,7 @@
    "year": 2027,
    "yearSource": "description",
    "season": "summer",
-   "track": "business",
+   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -16022,7 +17145,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -16049,7 +17172,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -16076,7 +17199,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -16103,7 +17226,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? At <a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase >Coinbase</a>, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we li",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
    "hasDeadlineHint": false
   },
   {
@@ -16914,6 +18037,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8165014",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, MBA, Operations Planning",
+   "location": "San Francisco, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8165014",
+   "postedAt": "2026-09-01T12:19:08-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-towerresearchcapital-8037860",
    "company": "Tower Research Capital",
    "ats": "greenhouse",
@@ -16965,32 +18114,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p>Tower Research Capital is a leading quantitative trading firm founded in 1998. Tower has built its business on a high-performance platform and independent trading teams. We have a 25+ year track record of innovation and a reputation for discovering unique market opportunities.</p> <p>Tower is home to some of the wor",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-stripe-8131339",
-   "company": "Stripe",
-   "ats": "greenhouse",
-   "title": "Operations Associate, Apprenticeship",
-   "location": "Bengaluru",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8131339",
-   "postedAt": "2026-09-01T00:50:45-04:00",
-   "department": "4141 SDC - Central Operations Enablement",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [
-    "fintech"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<h2>Who we are</h2> <h3>About Stripe</h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase th",
    "hasDeadlineHint": false
   },
   {
@@ -17512,54 +18635,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role We’re looki",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-epicgames-6174265004",
-   "company": "Epic Games",
-   "ats": "greenhouse",
-   "title": "Web Engineer Intern",
-   "location": "Novi Sad,Vojvodina,Serbia",
-   "regions": [
-    "other"
-   ],
-   "url": "https://epicgames.com/careers/jobs/6174265004?gh_jid=6174265004",
-   "postedAt": "2026-08-28T19:29:13-04:00",
-   "department": "Engineering Specialist",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><h2>WHAT MAKES US EPIC?</h2> <p>At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stun",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-epicgames-6163851004",
-   "company": "Epic Games",
-   "ats": "greenhouse",
-   "title": "Web Engineer Intern",
-   "location": "London,England,United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://epicgames.com/careers/jobs/6163851004?gh_jid=6163851004",
-   "postedAt": "2026-08-28T19:29:11-04:00",
-   "department": "Engineering Specialist",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><h2>WHAT MAKES US EPIC?</h2> <p>At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stun",
    "hasDeadlineHint": false
   },
   {
@@ -18898,6 +19973,55 @@
    "hasDeadlineHint": false,
    "deadline": null,
    "manual": true
+  },
+  {
+   "id": "gh-xantium-4371217009",
+   "company": "Xantium",
+   "ats": "greenhouse",
+   "title": "Quantitative Researcher Intern",
+   "location": "London, England, New York, New York",
+   "regions": [
+    "us",
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4371217009",
+   "postedAt": "2026-08-17T16:10:51-04:00",
+   "department": "Quantitative Research",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "quant",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<p> </p> <p>Xantium is seeking Quantitative Researcher Interns for our New York and London offices for Summer 2027. Ideal candidates will be in their penultimate year of their PhD studies in a highly quantitative field. We may consider individuals pursuing bachelor's and master’s degrees, provided they can demonstrate ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-xantium-4360768009",
+   "company": "Xantium",
+   "ats": "greenhouse",
+   "title": "Quantitative Developer Intern",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4360768009",
+   "postedAt": "2026-08-17T16:10:20-04:00",
+   "department": "Technology",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "quant",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<p> </p> <p>Xantium is seeking Quantitative Developer Interns for our New York and London offices for Summer 2027. Candidates must be in their penultimate year, studying Computer Science. Quantitative Developer Interns will work closely with our team of Quantitative Developers and Researchers on projects powering our q",
+   "hasDeadlineHint": false
   },
   {
    "id": "gh-dvtrading-4719134005",
@@ -24671,54 +25795,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-celonis-7627681003",
-   "company": "Celonis",
-   "ats": "greenhouse",
-   "title": "Associate Deployment Engineer - Galaxy Graduate Program",
-   "location": "New York, US, New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7627681003?gh_jid=7627681003",
-   "postedAt": "2026-02-12T10:32:09-05:00",
-   "department": "Services",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "description",
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-celonis-7627708003",
-   "company": "Celonis",
-   "ats": "greenhouse",
-   "title": "Associate Deployment Engineer - Galaxy Graduate Program",
-   "location": "Raleigh, US, North Carolina",
-   "regions": [
-    "other"
-   ],
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7627708003?gh_jid=7627708003",
-   "postedAt": "2026-02-12T10:32:04-05:00",
-   "department": "Services",
-   "kind": "graduate",
-   "year": 2027,
-   "yearSource": "description",
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-alan-9c4eb7ab-2297-4981-ac31-ef57a349f9c9",
    "company": "Alan",
    "ats": "ashby",
@@ -26567,32 +27643,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "lv-palantir-395a4483-fc3d-4b77-a500-501923fd0976",
-   "company": "Palantir",
-   "ats": "lever",
-   "title": "Forward Deployed Software Engineer, Internship - AUS Government",
-   "location": "Sydney, Australia; Sydney, Australia",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://jobs.lever.co/palantir/395a4483-fc3d-4b77-a500-501923fd0976",
-   "postedAt": "2026-05-29T12:46:59.423Z",
-   "department": "Delta",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "data"
-   ],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role Forward Dep",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-gsacapital-8570668002",
    "company": "GSA Capital",
    "ats": "greenhouse",
@@ -27680,33 +28730,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-point72-8236734002",
-   "company": "Point72",
-   "ats": "greenhouse",
-   "title": "Micro-Intern: Research Technology Developer (IAP)",
-   "location": "New York",
-   "regions": [
-    "us"
-   ],
-   "url": "https://boards.greenhouse.io/point72/jobs/8236734002?gh_jid=8236734002",
-   "postedAt": "2025-10-31T12:02:59-04:00",
-   "department": "Quant Management",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "hedge-fund",
-    "quant"
-   ],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "<p><strong><u>About Cubist</u></strong></p> <p>Cubist Systematic Strategies, an affiliate of Point72, is one of the world’s premier investment firms. The firm deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures, and foreign exchange. The core of our e",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-towerresearchcapital-7368106",
    "company": "Tower Research Capital",
    "ats": "greenhouse",
@@ -28125,6 +29148,32 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role The Palanti",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-verkada-4715534007",
+   "company": "Verkada",
+   "ats": "greenhouse",
+   "title": "Technical Support Engineer - University Graduate 2026",
+   "location": "San Mateo, CA United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/4715534007",
+   "postedAt": "2025-08-08T19:26:19-04:00",
+   "department": "Technical Support Engineering",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "<div class= content-intro ><h3><strong>Who We Are</strong></h3> <p>Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor managemen",
    "hasDeadlineHint": false
   },
   {
