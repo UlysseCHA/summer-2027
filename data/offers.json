@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T08:03:58.251Z",
+ "generatedAt": "2026-11-25T21:32:28.839Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,28 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1127,
+  "total": 1186,
   "byYear": {
    "2026": 20,
-   "2027": 563,
+   "2027": 602,
    "2028": 26,
-   "non precisee": 518
+   "non precisee": 538
   },
   "byCycle": {
    "2026": 20,
-   "2027": 905,
+   "2027": 949,
    "2028": 26,
-   "non precisee": 176
+   "non precisee": 191
   },
   "byIndustry": {
-   "tech": 731,
-   "finance": 325,
+   "tech": 792,
+   "finance": 323,
    "consulting": 71
   },
   "byKind": {
-   "internship": 835,
-   "graduate": 244,
-   "early-career": 48
+   "internship": 883,
+   "early-career": 59,
+   "graduate": 244
   }
  },
  "sources": [
@@ -50,28 +50,34 @@
    "company": "SpaceX",
    "token": "spacex",
    "ats": "greenhouse",
-   "found": 54,
+   "found": 56,
    "ok": true
   },
   {
    "company": "Waymo",
    "token": "waymo",
    "ats": "greenhouse",
-   "found": 49,
+   "found": 50,
+   "ok": true
+  },
+  {
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 37,
    "ok": true
   },
   {
    "company": "Jump Trading",
    "token": "jumptrading",
    "ats": "greenhouse",
-   "found": 37,
+   "found": 34,
    "ok": true
   },
   {
    "company": "Stripe",
    "token": "stripe",
    "ats": "greenhouse",
-   "found": 33,
+   "found": 31,
    "ok": true
   },
   {
@@ -85,7 +91,13 @@
    "company": "Zoox",
    "token": "zoox",
    "ats": "lever",
-   "found": 28,
+   "found": 27,
+   "ok": true
+  },
+  {
+   "company": "Ankura",
+   "ats": "workday",
+   "found": 26,
    "ok": true
   },
   {
@@ -110,16 +122,16 @@
    "ok": true
   },
   {
-   "company": "Veepee",
-   "token": "veepee",
-   "ats": "lever",
-   "found": 23,
-   "ok": true
-  },
-  {
    "company": "Point72",
    "token": "point72",
    "ats": "greenhouse",
+   "found": 22,
+   "ok": true
+  },
+  {
+   "company": "Veepee",
+   "token": "veepee",
+   "ats": "lever",
    "found": 22,
    "ok": true
   },
@@ -180,6 +192,13 @@
    "ok": true
   },
   {
+   "company": "Schonfeld",
+   "token": "schonfeld",
+   "ats": "greenhouse",
+   "found": 15,
+   "ok": true
+  },
+  {
    "company": "AlphaSights",
    "token": "alphasights",
    "ats": "greenhouse",
@@ -190,20 +209,6 @@
    "company": "Back Market",
    "token": "backmarket",
    "ats": "ashby",
-   "found": 14,
-   "ok": true
-  },
-  {
-   "company": "Schonfeld",
-   "token": "schonfeld",
-   "ats": "greenhouse",
-   "found": 13,
-   "ok": true
-  },
-  {
-   "company": "Virtu Financial",
-   "token": "virtu",
-   "ats": "greenhouse",
    "found": 13,
    "ok": true
   },
@@ -226,6 +231,13 @@
    "token": "riotgames",
    "ats": "greenhouse",
    "found": 13,
+   "ok": true
+  },
+  {
+   "company": "Virtu Financial",
+   "token": "virtu",
+   "ats": "greenhouse",
+   "found": 12,
    "ok": true
   },
   {
@@ -278,16 +290,16 @@
    "ok": true
   },
   {
-   "company": "Cloudflare",
-   "token": "cloudflare",
-   "ats": "greenhouse",
-   "found": 9,
-   "ok": true
-  },
-  {
    "company": "Alan",
    "token": "alan",
    "ats": "ashby",
+   "found": 8,
+   "ok": true
+  },
+  {
+   "company": "Cloudflare",
+   "token": "cloudflare",
+   "ats": "greenhouse",
    "found": 8,
    "ok": true
   },
@@ -418,15 +430,15 @@
    "ok": true
   },
   {
-   "company": "Roku",
-   "token": "roku",
+   "company": "Roblox",
+   "token": "roblox",
    "ats": "greenhouse",
    "found": 6,
    "ok": true
   },
   {
-   "company": "Roblox",
-   "token": "roblox",
+   "company": "Roku",
+   "token": "roku",
    "ats": "greenhouse",
    "found": 6,
    "ok": true
@@ -488,15 +500,15 @@
    "ok": true
   },
   {
-   "company": "Geneva Trading",
-   "token": "genevatrading",
+   "company": "GSA Capital",
+   "token": "gsacapital",
    "ats": "greenhouse",
    "found": 4,
    "ok": true
   },
   {
-   "company": "GSA Capital",
-   "token": "gsacapital",
+   "company": "Geneva Trading",
+   "token": "genevatrading",
    "ats": "greenhouse",
    "found": 4,
    "ok": true
@@ -537,15 +549,15 @@
    "ok": true
   },
   {
-   "company": "Quantbot Technologies",
-   "token": "quantbot-technologies",
+   "company": "Raisin",
+   "token": "raisin",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Raisin",
-   "token": "raisin",
+   "company": "Quantbot Technologies",
+   "token": "quantbot-technologies",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -600,13 +612,6 @@
    "ok": true
   },
   {
-   "company": "Runna",
-   "token": "runna",
-   "ats": "ashby",
-   "found": 3,
-   "ok": true
-  },
-  {
    "company": "Symphony",
    "token": "symphony",
    "ats": "greenhouse",
@@ -628,16 +633,16 @@
    "ok": true
   },
   {
-   "company": "Bracebridge Capital",
-   "token": "bracebridgecapital",
-   "ats": "greenhouse",
+   "company": "Belvedere Trading",
+   "token": "belvederetrading",
+   "ats": "lever",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Belvedere Trading",
-   "token": "belvederetrading",
-   "ats": "lever",
+   "company": "Bracebridge Capital",
+   "token": "bracebridgecapital",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -747,6 +752,13 @@
    "ok": true
   },
   {
+   "company": "Runna",
+   "token": "runna",
+   "ats": "ashby",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "Sentry",
    "token": "sentry",
    "ats": "ashby",
@@ -763,6 +775,13 @@
   {
    "company": "Twitch",
    "token": "twitch",
+   "ats": "greenhouse",
+   "found": 2,
+   "ok": true
+  },
+  {
+   "company": "Xantium",
+   "token": "xantium",
    "ats": "greenhouse",
    "found": 2,
    "ok": true
@@ -957,15 +976,15 @@
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
+   "company": "Proxima",
+   "token": "proxima",
    "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Proxima",
-   "token": "proxima",
+   "company": "Qonto",
+   "token": "qonto",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -1013,13 +1032,6 @@
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "B2C2",
    "token": "b2c2",
    "ats": "greenhouse",
@@ -1041,18 +1053,18 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Bastion Trading",
-   "token": "bastion",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Bank of America",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Bastion Trading",
+   "token": "bastion",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Betterment",
@@ -1069,7 +1081,14 @@
    "ok": true
   },
   {
-   "company": "Barings",
+   "company": "abrdn",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Alantra",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1090,18 +1109,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "abrdn",
-   "ats": "workday",
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Alantra",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "BTG Pactual",
@@ -1125,7 +1137,7 @@
    "ok": true
   },
   {
-   "company": "Blackstone",
+   "company": "Barings",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1146,13 +1158,6 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Compound Equity Group",
    "token": "compound",
    "ats": "ashby",
@@ -1167,11 +1172,32 @@
    "ok": true
   },
   {
+   "company": "Blackstone",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Dimensional Fund Advisors",
    "token": "dimensional",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Blue Owl Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Cambridge Associates",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "FalconX",
@@ -1202,14 +1228,14 @@
    "ok": true
   },
   {
-   "company": "Cambridge Associates",
+   "company": "Capital One",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Citi",
+   "company": "Cascadia Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1230,20 +1256,6 @@
    "ok": true
   },
   {
-   "company": "Capital One",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cascadia Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Level Equity",
    "token": "levelequity",
    "ats": "greenhouse",
@@ -1258,14 +1270,21 @@
    "ok": true
   },
   {
-   "company": "Fifth Third Bank",
+   "company": "CIBC",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "CIBC",
+   "company": "Citi",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Fifth Third Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1293,6 +1312,13 @@
    "ok": true
   },
   {
+   "company": "Deutsche Bank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Modern Treasury",
    "token": "moderntreasury",
    "ats": "ashby",
@@ -1300,7 +1326,7 @@
    "ok": true
   },
   {
-   "company": "Deutsche Bank",
+   "company": "Invesco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1312,13 +1338,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Invesco",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "KeyBank",
@@ -1356,42 +1375,14 @@
    "ok": true
   },
   {
-   "company": "Mastercard",
+   "company": "Lloyds Banking Group",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Plaid",
-   "token": "plaid",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Moelis & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Nationwide",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Public",
-   "token": "public",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Lloyds Banking Group",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1405,8 +1396,22 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Ripple",
-   "token": "ripple",
+   "company": "Plaid",
+   "token": "plaid",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Northwestern Mutual",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Public",
+   "token": "public",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1419,12 +1424,26 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Ripple",
+   "token": "ripple",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Rothschild & Co",
    "token": "https://www.rothschildandco.com/sitemap.xml",
    "ats": "sitemap",
    "found": 0,
    "ok": false,
    "error": "HTTP 403"
+  },
+  {
+   "company": "PJT Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Simplex Trading",
@@ -1434,14 +1453,21 @@
    "ok": true
   },
   {
-   "company": "Northwestern Mutual",
+   "company": "PSG Equity",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "PJT Partners",
+   "company": "Raymond James",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Mastercard",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1455,6 +1481,13 @@
    "ok": true
   },
   {
+   "company": "Sands Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Trade Republic",
    "token": "traderepublic",
    "ats": "greenhouse",
@@ -1462,44 +1495,9 @@
    "ok": true
   },
   {
-   "company": "Raymond James",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Sculptor Capital Management",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "SouthState Bank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Unit",
    "token": "unit",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "PSG Equity",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Vatic Labs",
-   "token": "vaticlabs",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1511,6 +1509,20 @@
    "ok": true
   },
   {
+   "company": "Vatic Labs",
+   "token": "vaticlabs",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "SouthState Bank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Waterfall Asset Management",
    "token": "waterfall",
    "ats": "lever",
@@ -1518,7 +1530,7 @@
    "ok": true
   },
   {
-   "company": "Texas Capital Bank",
+   "company": "Robeco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1532,6 +1544,13 @@
    "ok": true
   },
   {
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "XTX Markets",
    "token": "xtxmarketstechnologies",
    "ats": "greenhouse",
@@ -1539,7 +1558,7 @@
    "ok": true
   },
   {
-   "company": "Robeco",
+   "company": "Sculptor Capital Management",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1588,18 +1607,25 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Sands Capital",
+   "company": "Interpath Advisory",
+   "token": "interpath",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Triton Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Interpath Advisory",
-   "token": "interpath",
-   "ats": "greenhouse",
+   "company": "Baker Tilly",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Point B",
@@ -1616,7 +1642,7 @@
    "ok": true
   },
   {
-   "company": "Baker Tilly",
+   "company": "Nationwide",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1625,6 +1651,20 @@
   {
    "company": "Sweeney Conrad",
    "token": "sweeneyconrad",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Texas Capital Bank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Thoughtworks",
+   "token": "thoughtworks",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1644,13 +1684,6 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Thoughtworks",
-   "token": "thoughtworks",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Adams Street Partners",
    "token": "adamsstreetpartners",
    "ats": "greenhouse",
@@ -1661,13 +1694,6 @@
    "company": "Adyen",
    "token": "adyen",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Agicap",
-   "token": "agicap",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -1693,6 +1719,13 @@
    "ok": true
   },
   {
+   "company": "Accenture",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Ankorstore",
    "token": "ankorstore",
    "ats": "ashby",
@@ -1714,22 +1747,8 @@
    "ok": true
   },
   {
-   "company": "Accenture",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Asana",
    "token": "asana",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "ATKG",
-   "token": "atkgcareers",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1742,6 +1761,13 @@
    "ok": true
   },
   {
+   "company": "ATKG",
+   "token": "atkgcareers",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Audax Group",
    "token": "audaxgroup",
    "ats": "greenhouse",
@@ -1749,14 +1775,14 @@
    "ok": true
   },
   {
-   "company": "Stout",
-   "ats": "workday",
+   "company": "Agicap",
+   "token": "agicap",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
-   "company": "Ankura",
+   "company": "AVEVA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1777,7 +1803,7 @@
    "ok": true
   },
   {
-   "company": "Autodesk",
+   "company": "Baillie Gifford",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1791,18 +1817,11 @@
    "ok": true
   },
   {
-   "company": "Triton Partners",
-   "ats": "workday",
+   "company": "BlaBlaCar",
+   "token": "blablacar",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Box",
@@ -1812,14 +1831,7 @@
    "ok": true
   },
   {
-   "company": "AVEVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Baillie Gifford",
+   "company": "Stout",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1833,7 +1845,7 @@
    "ok": true
   },
   {
-   "company": "Brown Edwards",
+   "company": "Baker Hughes",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1847,16 +1859,15 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Chime",
-   "token": "chime",
-   "ats": "greenhouse",
+   "company": "Autodesk",
+   "ats": "workday",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Oliver Wyman",
-   "token": "oliverwyman",
-   "ats": "lever",
+   "company": "Chime",
+   "token": "chime",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1875,11 +1886,11 @@
    "ok": true
   },
   {
-   "company": "Cadence",
-   "ats": "workday",
+   "company": "Oliver Wyman",
+   "token": "oliverwyman",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Confluent",
@@ -1887,6 +1898,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Cboe Global Markets",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Copper.co",
@@ -1903,7 +1921,7 @@
    "ok": true
   },
   {
-   "company": "Cboe Global Markets",
+   "company": "Brown Edwards",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1917,16 +1935,23 @@
    "ok": true
   },
   {
-   "company": "Discord",
-   "token": "discord",
-   "ats": "greenhouse",
+   "company": "Cadence",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Deliveroo",
    "token": "deliveroo",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Discord",
+   "token": "discord",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1966,18 +1991,18 @@
    "ok": true
   },
   {
-   "company": "Ciena",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Elastic",
    "token": "elastic",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Ciena",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "ElevenLabs",
@@ -2001,13 +2026,6 @@
    "ok": true
   },
   {
-   "company": "Crowdstrike",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Fleek",
    "token": "fleek",
    "ats": "ashby",
@@ -2022,16 +2040,16 @@
    "error": "HTTP 429"
   },
   {
-   "company": "General Atlantic",
-   "token": "general",
-   "ats": "greenhouse",
+   "company": "Gearset",
+   "token": "gearset",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Gearset",
-   "token": "gearset",
-   "ats": "ashby",
+   "company": "General Atlantic",
+   "token": "general",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2050,13 +2068,6 @@
    "ok": true
   },
   {
-   "company": "Dow Jones",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "GitLab",
    "token": "gitlab",
    "ats": "greenhouse",
@@ -2064,7 +2075,14 @@
    "ok": true
   },
   {
-   "company": "eBay",
+   "company": "Crowdstrike",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2085,21 +2103,14 @@
    "ok": true
   },
   {
+   "company": "eBay",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Colliers",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Global Gate",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2113,11 +2124,18 @@
    "error": "HTTP 429"
   },
   {
-   "company": "BlaBlaCar",
-   "token": "blablacar",
-   "ats": "lever",
+   "company": "Global Infrastructure Advisors",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Global Gate",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Harris Associates",
@@ -2162,25 +2180,18 @@
    "ok": true
   },
   {
+   "company": "Guggenheim Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "JetBrains",
    "token": "jetbrains",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Grosvenor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "HarbourVest",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Justworks",
@@ -2197,28 +2208,21 @@
    "ok": true
   },
   {
-   "company": "Gunvor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Guggenheim Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Greystar",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "HarbourVest",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Gunvor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2246,7 +2250,14 @@
    "ok": true
   },
   {
-   "company": "Julius Baer",
+   "company": "Luma AI",
+   "token": "lumaai",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2256,13 +2267,6 @@
    "company": "Marqeta",
    "token": "marqeta",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Luma AI",
-   "token": "lumaai",
-   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2281,6 +2285,13 @@
    "ok": true
   },
   {
+   "company": "Hiscox",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Miro",
    "token": "miro",
    "ats": "ashby",
@@ -2295,16 +2306,16 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Julius Baer",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Monzo",
    "token": "monzo",
    "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2328,6 +2339,13 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Knight Frank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Leerink Partners",
@@ -2365,13 +2383,6 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Okta",
    "token": "okta",
    "ats": "greenhouse",
@@ -2386,14 +2397,14 @@
    "ok": true
   },
   {
-   "company": "Mizuho",
+   "company": "Liberty Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Motorola Solutions",
+   "company": "Mizuho",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2407,6 +2418,13 @@
    "ok": true
   },
   {
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "PagerDuty",
    "token": "pagerduty",
    "ats": "greenhouse",
@@ -2414,14 +2432,7 @@
    "ok": true
   },
   {
-   "company": "Liberty Global",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Nordic Semiconductor",
+   "company": "NCR Atleos",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2442,18 +2453,18 @@
    "ok": true
   },
   {
-   "company": "NCR Atleos",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "project44",
    "token": "project44",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Quilter",
@@ -2463,15 +2474,15 @@
    "ok": true
   },
   {
-   "company": "MBDA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Quizlet",
    "token": "quizlet-inc",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Railway",
+   "token": "railway",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2484,11 +2495,11 @@
    "ok": true
   },
   {
-   "company": "Railway",
-   "token": "railway",
-   "ats": "ashby",
+   "company": "MBDA",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Reddit",
@@ -2505,13 +2516,6 @@
    "ok": true
   },
   {
-   "company": "Replit",
-   "token": "replit",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Render",
    "token": "render",
    "ats": "ashby",
@@ -2519,7 +2523,14 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
+   "company": "Replit",
+   "token": "replit",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "NASDAQ",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2533,14 +2544,7 @@
    "ok": true
   },
   {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "NASDAQ",
+   "company": "Oxford Nanopore Technologies",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2554,15 +2558,15 @@
    "ok": true
   },
   {
-   "company": "Shea & Company",
-   "token": "sheacompany",
-   "ats": "greenhouse",
+   "company": "Oxford Properties Group",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
-   "company": "Sixth Street",
-   "token": "sixthstreet",
+   "company": "Shea & Company",
+   "token": "sheacompany",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2571,6 +2575,13 @@
    "company": "Shield AI",
    "token": "shield-ai",
    "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Sixth Street",
+   "token": "sixthstreet",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2596,14 +2607,7 @@
    "ok": true
   },
   {
-   "company": "Spotify",
-   "token": "spotify",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Ryan",
+   "company": "Qualcomm",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2617,13 +2621,6 @@
    "ok": true
   },
   {
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Suno",
    "token": "suno",
    "ats": "ashby",
@@ -2631,16 +2628,16 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "Supabase",
+   "token": "supabase",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Supabase",
-   "token": "supabase",
-   "ats": "ashby",
+   "company": "Spotify",
+   "token": "spotify",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2659,11 +2656,25 @@
    "ok": true
   },
   {
+   "company": "Swile",
+   "token": "swile",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "The Trade Desk",
    "token": "thetradedesk",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Ryan",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Thought Machine",
@@ -2680,13 +2691,6 @@
    "ok": true
   },
   {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Twilio",
    "token": "twilio",
    "ats": "greenhouse",
@@ -2701,15 +2705,15 @@
    "ok": true
   },
   {
-   "company": "UnlikelyAI",
-   "token": "unlikelyai",
+   "company": "UiPath",
+   "token": "uipath",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "UiPath",
-   "token": "uipath",
+   "company": "UnlikelyAI",
+   "token": "unlikelyai",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2722,15 +2726,16 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Standard Chartered",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Vanta",
    "token": "vanta",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Qualcomm",
-   "ats": "workday",
    "found": 0,
    "ok": true
   },
@@ -2763,6 +2768,13 @@
    "ok": true
   },
   {
+   "company": "Santander",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Writer",
    "token": "writer",
    "ats": "ashby",
@@ -2777,11 +2789,11 @@
    "ok": true
   },
   {
-   "company": "Santander",
-   "ats": "workday",
+   "company": "Zscaler",
+   "token": "zscaler",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Zopa",
@@ -2789,6 +2801,13 @@
    "ats": "lever",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Tencent",
@@ -2805,30 +2824,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Xantium",
-   "token": "xantium",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Zscaler",
-   "token": "zscaler",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Tokio Marine Kiln",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "T. Rowe Price",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2836,6 +2832,111 @@
   }
  ],
  "offers": [
+  {
+   "id": "gh-coinbase-8415869",
+   "company": "Coinbase",
+   "ats": "greenhouse",
+   "title": "Security Engineer Intern",
+   "location": "Hybrid - New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869",
+   "postedAt": "2026-11-25T15:22:13-05:00",
+   "department": "Internships & Emerging Talent Positions",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "fintech",
+    "crypto"
+   ],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8415223",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Driver Understanding and Evaluation, Large Model Evaluation",
+   "location": "Mountain View, California, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8415223",
+   "postedAt": "2026-11-25T12:25:05-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-spacex-8962157002",
+   "company": "SpaceX",
+   "ats": "greenhouse",
+   "title": "Bastrop Campus Planning Manager",
+   "location": "Bastrop, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://boards.greenhouse.io/spacex/jobs/8962157002?gh_jid=8962157002",
+   "postedAt": "2026-11-25T10:40:33-05:00",
+   "department": "Starlink Production Bastrop - Ops. Engineering",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-spacex-8962160002",
+   "company": "SpaceX",
+   "ats": "greenhouse",
+   "title": "Campus Infrastructure Project Manager",
+   "location": "Bastrop, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://boards.greenhouse.io/spacex/jobs/8962160002?gh_jid=8962160002",
+   "postedAt": "2026-11-25T10:40:30-05:00",
+   "department": "Starlink Production Bastrop - Ops. Engineering",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
+   "hasDeadlineHint": false
+  },
   {
    "id": "gh-moloco-8215108003",
    "company": "Moloco",
@@ -3042,30 +3143,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-runna-59bd8bad-51db-4ac3-b557-ff65b6dbb56f",
-   "company": "Runna",
-   "ats": "ashby",
-   "title": "AI Engineer Intern",
-   "location": "London, UK",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://jobs.ashbyhq.com/runna/59bd8bad-51db-4ac3-b557-ff65b6dbb56f",
-   "postedAt": "2026-11-23T18:27:27.935+00:00",
-   "department": "Internships",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "We're putting together a talented team to build the #1 training platform for Runners We help everyday runners become outstanding by building an incredible app providing world-class training, coaching and community for everyone, whether you're improving your 5k time or training for your first marathon. We’re growing ext",
-   "hasDeadlineHint": true
-  },
-  {
    "id": "ab-backmarket-ae0b69b8-4051-4a31-a11f-f624be54b4e8",
    "company": "Back Market",
    "ats": "ashby",
@@ -3144,6 +3221,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ryan-R0020810",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Application Development",
+   "location": "Burlington MA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1",
+   "postedAt": "2026-11-23",
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "​ Why Ryan? Competitive Pay and Paid Holidays: Earn while you learn and take time to recharge during firm-wide holidays Career Pathing: Set the foundation for a future full-time career with Ryan Hands-On Work: Work on high-impact projects for some of the world’s largest companies Mentorship and Industry Connections: Le",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-secureframe-ab69f040-9b87-4420-9150-edc6e4f54cfb",
    "company": "Secureframe",
    "ats": "ashby",
@@ -3193,6 +3294,32 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars.</p></div>",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "lv-zoox-1a41e141-7e0b-4474-b4eb-bf89032bd7a8",
+   "company": "Zoox",
+   "ats": "lever",
+   "title": "Supply Chain AI Intern [Summer 2027]",
+   "location": "Foster City, CA; Foster City, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://jobs.lever.co/zoox/1a41e141-7e0b-4474-b4eb-bf89032bd7a8",
+   "postedAt": "2026-11-20T23:15:03.935Z",
+   "department": "Information Technology",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "About Our Internship Program Zoox’s internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry’s brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond th",
    "hasDeadlineHint": false
   },
   {
@@ -4421,526 +4548,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-waymo-8306841",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, AI Foundations - Recipes",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306841",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8203191",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
-   "location": "Mountain View, California",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8203191",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8351210",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation",
-   "location": "Mountain View, California, United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8351210",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8262154",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8262154",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8237997",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8237997",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8283558",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training",
-   "location": "Mountain View, California, United States",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8283558",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8265868",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
-   "location": "London, England, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265868",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8234876",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Planner Machine Learning",
-   "location": "San Francisco, California",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8234876",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8258070",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, AV Planning",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8258070",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8289816",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, Behavior Post-training",
-   "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8289816",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8306867",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, Multimodal Foundation Models",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306867",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8257006",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, Post Training",
-   "location": "Mountain View, CA, USA: San Francisco, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257006",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8306779",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, RSI for Autonomous Driving",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306779",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8227640",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research Scientist, Foundation Models",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8227640",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8337719",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research Scientist Intern",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8337719",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8292367",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research Scientist, Visual Reasoning",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8292367",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8301854",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8301854",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8243732",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, World Action Model",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8243732",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8265173",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265173",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-waymo-8197899",
-   "company": "Waymo",
-   "ats": "greenhouse",
-   "title": "2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics",
-   "location": "Mountain View, CA, USA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197899",
-   "postedAt": "2026-11-12T16:59:24-05:00",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "data",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-alan-8e133035-c6ce-435d-b37a-a8cb3e4895e8",
    "company": "Alan",
    "ats": "ashby",
@@ -5133,7 +4740,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/5035003101",
    "postedAt": "2026-11-12T08:58:22-05:00",
-   "department": "Risk Management",
+   "department": "Risk Management (Group)",
    "kind": "graduate",
    "year": null,
    "yearSource": null,
@@ -6549,6 +6156,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8351210",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8351210",
+   "postedAt": "2026-11-06T15:59:41-05:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-ramp-fc971889-db1d-4a20-a25e-f282f9296936",
    "company": "Ramp",
    "ats": "ashby",
@@ -6676,32 +6309,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<p>Our mission at Duolingo is to develop the best education in the world and make it universally available. It’s a big mission, and that’s where you come in!</p> <p>At Duolingo, you’ll join a team that cares about educating our users, experimenting with big ideas, making fact-based decisions, and finding innovative sol",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-cloudflare-8350166",
-   "company": "Cloudflare",
-   "ats": "greenhouse",
-   "title": "People Team Intern, HR Transformation (Winter 2027)",
-   "location": "In-Office",
-   "regions": [
-    "other"
-   ],
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8350166?gh_jid=8350166",
-   "postedAt": "2026-11-06T12:20:43-05:00",
-   "department": "University",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "winter",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [
-    "infra"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><h3>About Us</h3> <p>At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. C",
    "hasDeadlineHint": false
   },
   {
@@ -8512,6 +8119,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8337719",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist Intern",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8337719",
+   "postedAt": "2026-10-30T16:19:59-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "ab-backmarket-9c27f185-5f20-4676-a398-d2126ce26d99",
    "company": "Back Market",
    "ats": "ashby",
@@ -8984,32 +8617,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-stripe-8130876",
-   "company": "Stripe",
-   "ats": "greenhouse",
-   "title": "Software Engineer, New Grad",
-   "location": "Bangalore",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8130876",
-   "postedAt": "2026-10-28T05:19:59-04:00",
-   "department": "5112 General University",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "fintech"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-mercor-2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae",
    "company": "Mercor",
    "ats": "ashby",
@@ -9479,6 +9086,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ankura-R104996",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Intellectual Property",
+   "location": "3 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Intellectual-Property_R104996",
+   "postedAt": "2026-10-26",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "data",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Intellectual Property (IP) practice focuses on the valuation of cutting-edge technolo",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-manGroup-5012801101",
    "company": "Man Group",
    "ats": "greenhouse",
@@ -9761,6 +9392,84 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8306779",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, RSI for Autonomous Driving",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306779",
+   "postedAt": "2026-10-22T16:34:46-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8306867",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Multimodal Foundation Models",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306867",
+   "postedAt": "2026-10-22T16:33:13-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8306841",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, AI Foundations - Recipes",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8306841",
+   "postedAt": "2026-10-22T16:30:33-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-twitch-8886605002",
    "company": "Twitch",
    "ats": "greenhouse",
@@ -9808,33 +9517,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<h3><span style= font-family: helvetica, arial, sans-serif; ><strong>About The Role</strong></span></h3> <p><span style= font-family: helvetica, arial, sans-serif; >We’re hiring a Growth Marketing Intern to join our Demand Gen Growth Marketing team. You’ll help drive growth for our PLG business through experimentation ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "lv-veepee-6aac122a-6c82-4c9e-ab42-a6a414f564bd",
-   "company": "Veepee",
-   "ats": "lever",
-   "title": "Stage - Business Analyst - H/F/X - Janvier 2027",
-   "location": "Saint-Denis; Saint-Denis",
-   "regions": [
-    "paris",
-    "europe"
-   ],
-   "url": "https://jobs.lever.co/veepee/6aac122a-6c82-4c9e-ab42-a6a414f564bd",
-   "postedAt": "2026-10-22T10:22:16.436Z",
-   "department": "Business analytics",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
    "hasDeadlineHint": false
   },
   {
@@ -10228,6 +9910,58 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8301854",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8301854",
+   "postedAt": "2026-10-19T16:34:41-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8283558",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training",
+   "location": "Mountain View, California, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8283558",
+   "postedAt": "2026-10-19T16:24:47-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-scaleai-4735665005",
    "company": "Scale AI",
    "ats": "greenhouse",
@@ -10252,6 +9986,58 @@
    "cycleSource": "title",
    "excerpt": "<p>At <strong>Scale</strong>, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8292367",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist, Visual Reasoning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8292367",
+   "postedAt": "2026-10-19T11:58:23-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8289816",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Behavior Post-training",
+   "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8289816",
+   "postedAt": "2026-10-19T11:56:12-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-bracebridgecapital-4744999005",
@@ -10302,6 +10088,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104988",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Financial Services Advisory",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Disputes---Economics---Financial-Services-Advisory_R104988",
+   "postedAt": "2026-10-19",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Summary: The Financial Services Advisory practice focuses on assisting clients in Banking, Insuranc",
    "hasDeadlineHint": false
   },
   {
@@ -10812,32 +10622,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "lv-zoox-cc43bf88-ed84-408f-a557-3d1c7263ddff",
-   "company": "Zoox",
-   "ats": "lever",
-   "title": "Contract Student Worker – AI Validation and Benchmarking Engineer (40hrs / week Full-Time)",
-   "location": "Foster City, CA; Foster City, CA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://jobs.lever.co/zoox/cc43bf88-ed84-408f-a557-3d1c7263ddff",
-   "postedAt": "2026-10-13T21:09:47.402Z",
-   "department": "Software",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Zoox Zoox is an autonomous ride-hailing company building the world's first purpose-built robotaxi — fully electric, bidirectional, with no steering wheel or driver's seat. Backed by Amazon and founded to make transportation safer, cleaner, and more accessible, Zoox designs its vehicles entirely around the rider. ",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-spacex-8880245002",
    "company": "SpaceX",
    "ats": "greenhouse",
@@ -10874,7 +10658,7 @@
    ],
    "url": "https://jobs.lever.co/zoox/ad992e12-39da-4046-b766-45f928924575",
    "postedAt": "2026-10-13T18:40:30.073Z",
-   "department": "Software",
+   "department": "Autonomy Software",
    "kind": "early-career",
    "year": null,
    "yearSource": null,
@@ -10989,6 +10773,32 @@
    "cycleSource": "title",
    "excerpt": "<div><strong data-olk-copy-source= MessageBody >Launch Your Accounting Career with Frazier Deeter!</strong></div> <div><strong> </strong></div> <div>Frazier Deeter is one of the nation’s fastest growing accounting and advisory firms, with offices across the US and the UK. As an Assurance Intern, you will gain real‑worl",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8265868",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning, Simulation Realism",
+   "location": "London, England, United Kingdom",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265868",
+   "postedAt": "2026-10-13T12:22:39-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-figma-6219995004",
@@ -11196,6 +11006,58 @@
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><p>Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figm",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8258070",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, AV Planning",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8258070",
+   "postedAt": "2026-10-09T19:26:04-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8257006",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, Post Training",
+   "location": "Mountain View, CA, USA: San Francisco, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8257006",
+   "postedAt": "2026-10-09T19:25:21-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-databricks-8843577002",
@@ -11480,6 +11342,58 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8265173",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8265173",
+   "postedAt": "2026-10-08T15:53:38-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "gh-waymo-8262154",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8262154",
+   "postedAt": "2026-10-08T14:41:58-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-imc-4962456101",
    "company": "IMC Trading",
    "ats": "greenhouse",
@@ -11490,7 +11404,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4962456101",
    "postedAt": "2026-10-08T12:43:20-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -11944,7 +11858,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "",
+   "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
    "hasDeadlineHint": false
   },
   {
@@ -12129,6 +12043,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p><strong><span data-contrast= auto >This internship is based in Warsaw </span></strong><strong>and is available throughout the year. Please indicate your preferred start month in the application questions.</strong> </p> <p><strong><span data-contrast= auto >The minimum length of the Internship must be 12 weeks. </spa",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104966",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Construction, Disputes & Advisory",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Phoenix-AZ/University-Associate--Construction--Disputes---Advisory_R104966",
+   "postedAt": "2026-10-06",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Construction, Disputes & Advisory Business Group – one of five practices focused on client delivery services across the firm . Ankura’s Construction Disputes & Advisory professionals are recognized as l",
    "hasDeadlineHint": false
   },
   {
@@ -12523,6 +12461,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8243732",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research, World Action Model",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8243732",
+   "postedAt": "2026-10-02T15:28:49-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-databricks-8847738002",
    "company": "Databricks",
    "ats": "greenhouse",
@@ -12625,6 +12589,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R105035",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Risk Advisory, eDiscovery",
+   "location": "Dallas, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Dallas-TX/University-Associate--Risk-Advisory--eDiscovery_R105035",
+   "postedAt": "2026-10-02",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Risk Advisory Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: Bright Labs, proudly a part of Ankura, is at the forefront of the eDiscovery industry, having contribut",
    "hasDeadlineHint": false
   },
   {
@@ -13240,7 +13228,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4796143101",
    "postedAt": "2026-09-30T14:26:36-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "early-career",
    "year": null,
    "yearSource": null,
@@ -13383,6 +13371,32 @@
    "cycleSource": "description",
    "excerpt": "<div class= content-intro ><h2>WHAT MAKES US EPIC?</h2> <p>At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stun",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8234876",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Planner Machine Learning",
+   "location": "San Francisco, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8234876",
+   "postedAt": "2026-09-29T12:36:53-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-raisin-4987560101",
@@ -13729,6 +13743,56 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8237997",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8237997",
+   "postedAt": "2026-09-28T17:05:14-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
+   "id": "wd-ankura-R104993",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Financial Services Disputes",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Financial-Services-Disputes_R104993",
+   "postedAt": "2026-09-28",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Global Disputes & Economics practice focuses on assisting clients with financial, acc",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-quora-cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
    "company": "Quora",
    "ats": "ashby",
@@ -13912,6 +13976,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ankura-R104989",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Financial Services Advisory (NYC)",
+   "location": "New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Financial-Services-Advisory--NYC-_R104989",
+   "postedAt": "2026-09-25",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Summary: The Financial Services Advisory practice focuses on assisting clients in Banking, Insuranc",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-notion-2b587e66-deac-421a-a824-9415ba78b5a7",
    "company": "Notion",
    "ats": "ashby",
@@ -13988,6 +14076,32 @@
    "cycleSource": "title",
    "excerpt": "<p>At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.</p> <p>Content Systems is the heart of Lyft's language ecosystem. The team is made up of two distinct disciplines, Content Design and Learning Exper",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8227640",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Research Scientist, Foundation Models",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8227640",
+   "postedAt": "2026-09-24T13:31:20-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-voloridgeinvestmentmanagement-4405530009",
@@ -14185,7 +14299,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4975945101",
    "postedAt": "2026-09-23T17:22:54-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": null,
    "yearSource": null,
@@ -14357,6 +14471,30 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104983",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Valuation & Transaction Advisory",
+   "location": "Chicago, IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Associate--Disputes---Economics---Valuation---Transaction-Advisory_R104983",
+   "postedAt": "2026-09-23",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of six practices focused on client delivery services across the Firm. Practice Overview: The Valuation and Transaction Disputes practice is a group of accountants and financial an",
    "hasDeadlineHint": false
   },
   {
@@ -14966,6 +15104,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-waymo-8203191",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
+   "location": "Mountain View, California",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8203191",
+   "postedAt": "2026-09-18T14:42:26-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
+  },
+  {
    "id": "gh-flowtraders-8213037",
    "company": "Flow Traders",
    "ats": "greenhouse",
@@ -15149,30 +15313,27 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-backmarket-208aeb7f-62b7-400c-b4c6-4ce3a9919119",
-   "company": "Back Market",
-   "ats": "ashby",
-   "title": "Product Manager Apprentice, Checkout",
-   "location": "Paris",
+   "id": "wd-ankura-R104985",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Valuation & Transaction Advisory",
+   "location": "Chicago, IL",
    "regions": [
-    "paris",
-    "europe"
+    "us"
    ],
-   "url": "https://jobs.ashbyhq.com/backmarket/208aeb7f-62b7-400c-b4c6-4ce3a9919119",
-   "postedAt": "2026-09-17T12:46:26.496+00:00",
-   "department": "INTERNSHIPS",
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Intern--Disputes---Economics---Valuation---Transaction-Advisory_R104985",
+   "postedAt": "2026-09-17",
+   "department": "",
    "kind": "internship",
    "year": null,
    "yearSource": null,
    "season": "summer",
-   "track": "product",
+   "track": "consulting",
    "industry": "tech",
-   "tags": [
-    "france"
-   ],
+   "tags": [],
    "cycle": 2027,
    "cycleSource": "posting-date",
-   "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Valuation and Transaction Advisory practice is a group of accountants and financial a",
    "hasDeadlineHint": false
   },
   {
@@ -15307,6 +15468,30 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R105025",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Risk Advisory, Forensics",
+   "location": "Dallas, TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Dallas-TX/University-Intern--Risk-Advisory--Forensics_R105025-1",
+   "postedAt": "2026-09-16",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Risk, Forensics & Compliance Business Group - one of five practices focused on client delivery services across the Firm. Role Overview: Ankura’s Forensics practice provide clients with expertise with In",
    "hasDeadlineHint": false
   },
   {
@@ -15496,6 +15681,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ankura-R104949",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Construction, Disputes & Advisory",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Construction--Disputes---Advisory_R104949",
+   "postedAt": "2026-09-15",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Construction, Disputes & Advisory Business Group – one of five practices focused on client delivery services across the firm . Ankura’s Construction Disputes & Advisory professionals are recognized as l",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-epicgames-6148799004",
    "company": "Epic Games",
    "ats": "greenhouse",
@@ -15595,6 +15804,32 @@
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p id= isPasted ><span style= font-family: verdana, geneva, sans-serif; ><strong>About Five Rings</strong></span></p> <p id= isPasted ><span style= font-family: verdana, geneva, sans-serif; >Five Rings is a proprietary trading firm founded with a vision of combining strategy, innovation and t",
    "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-waymo-8197899",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "title": "2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics",
+   "location": "Mountain View, CA, USA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8197899",
+   "postedAt": "2026-09-14T15:03:20-04:00",
+   "department": "Pipeline (N/A)",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "data",
+   "industry": "tech",
+   "tags": [
+    "hardware"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<div class= content-intro ><p>Waymo is an autonomous driving technology company with the mission to be the world's most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World's Most Experienced Driver™—to improve access to mobility while ",
+   "hasDeadlineHint": true
   },
   {
    "id": "gh-figma-6152695004",
@@ -15826,6 +16061,30 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href= https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048 target= _blank >An estimated $124 trillion of assets</a> will be inherite",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104982",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
+   "location": "New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104982",
+   "postedAt": "2026-09-14",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Healthcare & Life Sciences practice focuses on assisting healthcare and life science ",
    "hasDeadlineHint": false
   },
   {
@@ -16691,6 +16950,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ankura-R104973",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
+   "location": "Chicago, IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104973",
+   "postedAt": "2026-09-10",
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Healthcare & Life Sciences practice focuses on assisting healthcare and life science ",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-dvtrading-4732429005",
    "company": "DV Trading",
    "ats": "greenhouse",
@@ -16812,33 +17095,6 @@
    "yearSource": "description",
    "season": "summer",
    "track": "business",
-   "industry": "tech",
-   "tags": [
-    "fintech",
-    "crypto"
-   ],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p>Ready to do the most impactful work of your career? <span><a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain utm_source=coinbase target= _blank >Coinbase</a></span> is building the future of finance for people, institutions and their agents, with one place to tr",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-coinbase-8175507",
-   "company": "Coinbase",
-   "ats": "greenhouse",
-   "title": "Real Estate & Builds Intern",
-   "location": "Hybrid - New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
-   "postedAt": "2026-09-08T20:21:25-04:00",
-   "department": "Internships & Emerging Talent Positions",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "ai-ml",
    "industry": "tech",
    "tags": [
     "fintech",
@@ -17754,6 +18010,32 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-schonfeld-8172070",
+   "company": "Schonfeld",
+   "ats": "greenhouse",
+   "title": "2027 Core Operations Intern",
+   "location": "Miami, Florida, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8172070",
+   "postedAt": "2026-09-04T12:43:46-04:00",
+   "department": "Internship",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "finance",
+   "tags": [
+    "hedge-fund"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<p><strong><span data-contrast= auto >The Role</span></strong><span data-ccp-props= { 335551550 :6, 335551620 :6} > </span></p> <p><span data-contrast= auto >We are excited to offer an opportunity for a diverse group of talented students to join the internship program at Schonfeld. You’ll spend ten weeks within our Cor",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-schonfeld-8171692",
    "company": "Schonfeld",
    "ats": "greenhouse",
@@ -17803,6 +18085,32 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p><strong><span data-contrast= auto ><span data-ccp-parastyle= paragraph data-ccp-parastyle-defn= { ObjectId : aaed607e-c2a3-5841-9fb4-41037bfa0faf|1 , ClassId :1073872969, Properties :[201342446, 1 ,201342447, 5 ,201342448, 1 ,201342449, 1 ,469777841, Times New Roman ,469777842, Times New Roman ,469777843, Times New ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-schonfeld-8171703",
+   "company": "Schonfeld",
+   "ats": "greenhouse",
+   "title": "2027 Business Analytics Intern",
+   "location": "New York, New York, United States",
+   "regions": [
+    "us"
+   ],
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171703",
+   "postedAt": "2026-09-04T12:41:51-04:00",
+   "department": "Internship",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "data",
+   "industry": "finance",
+   "tags": [
+    "hedge-fund"
+   ],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "<p><strong><span data-contrast= auto >The Role</span></strong><span data-contrast= auto > </span><span data-ccp-props= {} > </span></p> <p><span data-contrast= auto >We are excited to offer an opportunity for a talented individual to join the internship program at Schonfeld. You’ll spend ten weeks with Schonfeld’s Busi",
    "hasDeadlineHint": false
   },
   {
@@ -18856,7 +19164,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101",
    "postedAt": "2026-08-27T17:39:39-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -20052,6 +20360,55 @@
    "manual": true
   },
   {
+   "id": "gh-xantium-4371217009",
+   "company": "Xantium",
+   "ats": "greenhouse",
+   "title": "Quantitative Researcher Intern",
+   "location": "London, England, New York, New York",
+   "regions": [
+    "us",
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4371217009",
+   "postedAt": "2026-08-17T16:10:51-04:00",
+   "department": "Quantitative Research",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "quant",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<p> </p> <p>Xantium is seeking Quantitative Researcher Interns for our New York and London offices for Summer 2027. Ideal candidates will be in their penultimate year of their PhD studies in a highly quantitative field. We may consider individuals pursuing bachelor's and master’s degrees, provided they can demonstrate ",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-xantium-4360768009",
+   "company": "Xantium",
+   "ats": "greenhouse",
+   "title": "Quantitative Developer Intern",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4360768009",
+   "postedAt": "2026-08-17T16:10:20-04:00",
+   "department": "Technology",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "quant",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "<p> </p> <p>Xantium is seeking Quantitative Developer Interns for our New York and London offices for Summer 2027. Candidates must be in their penultimate year, studying Computer Science. Quantitative Developer Interns will work closely with our team of Quantitative Developers and Researchers on projects powering our q",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "gh-dvtrading-4719134005",
    "company": "DV Trading",
    "ats": "greenhouse",
@@ -20910,7 +21267,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
    "postedAt": "2026-08-12T04:00:13-04:00",
-   "department": "Screen & Quant Trading",
+   "department": "Screen & Quant Trading (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -20937,7 +21294,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941206101",
    "postedAt": "2026-08-12T03:59:58-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -22150,7 +22507,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4936262101",
    "postedAt": "2026-07-31T11:12:43-04:00",
-   "department": "Screen & Quant Trading",
+   "department": "Screen & Quant Trading (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "description",
@@ -22177,7 +22534,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4667814101",
    "postedAt": "2026-07-31T10:51:36-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "graduate",
    "year": 2027,
    "yearSource": "title",
@@ -22204,7 +22561,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939846101",
    "postedAt": "2026-07-31T10:48:56-04:00",
-   "department": "Screen & Quant Trading",
+   "department": "Screen & Quant Trading (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "description",
@@ -22618,32 +22975,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p>As our Quantitative Trading Intern, you’ll spend your summer tackling complex, quantitative problems at one of the world’s leading tech-driven trading firms. Under the guidance and mentorship of industry experts, you’ll apply your strong reasoning skills to design, develop and enhance our innovative trading strategi",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "lv-zoox-5e03b357-0cc1-4194-9488-14f85044f4f9",
-   "company": "Zoox",
-   "ats": "lever",
-   "title": "Contract  Student Worker - Data Analyst (Part-time)",
-   "location": "Foster City, CA; Foster City, CA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://jobs.lever.co/zoox/5e03b357-0cc1-4194-9488-14f85044f4f9",
-   "postedAt": "2026-07-20T21:28:23.436Z",
-   "department": "Software",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "banking",
-   "industry": "tech",
-   "tags": [
-    "hardware"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "About Zoox Zoox is an autonomous ridehailing company building the world's first purpose-built robotaxi — fully electric, bidirectional, with no steering wheel or driver's seat. Backed by Amazon and founded to make transportation safer, cleaner, and more accessible, Zoox designs its vehicles entirely around the rider. W",
    "hasDeadlineHint": false
   },
   {
@@ -23158,87 +23489,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-jumptrading-7977132",
-   "company": "Jump Trading",
-   "ats": "greenhouse",
-   "title": "Campus ML Research Engineer (Full-Time)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=7977132",
-   "postedAt": "2026-07-13T08:39:21-04:00",
-   "department": "Front Office ",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "ai-ml",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creati",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-jumptrading-7976964",
-   "company": "Jump Trading",
-   "ats": "greenhouse",
-   "title": "Campus AI Researcher, PhD/Postdoc (Intern)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=7976964",
-   "postedAt": "2026-07-13T08:39:06-04:00",
-   "department": "Front Office ",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creati",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-jumptrading-7974943",
-   "company": "Jump Trading",
-   "ats": "greenhouse",
-   "title": "Campus UI Software Engineer (Intern)",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=7974943",
-   "postedAt": "2026-07-13T08:37:46-04:00",
-   "department": "Core Development ",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><span data-contrast= auto >Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation re",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-jumptrading-8059384",
    "company": "Jump Trading",
    "ats": "greenhouse",
@@ -23538,32 +23788,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About the Role At Pika, we are shaping the future of creative infrastructure with real-time, multimodal generation and intelligent agentic platforms. We are looking for passionate Research Interns at the BS, MS, or PhD level with significant experience working on Videogen to join our team and make an immediate impact. ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-stripe-8031833",
-   "company": "Stripe",
-   "ats": "greenhouse",
-   "title": "Software Engineer, Intern",
-   "location": "Bengaluru",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
-   "postedAt": "2026-07-10T01:33:52-04:00",
-   "department": "5112 General University",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "fintech"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and",
    "hasDeadlineHint": false
   },
   {
@@ -24643,7 +24867,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
    "postedAt": "2026-07-01T13:11:54-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -24670,7 +24894,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
    "postedAt": "2026-07-01T13:11:12-04:00",
-   "department": "Screen & Quant Trading",
+   "department": "Screen & Quant Trading (Group)",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -24697,7 +24921,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823805101",
    "postedAt": "2026-07-01T13:08:35-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "graduate",
    "year": null,
    "yearSource": null,
@@ -24762,33 +24986,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-virtu-8547254002",
-   "company": "Virtu Financial",
-   "ats": "greenhouse",
-   "title": "2027 Internship - Quantitative Trading",
-   "location": "Dublin, Ireland",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8547254002",
-   "postedAt": "2026-07-01T05:34:02-04:00",
-   "department": "Internships",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p>Virtu is an industry-leading financial technology firm that operates both proprietary trading and client-facing businesses in the global financial marketplace. Our cutting edge, proprietary technology is core to everything we do. We trade in over 35 countries, across 235 financial exchanges and over 25% of retail or",
    "hasDeadlineHint": false
   },
   {
@@ -26491,6 +26688,846 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "wd-ryan-R0021000",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Intern, Tax Technology - Summer 2027",
+   "location": "London UK",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/London/Intern--Tax-Technology---Summer-2027_R0021000-3",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020725",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Transfer Pricing",
+   "location": "Washington DC",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--Transfer-Pricing_R0020725-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020816",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Business Solutions",
+   "location": "Plano TX",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020816-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020812",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Business Solutions",
+   "location": "Plano TX",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020812-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020814",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Business Solutions",
+   "location": "Plano TX",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020814-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020806",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Software Engineering",
+   "location": "Non précisé",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Summer-2027-Intern--Software-Engineering_R0020806-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "engineering",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020777",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Tax Operations",
+   "location": "Austin TX - S Mopac Expy",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin-S-Mopac-Expy/Summer-2027-Intern--Tax-Operations_R0020777-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020832",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Customs Duty",
+   "location": "Mississauga ON",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Customs-Duty_R0020832-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020613",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Tax Consulting Intern - Canada",
+   "location": "5 Locations",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Tax-Consulting-Intern---Canada_R0020613-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020746",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Sacramento CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Sacramento/Summer-2027-Intern--Real-Property-Tax_R0020746-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020744",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Irvine CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Irvine/Summer-2027-Intern--Real-Property-Tax_R0020744-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020736",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Atlanta GA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Atlanta/Summer-2027-Intern--Real-Property-Tax_R0020736-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020745",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Glendale CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Glendale/Summer-2027-Intern--Real-Property-Tax_R0020745-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020756",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Washington DC",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--Real-Property-Tax_R0020756",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020748",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Chicago IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Chicago/Summer-2027-Intern--Real-Property-Tax_R0020748",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020749",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Chicago IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Chicago/Summer-2027-Intern--Real-Property-Tax_R0020749-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020750",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Cleveland OH",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Cleveland/Summer-2027-Intern--Real-Property-Tax_R0020750-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020751",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Real Property Tax",
+   "location": "Minneapolis MN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Minneapolis/Summer-2027-Intern--Real-Property-Tax_R0020751-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020834",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Complex Property Tax",
+   "location": "Vancouver BC",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Vancouver/Summer-2027-Intern--Complex-Property-Tax_R0020834",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020776",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Personal Property Tax",
+   "location": "Atlanta GA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Atlanta/Summer-2027-Intern--Property-Tax_R0020776-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020831",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, International Income Tax",
+   "location": "Winnipeg MB",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Winnipeg/Summer-2027-Intern--International-Income-Tax_R0020831",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020775",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Personal Property Tax",
+   "location": "Nashville TN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Nashville/Summer-2027-Intern--Personal-Property-Tax_R0020775-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020395",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Complex Property Tax",
+   "location": "Calgary AB",
+   "regions": [
+    "canada"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Calgary/Summer-2027-Intern--Complex-Property-Tax_R0020395",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020774",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Personal Property Tax",
+   "location": "Overland Park KS",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Overland-Park/Summer-2027-Intern--Personal-Property-Tax_R0020774-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020369",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Personal Property Tax",
+   "location": "La Palma CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/La-Palma/Summer-2027-Intern--Personal-Property-Tax_R0020369-2",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020727",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, R&E Tax Credits",
+   "location": "Washington DC",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--R-E-Tax-Credits_R0020727-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020800",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Sales and Use Tax",
+   "location": "The Woodlands TX",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/The-Woodlands/Summer-2027-Intern--Sales-and-Use-Tax_R0020800-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020794",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Sales and Use Tax",
+   "location": "Austin TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--Sales-and-Use-Tax_R0020794-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020739",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Spring/Summer 2027 Intern, Real Property Tax",
+   "location": "Austin TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--Real-Property-Tax_R0020739-2",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020729",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, State Income/Franchise Tax",
+   "location": "Austin TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--State-Income-Franchise-Tax_R0020729-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020730",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, State Income/Franchise Tax",
+   "location": "Sacramento CA",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Sacramento/Summer-2027-Intern--State-Income-Franchise-Tax_R0020730-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020833",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Sales and Use Tax",
+   "location": "Mississauga ON",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Sales-and-Use-Tax_R0020833",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020804",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Sales and Use Tax",
+   "location": "Mississauga ON",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Sales-and-Use-Tax_R0020804",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0015214",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
+   "location": "Houston TX",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0020718",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
+   "location": "Boston MA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Boston/Summer-2027-Intern--Abandoned-and-Unclaimed-Property-Consulting_R0020718-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "title",
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "title",
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "manual-0-ch-jobs/jobs/businessanalystintern-15275",
    "company": "McKinsey & Company",
    "ats": "manual",
@@ -27543,15 +28580,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-6138134004",
+   "id": "gh-epicgames-5708589004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "BLANK,BLANK,Multiple Locations",
+   "location": "London,England,United Kingdom",
    "regions": [
-    "other"
+    "uk"
    ],
-   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -27567,15 +28604,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-5708589004",
+   "id": "gh-epicgames-6138134004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "London,England,United Kingdom",
+   "location": "BLANK,BLANK,Multiple Locations",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
+   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -27846,7 +28883,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4667854101",
    "postedAt": "2026-05-07T07:26:34-04:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": null,
    "yearSource": null,
@@ -28687,7 +29724,7 @@
    ],
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4685421101",
    "postedAt": "2025-11-05T07:00:23-05:00",
-   "department": "Development",
+   "department": "Development (Group)",
    "kind": "internship",
    "year": null,
    "yearSource": null,
@@ -32214,6 +33251,366 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role The Privacy",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104990",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Financial Services Advisory",
+   "location": "New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Intern--Disputes---Economics---Financial-Services-Advisory_R104990",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104991",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Financial Services Advisory",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Financial-Services-Advisory_R104991",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104987",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics",
+   "location": "Los Angeles, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Los-Angeles-CA/University-Intern--Disputes---Economics_R104987",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104995",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Financial Services Disputes",
+   "location": "New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Intern--Disputes---Economics---Financial-Services-Disputes_R104995",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R105088",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "MBA Internship, Transformation Execution",
+   "location": "Nashville, TN",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Nashville-TN/MBA-Internship--Transformation-Execution_R105088",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104974",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Healthcare and Life Sciences",
+   "location": "Chicago, IL",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Intern--Disputes---Economics---Healthcare-and-Life-Sciences_R104974",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104955",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Construction, Disputes & Advisory",
+   "location": "Fairfield, CT",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Fairfield-CT/University-Intern--Construction--Disputes---Advisory_R104955",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104981",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Disputes & Economics - Healthcare and Life Sciences",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Healthcare-and-Life-Sciences_R104981",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104947",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Construction, Disputes & Advisory",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Construction--Disputes---Advisory_R104947",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104967",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Intern, Construction, Disputes & Advisory",
+   "location": "2 Locations",
+   "regions": [
+    "other"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Phoenix-AZ/University-Intern--Construction--Disputes---Advisory_R104967-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104888",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Data Privacy",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Data-Privacy_R104888",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104934",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Construction, Disputes & Advisory",
+   "location": "New York, NY",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Construction--Disputes---Advisory_R104934",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104980",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
+   "location": "Washington D.C.",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104980",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ankura-R104962",
+   "company": "Ankura",
+   "ats": "workday",
+   "title": "University Associate, Construction, Disputes & Advisory",
+   "location": "Los Angeles, CA",
+   "regions": [
+    "us"
+   ],
+   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Los-Angeles-CA/University-Associate--Construction--Disputes---Advisory_R104962",
+   "postedAt": null,
+   "department": "",
+   "kind": "early-career",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "consulting",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "wd-ryan-R0019863",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "title": "Graduate Business Development Executive",
+   "location": "MediaCity UK - Manchester",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Media-City/Graduate-Business-Development-Executive_R0019863-1",
+   "postedAt": null,
+   "department": "",
+   "kind": "graduate",
+   "year": null,
+   "yearSource": null,
+   "season": null,
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": null,
+   "cycleSource": null,
+   "excerpt": "",
    "hasDeadlineHint": false
   }
  ]
