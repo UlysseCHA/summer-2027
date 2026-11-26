@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T21:32:28.839Z",
+ "generatedAt": "2026-11-26T07:55:06.432Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,28 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1186,
+  "total": 1123,
   "byYear": {
    "2026": 20,
-   "2027": 602,
+   "2027": 565,
    "2028": 26,
-   "non precisee": 538
+   "non precisee": 512
   },
   "byCycle": {
    "2026": 20,
-   "2027": 949,
+   "2027": 901,
    "2028": 26,
-   "non precisee": 191
+   "non precisee": 176
   },
   "byIndustry": {
-   "tech": 792,
    "finance": 323,
+   "tech": 729,
    "consulting": 71
   },
   "byKind": {
-   "internship": 883,
-   "early-career": 59,
-   "graduate": 244
+   "internship": 833,
+   "early-career": 47,
+   "graduate": 243
   }
  },
  "sources": [
@@ -61,12 +61,6 @@
    "ok": true
   },
   {
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "found": 37,
-   "ok": true
-  },
-  {
    "company": "Jump Trading",
    "token": "jumptrading",
    "ats": "greenhouse",
@@ -84,7 +78,7 @@
    "company": "IMC Trading",
    "token": "imc",
    "ats": "greenhouse",
-   "found": 28,
+   "found": 27,
    "ok": true
   },
   {
@@ -92,12 +86,6 @@
    "token": "zoox",
    "ats": "lever",
    "found": 27,
-   "ok": true
-  },
-  {
-   "company": "Ankura",
-   "ats": "workday",
-   "found": 26,
    "ok": true
   },
   {
@@ -325,6 +313,13 @@
    "ok": true
   },
   {
+   "company": "Bybit",
+   "token": "bybit",
+   "ats": "greenhouse",
+   "found": 7,
+   "ok": true
+  },
+  {
    "company": "Capstone Investment",
    "token": "capstoneinvestmentadvisors",
    "ats": "greenhouse",
@@ -385,13 +380,6 @@
    "token": "scaleai",
    "ats": "greenhouse",
    "found": 7,
-   "ok": true
-  },
-  {
-   "company": "Bybit",
-   "token": "bybit",
-   "ats": "greenhouse",
-   "found": 6,
    "ok": true
   },
   {
@@ -549,15 +537,15 @@
    "ok": true
   },
   {
-   "company": "Raisin",
-   "token": "raisin",
+   "company": "Quantbot Technologies",
+   "token": "quantbot-technologies",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Quantbot Technologies",
-   "token": "quantbot-technologies",
+   "company": "Raisin",
+   "token": "raisin",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -626,16 +614,16 @@
    "ok": true
   },
   {
-   "company": "Bitpanda",
-   "token": "bitpanda",
-   "ats": "greenhouse",
+   "company": "Belvedere Trading",
+   "token": "belvederetrading",
+   "ats": "lever",
    "found": 2,
    "ok": true
   },
   {
-   "company": "Belvedere Trading",
-   "token": "belvederetrading",
-   "ats": "lever",
+   "company": "Bitpanda",
+   "token": "bitpanda",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -794,16 +782,16 @@
    "ok": true
   },
   {
-   "company": "Amber Group",
-   "token": "ambergroup",
-   "ats": "lever",
+   "company": "AQR Capital",
+   "token": "aqr",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
   {
-   "company": "AQR Capital",
-   "token": "aqr",
-   "ats": "greenhouse",
+   "company": "Amber Group",
+   "token": "ambergroup",
+   "ats": "lever",
    "found": 1,
    "ok": true
   },
@@ -976,15 +964,15 @@
    "ok": true
   },
   {
-   "company": "Proxima",
-   "token": "proxima",
+   "company": "Qonto",
+   "token": "qonto",
    "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
+   "company": "Proxima",
+   "token": "proxima",
    "ats": "ashby",
    "found": 1,
    "ok": true
@@ -1039,21 +1027,14 @@
    "ok": true
   },
   {
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Apollo Global",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Arrowstreet Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Bank of America",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1067,6 +1048,20 @@
    "ok": true
   },
   {
+   "company": "Bank of America",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Arrowstreet Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Betterment",
    "token": "betterment",
    "ats": "greenhouse",
@@ -1076,6 +1071,27 @@
   {
    "company": "BlackEdge Capital",
    "token": "blackedgecapital",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Blockchain com",
+   "token": "blockchain",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Barings",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "BTG Pactual",
+   "token": "btgpactual",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1095,35 +1111,7 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Blockchain com",
-   "token": "blockchain",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Ardian",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "BTG Pactual",
-   "token": "btgpactual",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Barclays",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1137,7 +1125,7 @@
    "ok": true
   },
   {
-   "company": "Barings",
+   "company": "Barclays",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1145,6 +1133,13 @@
   },
   {
    "company": "BlackRock",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Blackstone",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1165,14 +1160,7 @@
    "ok": true
   },
   {
-   "company": "Crypto com",
-   "token": "crypto",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Blackstone",
+   "company": "Blue Owl Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1186,18 +1174,11 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
+   "company": "Crypto com",
+   "token": "crypto",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cambridge Associates",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "FalconX",
@@ -1221,18 +1202,18 @@
    "ok": true
   },
   {
-   "company": "Genesis Quant Capital",
-   "token": "genesis",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Capital One",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
+  },
+  {
+   "company": "Genesis Quant Capital",
+   "token": "genesis",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
   },
   {
    "company": "Cascadia Capital",
@@ -1256,6 +1237,13 @@
    "ok": true
   },
   {
+   "company": "Citi",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Level Equity",
    "token": "levelequity",
    "ats": "greenhouse",
@@ -1270,14 +1258,7 @@
    "ok": true
   },
   {
-   "company": "CIBC",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Citi",
+   "company": "Cambridge Associates",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1291,11 +1272,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Marshall Wace",
-   "token": "marshallwace",
-   "ats": "greenhouse",
+   "company": "CIBC",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Houlihan Lokey",
@@ -1305,18 +1286,18 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Mercury",
-   "token": "mercury",
+   "company": "Marshall Wace",
+   "token": "marshallwace",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Deutsche Bank",
-   "ats": "workday",
+   "company": "Mercury",
+   "token": "mercury",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Modern Treasury",
@@ -1327,6 +1308,13 @@
   },
   {
    "company": "Invesco",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Deutsche Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1375,21 +1363,7 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Moelis & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Lombard Odier IM",
+   "company": "Mastercard",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1401,6 +1375,20 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Moelis & Company",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Nationwide",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Northwestern Mutual",
@@ -1415,13 +1403,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "LSEG",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Ripple",
@@ -1439,7 +1420,14 @@
    "error": "HTTP 403"
   },
   {
-   "company": "PJT Partners",
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Lombard Odier IM",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1448,6 +1436,34 @@
   {
    "company": "Simplex Trading",
    "token": "simplextrading",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "LSEG",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "PJT Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Teza Technologies",
+   "token": "teza-technologies",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Trade Republic",
+   "token": "traderepublic",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1465,34 +1481,6 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
-  },
-  {
-   "company": "Mastercard",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Teza Technologies",
-   "token": "teza-technologies",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Sands Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Trade Republic",
-   "token": "traderepublic",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
   },
   {
    "company": "Unit",
@@ -1516,7 +1504,7 @@
    "ok": true
   },
   {
-   "company": "SouthState Bank",
+   "company": "Sands Capital",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1530,7 +1518,7 @@
    "ok": true
   },
   {
-   "company": "Robeco",
+   "company": "SouthState Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1544,11 +1532,11 @@
    "ok": true
   },
   {
-   "company": "Wealthfront",
-   "token": "wealthfront",
-   "ats": "lever",
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "XTX Markets",
@@ -1558,7 +1546,7 @@
    "ok": true
   },
   {
-   "company": "Sculptor Capital Management",
+   "company": "Texas Capital Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1586,11 +1574,11 @@
    "ok": true
   },
   {
-   "company": "Cornerstone Research",
-   "token": "cornerstone",
-   "ats": "greenhouse",
+   "company": "Robeco",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "U.S. Bank",
@@ -1600,11 +1588,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Visa",
-   "ats": "workday",
+   "company": "Cornerstone Research",
+   "token": "cornerstone",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Interpath Advisory",
@@ -1614,18 +1602,18 @@
    "ok": true
   },
   {
-   "company": "Triton Partners",
+   "company": "Visa",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Baker Tilly",
-   "ats": "workday",
+   "company": "Oliver Wyman",
+   "token": "oliverwyman",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Point B",
@@ -1642,7 +1630,7 @@
    "ok": true
   },
   {
-   "company": "Nationwide",
+   "company": "Triton Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1654,13 +1642,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Texas Capital Bank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Thoughtworks",
@@ -1698,6 +1679,13 @@
    "ok": true
   },
   {
+   "company": "Agicap",
+   "token": "agicap",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Airtable",
    "token": "airtable",
    "ats": "greenhouse",
@@ -1717,13 +1705,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Accenture",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Ankorstore",
@@ -1754,15 +1735,15 @@
    "ok": true
   },
   {
-   "company": "ATLAS SP Partners",
-   "token": "atlassp",
+   "company": "ATKG",
+   "token": "atkgcareers",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "ATKG",
-   "token": "atkgcareers",
+   "company": "ATLAS SP Partners",
+   "token": "atlassp",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1775,14 +1756,21 @@
    "ok": true
   },
   {
-   "company": "Agicap",
-   "token": "agicap",
-   "ats": "lever",
+   "company": "Baker Tilly",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
-   "company": "AVEVA",
+   "company": "Accenture",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Stout",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1803,7 +1791,7 @@
    "ok": true
   },
   {
-   "company": "Baillie Gifford",
+   "company": "Ankura",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1824,6 +1812,13 @@
    "ok": true
   },
   {
+   "company": "Autodesk",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Box",
    "token": "boxinc",
    "ats": "greenhouse",
@@ -1831,7 +1826,7 @@
    "ok": true
   },
   {
-   "company": "Stout",
+   "company": "Baker Hughes",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1845,24 +1840,18 @@
    "ok": true
   },
   {
-   "company": "Baker Hughes",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Brown Gibbons Lang & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Autodesk",
-   "ats": "workday",
+   "company": "Wealthfront",
+   "token": "wealthfront",
+   "ats": "lever",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "BBVA",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Chime",
@@ -1872,7 +1861,7 @@
    "ok": true
   },
   {
-   "company": "BBVA",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1886,11 +1875,18 @@
    "ok": true
   },
   {
-   "company": "Oliver Wyman",
-   "token": "oliverwyman",
-   "ats": "lever",
+   "company": "Cadence",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Baillie Gifford",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Confluent",
@@ -1921,29 +1917,8 @@
    "ok": true
   },
   {
-   "company": "Brown Edwards",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Cursor (Anysphere)",
    "token": "cursor",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Cadence",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Deliveroo",
-   "token": "deliveroo",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -1952,6 +1927,13 @@
    "company": "Discord",
    "token": "discord",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Deliveroo",
+   "token": "deliveroo",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -1991,18 +1973,18 @@
    "ok": true
   },
   {
+   "company": "Brown Edwards",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Elastic",
    "token": "elastic",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Ciena",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "ElevenLabs",
@@ -2031,6 +2013,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Crowdstrike",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Centrica",
@@ -2075,14 +2064,14 @@
    "ok": true
   },
   {
-   "company": "Crowdstrike",
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Dow Jones",
+   "company": "eBay",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2103,7 +2092,7 @@
    "ok": true
   },
   {
-   "company": "eBay",
+   "company": "AVEVA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2117,6 +2106,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Global Gate",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Global Atlantic",
    "ats": "workday",
    "found": 0,
@@ -2124,14 +2120,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "Ciena",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Global Gate",
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2152,7 +2148,7 @@
    "ok": true
   },
   {
-   "company": "Frontier Economics",
+   "company": "Greystar",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2180,18 +2176,25 @@
    "ok": true
   },
   {
-   "company": "Guggenheim Partners",
+   "company": "JetBrains",
+   "token": "jetbrains",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Frontier Economics",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "JetBrains",
-   "token": "jetbrains",
-   "ats": "greenhouse",
+   "company": "Guggenheim Partners",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Justworks",
@@ -2208,14 +2211,7 @@
    "ok": true
   },
   {
-   "company": "Greystar",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "HarbourVest",
+   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2257,7 +2253,7 @@
    "ok": true
   },
   {
-   "company": "Grosvenor",
+   "company": "Hiscox",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2285,21 +2281,7 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Miro",
-   "token": "miro",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Just",
+   "company": "Leerink Partners",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2313,15 +2295,29 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Monzo",
-   "token": "monzo",
-   "ats": "greenhouse",
+   "company": "Just",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "HarbourVest",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Miro",
+   "token": "miro",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Motive",
-   "token": "motive",
+   "company": "Monzo",
+   "token": "monzo",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2334,25 +2330,18 @@
    "ok": true
   },
   {
-   "company": "National Gas",
-   "token": "national",
+   "company": "Motive",
+   "token": "motive",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Knight Frank",
-   "ats": "workday",
+   "company": "National Gas",
+   "token": "national",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Leerink Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Netcraft",
@@ -2383,6 +2372,13 @@
    "ok": true
   },
   {
+   "company": "Liberty Global",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Okta",
    "token": "okta",
    "ats": "greenhouse",
@@ -2397,14 +2393,21 @@
    "ok": true
   },
   {
-   "company": "Liberty Global",
+   "company": "Mizuho",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Mizuho",
+   "company": "Motorola Solutions",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "NCR Atleos",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2418,13 +2421,6 @@
    "ok": true
   },
   {
-   "company": "Motorola Solutions",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "PagerDuty",
    "token": "pagerduty",
    "ats": "greenhouse",
@@ -2432,7 +2428,21 @@
    "ok": true
   },
   {
-   "company": "NCR Atleos",
+   "company": "NASDAQ",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Knight Frank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Nordic Semiconductor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2460,22 +2470,15 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Quilter",
-   "token": "quilter",
+   "company": "Quizlet",
+   "token": "quizlet-inc",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Quizlet",
-   "token": "quizlet-inc",
+   "company": "Quilter",
+   "token": "quilter",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2495,20 +2498,6 @@
    "ok": true
   },
   {
-   "company": "MBDA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Reddit",
-   "token": "reddit",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Remote",
    "token": "remote",
    "ats": "greenhouse",
@@ -2516,9 +2505,9 @@
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
-   "ats": "ashby",
+   "company": "Reddit",
+   "token": "reddit",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2530,11 +2519,11 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
-   "ats": "workday",
+   "company": "Render",
+   "token": "render",
+   "ats": "ashby",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Runway",
@@ -2544,7 +2533,7 @@
    "ok": true
   },
   {
-   "company": "Oxford Nanopore Technologies",
+   "company": "MBDA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2556,13 +2545,6 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Shea & Company",
@@ -2586,6 +2568,13 @@
    "ok": true
   },
   {
+   "company": "Oxford Nanopore Technologies",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "SoFi",
    "token": "sofi",
    "ats": "greenhouse",
@@ -2600,6 +2589,13 @@
    "ok": true
   },
   {
+   "company": "Spotify",
+   "token": "spotify",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Squarespace",
    "token": "squarespace",
    "ats": "greenhouse",
@@ -2607,7 +2603,7 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
+   "company": "Oxford Properties Group",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2628,6 +2624,13 @@
    "ok": true
   },
   {
+   "company": "Qualcomm",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Supabase",
    "token": "supabase",
    "ats": "ashby",
@@ -2635,8 +2638,8 @@
    "ok": true
   },
   {
-   "company": "Spotify",
-   "token": "spotify",
+   "company": "Swile",
+   "token": "swile",
    "ats": "lever",
    "found": 0,
    "ok": true
@@ -2656,16 +2659,16 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "The Trade Desk",
+   "token": "thetradedesk",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "The Trade Desk",
-   "token": "thetradedesk",
-   "ats": "greenhouse",
+   "company": "Thought Machine",
+   "token": "thought-machine",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2677,9 +2680,16 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Thought Machine",
-   "token": "thought-machine",
-   "ats": "ashby",
+   "company": "Ryan Specialty",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Twilio",
+   "token": "twilio",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2687,13 +2697,6 @@
    "company": "Treefera",
    "token": "treefera",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Twilio",
-   "token": "twilio",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2719,20 +2722,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Vanta",
    "token": "vanta",
    "ats": "ashby",
@@ -2747,16 +2736,23 @@
    "ok": true
   },
   {
+   "company": "Standard Chartered",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "State Street",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Weaviate",
    "token": "weaviate",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Wise",
-   "token": "wise",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2768,11 +2764,11 @@
    "ok": true
   },
   {
-   "company": "Santander",
-   "ats": "workday",
+   "company": "Wise",
+   "token": "wise",
+   "ats": "greenhouse",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Writer",
@@ -2796,13 +2792,6 @@
    "ok": true
   },
   {
-   "company": "Zopa",
-   "token": "zopa",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "T. Rowe Price",
    "ats": "workday",
    "found": 0,
@@ -2810,7 +2799,21 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Zopa",
+   "token": "zopa",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Tencent",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Santander",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2832,6 +2835,32 @@
   }
  ],
  "offers": [
+  {
+   "id": "gh-bybit-5048918101",
+   "company": "Bybit",
+   "ats": "greenhouse",
+   "title": "Governance Intern / Business Manager",
+   "location": "Europe - Remote",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5048918101",
+   "postedAt": "2026-11-26T02:17:56-05:00",
+   "department": "",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "quant",
+   "industry": "finance",
+   "tags": [
+    "crypto"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p><strong>About Us</strong></p> <div data-page-id= HladdPLXIoNz4nxkqkCuk4rAs8v data-lark-html-role= root data-docx-has-block-data= false > <div class= ace-line ace-line old-record-id-XCikdRR2xoZIjdxtCKcuOflrs8d >Established in 2018, Bybit is one of the world’s leading cryptocurrency exchange",
+   "hasDeadlineHint": false
+  },
   {
    "id": "gh-coinbase-8415869",
    "company": "Coinbase",
@@ -2985,33 +3014,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to ",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-imc-4982344101",
-   "company": "IMC Trading",
-   "ats": "greenhouse",
-   "title": "SYD - 2027  - Machine Learning Intern",
-   "location": "Sydney,  Australia",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4982344101",
-   "postedAt": "2026-11-24T20:08:59-05:00",
-   "department": "Quantitative Research",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "finance",
-   "tags": [
-    "trading",
-    "quant"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<p><em>**Keep all section titles consistent and <strong>bolded</strong>. Delete the guidance provided in this template before posting to the IMC website.**</em></p> <p> </p> <p><em>All job descriptions must start with a brief yet compelling summary of the opportunity available at IMC (e.g., specific details about the t",
    "hasDeadlineHint": false
   },
   {
@@ -3218,30 +3220,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div><strong data-olk-copy-source= MessageBody >Launch Your Accounting Career with Frazier Deeter!</strong></div> <div><strong> </strong></div> <div>Frazier Deeter is one of the nation’s fastest growing accounting and advisory firms, with offices across the US and the UK. As an Audit Intern, you will gain real‑world ex",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020810",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Application Development",
-   "location": "Burlington MA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Burlington/Summer-2027-Intern--Application-Development_R0020810-1",
-   "postedAt": "2026-11-23",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "​ Why Ryan? Competitive Pay and Paid Holidays: Earn while you learn and take time to recharge during firm-wide holidays Career Pathing: Set the foundation for a future full-time career with Ryan Hands-On Work: Work on high-impact projects for some of the world’s largest companies Mentorship and Industry Connections: Le",
    "hasDeadlineHint": false
   },
   {
@@ -6361,7 +6339,7 @@
    ],
    "cycle": 2027,
    "cycleSource": "title",
-   "excerpt": "<p><strong>A Career with Point72’s Economist Team</strong> </p> <p>The Economic and Strategy Research team at Point72 conducts proprietary research on all major economies to support the long/short equity and macro businesses. Its analyses and forecasts inform our portfolio managers’ investment strategies.</p> <p> </p> ",
+   "excerpt": "<p>A Career with Point72's Economic and Strategy Research Team</p> <p>The Economic and Strategy Research team at Point72 conducts proprietary research on all major economies to support the long/short equity and macro businesses. Its analyses and forecasts inform our portfolio managers’ investment strategies.</p> <p><st",
    "hasDeadlineHint": false
   },
   {
@@ -9086,30 +9064,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ankura-R104996",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Intellectual Property",
-   "location": "3 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Intellectual-Property_R104996",
-   "postedAt": "2026-10-26",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "data",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Intellectual Property (IP) practice focuses on the valuation of cutting-edge technolo",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-manGroup-5012801101",
    "company": "Man Group",
    "ats": "greenhouse",
@@ -10088,30 +10042,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104988",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Financial Services Advisory",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Disputes---Economics---Financial-Services-Advisory_R104988",
-   "postedAt": "2026-10-19",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Summary: The Financial Services Advisory practice focuses on assisting clients in Banking, Insuranc",
    "hasDeadlineHint": false
   },
   {
@@ -12046,30 +11976,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ankura-R104966",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Construction, Disputes & Advisory",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Phoenix-AZ/University-Associate--Construction--Disputes---Advisory_R104966",
-   "postedAt": "2026-10-06",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Construction, Disputes & Advisory Business Group – one of five practices focused on client delivery services across the firm . Ankura’s Construction Disputes & Advisory professionals are recognized as l",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-cloudflare-8245197",
    "company": "Cloudflare",
    "ats": "greenhouse",
@@ -12589,30 +12495,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R105035",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Risk Advisory, eDiscovery",
-   "location": "Dallas, TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Dallas-TX/University-Associate--Risk-Advisory--eDiscovery_R105035",
-   "postedAt": "2026-10-02",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Risk Advisory Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: Bright Labs, proudly a part of Ankura, is at the forefront of the eDiscovery industry, having contribut",
    "hasDeadlineHint": false
   },
   {
@@ -13769,30 +13651,6 @@
    "hasDeadlineHint": true
   },
   {
-   "id": "wd-ankura-R104993",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Financial Services Disputes",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Financial-Services-Disputes_R104993",
-   "postedAt": "2026-09-28",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Global Disputes & Economics practice focuses on assisting clients with financial, acc",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "ab-quora-cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
    "company": "Quora",
    "ats": "ashby",
@@ -13973,30 +13831,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><h3>About Winton</h3> <p>Winton is a research-based investment management company with a specialist focus on statistical and mathematical inference in financial markets. The firm researches and trades quantitative investment strategies, which are implemented systematically via thousands of se",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104989",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Financial Services Advisory (NYC)",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Financial-Services-Advisory--NYC-_R104989",
-   "postedAt": "2026-09-25",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Summary: The Financial Services Advisory practice focuses on assisting clients in Banking, Insuranc",
    "hasDeadlineHint": false
   },
   {
@@ -14471,30 +14305,6 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104983",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Valuation & Transaction Advisory",
-   "location": "Chicago, IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Associate--Disputes---Economics---Valuation---Transaction-Advisory_R104983",
-   "postedAt": "2026-09-23",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of six practices focused on client delivery services across the Firm. Practice Overview: The Valuation and Transaction Disputes practice is a group of accountants and financial an",
    "hasDeadlineHint": false
   },
   {
@@ -15313,30 +15123,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ankura-R104985",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Valuation & Transaction Advisory",
-   "location": "Chicago, IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Intern--Disputes---Economics---Valuation---Transaction-Advisory_R104985",
-   "postedAt": "2026-09-17",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Valuation and Transaction Advisory practice is a group of accountants and financial a",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-cloudflare-8199958",
    "company": "Cloudflare",
    "ats": "greenhouse",
@@ -15468,30 +15254,6 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R105025",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Risk Advisory, Forensics",
-   "location": "Dallas, TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Dallas-TX/University-Intern--Risk-Advisory--Forensics_R105025-1",
-   "postedAt": "2026-09-16",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "banking",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Risk, Forensics & Compliance Business Group - one of five practices focused on client delivery services across the Firm. Role Overview: Ankura’s Forensics practice provide clients with expertise with In",
    "hasDeadlineHint": false
   },
   {
@@ -15678,30 +15440,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are h",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104949",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Construction, Disputes & Advisory",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Construction--Disputes---Advisory_R104949",
-   "postedAt": "2026-09-15",
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. Practice Overview: This position supports the Ankura Construction, Disputes & Advisory Business Group – one of five practices focused on client delivery services across the firm . Ankura’s Construction Disputes & Advisory professionals are recognized as l",
    "hasDeadlineHint": false
   },
   {
@@ -16061,30 +15799,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><h2>Join us in building the future of finance.</h2> <p>Our mission is to democratize finance for all. <a href= https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048 target= _blank >An estimated $124 trillion of assets</a> will be inherite",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104982",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104982",
-   "postedAt": "2026-09-14",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Healthcare & Life Sciences practice focuses on assisting healthcare and life science ",
    "hasDeadlineHint": false
   },
   {
@@ -16947,30 +16661,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p><span style= font-size: 12pt; ><strong>About Us</strong>:</span><br><span style= font-size: 12pt; >Founded 20 years ago and headquartered in Chicago, the <span data-highlighted= true data-vc= highlighted-text ><span class= _kqswh2mm ><span class= _5pioz8co _189e1dm9 _1il9buyh _19lc184f _d0altlke data-testid= definit",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104973",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
-   "location": "Chicago, IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104973",
-   "postedAt": "2026-09-10",
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Ankura is a team of excellence founded on innovation and growth. This position supports the Ankura Disputes & Economics Business Group - one of five practices focused on client delivery services across the Firm. Practice Overview: The Healthcare & Life Sciences practice focuses on assisting healthcare and life science ",
    "hasDeadlineHint": false
   },
   {
@@ -26688,846 +26378,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-ryan-R0021000",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Intern, Tax Technology - Summer 2027",
-   "location": "London UK",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/London/Intern--Tax-Technology---Summer-2027_R0021000-3",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020725",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Transfer Pricing",
-   "location": "Washington DC",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--Transfer-Pricing_R0020725-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020816",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Business Solutions",
-   "location": "Plano TX",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020816-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020812",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Business Solutions",
-   "location": "Plano TX",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020812-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020814",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Business Solutions",
-   "location": "Plano TX",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Business-Solutions_R0020814-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020806",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Software Engineering",
-   "location": "Non précisé",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Summer-2027-Intern--Software-Engineering_R0020806-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020777",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Tax Operations",
-   "location": "Austin TX - S Mopac Expy",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin-S-Mopac-Expy/Summer-2027-Intern--Tax-Operations_R0020777-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020832",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Customs Duty",
-   "location": "Mississauga ON",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Customs-Duty_R0020832-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020613",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Tax Consulting Intern - Canada",
-   "location": "5 Locations",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Tax-Consulting-Intern---Canada_R0020613-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020746",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Sacramento CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Sacramento/Summer-2027-Intern--Real-Property-Tax_R0020746-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020744",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Irvine CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Irvine/Summer-2027-Intern--Real-Property-Tax_R0020744-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020736",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Atlanta GA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Atlanta/Summer-2027-Intern--Real-Property-Tax_R0020736-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020745",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Glendale CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Glendale/Summer-2027-Intern--Real-Property-Tax_R0020745-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020756",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Washington DC",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--Real-Property-Tax_R0020756",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020748",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Chicago IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Chicago/Summer-2027-Intern--Real-Property-Tax_R0020748",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020749",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Chicago IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Chicago/Summer-2027-Intern--Real-Property-Tax_R0020749-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020750",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Cleveland OH",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Cleveland/Summer-2027-Intern--Real-Property-Tax_R0020750-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020751",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Real Property Tax",
-   "location": "Minneapolis MN",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Minneapolis/Summer-2027-Intern--Real-Property-Tax_R0020751-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020834",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Complex Property Tax",
-   "location": "Vancouver BC",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Vancouver/Summer-2027-Intern--Complex-Property-Tax_R0020834",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020776",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Personal Property Tax",
-   "location": "Atlanta GA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Atlanta/Summer-2027-Intern--Property-Tax_R0020776-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020831",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, International Income Tax",
-   "location": "Winnipeg MB",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Winnipeg/Summer-2027-Intern--International-Income-Tax_R0020831",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020775",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Personal Property Tax",
-   "location": "Nashville TN",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Nashville/Summer-2027-Intern--Personal-Property-Tax_R0020775-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020395",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Complex Property Tax",
-   "location": "Calgary AB",
-   "regions": [
-    "canada"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Calgary/Summer-2027-Intern--Complex-Property-Tax_R0020395",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020774",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Personal Property Tax",
-   "location": "Overland Park KS",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Overland-Park/Summer-2027-Intern--Personal-Property-Tax_R0020774-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020369",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Personal Property Tax",
-   "location": "La Palma CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/La-Palma/Summer-2027-Intern--Personal-Property-Tax_R0020369-2",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020727",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, R&E Tax Credits",
-   "location": "Washington DC",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Washington/Summer-2027-Intern--R-E-Tax-Credits_R0020727-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020800",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Sales and Use Tax",
-   "location": "The Woodlands TX",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/The-Woodlands/Summer-2027-Intern--Sales-and-Use-Tax_R0020800-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020794",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Sales and Use Tax",
-   "location": "Austin TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--Sales-and-Use-Tax_R0020794-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020739",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Spring/Summer 2027 Intern, Real Property Tax",
-   "location": "Austin TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--Real-Property-Tax_R0020739-2",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020729",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, State Income/Franchise Tax",
-   "location": "Austin TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Austin/Summer-2027-Intern--State-Income-Franchise-Tax_R0020729-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020730",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, State Income/Franchise Tax",
-   "location": "Sacramento CA",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Sacramento/Summer-2027-Intern--State-Income-Franchise-Tax_R0020730-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020833",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Sales and Use Tax",
-   "location": "Mississauga ON",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Sales-and-Use-Tax_R0020833",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020804",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Sales and Use Tax",
-   "location": "Mississauga ON",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Mississauga/Summer-2027-Intern--Sales-and-Use-Tax_R0020804",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0015214",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Severance Tax Consulting Intern - Houston, TX",
-   "location": "Houston TX",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Houston/Summer-2025-Tax-Consulting-Intern---Houston--TX_R0015214",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0020718",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Summer 2027 Intern, Abandoned and Unclaimed Property Consulting",
-   "location": "Boston MA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Boston/Summer-2027-Intern--Abandoned-and-Unclaimed-Property-Consulting_R0020718-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "manual-0-ch-jobs/jobs/businessanalystintern-15275",
    "company": "McKinsey & Company",
    "ats": "manual",
@@ -28580,15 +27430,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-5708589004",
+   "id": "gh-epicgames-6138134004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "London,England,United Kingdom",
+   "location": "BLANK,BLANK,Multiple Locations",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
+   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -28604,15 +27454,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-6138134004",
+   "id": "gh-epicgames-5708589004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "BLANK,BLANK,Multiple Locations",
+   "location": "London,England,United Kingdom",
    "regions": [
-    "other"
+    "uk"
    ],
-   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -33251,366 +32101,6 @@
    "cycle": null,
    "cycleSource": null,
    "excerpt": "A World-Changing Company Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more. The Role The Privacy",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104990",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Financial Services Advisory",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Intern--Disputes---Economics---Financial-Services-Advisory_R104990",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104991",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Financial Services Advisory",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Financial-Services-Advisory_R104991",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104987",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics",
-   "location": "Los Angeles, CA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Los-Angeles-CA/University-Intern--Disputes---Economics_R104987",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104995",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Financial Services Disputes",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Intern--Disputes---Economics---Financial-Services-Disputes_R104995",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R105088",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "MBA Internship, Transformation Execution",
-   "location": "Nashville, TN",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Nashville-TN/MBA-Internship--Transformation-Execution_R105088",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104974",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Healthcare and Life Sciences",
-   "location": "Chicago, IL",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Chicago-IL/University-Intern--Disputes---Economics---Healthcare-and-Life-Sciences_R104974",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104955",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Construction, Disputes & Advisory",
-   "location": "Fairfield, CT",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Fairfield-CT/University-Intern--Construction--Disputes---Advisory_R104955",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104981",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Disputes & Economics - Healthcare and Life Sciences",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Disputes---Economics---Healthcare-and-Life-Sciences_R104981",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104947",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Construction, Disputes & Advisory",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Intern--Construction--Disputes---Advisory_R104947",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104967",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Intern, Construction, Disputes & Advisory",
-   "location": "2 Locations",
-   "regions": [
-    "other"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Phoenix-AZ/University-Intern--Construction--Disputes---Advisory_R104967-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104888",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Data Privacy",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Data-Privacy_R104888",
-   "postedAt": null,
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104934",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Construction, Disputes & Advisory",
-   "location": "New York, NY",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Construction--Disputes---Advisory_R104934",
-   "postedAt": null,
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104980",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Disputes & Economics - Healthcare and Life Sciences",
-   "location": "Washington D.C.",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington-DC/University-Associate--Disputes---Economics---Healthcare-and-Life-Sciences_R104980",
-   "postedAt": null,
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ankura-R104962",
-   "company": "Ankura",
-   "ats": "workday",
-   "title": "University Associate, Construction, Disputes & Advisory",
-   "location": "Los Angeles, CA",
-   "regions": [
-    "us"
-   ],
-   "url": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Los-Angeles-CA/University-Associate--Construction--Disputes---Advisory_R104962",
-   "postedAt": null,
-   "department": "",
-   "kind": "early-career",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "wd-ryan-R0019863",
-   "company": "Ryan Specialty",
-   "ats": "workday",
-   "title": "Graduate Business Development Executive",
-   "location": "MediaCity UK - Manchester",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Media-City/Graduate-Business-Development-Executive_R0019863-1",
-   "postedAt": null,
-   "department": "",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": null,
-   "cycleSource": null,
-   "excerpt": "",
    "hasDeadlineHint": false
   }
  ]
