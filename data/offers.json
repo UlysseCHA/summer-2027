@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:55:38.260Z",
+ "generatedAt": "2026-11-27T21:01:17.267Z",
  "target": {
   "year": 2027,
   "season": "summer",
@@ -7,28 +7,30 @@
   "windowEnd": "2027-07-31"
  },
  "counts": {
-  "total": 1121,
+  "total": 1116,
   "byYear": {
    "2026": 19,
-   "2027": 568,
+   "2027": 560,
    "2028": 26,
-   "non precisee": 508
+   "2029": 1,
+   "non precisee": 510
   },
   "byCycle": {
    "2026": 19,
-   "2027": 902,
+   "2027": 896,
    "2028": 26,
+   "2029": 1,
    "non precisee": 174
   },
   "byIndustry": {
-   "tech": 724,
-   "consulting": 72,
-   "finance": 325
+   "tech": 722,
+   "consulting": 73,
+   "finance": 321
   },
   "byKind": {
-   "internship": 830,
+   "internship": 826,
    "early-career": 48,
-   "graduate": 243
+   "graduate": 242
   }
  },
  "sources": [
@@ -166,16 +168,16 @@
    "ok": true
   },
   {
-   "company": "Samsara",
-   "token": "samsara",
-   "ats": "greenhouse",
-   "found": 16,
-   "ok": true
-  },
-  {
    "company": "Veepee",
    "token": "veepee",
    "ats": "lever",
+   "found": 17,
+   "ok": true
+  },
+  {
+   "company": "Samsara",
+   "token": "samsara",
+   "ats": "greenhouse",
    "found": 16,
    "ok": true
   },
@@ -201,16 +203,16 @@
    "ok": true
   },
   {
-   "company": "Riot Games",
-   "token": "riotgames",
-   "ats": "greenhouse",
+   "company": "Match Group",
+   "token": "matchgroup",
+   "ats": "lever",
    "found": 13,
    "ok": true
   },
   {
-   "company": "Match Group",
-   "token": "matchgroup",
-   "ats": "lever",
+   "company": "Riot Games",
+   "token": "riotgames",
+   "ats": "greenhouse",
    "found": 13,
    "ok": true
   },
@@ -243,15 +245,15 @@
    "ok": true
   },
   {
-   "company": "Back Market",
-   "token": "backmarket",
-   "ats": "ashby",
-   "found": 11,
+   "company": "Squarepoint Capital",
+   "token": "squarepointcapital",
+   "ats": "greenhouse",
+   "found": 10,
    "ok": true
   },
   {
-   "company": "Squarepoint Capital",
-   "token": "squarepointcapital",
+   "company": "Charles River Associates",
+   "token": "charlesriverassociates",
    "ats": "greenhouse",
    "found": 10,
    "ok": true
@@ -271,9 +273,9 @@
    "ok": true
   },
   {
-   "company": "Charles River Associates",
-   "token": "charlesriverassociates",
-   "ats": "greenhouse",
+   "company": "Back Market",
+   "token": "backmarket",
+   "ats": "ashby",
    "found": 9,
    "ok": true
   },
@@ -310,13 +312,6 @@
    "token": "snowflake",
    "ats": "ashby",
    "found": 8,
-   "ok": true
-  },
-  {
-   "company": "Bybit",
-   "token": "bybit",
-   "ats": "greenhouse",
-   "found": 7,
    "ok": true
   },
   {
@@ -383,6 +378,13 @@
    "ok": true
   },
   {
+   "company": "Bybit",
+   "token": "bybit",
+   "ats": "greenhouse",
+   "found": 6,
+   "ok": true
+  },
+  {
    "company": "Keyrock",
    "token": "keyrock",
    "ats": "ashby",
@@ -404,13 +406,6 @@
    "ok": true
   },
   {
-   "company": "Mirakl",
-   "token": "mirakl",
-   "ats": "greenhouse",
-   "found": 6,
-   "ok": true
-  },
-  {
    "company": "MongoDB",
    "token": "mongodb",
    "ats": "greenhouse",
@@ -425,22 +420,8 @@
    "ok": true
   },
   {
-   "company": "Roku",
-   "token": "roku",
-   "ats": "greenhouse",
-   "found": 6,
-   "ok": true
-  },
-  {
    "company": "Da Vinci Derivatives",
    "token": "davinciderivatives",
-   "ats": "greenhouse",
-   "found": 5,
-   "ok": true
-  },
-  {
-   "company": "Man Group",
-   "token": "manGroup",
    "ats": "greenhouse",
    "found": 5,
    "ok": true
@@ -467,16 +448,16 @@
    "ok": true
   },
   {
-   "company": "HelloFresh",
-   "token": "hellofresh",
-   "ats": "greenhouse",
+   "company": "Mercor",
+   "token": "mercor",
+   "ats": "ashby",
    "found": 5,
    "ok": true
   },
   {
-   "company": "Mercor",
-   "token": "mercor",
-   "ats": "ashby",
+   "company": "Mirakl",
+   "token": "mirakl",
+   "ats": "greenhouse",
    "found": 5,
    "ok": true
   },
@@ -502,9 +483,30 @@
    "ok": true
   },
   {
+   "company": "Man Group",
+   "token": "manGroup",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
    "company": "Moore Colson",
    "token": "moorecolson",
    "ats": "lever",
+   "found": 4,
+   "ok": true
+  },
+  {
+   "company": "HelloFresh",
+   "token": "hellofresh",
+   "ats": "greenhouse",
+   "found": 4,
+   "ok": true
+  },
+  {
+   "company": "Qonto",
+   "token": "qonto",
+   "ats": "ashby",
    "found": 4,
    "ok": true
   },
@@ -537,15 +539,15 @@
    "ok": true
   },
   {
-   "company": "Raisin",
-   "token": "raisin",
+   "company": "Quantbot Technologies",
+   "token": "quantbot-technologies",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
   },
   {
-   "company": "Quantbot Technologies",
-   "token": "quantbot-technologies",
+   "company": "Raisin",
+   "token": "raisin",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -560,6 +562,13 @@
   {
    "company": "Voloridge Investment Management",
    "token": "voloridgeinvestmentmanagement",
+   "ats": "greenhouse",
+   "found": 3,
+   "ok": true
+  },
+  {
+   "company": "Box",
+   "token": "boxinc",
    "ats": "greenhouse",
    "found": 3,
    "ok": true
@@ -617,13 +626,6 @@
    "company": "Belvedere Trading",
    "token": "belvederetrading",
    "ats": "lever",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Bitpanda",
-   "token": "bitpanda",
-   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
@@ -740,6 +742,13 @@
    "ok": true
   },
   {
+   "company": "Pennylane",
+   "token": "pennylane",
+   "ats": "ashby",
+   "found": 2,
+   "ok": true
+  },
+  {
    "company": "PQShield",
    "token": "pqshield",
    "ats": "greenhouse",
@@ -747,22 +756,15 @@
    "ok": true
   },
   {
-   "company": "Qonto",
-   "token": "qonto",
-   "ats": "ashby",
+   "company": "Roku",
+   "token": "roku",
+   "ats": "greenhouse",
    "found": 2,
    "ok": true
   },
   {
    "company": "Runna",
    "token": "runna",
-   "ats": "ashby",
-   "found": 2,
-   "ok": true
-  },
-  {
-   "company": "Pennylane",
-   "token": "pennylane",
    "ats": "ashby",
    "found": 2,
    "ok": true
@@ -803,6 +805,13 @@
    "ok": true
   },
   {
+   "company": "Amber Group",
+   "token": "ambergroup",
+   "ats": "lever",
+   "found": 1,
+   "ok": true
+  },
+  {
    "company": "AQR Capital",
    "token": "aqr",
    "ats": "greenhouse",
@@ -810,9 +819,9 @@
    "ok": true
   },
   {
-   "company": "Amber Group",
-   "token": "ambergroup",
-   "ats": "lever",
+   "company": "Bitpanda",
+   "token": "bitpanda",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -880,16 +889,16 @@
    "ok": true
   },
   {
-   "company": "Winton",
-   "token": "winton",
-   "ats": "greenhouse",
+   "company": "Wincent",
+   "token": "wincent",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Wincent",
-   "token": "wincent",
-   "ats": "ashby",
+   "company": "Winton",
+   "token": "winton",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -904,12 +913,6 @@
    "company": "Abridge",
    "token": "abridge",
    "ats": "ashby",
-   "found": 1,
-   "ok": true
-  },
-  {
-   "company": "Northwestern Mutual",
-   "ats": "workday",
    "found": 1,
    "ok": true
   },
@@ -935,16 +938,16 @@
    "ok": true
   },
   {
-   "company": "Dataiku",
-   "token": "dataiku",
-   "ats": "greenhouse",
+   "company": "Decagon",
+   "token": "decagon",
+   "ats": "ashby",
    "found": 1,
    "ok": true
   },
   {
-   "company": "Decagon",
-   "token": "decagon",
-   "ats": "ashby",
+   "company": "Dataiku",
+   "token": "dataiku",
+   "ats": "greenhouse",
    "found": 1,
    "ok": true
   },
@@ -1019,13 +1022,6 @@
    "ok": true
   },
   {
-   "company": "Anchorage Digital",
-   "token": "anchorage",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "3Red Partners",
    "token": "3redpartners",
    "ats": "greenhouse",
@@ -1040,18 +1036,18 @@
    "ok": true
   },
   {
+   "company": "Anchorage Digital",
+   "token": "anchorage",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "B2C2",
    "token": "b2c2",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Apollo Global",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Bank of America",
@@ -1061,7 +1057,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Arrowstreet Capital",
+   "company": "Bastion Trading",
+   "token": "bastion",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Barings",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1075,22 +1078,8 @@
    "ok": true
   },
   {
-   "company": "Bastion Trading",
-   "token": "bastion",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "BlackEdge Capital",
    "token": "blackedgecapital",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Blockchain com",
-   "token": "blockchain",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1110,6 +1099,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Blockchain com",
+   "token": "blockchain",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Ardian",
    "ats": "workday",
    "found": 0,
@@ -1124,6 +1120,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Arrowstreet Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Chicago Trading Company",
    "token": "chicagotrading",
    "ats": "greenhouse",
@@ -1132,6 +1135,13 @@
   },
   {
    "company": "BlackRock",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Apollo Global",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1159,20 +1169,6 @@
    "ok": true
   },
   {
-   "company": "Blue Owl Capital",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Barings",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Crypto com",
    "token": "crypto",
    "ats": "lever",
@@ -1187,11 +1183,25 @@
    "ok": true
   },
   {
+   "company": "Blue Owl Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "FalconX",
    "token": "falconx",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Cambridge Associates",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Fireblocks",
@@ -1215,21 +1225,7 @@
    "ok": true
   },
   {
-   "company": "Cambridge Associates",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Capital One",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Cascadia Capital",
+   "company": "Citi",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1250,7 +1246,14 @@
    "ok": true
   },
   {
-   "company": "Citi",
+   "company": "Cascadia Capital",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Capital One",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1285,18 +1288,18 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Deutsche Bank",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Marshall Wace",
    "token": "marshallwace",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "KeyBank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Mercury",
@@ -1313,7 +1316,7 @@
    "ok": true
   },
   {
-   "company": "Deutsche Bank",
+   "company": "Houlihan Lokey",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1327,14 +1330,14 @@
    "ok": true
   },
   {
-   "company": "Lloyds Banking Group",
+   "company": "Invesco",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Lombard Odier IM",
+   "company": "KeyBank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1355,13 +1358,6 @@
    "ok": true
   },
   {
-   "company": "Moelis & Company",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Paxos",
    "token": "paxos",
    "ats": "ashby",
@@ -1376,7 +1372,7 @@
    "ok": true
   },
   {
-   "company": "Invesco",
+   "company": "Mastercard",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1390,14 +1386,14 @@
    "ok": true
   },
   {
-   "company": "LSEG",
+   "company": "Moelis & Company",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Houlihan Lokey",
+   "company": "Nationwide",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1411,11 +1407,39 @@
    "ok": true
   },
   {
+   "company": "Lloyds Banking Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Northwestern Mutual",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Lombard Odier IM",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Ripple",
    "token": "ripple",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "LSEG",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Rothschild & Co",
@@ -1424,20 +1448,6 @@
    "found": 0,
    "ok": false,
    "error": "HTTP 403"
-  },
-  {
-   "company": "Mastercard",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Nationwide",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Simplex Trading",
@@ -1454,18 +1464,18 @@
    "error": "HTTP 429"
   },
   {
-   "company": "PSG Equity",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Teza Technologies",
    "token": "teza-technologies",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "PSG Equity",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Raymond James",
@@ -1496,11 +1506,11 @@
    "ok": true
   },
   {
-   "company": "Sculptor Capital Management",
-   "ats": "workday",
+   "company": "Valkyrie Trading",
+   "token": "valkyrietrading",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Vatic Labs",
@@ -1510,6 +1520,13 @@
    "ok": true
   },
   {
+   "company": "Sculptor Capital Management",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "SouthState Bank",
    "ats": "workday",
    "found": 0,
@@ -1517,16 +1534,9 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Valkyrie Trading",
-   "token": "valkyrietrading",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Waterfall Asset Management",
-   "token": "waterfall",
-   "ats": "lever",
+   "company": "William Blair",
+   "token": "williamblair",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -1538,13 +1548,6 @@
    "ok": true
   },
   {
-   "company": "William Blair",
-   "token": "williamblair",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "XTX Markets",
    "token": "xtxmarketstechnologies",
    "ats": "greenhouse",
@@ -1552,7 +1555,7 @@
    "ok": true
   },
   {
-   "company": "Robeco",
+   "company": "Texas Capital Bank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1566,7 +1569,7 @@
    "ok": true
   },
   {
-   "company": "Texas Capital Bank",
+   "company": "Robeco",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1594,11 +1597,11 @@
    "ok": true
   },
   {
-   "company": "U.S. Bank",
-   "ats": "workday",
+   "company": "Waterfall Asset Management",
+   "token": "waterfall",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Interpath Advisory",
@@ -1608,15 +1611,15 @@
    "ok": true
   },
   {
-   "company": "Visa",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Oliver Wyman",
    "token": "oliverwyman",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Point B",
+   "token": "pointb",
    "ats": "lever",
    "found": 0,
    "ok": true
@@ -1629,11 +1632,11 @@
    "ok": true
   },
   {
-   "company": "Point B",
-   "token": "pointb",
-   "ats": "lever",
+   "company": "U.S. Bank",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Sweeney Conrad",
@@ -1641,13 +1644,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Baker Tilly",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Thoughtworks",
@@ -1669,6 +1665,20 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Agicap",
+   "token": "agicap",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Triton Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Airtable",
@@ -1706,11 +1716,11 @@
    "ok": true
   },
   {
-   "company": "Agicap",
-   "token": "agicap",
-   "ats": "lever",
+   "company": "Guidehouse",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "AQ Technology Partners",
@@ -1718,20 +1728,6 @@
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Triton Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Gartner",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Asana",
@@ -1762,7 +1758,28 @@
    "ok": true
   },
   {
-   "company": "Guidehouse",
+   "company": "Accenture",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Visa",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Gartner",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Baker Tilly",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1783,29 +1800,8 @@
    "ok": true
   },
   {
-   "company": "Accenture",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Bessemer Venture Partners",
    "token": "bessemerventurepartners",
-   "ats": "greenhouse",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "BlaBlaCar",
-   "token": "blablacar",
-   "ats": "lever",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Box",
-   "token": "boxinc",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -1825,13 +1821,6 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Browserbase",
-   "token": "browserbase",
-   "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
    "company": "Autodesk",
    "ats": "workday",
    "found": 0,
@@ -1839,7 +1828,21 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Browserbase",
+   "token": "browserbase",
+   "ats": "ashby",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Baker Hughes",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "AVEVA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1853,6 +1856,13 @@
    "error": "HTTP 429"
   },
   {
+   "company": "Baillie Gifford",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Chime",
    "token": "chime",
    "ats": "greenhouse",
@@ -1860,7 +1870,7 @@
    "ok": true
   },
   {
-   "company": "Brown Gibbons Lang & Company",
+   "company": "BBVA",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1874,7 +1884,7 @@
    "ok": true
   },
   {
-   "company": "Baillie Gifford",
+   "company": "Brown Gibbons Lang & Company",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -1909,18 +1919,18 @@
    "ok": true
   },
   {
-   "company": "Cboe Global Markets",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Cursor (Anysphere)",
    "token": "cursor",
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Cboe Global Markets",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Deliveroo",
@@ -1972,16 +1982,16 @@
    "ok": true
   },
   {
-   "company": "AVEVA",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Elastic",
    "token": "elastic",
    "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "BlaBlaCar",
+   "token": "blablacar",
+   "ats": "lever",
    "found": 0,
    "ok": true
   },
@@ -2007,13 +2017,6 @@
    "ok": true
   },
   {
-   "company": "Ciena",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Fleek",
    "token": "fleek",
    "ats": "ashby",
@@ -2021,16 +2024,16 @@
    "ok": true
   },
   {
+   "company": "Ciena",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Gearset",
    "token": "gearset",
    "ats": "ashby",
-   "found": 0,
-   "ok": true
-  },
-  {
-   "company": "General Atlantic",
-   "token": "general",
-   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
@@ -2042,8 +2045,8 @@
    "ok": true
   },
   {
-   "company": "GetYourGuide",
-   "token": "getyourguide",
+   "company": "General Atlantic",
+   "token": "general",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2056,7 +2059,14 @@
    "ok": true
   },
   {
-   "company": "BBVA",
+   "company": "GetYourGuide",
+   "token": "getyourguide",
+   "ats": "greenhouse",
+   "found": 0,
+   "ok": true
+  },
+  {
+   "company": "Crowdstrike",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2064,13 +2074,6 @@
   },
   {
    "company": "Centrica",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Crowdstrike",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2091,13 +2094,6 @@
    "ok": true
   },
   {
-   "company": "Dow Jones",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "eBay",
    "ats": "workday",
    "found": 0,
@@ -2106,6 +2102,13 @@
   },
   {
    "company": "Colliers",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Global Infrastructure Advisors",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2140,7 +2143,14 @@
    "ok": true
   },
   {
-   "company": "Global Infrastructure Advisors",
+   "company": "Frontier Economics",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Greystar",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2161,22 +2171,15 @@
    "ok": true
   },
   {
-   "company": "Greystar",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Intercom",
-   "token": "intercom",
+   "company": "JetBrains",
+   "token": "jetbrains",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "JetBrains",
-   "token": "jetbrains",
+   "company": "Intercom",
+   "token": "intercom",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
@@ -2203,7 +2206,14 @@
    "ok": true
   },
   {
-   "company": "Frontier Economics",
+   "company": "Grosvenor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Dow Jones",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2211,13 +2221,6 @@
   },
   {
    "company": "HarbourVest",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Grosvenor",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2252,13 +2255,6 @@
    "ok": true
   },
   {
-   "company": "Gunvor",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Marqeta",
    "token": "marqeta",
    "ats": "greenhouse",
@@ -2273,18 +2269,18 @@
    "ok": true
   },
   {
+   "company": "Gunvor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "Maxwell Locke & Ritter",
    "token": "maxwell",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Leerink Partners",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Miro",
@@ -2294,14 +2290,14 @@
    "ok": true
   },
   {
-   "company": "Just",
+   "company": "Hiscox",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "Julius Baer",
+   "company": "Just",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2322,6 +2318,20 @@
    "ok": true
   },
   {
+   "company": "Julius Baer",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Leerink Partners",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
    "company": "N26",
    "token": "n26",
    "ats": "greenhouse",
@@ -2329,25 +2339,11 @@
    "ok": true
   },
   {
-   "company": "Knight Frank",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "National Gas",
    "token": "national",
    "ats": "greenhouse",
    "found": 0,
    "ok": true
-  },
-  {
-   "company": "Liberty Global",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
   },
   {
    "company": "Netcraft",
@@ -2378,14 +2374,7 @@
    "ok": true
   },
   {
-   "company": "Hiscox",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Mizuho",
+   "company": "Knight Frank",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2406,7 +2395,14 @@
    "ok": true
   },
   {
-   "company": "NASDAQ",
+   "company": "Liberty Global",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Mizuho",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2427,14 +2423,21 @@
    "ok": true
   },
   {
-   "company": "NCR Atleos",
+   "company": "Motorola Solutions",
    "ats": "workday",
    "found": 0,
    "ok": false,
    "error": "HTTP 429"
   },
   {
-   "company": "MBDA",
+   "company": "NASDAQ",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "NCR Atleos",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2469,15 +2472,22 @@
    "ok": true
   },
   {
-   "company": "Quizlet",
-   "token": "quizlet-inc",
+   "company": "Nordic Semiconductor",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Railway",
+   "token": "railway",
    "ats": "ashby",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Railway",
-   "token": "railway",
+   "company": "Quizlet",
+   "token": "quizlet-inc",
    "ats": "ashby",
    "found": 0,
    "ok": true
@@ -2504,11 +2514,11 @@
    "ok": true
   },
   {
-   "company": "Nordic Semiconductor",
-   "ats": "workday",
+   "company": "Render",
+   "token": "render",
+   "ats": "ashby",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Replit",
@@ -2518,11 +2528,11 @@
    "ok": true
   },
   {
-   "company": "Render",
-   "token": "render",
-   "ats": "ashby",
+   "company": "MBDA",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Runway",
@@ -2535,13 +2545,8 @@
    "company": "Oxford Nanopore Technologies",
    "ats": "workday",
    "found": 0,
-   "ok": true
-  },
-  {
-   "company": "Oxford Properties Group",
-   "ats": "workday",
-   "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Sardine",
@@ -2549,6 +2554,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Oxford Properties Group",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Shea & Company",
@@ -2579,16 +2591,9 @@
    "ok": true
   },
   {
-   "company": "Qualcomm",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Spotify",
-   "token": "spotify",
-   "ats": "lever",
+   "company": "Sorare",
+   "token": "sorare",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2600,11 +2605,11 @@
    "ok": true
   },
   {
-   "company": "Sorare",
-   "token": "sorare",
-   "ats": "ashby",
+   "company": "Qualcomm",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Sumo Logic",
@@ -2628,11 +2633,11 @@
    "ok": true
   },
   {
-   "company": "Swile",
-   "token": "swile",
-   "ats": "lever",
+   "company": "Ryan Specialty",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Ryan",
@@ -2642,11 +2647,11 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Ryan Specialty",
-   "ats": "workday",
+   "company": "Synthesia",
+   "token": "synthesia",
+   "ats": "ashby",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
    "company": "Tailscale",
@@ -2656,11 +2661,11 @@
    "ok": true
   },
   {
-   "company": "Synthesia",
-   "token": "synthesia",
-   "ats": "ashby",
+   "company": "Standard Chartered",
+   "ats": "workday",
    "found": 0,
-   "ok": true
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "The Trade Desk",
@@ -2670,7 +2675,7 @@
    "ok": true
   },
   {
-   "company": "Motorola Solutions",
+   "company": "State Street",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2684,16 +2689,16 @@
    "ok": true
   },
   {
-   "company": "Treefera",
-   "token": "treefera",
-   "ats": "ashby",
+   "company": "Twilio",
+   "token": "twilio",
+   "ats": "greenhouse",
    "found": 0,
    "ok": true
   },
   {
-   "company": "Twilio",
-   "token": "twilio",
-   "ats": "greenhouse",
+   "company": "Treefera",
+   "token": "treefera",
+   "ats": "ashby",
    "found": 0,
    "ok": true
   },
@@ -2712,20 +2717,6 @@
    "ok": true
   },
   {
-   "company": "State Street",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
-   "company": "Standard Chartered",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "UnlikelyAI",
    "token": "unlikelyai",
    "ats": "ashby",
@@ -2738,6 +2729,13 @@
    "ats": "ashby",
    "found": 0,
    "ok": true
+  },
+  {
+   "company": "Santander",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "company": "Vercel",
@@ -2775,6 +2773,20 @@
    "ok": true
   },
   {
+   "company": "T. Rowe Price",
+   "ats": "workday",
+   "found": 0,
+   "ok": false,
+   "error": "HTTP 429"
+  },
+  {
+   "company": "Younited",
+   "token": "younited",
+   "ats": "lever",
+   "found": 0,
+   "ok": true
+  },
+  {
    "company": "Zopa",
    "token": "zopa",
    "ats": "lever",
@@ -2789,13 +2801,6 @@
    "ok": true
   },
   {
-   "company": "Santander",
-   "ats": "workday",
-   "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
-  },
-  {
    "company": "Tencent",
    "ats": "workday",
    "found": 0,
@@ -2803,14 +2808,14 @@
    "error": "HTTP 429"
   },
   {
-   "company": "UserTesting",
-   "ats": "workday",
+   "company": "Spotify",
+   "token": "spotify",
+   "ats": "lever",
    "found": 0,
-   "ok": false,
-   "error": "HTTP 429"
+   "ok": true
   },
   {
-   "company": "T. Rowe Price",
+   "company": "UserTesting",
    "ats": "workday",
    "found": 0,
    "ok": false,
@@ -2824,14 +2829,144 @@
    "error": "HTTP 429"
   },
   {
-   "company": "Younited",
-   "token": "younited",
+   "company": "Swile",
+   "token": "swile",
    "ats": "lever",
    "found": 0,
    "ok": true
   }
  ],
  "offers": [
+  {
+   "id": "lv-veepee-05fec099-decc-41b7-a24a-2b6f6b1138ca",
+   "company": "Veepee",
+   "ats": "lever",
+   "title": "Sales Analyst & Support - KUA - Internship",
+   "location": "Milan; Milan",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://jobs.lever.co/veepee/05fec099-decc-41b7-a24a-2b6f6b1138ca",
+   "postedAt": "2026-11-27T13:24:27.472Z",
+   "department": "Business Development",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "In 2001, Veepee revolutionised consumer spending by creating the concept of online sales-events, now better known as flash sales: branded products available in limited quantities, for a limited time (3 to 5 days), offered at a steep discount and with a creative and engaging presentation. In 2019, building on its Europe",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-celonis-8213877003",
+   "company": "Celonis",
+   "ats": "greenhouse",
+   "title": "Intern AI Solutions & Value Engineering (Agentic Customer Journey)",
+   "location": "Madrid, Spain",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/8213877003?gh_jid=8213877003",
+   "postedAt": "2026-11-27T11:32:51-05:00",
+   "department": "Value Engineering",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-charlesriverassociates-8420886",
+   "company": "Charles River Associates",
+   "ats": "greenhouse",
+   "title": "Intern (European Competition practice)",
+   "location": "Paris, France",
+   "regions": [
+    "europe",
+    "paris"
+   ],
+   "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8420886",
+   "postedAt": "2026-11-27T10:56:04-05:00",
+   "department": "Antitrust & Competition Economics",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "consulting",
+   "industry": "consulting",
+   "tags": [
+    "economic"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<p><strong>About Charles River Associates</strong></p> <p><strong><a href= http://www.crai.com/ >Charles River Associates</a></strong> is a leading global consulting firm that provides economic, financial, and business management expertise to major law firms, corporations and governments around the world. CRA advises c",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "ab-qonto-f1f33359-aaa5-4e33-a04c-115e1e2c5663",
+   "company": "Qonto",
+   "ats": "ashby",
+   "title": "Legal Intern - Corporate and M&A (6 months)",
+   "location": "Paris, France",
+   "regions": [
+    "europe",
+    "paris"
+   ],
+   "url": "https://jobs.ashbyhq.com/qonto/f1f33359-aaa5-4e33-a04c-115e1e2c5663",
+   "postedAt": "2026-11-27T09:41:18.333+00:00",
+   "department": "Legal",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "banking",
+   "industry": "tech",
+   "tags": [
+    "fintech",
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-hellofresh-8420636",
+   "company": "HelloFresh",
+   "ats": "greenhouse",
+   "title": "Culinary Intern (f/m/x)",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "regions": [
+    "europe"
+   ],
+   "url": "https://careers.hellofresh.com/global/en/job/8420636?gh_jid=8420636",
+   "postedAt": "2026-11-27T09:02:01-05:00",
+   "department": "Menu + Culinary",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "other",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<p><strong>The role: What's in the Box</strong></p> <p>We are looking for a Culinary Intern for our fast growing product team in Amsterdam. Working on the culinary team, you provide recipe testing support and give tasting feedback to help shape the meals customers receive every week. <br><br>Factor is a quickly growing",
+   "hasDeadlineHint": false
+  },
   {
    "id": "ab-pennylane-250ffce4-8a0d-4c3c-b2d9-165397f89b31",
    "company": "Pennylane",
@@ -3245,30 +3380,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "wd-northwesternmutual-JR-45807",
-   "company": "Northwestern Mutual",
-   "ats": "workday",
-   "title": "Public Investments Quantitative Analyst Intern, Summer 2027",
-   "location": "Milwaukee, WI Corporate",
-   "regions": [
-    "us"
-   ],
-   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-   "postedAt": "2026-11-24",
-   "department": "",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "quant",
-   "industry": "finance",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "Public Investments – Quantitative Analyst Internship (undergraduate-level) Job Description Northwestern Mutual's Public Investment Department seeks a Quantitative Analyst Intern to join us for the summer of 2027 and play a pivotal role in building out tools and conducting analyses that help shape our investment process",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-charlesriverassociates-8413002",
    "company": "Charles River Associates",
    "ats": "greenhouse",
@@ -3594,58 +3705,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<p>We’re seeking a curious, analytical intern who brings a fresh perspective and is eager to help the Financial Planning Analysis team identify ways to improve. As a Financial Planning Analysis Intern at MongoDB, you’ll build relationships across the business and serve as a trusted partner to the Product Technology Fin",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-celonis-8046316003",
-   "company": "Celonis",
-   "ats": "greenhouse",
-   "title": "Strategy & Operations Working Student",
-   "location": "Munich, Germany",
-   "regions": [
-    "europe",
-    "germany"
-   ],
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/8046316003?gh_jid=8046316003",
-   "postedAt": "2026-11-20T07:34:49-05:00",
-   "department": "Corporate",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "consulting",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-manGroup-5039979101",
-   "company": "Man Group",
-   "ats": "greenhouse",
-   "title": "Solutions Graduate Analyst",
-   "location": "London",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5039979101",
-   "postedAt": "2026-11-20T06:29:32-05:00",
-   "department": "Man Solutions",
-   "kind": "graduate",
-   "year": null,
-   "yearSource": null,
-   "season": null,
-   "track": "quant",
-   "industry": "finance",
-   "tags": [
-    "hedge-fund",
-    "asset-management"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><p><strong>About Man Group</strong></p> <p>Man Group is a global alternative investment management firm focused on pursuing outperformance for sophisticated clients via our Systematic, Discretionary and Solutions offerings. Powered by talent and advanced technology, our single and multi-manag",
    "hasDeadlineHint": false
   },
   {
@@ -4152,6 +4211,33 @@
    "cycle": 2027,
    "cycleSource": "description",
    "excerpt": "<div class= content-intro ><p><span style= font-family: helvetica, arial, sans-serif; font-size: 12pt; >Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "lv-veepee-b6c86376-e132-47ad-be2c-c5ebcd435e32",
+   "company": "Veepee",
+   "ats": "lever",
+   "title": "E-Merchandiser - Internship",
+   "location": "Milan; Milan",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://jobs.lever.co/veepee/b6c86376-e132-47ad-be2c-c5ebcd435e32",
+   "postedAt": "2026-11-17T09:28:26.870Z",
+   "department": "Operational Marketing / E-Merchandising",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "Pioneer of online flash sales since 2001 and key player in European e-commerce, Veepee collaborates with over 7,000 brands to offer highly discounted products available for a limited time. Operating across various sectors, including fashion, home, wine, travel or beauty... Veepee achieved a turnover of 3.3 billion euro",
    "hasDeadlineHint": false
   },
   {
@@ -4824,32 +4910,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<h3><strong>Rejoins une superstar de la foodtech française</strong></h3> <p>Chez HelloFresh, nous bousculons les habitudes alimentaires des français grâce à nos Box à cuisiner ! </p> <p>Notre ambition ? Révolutionner le quotidien de nos abonnés, en promouvant une façon plus durable de cuisiner et en leur faisant découv",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-bybit-5034554101",
-   "company": "Bybit",
-   "ats": "greenhouse",
-   "title": "Test Development Engineer Intern",
-   "location": "Hong Kong SAR",
-   "regions": [
-    "apac"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-   "postedAt": "2026-11-12T09:50:36-05:00",
-   "department": "Unified Quality",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "engineering",
-   "industry": "finance",
-   "tags": [
-    "crypto"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><p><strong>About Us</strong></p> <div data-page-id= HladdPLXIoNz4nxkqkCuk4rAs8v data-lark-html-role= root data-docx-has-block-data= false > <div class= ace-line ace-line old-record-id-XCikdRR2xoZIjdxtCKcuOflrs8d >Established in 2018, Bybit is one of the world’s leading cryptocurrency exchange",
    "hasDeadlineHint": false
   },
   {
@@ -7402,126 +7462,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-hellofresh-8352477",
-   "company": "HelloFresh",
-   "ats": "greenhouse",
-   "title": "Culinary Intern (f/m/x)",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://careers.hellofresh.com/global/en/job/8352477?gh_jid=8352477",
-   "postedAt": "2026-11-04T08:30:15-05:00",
-   "department": "Product Development",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<p><strong>The role: What's in the Box</strong></p> <p>We are looking for a Culinary Intern for our ambitious, fast-growing team in Amsterdam from March 2027 for 6 months.<br>During your internship, you will be supporting the Recipe Team that is responsible for all recipes in the HelloFresh Box. You will be at the cent",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-roku-8345967",
-   "company": "Roku",
-   "ats": "greenhouse",
-   "title": "Software Engineering Internship Program (Summer 2027)",
-   "location": "Manchester, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.weareroku.com/jobs/8345967?gh_jid=8345967",
-   "postedAt": "2026-11-04T06:59:03-05:00",
-   "department": "003 - INTERN",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><h2 style= font-family: GothamBold,Helvetica,Arial,sans-serif; color: #662d91; >Teamwork makes the stream work.</h2> <p> </p> <h3 style= font-family: GothamBold,Helvetica,Arial,sans-serif; ><strong>Roku is changing how the world watches TV</strong></h3> <p>Roku is the #1 TV streaming platform",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-roku-8345963",
-   "company": "Roku",
-   "ats": "greenhouse",
-   "title": "Software Engineering Internship Program (Summer 2027)",
-   "location": "Cambridge, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.weareroku.com/jobs/8345963?gh_jid=8345963",
-   "postedAt": "2026-11-04T06:58:10-05:00",
-   "department": "003 - INTERN",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><h2 style= font-family: GothamBold,Helvetica,Arial,sans-serif; color: #662d91; >Teamwork makes the stream work.</h2> <p> </p> <h3 style= font-family: GothamBold,Helvetica,Arial,sans-serif; ><strong>Roku is changing how the world watches TV</strong></h3> <p>Roku is the #1 TV streaming platform",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-roku-8345954",
-   "company": "Roku",
-   "ats": "greenhouse",
-   "title": "AI Engineering Internship Program (Summer 2027)",
-   "location": "Manchester, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.weareroku.com/jobs/8345954?gh_jid=8345954",
-   "postedAt": "2026-11-04T05:10:25-05:00",
-   "department": "003 - INTERN",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><h2 style= font-family: GothamBold,Helvetica,Arial,sans-serif; color: #662d91; >Teamwork makes the stream work.</h2> <p> </p> <h3 style= font-family: GothamBold,Helvetica,Arial,sans-serif; ><strong>Roku is changing how the world watches TV</strong></h3> <p>Roku is the #1 TV streaming platform",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-roku-8345947",
-   "company": "Roku",
-   "ats": "greenhouse",
-   "title": "AI Engineering Internship Program (Summer 2027)",
-   "location": "Cambridge, United Kingdom",
-   "regions": [
-    "uk"
-   ],
-   "url": "https://www.weareroku.com/jobs/8345947?gh_jid=8345947",
-   "postedAt": "2026-11-04T05:10:13-05:00",
-   "department": "003 - INTERN",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "ai-ml",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "<div class= content-intro ><h2 style= font-family: GothamBold,Helvetica,Arial,sans-serif; color: #662d91; >Teamwork makes the stream work.</h2> <p> </p> <h3 style= font-family: GothamBold,Helvetica,Arial,sans-serif; ><strong>Roku is changing how the world watches TV</strong></h3> <p>Roku is the #1 TV streaming platform",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-stepstone-8350072",
    "company": "StepStone Group",
    "ats": "greenhouse",
@@ -7545,32 +7485,6 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "<div class= content-intro ><p><span data-teams= true ><span class= ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak >We are global private markets specialists delivering tailored investment solutions, advisory services, and impactful, data driven insights to the world’s investo",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "ab-backmarket-fb5d65f8-3619-46fa-8397-43d9ec1450f6",
-   "company": "Back Market",
-   "ats": "ashby",
-   "title": "Data Analyst Intern",
-   "location": "Barcelona",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/backmarket/fb5d65f8-3619-46fa-8397-43d9ec1450f6",
-   "postedAt": "2026-11-03T14:45:06.890+00:00",
-   "department": "INTERNSHIPS",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "engineering",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
    "hasDeadlineHint": false
   },
   {
@@ -7749,30 +7663,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<div class= content-intro ><p>Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots in",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-hellofresh-8349401",
-   "company": "HelloFresh",
-   "ats": "greenhouse",
-   "title": "Intern Menu Planning & Ingredients (f/m/x)",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://careers.hellofresh.com/global/en/job/8349401?gh_jid=8349401",
-   "postedAt": "2026-11-03T07:41:49-05:00",
-   "department": "Product Development",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "business",
-   "industry": "tech",
-   "tags": [],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<p><strong>The role: What's in the Box</strong></p> <p>Our Product Operations team sits at the very heart of what HelloFresh does — making sure the most attractive menus and the right ingredients reach the right customers, week after week. </p> <p>As a Menu Planning Ingredients Intern, you will work across two closely ",
    "hasDeadlineHint": false
   },
   {
@@ -10846,32 +10736,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-bitpanda-4999439101",
-   "company": "Bitpanda",
-   "ats": "greenhouse",
-   "title": "Intern, Business Intelligence",
-   "location": "Vienna, Vienna, Austria",
-   "regions": [
-    "europe"
-   ],
-   "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4999439101",
-   "postedAt": "2026-10-13T08:40:12-04:00",
-   "department": "Engineering & Technology",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "data",
-   "industry": "finance",
-   "tags": [
-    "crypto"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "<div class= content-intro ><h4><strong>Who we are </strong></h4> <p>We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "lv-veepee-b027cc23-6022-4ac7-9f8a-89ed9d6cdc17",
    "company": "Veepee",
    "ats": "lever",
@@ -11551,33 +11415,6 @@
    "url": "https://jobs.lever.co/veepee/51a6f219-f1fa-45f8-9b10-4a443c7077fa",
    "postedAt": "2026-10-08T08:56:01.850Z",
    "department": "Homepage / Trade Marketing",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "title",
-   "season": "summer",
-   "track": "other",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "title",
-   "excerpt": "",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "lv-veepee-652c6109-ae1b-4f18-85c0-d0105d32e04b",
-   "company": "Veepee",
-   "ats": "lever",
-   "title": "Stage - Community Project Manager- H/F/X - Janvier 2027",
-   "location": "Saint-Denis; Saint-Denis",
-   "regions": [
-    "paris",
-    "europe"
-   ],
-   "url": "https://jobs.lever.co/veepee/652c6109-ae1b-4f18-85c0-d0105d32e04b",
-   "postedAt": "2026-10-08T08:46:45.459Z",
-   "department": "Social Media",
    "kind": "internship",
    "year": 2027,
    "yearSource": "title",
@@ -12299,6 +12136,54 @@
    "cycle": 2027,
    "cycleSource": "title",
    "excerpt": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-boxinc-8226111",
+   "company": "Box",
+   "ats": "greenhouse",
+   "title": "Sales Development Representative, Placement Student",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/boxinc/jobs/8226111",
+   "postedAt": "2026-10-05T09:55:28-04:00",
+   "department": "Lead Generation",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= ace-line > <div class= ace-line data-node-type= line > <div class= page data-page-number= 1 data-loaded= true > <div class= textLayer > <p data-pm-slice= 1 1 [] > </p> <p class= p1 ><strong>WHAT IS BOX?</strong></p> <p class= p1 >Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform e",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "gh-boxinc-8226115",
+   "company": "Box",
+   "ats": "greenhouse",
+   "title": "Partner Sales, Placement Student",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/boxinc/jobs/8226115",
+   "postedAt": "2026-10-05T09:55:08-04:00",
+   "department": "Sales Other",
+   "kind": "internship",
+   "year": null,
+   "yearSource": null,
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2027,
+   "cycleSource": "posting-date",
+   "excerpt": "<div class= ace-line > <div class= ace-line data-node-type= line > <div class= page data-page-number= 1 data-loaded= true > <div class= textLayer > <p data-pm-slice= 1 1 [] ><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel co",
    "hasDeadlineHint": false
   },
   {
@@ -13083,33 +12968,6 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "<h2>Who we are</h2> <h3>About Stripe</h3> <p>Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start",
-   "hasDeadlineHint": false
-  },
-  {
-   "id": "gh-mirakl-6212914004",
-   "company": "Mirakl",
-   "ats": "greenhouse",
-   "title": "Brand Design Intern or Apprentice",
-   "location": "Paris, France",
-   "regions": [
-    "europe",
-    "paris"
-   ],
-   "url": "https://job-boards.greenhouse.io/mirakl/jobs/6212914004",
-   "postedAt": "2026-10-01T10:10:42-04:00",
-   "department": "Marketing",
-   "kind": "internship",
-   "year": 2027,
-   "yearSource": "description",
-   "season": "summer",
-   "track": "design",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "description",
-   "excerpt": "<div class= content-intro ><p><strong>About Mirakl:</strong></p> <p>Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy.<br><br>Today, Mirakl’s operating system combines an enterprise marketplace solution (Mirakl Platform) that enable",
    "hasDeadlineHint": false
   },
   {
@@ -15136,33 +14994,6 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "ab-backmarket-54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
-   "company": "Back Market",
-   "ats": "ashby",
-   "title": "User Research UX Apprentice",
-   "location": "Paris",
-   "regions": [
-    "paris",
-    "europe"
-   ],
-   "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
-   "postedAt": "2026-09-17T13:07:11.878+00:00",
-   "department": "INTERNSHIPS",
-   "kind": "internship",
-   "year": null,
-   "yearSource": null,
-   "season": "summer",
-   "track": "design",
-   "industry": "tech",
-   "tags": [
-    "france"
-   ],
-   "cycle": 2027,
-   "cycleSource": "posting-date",
-   "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
-   "hasDeadlineHint": false
-  },
-  {
    "id": "gh-cloudflare-8199958",
    "company": "Cloudflare",
    "ats": "greenhouse",
@@ -15267,6 +15098,34 @@
    "cycle": 2027,
    "cycleSource": "posting-date",
    "excerpt": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out ref",
+   "hasDeadlineHint": false
+  },
+  {
+   "id": "ab-qonto-335426ba-3ab6-4d47-a058-5dbb14137861",
+   "company": "Qonto",
+   "ats": "ashby",
+   "title": "Anti Financial Crime Intern - Italy 🇮🇹",
+   "location": "Milan, Italy",
+   "regions": [
+    "europe",
+    "italy"
+   ],
+   "url": "https://jobs.ashbyhq.com/qonto/335426ba-3ab6-4d47-a058-5dbb14137861",
+   "postedAt": "2026-09-16T12:44:28.073+00:00",
+   "department": "Risk & Compliance",
+   "kind": "internship",
+   "year": 2027,
+   "yearSource": "description",
+   "season": "summer",
+   "track": "business",
+   "industry": "tech",
+   "tags": [
+    "fintech",
+    "france"
+   ],
+   "cycle": 2027,
+   "cycleSource": "description",
+   "excerpt": "[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more",
    "hasDeadlineHint": false
   },
   {
@@ -27067,6 +26926,30 @@
    "hasDeadlineHint": false
   },
   {
+   "id": "gh-boxinc-8226113",
+   "company": "Box",
+   "ats": "greenhouse",
+   "title": "Product Support, Placement Student",
+   "location": "London",
+   "regions": [
+    "uk"
+   ],
+   "url": "https://job-boards.greenhouse.io/boxinc/jobs/8226113",
+   "postedAt": "2026-10-05T09:55:05-04:00",
+   "department": "Product Support",
+   "kind": "internship",
+   "year": 2029,
+   "yearSource": "description",
+   "season": "fall",
+   "track": "ai-ml",
+   "industry": "tech",
+   "tags": [],
+   "cycle": 2029,
+   "cycleSource": "description",
+   "excerpt": "<div class= ace-line > <div class= ace-line data-node-type= line > <div class= page data-page-number= 1 data-loaded= true > <div class= textLayer > <p data-pm-slice= 1 1 [] ><strong>WHAT IS BOX?</strong></p> <p>Box (NYSE:BOX) is the leader in Intelligent Content Management. Our platform enables organizations to fuel co",
+   "hasDeadlineHint": false
+  },
+  {
    "id": "ab-ardea-partners-4d9a30ba-a359-4062-a5ae-80d51311d959",
    "company": "Ardea Partners",
    "ats": "ashby",
@@ -27420,15 +27303,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-6138134004",
+   "id": "gh-epicgames-5708589004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "BLANK,BLANK,Multiple Locations",
+   "location": "London,England,United Kingdom",
    "regions": [
-    "other"
+    "uk"
    ],
-   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
+   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
@@ -27444,15 +27327,15 @@
    "hasDeadlineHint": false
   },
   {
-   "id": "gh-epicgames-5708589004",
+   "id": "gh-epicgames-6138134004",
    "company": "Epic Games",
    "ats": "greenhouse",
    "title": "Machine Learning Intern",
-   "location": "London,England,United Kingdom",
+   "location": "BLANK,BLANK,Multiple Locations",
    "regions": [
-    "uk"
+    "other"
    ],
-   "url": "https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004",
+   "url": "https://epicgames.com/careers/jobs/6138134004?gh_jid=6138134004",
    "postedAt": "2026-08-07T12:12:54-04:00",
    "department": "Engineering Specialist",
    "kind": "internship",
